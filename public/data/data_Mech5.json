@@ -1,0 +1,422 @@
+[
+    {
+        "img": "<schemat procesu technologicznego – przygotowanie, obróbka, kontrola, montaż>",
+        "question": "Jakie działania obejmuje proces technologiczny?",
+        "a.": "Obejmuje działania związane z wytwarzaniem wyrobu, takie jak przygotowanie, obróbka, montaż, kontrola i transport międzyoperacyjny.",
+        "b.": "Obejmuje wyłącznie transport gotowych produktów.",
+        "c.": "Dotyczy tylko działań administracyjnych w biurze.",
+        "d.": "Sprowadza się do planowania finansowego produkcji.",
+        "explanation": "Proces technologiczny obejmuje wszystkie czynności, które bezpośrednio kształtują materiał w gotowy wyrób, w tym obróbkę, montaż i kontrolę.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający gotowy produkt w kontekście linii produkcyjnej>",
+        "question": "Co nazywamy wyrobem?",
+        "a.": "Przedmiot, który powstał w wyniku zakończenia procesu technologicznego i spełnia określone wymagania użytkowe.",
+        "b.": "Każdy materiał półfabrykat przed obróbką.",
+        "c.": "Zbiór narzędzi używanych w produkcji.",
+        "d.": "Projekt techniczny urządzenia.",
+        "explanation": "Wyrobem jest efekt końcowy procesu technologicznego – gotowy produkt o wymaganych właściwościach użytkowych i jakościowych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat procesu technologicznego – operacja, zabieg, przejście, stanowisko>",
+        "question": "Jakie elementy wchodzą w skład procesu technologicznego?",
+        "a.": "Operacje, zabiegi, przejścia i stanowiska robocze.",
+        "b.": "Tylko plan produkcji i harmonogram pracy.",
+        "c.": "Jedynie dokumentacja projektowa i kosztorys.",
+        "d.": "Zamówienia surowców i raporty księgowe.",
+        "explanation": "Proces technologiczny składa się z operacji (np. toczenia), zabiegów (np. planowanie powierzchni) i przejść (konkretne wykonania czynności).",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<diagram etapów opracowania procesu technologicznego – analiza, projektowanie, próba, wdrożenie>",
+        "question": "Jakie etapy wyróżnia się podczas opracowania procesu technologicznego?",
+        "a.": "Analizę konstrukcji, dobór metod obróbki, opracowanie operacji i ich kolejności, opracowanie dokumentacji technologicznej.",
+        "b.": "Zakup surowców i ich magazynowanie.",
+        "c.": "Tworzenie planu marketingowego produktu.",
+        "d.": "Szkolenie pracowników administracji.",
+        "explanation": "Proces technologiczny opracowuje się etapowo – od analizy i planowania technologii, przez dobór narzędzi i opracowanie dokumentacji produkcyjnej.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat procesu obróbki części – przygotówka, obróbka zgrubna, obróbka dokładna, kontrola>",
+        "question": "Jaki jest schemat procesu obróbki części?",
+        "a.": "Przygotówka → obróbka zgrubna → obróbka dokładna → kontrola → gotowy wyrób.",
+        "b.": "Kontrola → obróbka → montaż → planowanie.",
+        "c.": "Projektowanie → malowanie → pakowanie.",
+        "d.": "Analiza → montaż → transport.",
+        "explanation": "Proces obróbki części obejmuje kolejne etapy od przygotowania materiału, przez obróbkę wstępną i dokładną, aż po kontrolę wymiarów.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający przykładowe dokumenty: karty technologiczne, rysunki, instrukcje stanowiskowe>",
+        "question": "Jakie grupy dokumentów stanowią dokumentację technologiczną?",
+        "a.": "Dokumenty ogólne, szczegółowe, stanowiskowe i pomocnicze.",
+        "b.": "Dokumenty finansowe i magazynowe.",
+        "c.": "Instrukcje BHP i protokoły odbioru technicznego.",
+        "d.": "Umowy handlowe i faktury.",
+        "explanation": "Dokumentacja technologiczna obejmuje dokumenty ogólne (np. procesy technologiczne), szczegółowe (np. karty operacji) i stanowiskowe (np. instrukcje).",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<przykład karty technologicznej z rubrykami: nazwa operacji, parametry, narzędzia, czas, kontrola>",
+        "question": "Jaką funkcję spełnia karta technologiczna i z jakich elementów się składa?",
+        "a.": "Opisuje przebieg operacji technologicznej; zawiera nazwę operacji, parametry obróbki, narzędzia, materiały, czas i sposób kontroli.",
+        "b.": "Służy jako dokument księgowy procesu produkcji.",
+        "c.": "Zawiera jedynie dane finansowe o produkcie.",
+        "d.": "Opisuje instrukcję obsługi maszyny CNC.",
+        "explanation": "Karta technologiczna stanowi podstawowy dokument opisujący szczegóły wykonania danej operacji w procesie produkcji.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający montaż elementów mechanicznych w całość funkcjonalną>",
+        "question": "Na czym polega montaż?",
+        "a.": "Na łączeniu poszczególnych części i zespołów w kompletny wyrób zgodny z dokumentacją techniczną.",
+        "b.": "Na wykonywaniu obróbki skrawaniem części.",
+        "c.": "Na pomiarze gotowych detali w laboratorium.",
+        "d.": "Na przygotowaniu planu produkcji.",
+        "explanation": "Montaż to końcowy etap produkcji, w którym poszczególne elementy łączone są w całość tworzącą gotowy wyrób.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat planu montażu – kolejność montowania zespołów, schematy połączeń, kontrola jakości>",
+        "question": "W jaki sposób tworzy się plan montażu?",
+        "a.": "Na podstawie analizy konstrukcji wyrobu i kolejności łączenia części, z uwzględnieniem narzędzi, czasu i kontroli jakości.",
+        "b.": "Przez przypadkowe łączenie elementów podczas prób montażowych.",
+        "c.": "Na podstawie dokumentacji finansowej produkcji.",
+        "d.": "Bez uwzględniania kolejności montowanych części.",
+        "explanation": "Plan montażu opracowuje się w oparciu o analizę rysunku złożeniowego, dobór kolejności operacji montażowych i plan kontroli jakości.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający montaż jednostkowy, seryjny i potokowy>",
+        "question": "Jakie znasz rodzaje montażu i czym się charakteryzują?",
+        "a.": "Jednostkowy – dla pojedynczych wyrobów; seryjny – powtarzalność w seriach; potokowy – ciągły przepływ elementów w ustalonym rytmie.",
+        "b.": "Manualny i automatyczny – różnią się liczbą pracowników.",
+        "c.": "Zewnętrzny i wewnętrzny – zależnie od lokalizacji fabryki.",
+        "d.": "Elektryczny i pneumatyczny – w zależności od źródła zasilania.",
+        "explanation": "Montaż jednostkowy, seryjny i potokowy różnią się organizacją pracy i wielkością produkcji – od pojedynczych wyrobów po produkcję masową.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<diagram czynników wpływających na organizację montażu – złożoność konstrukcji, wielkość produkcji, dostępność narzędzi>",
+        "question": "Od jakich czynników zależy organizacja montażu?",
+        "a.": "Od rodzaju wyrobu, wielkości produkcji, stopnia złożoności konstrukcji oraz wyposażenia stanowisk roboczych.",
+        "b.": "Od koloru elementów i materiału opakowania.",
+        "c.": "Wyłącznie od lokalizacji hali produkcyjnej.",
+        "d.": "Od doświadczenia jednego operatora.",
+        "explanation": "Organizacja montażu zależy od charakteru produkcji, stopnia automatyzacji, wyposażenia i kwalifikacji pracowników.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przygotowania elementów do montażu – czyszczenie, odtłuszczanie, kontrola wymiarów, oznakowanie>",
+        "question": "W jaki sposób przygotowuje się elementy do montażu mechanicznego?",
+        "a.": "Poprzez oczyszczenie, odtłuszczenie, kontrolę wymiarów, oznakowanie i dopasowanie do współpracujących części.",
+        "b.": "Poprzez malowanie i magazynowanie elementów.",
+        "c.": "Poprzez montaż bez wcześniejszej kontroli wymiarów.",
+        "d.": "Przez przypadkowe łączenie elementów przed obróbką.",
+        "explanation": "Przygotowanie elementów do montażu polega na ich oczyszczeniu, kontroli dokładności wykonania i dopasowaniu, co zapewnia prawidłowe połączenia mechaniczne.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat rodzajów złączy – rozłączne: śrubowe, kołkowe, zatrzaskowe; nierozłączne: spawane, zgrzewane, lutowane>",
+        "question": "Jakie znasz rodzaje złączy?",
+        "a.": "Rozłączne (śrubowe, kołkowe, zatrzaskowe) i nierozłączne (spawane, zgrzewane, lutowane).",
+        "b.": "Tylko elektryczne i hydrauliczne.",
+        "c.": "Wyłącznie rozłączne połączenia gwintowe.",
+        "d.": "Połączenia tymczasowe wykonywane klejem.",
+        "explanation": "Złącza dzieli się na rozłączne, które można wielokrotnie montować i demontować, oraz nierozłączne – wymagające trwałego połączenia.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek obudowy i konstrukcji nośnej urządzenia – z oznaczeniem wentylacji, sztywności i ochrony>",
+        "question": "Jakie wymagania powinna spełniać obudowa i konstrukcja nośna?",
+        "a.": "Powinna zapewniać sztywność, ochronę przed uszkodzeniami mechanicznymi, właściwe chłodzenie i bezpieczeństwo użytkowania.",
+        "b.": "Powinna być wykonana z materiału o niskiej przewodności cieplnej bez wentylacji.",
+        "c.": "Musi mieć tylko walory estetyczne.",
+        "d.": "Nie wymaga ochrony przed wibracjami i wilgocią.",
+        "explanation": "Obudowa i konstrukcja nośna muszą zapewniać stabilność, bezpieczeństwo użytkownika oraz ochronę podzespołów przed czynnikami zewnętrznymi.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat połączeń elektrycznych – lutowane, zaciskowe, śrubowe, złączki modułowe>",
+        "question": "Jakie połączenia elektryczne stosuje się w urządzeniach mechatronicznych?",
+        "a.": "Lutowane, zaciskowe, śrubowe, wtykowe i złączki modułowe.",
+        "b.": "Wyłącznie połączenia spawane.",
+        "c.": "Połączenia oparte na taśmach klejących i przewodach aluminiowych.",
+        "d.": "Połączenia magnetyczne i sprężynowe bez przewodów.",
+        "explanation": "W mechatronice stosuje się różne rodzaje połączeń elektrycznych w zależności od wymagań trwałości i dostępności serwisowej – najczęściej lutowane i zaciskowe.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat montażowy układu elektrycznego – symbole połączeń, rozmieszczenie przewodów, elementy oznaczone numerami>",
+        "question": "W jaki sposób rysuje się schemat montażowy układu elektrycznego?",
+        "a.": "Przedstawia się rzeczywiste rozmieszczenie elementów, połączenia przewodów i oznaczenia zacisków zgodnie z normami rysunku technicznego.",
+        "b.": "Używa się jedynie symboli ideowych bez rozmieszczenia elementów.",
+        "c.": "Rysuje się jedynie przebieg prądu bez oznaczeń elementów.",
+        "d.": "Schemat wykonuje się w formie opisu tekstowego bez rysunku.",
+        "explanation": "Schemat montażowy pokazuje rzeczywiste rozmieszczenie elementów i przewodów w urządzeniu, co ułatwia montaż i serwis.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający proces diagnostyki i kontroli urządzenia mechatronicznego>",
+        "question": "W jakim celu dokonuje się oceny stanu technicznego elementów i podzespołów urządzeń?",
+        "a.": "Aby określić stopień zużycia, sprawność działania i możliwość dalszej eksploatacji elementów.",
+        "b.": "Aby określić kolor i kształt elementów urządzenia.",
+        "c.": "Aby zapisać dane o produkcji w archiwum.",
+        "d.": "Aby porównać ceny części zamiennych.",
+        "explanation": "Ocena stanu technicznego ma na celu sprawdzenie sprawności podzespołów i wczesne wykrycie uszkodzeń lub zużycia zapobiegającego awarii.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat przedstawiający wpływ wadliwego elementu na cały układ – przerwanie obwodu, uszkodzenie podzespołów>",
+        "question": "Jakie są skutki użycia wadliwego elementu?",
+        "a.": "Może spowodować nieprawidłowe działanie, uszkodzenie innych podzespołów, a nawet awarię całego urządzenia.",
+        "b.": "Nie ma żadnego wpływu na działanie systemu.",
+        "c.": "Poprawia niezawodność układu.",
+        "d.": "Zwiększa efektywność energetyczną urządzenia.",
+        "explanation": "Wadliwe elementy powodują błędne działanie lub awarie systemów mechatronicznych, dlatego ich weryfikacja jest kluczowa w procesie montażu i serwisu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<tabela z etapami kontroli jakości – kontrola wstępna, międzyoperacyjna, końcowa>",
+        "question": "Jakie badania przeprowadza się i na jakim etapie produkcji w celu oceny stanu technicznego elementów?",
+        "a.": "Badania wstępne – przy dostawie materiału, międzyoperacyjne – w trakcie produkcji, i końcowe – po zmontowaniu urządzenia.",
+        "b.": "Badania jedynie po zakończeniu eksploatacji urządzenia.",
+        "c.": "Badania prowadzone tylko w fazie projektowania.",
+        "d.": "Nie przeprowadza się żadnych badań jakościowych.",
+        "explanation": "W celu oceny jakości elementów przeprowadza się badania wstępne, międzyoperacyjne i końcowe, zapewniające zgodność z wymaganiami technicznymi.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat badania płytek drukowanych – test ciągłości ścieżek, kontrola lutów, pomiar rezystancji>",
+        "question": "Jak bada się jakość, np. płytek drukowanych?",
+        "a.": "Sprawdza się ciągłość ścieżek, jakość lutów, izolację między obwodami i zgodność z dokumentacją projektową.",
+        "b.": "Wyłącznie ocenia się kolor płytki i jej grubość.",
+        "c.": "Testuje się jedynie mechaniczne wymiary obudowy.",
+        "d.": "Bada się wyłącznie oporność całego układu bez szczegółów.",
+        "explanation": "Kontrola jakości płytek PCB obejmuje testy elektryczne, wizualne i pomiarowe w celu wykrycia zwarć, przerw i błędów montażowych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek akumulatora i przyrządów diagnostycznych – woltomierz, areometr, tester obciążeniowy>",
+        "question": "Jakie czynności wykonasz podczas oceny stanu technicznego, np. akumulatora?",
+        "a.": "Sprawdzę napięcie spoczynkowe, gęstość elektrolitu, stan biegunów i pojemność pod obciążeniem.",
+        "b.": "Odczytam tylko datę produkcji akumulatora.",
+        "c.": "Wykonam pomiar temperatury otoczenia.",
+        "d.": "Przetestuję działanie przekaźników w układzie ładowania.",
+        "explanation": "Podczas diagnostyki akumulatora należy wykonać pomiar napięcia, sprawdzić gęstość elektrolitu i ocenić pojemność pod obciążeniem w celu określenia jego sprawności.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat pokazujący montaż połączeń rozłącznych (śrubowych) i nierozłącznych (spawanych, nitowanych)>",
+        "question": "W jaki sposób przeprowadza się montaż połączeń rozłącznych i nierozłącznych?",
+        "a.": "Połączenia rozłączne montuje się przy użyciu elementów złącznych (śruby, nakrętki, kołki), a nierozłączne poprzez procesy trwałe, jak spawanie, zgrzewanie lub nitowanie.",
+        "b.": "Połączenia rozłączne wykonuje się klejem, a nierozłączne za pomocą taśmy izolacyjnej.",
+        "c.": "Połączenia rozłączne i nierozłączne montuje się w ten sam sposób – za pomocą zatrzasków.",
+        "d.": "Połączenia rozłączne wykonuje się przez lutowanie, a nierozłączne przez skręcanie.",
+        "explanation": "Połączenia rozłączne można wielokrotnie demontować bez uszkodzenia elementów, natomiast nierozłączne tworzą trwałe zespolenie materiałów.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek narzędzi: klucze, wkrętaki, nitownica, spawarka, zgrzewarka>",
+        "question": "Jakie narzędzia stosuje się do montażu połączeń rozłącznych i nierozłącznych?",
+        "a.": "Do połączeń rozłącznych stosuje się klucze, wkrętaki i prasy montażowe, a do nierozłącznych – spawarki, nitownice i zgrzewarki.",
+        "b.": "Do wszystkich połączeń używa się wyłącznie młotka i dłuta.",
+        "c.": "Do połączeń rozłącznych stosuje się spawarkę, a do nierozłącznych śrubokręt.",
+        "d.": "Nie stosuje się żadnych narzędzi, montaż odbywa się ręcznie.",
+        "explanation": "Dobór narzędzi zależy od rodzaju połączenia – rozłączne wymagają narzędzi mechanicznych, a nierozłączne procesów cieplnych lub plastycznych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek kontroli połączeń – sprawdzanie momentu dokręcania, szczelności, wizualna ocena spawu>",
+        "question": "Jak ocenia się jakość montażu połączeń rozłącznych i nierozłącznych?",
+        "a.": "Poprzez kontrolę momentu dokręcenia, dokładności spasowania, wyglądu spoin i prób wytrzymałościowych.",
+        "b.": "Tylko przez pomiar długości elementu po montażu.",
+        "c.": "Poprzez ocenę koloru zastosowanych śrub.",
+        "d.": "Wyłącznie przez obserwację z dużej odległości.",
+        "explanation": "Jakość montażu ocenia się poprzez kontrolę techniczną – momentu dokręcenia, jakości spoin, szczelności i prawidłowego dopasowania elementów.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat stanowiska montażowego z zaznaczonymi zasadami BHP – odzież ochronna, narzędzia, wentylacja>",
+        "question": "Jakie zasady bhp obowiązują przy montażu i demontażu?",
+        "a.": "Stosowanie odzieży ochronnej, rękawic, zabezpieczenie stanowiska, wyłączanie zasilania, przestrzeganie instrukcji obsługi narzędzi.",
+        "b.": "Brak potrzeby stosowania ochrony osobistej podczas montażu.",
+        "c.": "Dopuszczalne jest montowanie urządzeń pod napięciem.",
+        "d.": "Wystarczy używać tylko okularów ochronnych.",
+        "explanation": "Podczas montażu i demontażu obowiązuje stosowanie środków ochrony indywidualnej, odłączenie zasilania i przestrzeganie zasad bezpieczeństwa pracy.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat instalacji zasilających w systemie mechatronicznym – elektryczna, pneumatyczna, hydrauliczna>",
+        "question": "Jakie rodzaje instalacji zasilających są stosowane w urządzeniach mechatronicznych?",
+        "a.": "Elektryczne, pneumatyczne i hydrauliczne.",
+        "b.": "Tylko wodne i cieplne.",
+        "c.": "Elektryczne i gazowe w układzie otwartym.",
+        "d.": "Wyłącznie akumulatorowe i fotowoltaiczne.",
+        "explanation": "Urządzenia mechatroniczne zasilane są energią elektryczną, sprężonym powietrzem (pneumatyka) lub cieczą pod ciśnieniem (hydraulika).",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat instalacji pneumatycznej – sprężarka, filtr, osuszacz, zawory, siłowniki>",
+        "question": "Z jakich elementów składa się instalacja pneumatyczna?",
+        "a.": "Ze sprężarki, zbiornika powietrza, filtrów, zaworów, przewodów i siłowników.",
+        "b.": "Z przewodów wodnych, grzejników i pomp ciepła.",
+        "c.": "Tylko z rurek i wentyli bez źródła sprężonego powietrza.",
+        "d.": "Z silników elektrycznych i przekładni zębatych.",
+        "explanation": "Instalacja pneumatyczna obejmuje źródło sprężonego powietrza, jego uzdatnianie, przewody przesyłowe i elementy wykonawcze.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat procesu wytwarzania sprężonego powietrza – sprężarka, chłodnica, separator, filtr, zbiornik>",
+        "question": "Jak przebiega proces wytwarzania sprężonego powietrza?",
+        "a.": "Powietrze zasysane jest do sprężarki, sprężane, schładzane, osuszane i magazynowane w zbiorniku ciśnieniowym.",
+        "b.": "Powietrze jest sprężane ręcznie i kierowane bezpośrednio do zaworów.",
+        "c.": "Powietrze jest sprężane bez filtracji i chłodzenia.",
+        "d.": "Sprężarka tłoczy powietrze bez kontroli ciśnienia.",
+        "explanation": "Proces wytwarzania sprężonego powietrza obejmuje sprężanie, chłodzenie, osuszanie i oczyszczanie, aby uzyskać czyste medium robocze.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat zasilacza hydraulicznego – zbiornik oleju, pompa, filtr, zawory, silnik elektryczny>",
+        "question": "Jakie elementy składowe można wyróżnić w zasilaczu hydraulicznym?",
+        "a.": "Zbiornik oleju, pompa hydrauliczna, zawory, filtry i silnik napędzający pompę.",
+        "b.": "Wyłącznie pompa i przewody bez filtracji.",
+        "c.": "Zbiornik powietrza i sprężarka.",
+        "d.": "Jedynie zawory i chłodnica cieczy.",
+        "explanation": "Zasilacz hydrauliczny to źródło energii dla układu hydraulicznego – jego główne elementy to zbiornik, pompa, zawory, filtr i napęd.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat podłączenia urządzenia do sieci elektrycznej – przewód fazowy, neutralny, ochronny, bezpiecznik>",
+        "question": "W jaki sposób podłącza się urządzenia do sieci elektrycznej?",
+        "a.": "Poprzez przewody fazowe, neutralne i ochronne z zastosowaniem zabezpieczeń, zgodnie ze schematem elektrycznym.",
+        "b.": "Dowolnie, bez uwzględnienia biegunowości przewodów.",
+        "c.": "Z pominięciem przewodu ochronnego PE.",
+        "d.": "Bez użycia zabezpieczeń przeciwporażeniowych.",
+        "explanation": "Podłączanie urządzeń elektrycznych musi być zgodne z dokumentacją techniczną i obejmować przewody zasilające oraz uziemienie ochronne.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat podłączenia czujników w systemie mechatronicznym – czujniki 2-, 3- i 4-przewodowe>",
+        "question": "W jaki sposób podłącza się czujniki w systemach mechatronicznych?",
+        "a.": "Zgodnie ze schematem producenta – czujniki dwu-, trzy- lub czteroprzewodowe łączy się z wejściami sterownika lub modułu wejść PLC.",
+        "b.": "Poprzez lutowanie przewodów bez dokumentacji.",
+        "c.": "Bez względu na biegunowość i rodzaj czujnika.",
+        "d.": "Bezpośrednio do zasilania 230 V AC.",
+        "explanation": "Podłączenie czujników zależy od ich typu – należy stosować odpowiednie zasilanie, polaryzację i wejścia w sterowniku PLC.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat połączenia sterownika PLC – zasilanie, komunikacja, moduły wejść i wyjść>",
+        "question": "W jaki sposób podłącza się sterowniki w systemach mechatronicznych?",
+        "a.": "Sterownik łączy się z siecią zasilania, modułami wejść/wyjść, komunikacją sieciową i urządzeniami wykonawczymi zgodnie z dokumentacją instalacyjną.",
+        "b.": "Sterownik podłącza się bezpośrednio do obwodu wysokiego napięcia.",
+        "c.": "Sterownik łączy się wyłącznie z czujnikami bez komunikacji z siecią.",
+        "d.": "Podłączenie sterownika odbywa się bez stosowania zabezpieczeń.",
+        "explanation": "Sterownik PLC wymaga prawidłowego podłączenia zasilania, wejść/wyjść, magistrali komunikacyjnych oraz uziemienia ochronnego, aby zapewnić bezpieczną pracę układu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat przedstawiający możliwe przyczyny usterek w podzespołach – przegrzanie, zużycie, drgania, błędy montażu>",
+        "question": "Jakie są przyczyny powstawania usterek w podzespołach?",
+        "a.": "Zużycie eksploatacyjne, przeciążenie, wibracje, błędy montażu, zanieczyszczenia i wahania napięcia zasilania.",
+        "b.": "Zbyt częsta konserwacja i kontrola techniczna.",
+        "c.": "Prawidłowe użytkowanie i regularne przeglądy.",
+        "d.": "Zbyt niska temperatura pracy urządzenia.",
+        "explanation": "Najczęstsze przyczyny usterek to przeciążenia, wady materiałowe, błędy montażu i czynniki środowiskowe, takie jak wilgoć czy kurz.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<diagram przebiegu testowania podzespołów – przygotowanie, pomiar, analiza, ocena>",
+        "question": "Jaka jest kolejność operacji podczas testowania podzespołów?",
+        "a.": "Przygotowanie stanowiska → podłączenie elementu → wykonanie pomiarów → analiza wyników → ocena stanu technicznego.",
+        "b.": "Analiza wyników → pomiar → montaż → czyszczenie.",
+        "c.": "Podłączenie elementu → demontaż → pomiar.",
+        "d.": "Wykonanie testu bez przygotowania stanowiska.",
+        "explanation": "Testowanie podzespołów odbywa się w ściśle określonej kolejności – od przygotowania i podłączenia, przez pomiary, po ocenę wyników.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat porównujący testowanie podstawowe i funkcjonalne – pomiary parametrów vs symulacja pracy urządzenia>",
+        "question": "Jaka jest różnica między testowaniem a testowaniem funkcjonalnym?",
+        "a.": "Testowanie sprawdza pojedyncze parametry elementu, a testowanie funkcjonalne ocenia jego działanie w całym układzie.",
+        "b.": "Nie ma żadnej różnicy – oba pojęcia są tożsame.",
+        "c.": "Testowanie funkcjonalne dotyczy wyłącznie kontroli wizualnej.",
+        "d.": "Testowanie dotyczy jedynie oceny estetyki wykonania elementu.",
+        "explanation": "Podczas testowania mierzy się parametry techniczne, a testowanie funkcjonalne obejmuje sprawdzenie pracy elementu w rzeczywistych warunkach eksploatacyjnych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<diagram zależności między uruchomieniem modułu a całego urządzenia – sekwencja uruchamiania modułów w systemie>",
+        "question": "Jaka jest zależność między uruchomieniem modułu a uruchomieniem urządzenia?",
+        "a.": "Uruchomienie modułu jest etapem wstępnym uruchomienia całego urządzenia i służy do weryfikacji jego działania przed integracją systemu.",
+        "b.": "Uruchomienie modułu jest wykonywane dopiero po uruchomieniu całego urządzenia.",
+        "c.": "Uruchomienie modułu nie ma wpływu na działanie urządzenia.",
+        "d.": "Uruchomienie modułu jest procesem niezależnym i nie występuje w praktyce.",
+        "explanation": "Każdy moduł urządzenia testuje się osobno przed integracją w system, aby zminimalizować ryzyko błędów podczas pełnego uruchomienia.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat testowania czujników przy użyciu sterownika PLC – wejścia cyfrowe i analogowe>",
+        "question": "W jaki sposób, korzystając ze sterownika, można sprawdzić działanie czujników i przetworników?",
+        "a.": "Poprzez odczyt sygnałów wejściowych w programie PLC i obserwację ich reakcji na zmiany sygnałów z czujników.",
+        "b.": "Poprzez pomiar napięcia w gniazdku zasilającym.",
+        "c.": "Przez odłączanie przewodów w trakcie pracy sterownika.",
+        "d.": "Przez obserwację świecenia diody zasilania sterownika.",
+        "explanation": "Sterownik PLC umożliwia diagnostykę czujników poprzez monitorowanie stanów wejść cyfrowych i wartości analogowych w czasie rzeczywistym.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Co oznacza skrót WOT warunków odbioru technicznego?",
+        "a.": "Warunki Odbioru Technicznego – zestaw wymagań określających sposób sprawdzenia i przyjęcia urządzenia do eksploatacji.",
+        "b.": "Wewnętrzne Oświadczenie Technika – raport serwisowy.",
+        "c.": "Wstępny Okres Testowania – czas rozruchu maszyny.",
+        "d.": "Wymagania Ogólne Techniczne – opis konstrukcji mechanicznej.",
+        "explanation": "WOT określają procedury i kryteria, według których urządzenie uznaje się za zgodne z wymaganiami technicznymi.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<tabela elementów WOT – nazwa urządzenia, zakres badań, metody pomiarowe, kryteria akceptacji>",
+        "question": "Jakie elementy powinny zawierać WOT warunków odbioru technicznego?",
+        "a.": "Nazwa urządzenia, zakres i sposób badań, kryteria akceptacji, dokumentację wyników i podpis komisji odbiorczej.",
+        "b.": "Dane finansowe i kosztorys produkcji.",
+        "c.": "Opis kolorystyki i kształtu urządzenia.",
+        "d.": "Tylko nazwisko wykonawcy i data montażu.",
+        "explanation": "WOT zawiera szczegółowe informacje o sposobie weryfikacji jakości urządzenia i warunkach jego dopuszczenia do użytkowania.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat procesu rozruchu urządzenia – faza wstępna, próbna, eksploatacyjna>",
+        "question": "Jakie fazy wyróżnia się w procesie rozruchu?",
+        "a.": "Rozruch wstępny, rozruch próbny i rozruch eksploatacyjny.",
+        "b.": "Projektowa, montażowa i sprzedażowa.",
+        "c.": "Tylko rozruch końcowy.",
+        "d.": "Planowanie i czyszczenie urządzenia.",
+        "explanation": "Proces rozruchu składa się z trzech faz – wstępnej (sprawdzenie instalacji), próbnej (testowanie) i eksploatacyjnej (uruchomienie w trybie roboczym).",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający czynności rozruchowe – kontrola połączeń, testy, pomiary, regulacja>",
+        "question": "Jakie czynności wykonuje się podczas rozruchu urządzenia?",
+        "a.": "Kontrolę połączeń, sprawdzenie poprawności działania podzespołów, pomiary parametrów i regulację pracy urządzenia.",
+        "b.": "Tylko czyszczenie obudowy urządzenia.",
+        "c.": "Malowanie elementów konstrukcji.",
+        "d.": "Demontaż części ruchomych.",
+        "explanation": "Podczas rozruchu wykonuje się kontrolę poprawności montażu, testy funkcjonalne i pomiary w celu ustawienia parametrów roboczych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat algorytmu uruchamiania modułowego systemu produkcyjnego – test modułów, integracja, synchronizacja, test końcowy>",
+        "question": "Jaki jest algorytm postępowania podczas uruchamiania modułowego systemu produkcyjnego?",
+        "a.": "Test poszczególnych modułów → połączenie w system → synchronizacja pracy → test całościowy → przekazanie do eksploatacji.",
+        "b.": "Uruchomienie wszystkich modułów jednocześnie bez testów.",
+        "c.": "Pominięcie testów wstępnych i przejście od razu do eksploatacji.",
+        "d.": "Równoczesne uruchamianie i demontaż modułów.",
+        "explanation": "W uruchamianiu systemu modułowego każdy moduł testuje się osobno, następnie integruje i sprawdza działanie całego systemu przed przekazaniem do pracy.",
+        "correct": "1 0 0 0"
+    }
+]

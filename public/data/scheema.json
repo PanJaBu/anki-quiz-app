@@ -1,0 +1,55 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "items": {
+        "properties": {
+            "a.": {
+                "type": "string"
+            },
+            "b.": {
+                "type": "string"
+            },
+            "c.": {
+                "type": "string"
+            },
+            "correct": {
+                "type": "string"
+            },
+            "d.": {
+                "type": "string"
+            },
+            "explanation": {
+                "type": "string"
+            },
+            "img": {
+                "type": "string"
+            },
+            "img_a": {
+                "type": "string"
+            },
+            "img_b": {
+                "type": "string"
+            },
+            "img_c": {
+                "type": "string"
+            },
+            "img_d": {
+                "type": "string"
+            },
+            "question": {
+                "type": "string"
+            }
+        },
+        "required": [
+            "a.",
+            "b.",
+            "c.",
+            "correct",
+            "d.",
+            "explanation",
+            "img",
+            "question"
+        ],
+        "type": "object"
+    },
+    "type": "array"
+}

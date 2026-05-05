@@ -1,0 +1,1113 @@
+[
+    {
+        "img": "<schemat działań na wektorach: dodawanie, odejmowanie, mnożenie przez skalar, iloczyn skalarny i wektorowy>",
+        "question": "Jakie działania mogą być wykonywane na wektorach?",
+        "a.": "Dodawanie, odejmowanie, mnożenie przez skalar, iloczyn skalarny i iloczyn wektorowy.",
+        "b.": "Jedynie dodawanie i dzielenie przez skalar.",
+        "c.": "Tylko mnożenie wektorów przez wektory.",
+        "d.": "Wyłącznie odejmowanie wektorów.",
+        "explanation": "Na wektorach można wykonywać działania algebraiczne, które opisują kierunek i wartość wielkości fizycznych w przestrzeni.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<dodawanie wektorów metodą równoległoboku i metodą trójkąta>",
+        "question": "W jaki sposób dodajemy i odejmujemy wektory?",
+        "a.": "Przez zastosowanie metody trójkąta lub równoległoboku; przy odejmowaniu wektor przeciwny dodaje się do drugiego.",
+        "b.": "Poprzez zwykłe dodanie ich długości niezależnie od kierunku.",
+        "c.": "Tylko przez odjęcie wartości liczbowych bez uwzględnienia kierunku.",
+        "d.": "Dodając kąty, które tworzą z osią układu współrzędnych.",
+        "explanation": "Dodawanie i odejmowanie wektorów wymaga uwzględnienia kierunku – najczęściej stosuje się metodę trójkąta lub równoległoboku.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<modele ciał w mechanice: punkt materialny, ciało sztywne, ciało odkształcalne>",
+        "question": "Jakie modele ciał są stosowane w mechanice?",
+        "a.": "Punkt materialny, ciało sztywne, ciało odkształcalne.",
+        "b.": "Wyłącznie ciało ciekłe i gazowe.",
+        "c.": "Tylko ciała nieodkształcalne.",
+        "d.": "Punkt geometryczny bez masy.",
+        "explanation": "W zależności od zjawiska stosuje się różne modele uproszczone – punkt materialny do ruchu, ciało sztywne do statyki, odkształcalne do wytrzymałości.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rodzaje więzów: przegubowy, ślizgowy, stały, toczny – z oznaczeniem kierunków reakcji>",
+        "question": "Określ rodzaje więzów występujące w mechanice.",
+        "a.": "Więzy stałe, przegubowe, ślizgowe, toczne – ograniczają swobodę ruchu ciała w określonych kierunkach.",
+        "b.": "Wyłącznie więzy stałe i sprężyste.",
+        "c.": "Więzy swobodne i nieliniowe bez ograniczeń ruchu.",
+        "d.": "Tylko więzy geometryczne ciała idealnego.",
+        "explanation": "Więzy w mechanice ograniczają ruch ciał – mogą uniemożliwiać przesuwanie, obrót lub ruch w określonym kierunku.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<tabela wielkości fizycznych: wektorowe – siła, prędkość, przyspieszenie; skalarne – masa, energia, temperatura>",
+        "question": "Które wielkości w mechanice są wektorami, a które skalarami?",
+        "a.": "Wektory: siła, prędkość, przyspieszenie; skalary: masa, czas, energia, temperatura.",
+        "b.": "Wektory: masa i energia; skalary: siła i prędkość.",
+        "c.": "Wszystkie wielkości fizyczne są wektorami.",
+        "d.": "Wszystkie wielkości fizyczne są skalarami.",
+        "explanation": "Wektory posiadają kierunek i zwrot (np. siła), a skalary mają tylko wartość liczbową (np. masa).",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<grafika wektora z oznaczeniem początku, kierunku, zwrotu i długości>",
+        "question": "Jakie cechy ma wektor?",
+        "a.": "Punkt przyłożenia, kierunek, zwrot i wartość (długość).",
+        "b.": "Tylko kierunek i barwę.",
+        "c.": "Wartość liczbową bez kierunku.",
+        "d.": "Wyłącznie punkt przyłożenia bez zwrotu.",
+        "explanation": "Każdy wektor określają cztery cechy: punkt przyłożenia, kierunek, zwrot oraz wartość (moduł).",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<zbieżny układ sił – kilka wektorów sił przecinających się w jednym punkcie>",
+        "question": "Jaki układ sił nazywamy zbieżnym?",
+        "a.": "Układ, w którym linie działania wszystkich sił przecinają się w jednym punkcie.",
+        "b.": "Układ, w którym siły są równoległe.",
+        "c.": "Układ, w którym siły działają w różnych płaszczyznach bez wspólnego punktu.",
+        "d.": "Układ, w którym wszystkie siły mają ten sam kierunek.",
+        "explanation": "W układzie zbieżnym wszystkie siły mają wspólny punkt przecięcia – można go analizować metodami graficznymi i równaniami równowagi.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat trójkąta sił w równowadze – trzy siły zbieżne tworzące zamknięty trójkąt>",
+        "question": "Jakie warunki muszą być spełnione, aby płaski układ sił zbieżnych był w równowadze?",
+        "a.": "Suma wszystkich sił musi być równa zeru, a kierunki sił tworzą zamknięty trójkąt sił.",
+        "b.": "Suma wartości sił musi być największa w kierunku poziomym.",
+        "c.": "Jedna siła musi być większa od pozostałych.",
+        "d.": "Suma momentów sił względem dowolnego punktu musi być maksymalna.",
+        "explanation": "Dla równowagi układu zbieżnego sił ich wektorowa suma musi wynosić zero – graficznie oznacza to zamknięcie trójkąta sił.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<moment siły – wektor siły działający w pewnej odległości od punktu obrotu; pokazane ramię siły>",
+        "question": "Co to jest moment siły względem punktu?",
+        "a.": "Iloczyn wektorowy siły i jej ramienia względem punktu, określający skłonność siły do obrotu ciała.",
+        "b.": "Iloczyn wartości siły przez czas jej działania.",
+        "c.": "Suma sił działających na ciało.",
+        "d.": "Iloczyn siły przez masę ciała.",
+        "explanation": "Moment siły względem punktu to iloczyn wektorowy siły i ramienia – opisuje efekt obrotowy siły.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<para sił – dwa przeciwne wektory równoległe, oddalone o pewną odległość; pokazany moment pary>",
+        "question": "Co to jest para sił?",
+        "a.": "Dwie siły o tej samej wartości, równoległe, o przeciwnych zwrotach, nie mające wspólnej linii działania.",
+        "b.": "Dwie siły o różnych kierunkach i różnych wartościach.",
+        "c.": "Dwie siły działające w jednym punkcie o tym samym zwrocie.",
+        "d.": "Dwie siły skierowane prostopadle do siebie.",
+        "explanation": "Para sił nie powoduje przesuwania ciała, lecz wywołuje moment obrotowy – jest równoważna czystemu momentowi siły.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<płaski układ sił działających na ciało – kilka sił i momenty przedstawione wektorowo>",
+        "question": "Jakie warunki muszą być spełnione, aby płaski dowolny układ sił był w równowadze?",
+        "a.": "Suma rzutów sił na oś X i Y musi być równa zeru oraz suma momentów wszystkich sił względem dowolnego punktu musi być równa zeru.",
+        "b.": "Suma wszystkich sił musi być różna od zera, a momenty sił mogą się równoważyć częściowo.",
+        "c.": "Wystarczy, że jedna z sił jest skierowana przeciwnie do pozostałych.",
+        "d.": "Suma sił musi być równa masie ciała.",
+        "explanation": "Dla równowagi płaskiego układu sił wymagane jest spełnienie trzech równań równowagi: ∑Fx=0, ∑Fy=0, ∑M=0.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<przestrzenny układ sił – wektory działające w różnych kierunkach w trzech osiach X, Y, Z>",
+        "question": "Jakie warunki muszą być spełnione, aby przestrzenny dowolny układ sił był w równowadze?",
+        "a.": "Suma rzutów sił na osie X, Y, Z oraz suma momentów względem tych osi musi być równa zeru.",
+        "b.": "Suma rzutów sił tylko na oś X musi wynosić zero.",
+        "c.": "Tylko momenty względem osi Z muszą się równoważyć.",
+        "d.": "Nie jest możliwa równowaga w przestrzeni.",
+        "explanation": "Dla równowagi przestrzennego układu sił należy spełnić sześć równań równowagi: ∑Fx=0, ∑Fy=0, ∑Fz=0, ∑Mx=0, ∑My=0, ∑Mz=0.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<dwa układy odniesienia: samochód poruszający się względem ziemi, a pasażer względem samochodu>",
+        "question": "Wyjaśnij, na czym polega względność zjawiska ruchu.",
+        "a.": "Polega na tym, że ruch ciała zależy od wybranego układu odniesienia – ciało może być w spoczynku w jednym układzie, a w ruchu w innym.",
+        "b.": "Ruch zawsze odbywa się względem absolutnego punktu w przestrzeni.",
+        "c.": "Względność ruchu dotyczy tylko obrotów wokół osi Z.",
+        "d.": "Ruch zależy jedynie od masy poruszającego się ciała.",
+        "explanation": "Względność ruchu oznacza, że opis ruchu zależy od obserwatora i jego układu odniesienia – np. pasażer w jadącym pociągu względem pociągu jest w spoczynku, ale względem ziemi się porusza.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<różne tory ruchu: linia prosta, krzywa, okrąg – z zaznaczonymi wektorami prędkości>",
+        "question": "Jak dzielimy ruchy ze względu na kształt toru?",
+        "a.": "Na prostoliniowe i krzywoliniowe.",
+        "b.": "Na przyspieszone i opóźnione.",
+        "c.": "Na harmoniczne i zmienne.",
+        "d.": "Na statyczne i dynamiczne.",
+        "explanation": "Ze względu na tor ruchu wyróżnia się ruch prostoliniowy (po linii prostej) i krzywoliniowy (np. po okręgu lub paraboli).",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<wykres prędkości w czasie: stała wartość, rosnąca liniowo, malejąca>",
+        "question": "Jak dzielimy ruchy ze względu na przebieg prędkości?",
+        "a.": "Na jednostajne (v = const) i zmienne (v zmienia się w czasie).",
+        "b.": "Na stałe i przerywane.",
+        "c.": "Na poziome i pionowe.",
+        "d.": "Na obrotowe i postępowe.",
+        "explanation": "W ruchu jednostajnym prędkość nie zmienia się, natomiast w ruchu zmiennym ulega zmianie wartości lub kierunku.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<ciało przesuwające się po linii prostej – wszystkie punkty ciała poruszają się równolegle>",
+        "question": "Podaj definicję ruchu postępowego.",
+        "a.": "To ruch, w którym wszystkie punkty ciała poruszają się po torach równoległych, a kierunki przemieszczeń są jednakowe.",
+        "b.": "To ruch, w którym ciało obraca się wokół stałej osi.",
+        "c.": "To ruch, w którym prędkość zmienia się skokowo.",
+        "d.": "To ruch, w którym ciało drga wokół położenia równowagi.",
+        "explanation": "Ruch postępowy charakteryzuje się równoległością torów wszystkich punktów ciała – nie występuje obrót względem osi.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<wykres prędkości rosnącej liniowo w funkcji czasu>",
+        "question": "Podaj definicję ruchu jednostajnie przyspieszonego.",
+        "a.": "To ruch, w którym przyspieszenie jest stałe, a prędkość wzrasta proporcjonalnie do czasu.",
+        "b.": "To ruch, w którym prędkość maleje w sposób nieregularny.",
+        "c.": "To ruch, w którym ciało porusza się z prędkością stałą.",
+        "d.": "To ruch, w którym przyspieszenie jest zmienne w czasie.",
+        "explanation": "Ruch jednostajnie przyspieszony opisuje wzór v = v₀ + a·t, gdzie a = const.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<ciało poruszające się po torze skośnym; pokazane składowe prędkości w kierunkach x i y>",
+        "question": "Podaj twierdzenie o rzutach prędkości.",
+        "a.": "Rzut prędkości na dany kierunek jest równy pochodnej rzutu przemieszczenia na ten kierunek.",
+        "b.": "Suma rzutów prędkości zawsze wynosi zero.",
+        "c.": "Rzut prędkości zależy tylko od masy ciała.",
+        "d.": "Rzut prędkości jest odwrotnie proporcjonalny do drogi.",
+        "explanation": "Twierdzenie to opisuje zależność pomiędzy wektorem prędkości a jego rzutami na osie układu współrzędnych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<ciało obracające się wokół osi z pokazanym punktem zastępczego środka obrotu>",
+        "question": "Wyjaśnij sposób wyznaczania zastępczego środka obrotu.",
+        "a.": "To punkt, względem którego w danej chwili wszystkie punkty ciała mają prędkości prostopadłe do promieni wodzących; znajduje się w miejscu przecięcia prostopadłych do kierunków prędkości.",
+        "b.": "To środek ciężkości ciała w stanie spoczynku.",
+        "c.": "To punkt położony zawsze na osi obrotu.",
+        "d.": "To punkt styku ciała z podłożem w stanie spoczynku.",
+        "explanation": "Zastępczy środek obrotu to chwilowy punkt, względem którego ciało wykonuje obrót – używany przy analizie ruchów złożonych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<ruch po okręgu – wektor prędkości styczny, wektor przyspieszenia skierowany do środka okręgu>",
+        "question": "Na czym polega ruch jednostajny po okręgu?",
+        "a.": "Ciało porusza się po okręgu z prędkością o stałej wartości, lecz zmiennym kierunku; występuje przyspieszenie dośrodkowe.",
+        "b.": "Ciało porusza się po okręgu ze stałym przyspieszeniem stycznym.",
+        "c.": "Ciało porusza się po linii prostej z prędkością zmienną.",
+        "d.": "Ciało wykonuje drgania wokół punktu równowagi.",
+        "explanation": "W ruchu jednostajnym po okręgu prędkość ma stałą wartość, lecz zmienia kierunek – co powoduje występowanie przyspieszenia dośrodkowego.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat ruchu krzywoliniowego – wektor prędkości styczny do toru, wektor przyspieszenia styczny i dośrodkowy>",
+        "question": "Wyjaśnij, z jakich składowych składa się wektor przyspieszenia w ruchu krzywoliniowym.",
+        "a.": "Ze składowej stycznej (zmienia wartość prędkości) i składowej normalnej (zmienia kierunek prędkości).",
+        "b.": "Z jednej składowej równoległej do toru ruchu.",
+        "c.": "Z jednej składowej prostopadłej do toru ruchu.",
+        "d.": "Z trzech dowolnych składowych w przestrzeni.",
+        "explanation": "W ruchu krzywoliniowym przyspieszenie ma dwie składowe: styczną (aₜ = dv/dt) i normalną (aₙ = v²/r).",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<ruch ciała w obracającym się układzie odniesienia – wektor prędkości i przyspieszenie Coriolisa prostopadłe do obu>",
+        "question": "Wyjaśnij, kiedy występuje i na czym polega przyspieszenie Coriolisa.",
+        "a.": "Występuje, gdy ciało porusza się w obracającym się układzie odniesienia; jest to przyspieszenie pozorne prostopadłe do prędkości i osi obrotu układu.",
+        "b.": "Występuje tylko w ruchu jednostajnym po okręgu i działa wzdłuż osi obrotu.",
+        "c.": "To przyspieszenie związane z grawitacją ziemską.",
+        "d.": "Pojawia się wyłącznie w ruchu prostoliniowym jednostajnym.",
+        "explanation": "Przyspieszenie Coriolisa pojawia się w układach obracających się (np. na Ziemi) i wpływa na tor ruchu ciał, np. na odchylenie wiatru.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat trzech zasad dynamiki Newtona – ciało, siły, przyspieszenie, reakcja>",
+        "question": "Podaj definicję zasady dynamiki Newtona.",
+        "a.": "I zasada: jeśli na ciało nie działa żadna siła, pozostaje ono w spoczynku lub porusza się ruchem jednostajnym prostoliniowym.",
+        "b.": "II zasada: każda siła wywołuje przyspieszenie proporcjonalne do masy ciała.",
+        "c.": "III zasada: każda akcja wywołuje reakcję o tej samej wartości i przeciwnym zwrocie.",
+        "d.": "Zasady Newtona opisują wyłącznie ruch obrotowy ciał sztywnych.",
+        "explanation": "Zasady dynamiki Newtona stanowią podstawę klasycznej mechaniki, opisując zależność między siłami a ruchem ciał.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<ciało obracające się wokół osi z zaznaczonym momentem siły i momentem bezwładności>",
+        "question": "Podaj treść drugiej zasady dynamiki Newtona dla ruchu obrotowego.",
+        "a.": "Moment siły działającej na ciało jest równy iloczynowi momentu bezwładności i przyspieszenia kątowego (M = I·ε).",
+        "b.": "Moment siły jest równy iloczynowi siły i jej ramienia.",
+        "c.": "Moment bezwładności jest zawsze równy zero.",
+        "d.": "Przyspieszenie kątowe nie zależy od momentu siły.",
+        "explanation": "Analogicznie do ruchu postępowego, moment siły wywołuje przyspieszenie kątowe proporcjonalne do momentu bezwładności ciała.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<zderzenie dwóch ciał – wektory pędu przed i po zderzeniu>",
+        "question": "Na czym polega zasada zachowania pędu?",
+        "a.": "W układzie izolowanym całkowity pęd ciał przed i po zderzeniu jest taki sam.",
+        "b.": "Pęd zawsze zależy od kształtu ciała.",
+        "c.": "Pęd jest zachowany tylko przy działaniu siły zewnętrznej.",
+        "d.": "Pęd zmienia się niezależnie od masy.",
+        "explanation": "W układzie zamkniętym suma wektorów pędu ciał pozostaje stała, niezależnie od ich oddziaływań wzajemnych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<ciało wirujące wokół osi z zaznaczonym momentem pędu i momentem siły>",
+        "question": "Podaj definicję zasady zachowania krętu (momentu pędu).",
+        "a.": "Jeżeli wypadkowy moment sił zewnętrznych działających na układ jest równy zeru, to całkowity moment pędu układu jest stały.",
+        "b.": "Moment pędu zależy wyłącznie od masy ciała.",
+        "c.": "Moment pędu zawsze maleje w czasie.",
+        "d.": "Zasada ta obowiązuje tylko w ruchu prostoliniowym.",
+        "explanation": "Zasada zachowania momentu pędu jest analogiczna do zasady zachowania pędu – dotyczy ruchu obrotowego układów izolowanych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<ciało poruszające się po linii prostej – prędkość rosnąca liniowo w czasie>",
+        "question": "Podaj definicję ruchu jednostajnie przyspieszonego.",
+        "a.": "To ruch, w którym przyspieszenie jest stałe, a prędkość wzrasta proporcjonalnie do czasu.",
+        "b.": "To ruch, w którym prędkość maleje w sposób nieregularny.",
+        "c.": "To ruch, w którym prędkość jest stała.",
+        "d.": "To ruch, w którym przyspieszenie zmienia się losowo.",
+        "explanation": "Ruch jednostajnie przyspieszony opisuje wzór v = v₀ + a·t, przy stałym przyspieszeniu a.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<walec obracający się wokół osi – pokazany moment bezwładności względem osi obrotu>",
+        "question": "Podaj definicję osiowego momentu bezwładności.",
+        "a.": "Jest to miara bezwładności ciała przy obrocie wokół danej osi, równa sumie iloczynów mas i kwadratów odległości od osi: I = Σm·r².",
+        "b.": "To iloczyn siły i ramienia działania siły.",
+        "c.": "To suma sił działających na ciało.",
+        "d.": "To miara oporu ciała przy przesuwaniu liniowym.",
+        "explanation": "Moment bezwładności określa, jak trudno zmienić stan obrotu ciała – zależy od rozkładu masy względem osi obrotu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat dwóch osi równoległych – pokazane przesunięcie osi i odległość a>",
+        "question": "Podaj definicję twierdzenia Steinera.",
+        "a.": "Moment bezwładności ciała względem osi równoległej do osi przechodzącej przez środek masy jest równy sumie momentu względem osi centralnej i iloczynu masy przez kwadrat odległości między osiami: I = Ic + m·a².",
+        "b.": "Moment bezwładności nie zależy od położenia osi.",
+        "c.": "Moment bezwładności jest równy zero dla każdego ciała.",
+        "d.": "Twierdzenie dotyczy wyłącznie ruchu prostoliniowego.",
+        "explanation": "Twierdzenie Steinera pozwala obliczyć moment bezwładności względem osi przesuniętej o pewną odległość od osi centralnej.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<ciało poddane działaniu siły, wykres pracy i energii kinetycznej>",
+        "question": "Wyjaśnij zasadę równoważności pracy i energii.",
+        "a.": "Praca wykonana przez siły działające na ciało jest równa zmianie jego energii kinetycznej.",
+        "b.": "Praca jest zawsze większa od energii kinetycznej.",
+        "c.": "Energia potencjalna nie zależy od wykonanej pracy.",
+        "d.": "Zasada dotyczy tylko ciał nieruchomych.",
+        "explanation": "Zasada ta opisuje związek między pracą sił a energią ciała – wykonana praca zwiększa lub zmniejsza energię kinetyczną ciała.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<wał z przeciwciężarami wyrównoważającymi masy – pokazane siły i momenty w równowadze>",
+        "question": "Jaki jest cel wyrównoważenia ciał i na czym ono polega?",
+        "a.": "Celem jest wyeliminowanie drgań i obciążeń dynamicznych poprzez takie rozmieszczenie mas, aby siły i momenty bezwładności wzajemnie się równoważyły.",
+        "b.": "Celem jest zwiększenie masy elementu w ruchu obrotowym.",
+        "c.": "Polega na zwiększeniu tarcia w łożyskach, by ustabilizować ruch.",
+        "d.": "Służy do zwiększenia momentu bezwładności wału.",
+        "explanation": "Wyrównoważenie (wyważenie) zmniejsza drgania i zużycie łożysk poprzez równoważenie sił bezwładności w częściach wirujących.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat wału z przesuniętym środkiem masy względem osi obrotu – pokazana siła odśrodkowa>",
+        "question": "Na czym polega statyczne niewyrównoważenie?",
+        "a.": "Na przesunięciu środka masy układu względem osi obrotu, co powoduje powstawanie siły odśrodkowej.",
+        "b.": "Na nierównomiernym rozłożeniu prędkości kątowej w czasie.",
+        "c.": "Na niejednakowym momencie bezwładności względem osi obrotu.",
+        "d.": "Na różnicy momentów sił działających na różne części ciała.",
+        "explanation": "Statyczne niewyrównoważenie występuje, gdy środek ciężkości nie leży na osi obrotu – powoduje drgania w jednym położeniu wału.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<wał z masami rozmieszczonymi niesymetrycznie w dwóch płaszczyznach – pokazane momenty i siły odśrodkowe>",
+        "question": "Na czym polega dynamiczne niewyrównoważenie?",
+        "a.": "Na nierównowadze mas w różnych płaszczyznach obrotu, co powoduje powstawanie momentów sił i drgań wału.",
+        "b.": "Na nieprawidłowym smarowaniu łożysk.",
+        "c.": "Na różnicy mas w jednej płaszczyźnie obrotu.",
+        "d.": "Na zmianie prędkości kątowej w czasie.",
+        "explanation": "Dynamiczne niewyrównoważenie powoduje jednoczesne działanie sił i momentów, które nie mogą być zrównoważone w jednej płaszczyźnie – wymaga wyważenia dynamicznego.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<ciało obracające się i poruszające postępowo – zaznaczone środki masy i prędkości>",
+        "question": "Podaj definicję twierdzenia Koeniga.",
+        "a.": "Całkowita energia kinetyczna ciała jest sumą energii ruchu postępowego środka masy i energii ruchu względem środka masy.",
+        "b.": "Energia kinetyczna ciała zależy tylko od jego momentu bezwładności.",
+        "c.": "Moment pędu jest równy sumie momentów sił działających na ciało.",
+        "d.": "Praca wykonana przez siłę jest równa sile pomnożonej przez czas jej działania.",
+        "explanation": "Twierdzenie Koeniga pozwala rozdzielić ruch złożony na część postępową i obrotową względem środka masy.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat siły tarcia między ciałem a podłożem – wektor siły F i siły tarcia Ft>",
+        "question": "Co to jest współczynnik tarcia?",
+        "a.": "To stosunek siły tarcia do siły nacisku między dwoma stykającymi się powierzchniami.",
+        "b.": "To iloczyn siły nacisku i siły tarcia.",
+        "c.": "To różnica między siłą tarcia a siłą ciężkości.",
+        "d.": "To stosunek masy ciała do jego ciężaru.",
+        "explanation": "Współczynnik tarcia μ = Ft / N określa zależność między siłą tarcia a naciskiem powierzchni.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<ciało przesuwające się po powierzchni – zaznaczone siły: nacisk N, siła tarcia Ft, kierunek ruchu>",
+        "question": "Co określa współczynnik tarcia ślizgowego?",
+        "a.": "Określa stosunek siły tarcia podczas ślizgania do siły nacisku normalnego między powierzchniami.",
+        "b.": "Określa siłę oporu przy toczącym się ruchu ciała.",
+        "c.": "Określa odporność materiału na rozciąganie.",
+        "d.": "Określa prędkość ślizgania się ciała po powierzchni.",
+        "explanation": "Współczynnik tarcia ślizgowego zależy od rodzaju materiałów i stanu powierzchni, np. dla stali na stali μ ≈ 0,1–0,2.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<toczące się koło – siła tarcia tocznego i promień działania r>",
+        "question": "Co określa współczynnik tarcia tocznego?",
+        "a.": "Określa opór ruchu przy toczeniu się ciała po powierzchni i zależy od odkształceń kontaktowych materiałów.",
+        "b.": "Określa tarcie powietrza działające na ciało.",
+        "c.": "Określa siłę potrzebną do rozpoczęcia ślizgania.",
+        "d.": "Określa gęstość powierzchni styku między ciałami.",
+        "explanation": "Tarcie toczne jest zwykle znacznie mniejsze niż ślizgowe i wynika z odkształceń materiałów w miejscu styku.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<maszyna z zaznaczonymi energiami wejściową i wyjściową – E_we i E_wy>",
+        "question": "Co to jest sprawność maszyny?",
+        "a.": "To stosunek pracy lub energii użytecznej do całkowitej energii dostarczonej do maszyny (η = Ewy / Ewe).",
+        "b.": "To stosunek masy maszyny do jej mocy.",
+        "c.": "To różnica między energią wejściową a wyjściową.",
+        "d.": "To odwrotność momentu obrotowego maszyny.",
+        "explanation": "Sprawność określa, jaka część dostarczonej energii zamieniana jest w energię użyteczną – im wyższa, tym mniejsze straty energii.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<zderzenie dwóch ciał – pokazane wektory prędkości przed i po zderzeniu>",
+        "question": "Co to jest uderzenie?",
+        "a.": "Krótki, gwałtowny kontakt dwóch ciał, w wyniku którego następuje nagła zmiana ich prędkości i sił działających.",
+        "b.": "Stałe, powolne ściskanie ciał w czasie.",
+        "c.": "Ruch jednostajny ciała bez zmiany kierunku.",
+        "d.": "Drgania ciała o małej amplitudzie.",
+        "explanation": "Uderzenie to krótkotrwałe zderzenie ciał, przy którym następuje wymiana pędu i powstają duże siły w bardzo krótkim czasie.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<pręt rozciągany z zaznaczoną siłą F i odkształceniem ΔL>",
+        "question": "Określ, czego dotyczy prawo Hooke’a.",
+        "a.": "Określa zależność między naprężeniem a odkształceniem w zakresie sprężystym materiału – naprężenie jest proporcjonalne do odkształcenia (σ = E·ε).",
+        "b.": "Opisuje zależność między siłą tarcia a naciskiem.",
+        "c.": "Określa warunek równowagi układów sił.",
+        "d.": "Dotyczy zależności momentu siły od ramienia działania.",
+        "explanation": "Prawo Hooke’a obowiązuje w zakresie sprężystości liniowej i pozwala obliczyć odkształcenie materiału przy znanym naprężeniu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<belka nagrzewana jednostronnie – pokazane rozszerzanie i powstawanie naprężeń>",
+        "question": "Co to są naprężenia cieplne?",
+        "a.": "To naprężenia powstające w ciałach na skutek nierównomiernego nagrzania lub chłodzenia, które ogranicza swobodne rozszerzanie się materiału.",
+        "b.": "To naprężenia wynikające z działania sił zewnętrznych.",
+        "c.": "To naprężenia pojawiające się w stanie równowagi cieplnej.",
+        "d.": "To naprężenia spowodowane obciążeniem udarowym.",
+        "explanation": "Naprężenia cieplne pojawiają się, gdy różne części ciała mają różną temperaturę, co prowadzi do odkształceń wewnętrznych bez działania sił zewnętrznych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<pręt rozciągany, ściskany, ścinany i skręcany – pokazane kierunki sił>",
+        "question": "Jakie rodzaje naprężeń wyróżniamy w nauce o wytrzymałości materiałów?",
+        "a.": "Naprężenia normalne (rozciągające, ściskające) i styczne (ścinające, skręcające).",
+        "b.": "Tylko naprężenia normalne.",
+        "c.": "Tylko naprężenia ścinające.",
+        "d.": "Wyłącznie naprężenia cieplne.",
+        "explanation": "W zależności od rodzaju obciążenia wyróżnia się naprężenia normalne działające prostopadle do przekroju i styczne działające równolegle do niego.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<wykres naprężenie-odkształcenie stali z zaznaczoną granicą plastyczności i wytrzymałością Rm>",
+        "question": "Czym się różni graniczna wytrzymałość na rozciąganie Rm od dopuszczalnej wytrzymałości na rozciąganie kr?",
+        "a.": "Rm to maksymalne naprężenie, jakie materiał wytrzymuje przed zerwaniem, a kr to wartość mniejsza, dopuszczalna w pracy konstrukcji z odpowiednim współczynnikiem bezpieczeństwa.",
+        "b.": "Rm jest mniejsza od kr.",
+        "c.": "kr to wartość naprężenia w punkcie plastycznym.",
+        "d.": "Obie wartości oznaczają to samo.",
+        "explanation": "kr jest obliczeniowym naprężeniem bezpiecznym przyjętym w projektowaniu, podczas gdy Rm określa granicę wytrzymałości materiału w badaniach.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<przekrój pręta z zaznaczonymi naprężeniami σ działającymi prostopadle i τ równolegle do przekroju>",
+        "question": "Co to są naprężenia styczne τ i normalne σ w przekroju ciała?",
+        "a.": "Naprężenia normalne σ działają prostopadle do przekroju, a styczne τ – równolegle do przekroju poprzecznego.",
+        "b.": "Oba działają w tym samym kierunku do osi pręta.",
+        "c.": "Naprężenia normalne występują tylko przy skręcaniu.",
+        "d.": "Naprężenia styczne są większe od normalnych w każdym przypadku.",
+        "explanation": "Kierunek działania sił w stosunku do przekroju decyduje o rodzaju naprężenia – prostopadłe to normalne, równoległe to styczne.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<belka zginana – zaznaczony moment zginający M i brak sił poprzecznych>",
+        "question": "Co to jest czyste zginanie?",
+        "a.": "To stan, w którym w przekroju belki występuje wyłącznie moment zginający, bez sił poprzecznych.",
+        "b.": "To zginanie belki pod wpływem siły skupionej na końcu.",
+        "c.": "To zginanie, przy którym występuje również skręcanie.",
+        "d.": "To zginanie spowodowane wyłącznie siłami osiowymi.",
+        "explanation": "Czyste zginanie występuje wtedy, gdy belka jest obciążona tak, że w przekrojach działają tylko momenty zginające, bez sił tnących.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<belka zginana – górne włókna ściskane, dolne rozciągane>",
+        "question": "Jakie rodzaje naprężeń mogą wystąpić w zginanej belce?",
+        "a.": "Naprężenia rozciągające i ściskające rozmieszczone liniowo wzdłuż wysokości przekroju.",
+        "b.": "Tylko naprężenia ścinające.",
+        "c.": "Tylko naprężenia skręcające.",
+        "d.": "Tylko naprężenia cieplne.",
+        "explanation": "Podczas zginania jedne włókna belki ulegają rozciąganiu, a drugie ściskaniu – w środku przekroju występuje oś obojętna.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<wał skręcany momentem M – zaznaczony kąt skręcenia φ, długość l, moment bezwładności polarny J i moduł sztywności G>",
+        "question": "Od jakich parametrów zależy kąt sprężystego skręcenia wału?",
+        "a.": "Od momentu skręcającego, długości wału, modułu sztywności postaciowej G i geometrycznego momentu bezwładności przekroju J.",
+        "b.": "Tylko od masy wału i prędkości obrotowej.",
+        "c.": "Wyłącznie od temperatury otoczenia.",
+        "d.": "Od gęstości materiału wału.",
+        "explanation": "Zależność określa wzór: φ = M·l / (G·J) – większy moment lub długość powodują większy skręt, większy moduł G i J – mniejszy.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<przekrój poprzeczny belki – zaznaczone geometryczne parametry i oś obojętna>",
+        "question": "Co to jest wskaźnik wytrzymałości przekroju?",
+        "a.": "To parametr geometryczny określający odporność przekroju na zginanie lub skręcanie, zależny od kształtu i wymiarów przekroju.",
+        "b.": "To współczynnik bezpieczeństwa materiału.",
+        "c.": "To liczba określająca ciężar jednostki długości belki.",
+        "d.": "To miara twardości materiału.",
+        "explanation": "Wskaźnik wytrzymałości pozwala obliczyć dopuszczalne naprężenia przy zadanym momencie – im większy, tym większa nośność przekroju.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<dwa przekroje – prostokątny z momentem bezwładności I i kołowy z momentem polarnym J>",
+        "question": "Jakimi wskaźnikami wytrzymałości przekroju poprzecznego posługujemy się przy zginaniu oraz przy skręcaniu?",
+        "a.": "Przy zginaniu – wskaźnikiem wytrzymałości na zginanie Wz = I / ymax, a przy skręcaniu – wskaźnikiem wytrzymałości na skręcanie Wt = J / rmax.",
+        "b.": "Tylko momentem bezwładności przekroju.",
+        "c.": "Tylko modułem sprężystości materiału.",
+        "d.": "Momentem siły działającej na przekrój.",
+        "explanation": "Wz i Wt określają, jak przekrój opiera się odpowiednio zginaniu i skręcaniu – im większe wartości, tym mniejsze naprężenia dla danego momentu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Czym charakteryzuje się połączenie spawane?",
+        "a.": "Trwałym połączeniem elementów poprzez stopienie ich brzegów i materiału spoiwa.",
+        "b.": "Łączy elementy wyłącznie za pomocą ciśnienia bez użycia ciepła.",
+        "c.": "Jest połączeniem rozłącznym, umożliwiającym łatwy demontaż.",
+        "d.": "Wymaga zawsze użycia kleju jako spoiwa.",
+        "explanation": "Połączenia spawane tworzą trwałe złącza poprzez stopienie materiałów łączonych i spoiwa.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Czym charakteryzuje się połączenie zgrzewane?",
+        "a.": "Łączeniem elementów metalowych przez nagrzanie i dociśnięcie bez użycia materiału dodatkowego.",
+        "b.": "Połączeniem uzyskanym przez wtopienie drutu spawalniczego.",
+        "c.": "Połączeniem wykonanym przez lutowanie twarde.",
+        "d.": "Połączeniem wykorzystującym kleje syntetyczne.",
+        "explanation": "Zgrzewanie polega na nagrzaniu stykających się powierzchni i ich dociśnięciu, co powoduje zespolenie bez spoiwa.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Czym charakteryzuje się połączenie lutowane?",
+        "a.": "Łączeniem elementów przez wprowadzenie między nie roztopionego lutu o niższej temperaturze topnienia niż materiał łączony.",
+        "b.": "Łączeniem elementów przez stopienie ich powierzchni.",
+        "c.": "Łączeniem elementów przez dociśnięcie w wysokiej temperaturze bez spoiwa.",
+        "d.": "Połączeniem wykonanym za pomocą śrub i nakrętek.",
+        "explanation": "W połączeniach lutowanych używa się lutu, który łączy elementy bez ich topienia.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Jak powinny być ukształtowane powierzchnie w połączeniach klejonych?",
+        "a.": "Powinny być czyste, gładkie i dokładnie dopasowane w celu uzyskania dużej powierzchni styku.",
+        "b.": "Powinny być chropowate i nieregularne, aby zwiększyć przyczepność.",
+        "c.": "Powinny być nierówne, aby klej mógł wypełnić szczeliny.",
+        "d.": "Nie ma znaczenia ich stan, ponieważ klej wypełni wszelkie nierówności.",
+        "explanation": "W połączeniach klejonych kluczowa jest czystość, gładkość i dopasowanie powierzchni dla trwałości połączenia.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "W jakim celu są stosowane sprzęgła?",
+        "a.": "Do łączenia wałów w celu przekazywania momentu obrotowego.",
+        "b.": "Do zmiany kierunku ruchu tłoka w silniku.",
+        "c.": "Do zwiększania prędkości obrotowej wału napędzanego.",
+        "d.": "Do redukcji hałasu w przekładniach zębatych.",
+        "explanation": "Sprzęgła służą do łączenia wałów i przekazywania między nimi momentu obrotowego.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Jakie znasz rodzaje sprzęgieł?",
+        "a.": "Stałe, rozłączne, przeciążeniowe i podatne.",
+        "b.": "Tylko stałe i rozłączne.",
+        "c.": "Tylko sprężyste i elastyczne.",
+        "d.": "Tylko cierne i zębate.",
+        "explanation": "Sprzęgła dzielą się na stałe, rozłączne, przeciążeniowe i podatne w zależności od funkcji i budowy.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "W jakim celu są stosowane sprzęgła podatne?",
+        "a.": "Do kompensacji niewspółosiowości wałów i tłumienia drgań skrętnych.",
+        "b.": "Do całkowitego rozłączenia wałów w czasie pracy.",
+        "c.": "Do zwiększania prędkości obrotowej wału napędzanego.",
+        "d.": "Do trwałego połączenia wałów bez możliwości rozłączenia.",
+        "explanation": "Sprzęgła podatne pozwalają kompensować niewspółosiowość i tłumić drgania między wałami.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Jaki podstawowy parametr należy brać pod uwagę przy wyborze sprzęgła?",
+        "a.": "Moment obrotowy przenoszony przez sprzęgło.",
+        "b.": "Kolor obudowy sprzęgła.",
+        "c.": "Długość wału napędzającego.",
+        "d.": "Temperaturę otoczenia podczas pracy.",
+        "explanation": "Najważniejszym parametrem przy doborze sprzęgła jest moment obrotowy, jaki ma ono przenieść.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "W jakim celu są stosowane sprężyny?",
+        "a.": "Do gromadzenia energii mechanicznej i tłumienia drgań.",
+        "b.": "Do zwiększenia tarcia między elementami.",
+        "c.": "Do ograniczenia prędkości obrotowej silnika.",
+        "d.": "Do chłodzenia elementów mechanicznych.",
+        "explanation": "Sprężyny służą do magazynowania energii, tłumienia drgań i utrzymywania nacisku między elementami.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Jakie obciążenia przenoszą osie i wały?",
+        "a.": "Wały przenoszą moment obrotowy i siły poprzeczne, a osie tylko siły poprzeczne.",
+        "b.": "Osie przenoszą moment obrotowy, a wały tylko siły osiowe.",
+        "c.": "Zarówno wały, jak i osie przenoszą tylko momenty skręcające.",
+        "d.": "Ani wały, ani osie nie przenoszą żadnych obciążeń mechanicznych.",
+        "explanation": "Wały służą do przenoszenia momentu obrotowego oraz sił poprzecznych, natomiast osie – tylko sił poprzecznych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Z jakich części składowych składa się łożysko ślizgowe?",
+        "a.": "Z czopa, panewki, obudowy i smarowania.",
+        "b.": "Z bieżni, koszyka i elementów tocznych.",
+        "c.": "Z tarczy, sprzęgła i przekładni.",
+        "d.": "Z korpusu, wirnika i stojana.",
+        "explanation": "Łożysko ślizgowe składa się z czopa wału, panewki, obudowy oraz układu smarowania.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Z jakich elementów składa się łożysko toczne?",
+        "a.": "Z pierścieni z bieżniami, elementów tocznych i koszyka.",
+        "b.": "Z czopa, panewki i smaru.",
+        "c.": "Z wału, koła i sprzęgła.",
+        "d.": "Z obudowy, smaru i tłoka.",
+        "explanation": "Łożysko toczne składa się z dwóch pierścieni z bieżniami, elementów tocznych (np. kulek, wałeczków) oraz koszyka.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Na czym polega dobór łożyska tocznego?",
+        "a.": "Na określeniu rodzaju, wymiarów i nośności łożyska w zależności od obciążeń i warunków pracy.",
+        "b.": "Na wyborze koloru obudowy i producenta.",
+        "c.": "Na doborze rodzaju smaru bez uwzględnienia obciążenia.",
+        "d.": "Na dopasowaniu łożyska do średnicy gwintu śruby.",
+        "explanation": "Dobór łożyska tocznego polega na ustaleniu odpowiedniego typu, wymiaru i parametrów nośnych w zależności od obciążeń i warunków eksploatacji.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Jakie znasz rodzaje przekładni zębatych?",
+        "a.": "Cylindryczne, stożkowe, ślimakowe i planetarne.",
+        "b.": "Pasowe, łańcuchowe i linowe.",
+        "c.": "Klinowe, cierne i dźwigniowe.",
+        "d.": "Tłokowe, mimośrodowe i sprężynowe.",
+        "explanation": "Podstawowe rodzaje przekładni zębatych to przekładnie cylindryczne, stożkowe, ślimakowe oraz planetarne.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Które przekładnie cięgnowe zapewniają stałość przełożenia?",
+        "a.": "Przekładnie łańcuchowe.",
+        "b.": "Przekładnie pasowe płaskie.",
+        "c.": "Przekładnie pasowe klinowe.",
+        "d.": "Przekładnie linowe.",
+        "explanation": "Przekładnie łańcuchowe zapewniają stałość przełożenia, ponieważ nie występuje w nich poślizg między cięgnem a kołami.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "W jakim celu są stosowane hamulce?",
+        "a.": "Do zmniejszania lub zatrzymywania ruchu elementów maszyn.",
+        "b.": "Do zwiększania prędkości obrotowej wału.",
+        "c.": "Do tłumienia hałasu w przekładniach.",
+        "d.": "Do utrzymania połączenia śrubowego.",
+        "explanation": "Hamulce służą do ograniczania prędkości lub całkowitego zatrzymania ruchu elementów mechanicznych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Co to jest para kinematyczna?",
+        "a.": "Połączenie dwóch elementów mechanizmu umożliwiające ich wzajemny ruch.",
+        "b.": "Zespół dwóch wałów połączonych sprzęgłem stałym.",
+        "c.": "Układ dwóch przekładni zębatych o różnych przełożeniach.",
+        "d.": "Połączenie dwóch elementów elektrycznych w obwodzie.",
+        "explanation": "Para kinematyczna to połączenie dwóch ogniw mechanizmu, które umożliwia ich wzajemny ruch zgodnie z określonymi stopniami swobody.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Ile stopni swobody ma para kinematyczna V-klasy?",
+        "a.": "Jeden stopień swobody.",
+        "b.": "Dwa stopnie swobody.",
+        "c.": "Trzy stopnie swobody.",
+        "d.": "Pięć stopni swobody.",
+        "explanation": "Para kinematyczna V-klasy (pryzmatyczna, obrotowa) posiada jeden stopień swobody, czyli jeden możliwy rodzaj ruchu względnego.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Jakie rodzaje wymiarów są stosowane w budowie maszyn?",
+        "a.": "Nominalne, graniczne i rzeczywiste.",
+        "b.": "Podstawowe, przybliżone i orientacyjne.",
+        "c.": "Stałe, zmienne i dynamiczne.",
+        "d.": "Główne, pomocnicze i orientacyjne.",
+        "explanation": "W budowie maszyn stosuje się wymiary nominalne (projektowe), graniczne (maksymalne i minimalne) oraz rzeczywiste (zmierzone po wykonaniu elementu).",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Co to są wymiary graniczne?",
+        "a.": "Największy i najmniejszy dopuszczalny wymiar elementu określający jego pole tolerancji.",
+        "b.": "Wymiary, które nie mogą być przekroczone podczas obróbki cieplnej.",
+        "c.": "Wymiary stosowane tylko w rysunkach poglądowych.",
+        "d.": "Wymiary, które służą do obliczania masy elementu.",
+        "explanation": "Wymiary graniczne określają dopuszczalne odchylenia wymiaru nominalnego i wyznaczają granice tolerancji.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Co to jest tolerancja wymiaru?",
+        "a.": "Różnica między wymiarem górnym a dolnym, określająca dopuszczalny zakres zmienności wymiaru rzeczywistego.",
+        "b.": "Maksymalna wartość wymiaru nominalnego.",
+        "c.": "Minimalna różnica między wymiarami elementów współpracujących.",
+        "d.": "Średnia arytmetyczna wymiaru nominalnego i granicznego.",
+        "explanation": "Tolerancja wymiaru to różnica między wymiarem górnym a dolnym, określająca dopuszczalne odchylenie od wymiaru nominalnego.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Co to jest odchyłka dolna?",
+        "a.": "Różnica między wymiarem minimalnym a wymiarem nominalnym.",
+        "b.": "Różnica między wymiarem maksymalnym a rzeczywistym.",
+        "c.": "Średnia różnica między wymiarem granicznym a tolerancją.",
+        "d.": "Różnica między wymiarem rzeczywistym a wymiarem górnym.",
+        "explanation": "Odchyłka dolna to różnica między najmniejszym dopuszczalnym wymiarem a wymiarem nominalnym elementu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający przykład oznaczenia wymiaru tolerowanego z wartością nominalną 40H7>",
+        "question": "W jaki sposób są oznaczane na rysunku wymiary tolerowane?",
+        "a.": "Poprzez podanie wymiaru nominalnego oraz literowego oznaczenia pola tolerancji, np. 40H7.",
+        "b.": "Przez pogrubienie linii wymiarowej.",
+        "c.": "Przez zastosowanie koloru czerwonego przy wymiarze.",
+        "d.": "Przez umieszczenie wymiaru w nawiasie.",
+        "explanation": "Wymiary tolerowane zapisuje się z wymiarem nominalnym i literowo-cyfrowym symbolem tolerancji (np. 40H7).",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat przedstawiający zasadę tolerowania w głąb materiału — odchyłki umieszczone w kierunku wewnętrznym elementu>",
+        "question": "Na czym polega zasada tolerowania w głąb materiału?",
+        "a.": "Na przyjmowaniu, że wymiary mniejsze dotyczą otworów, a większe wałów — odchyłki liczy się w kierunku materiału.",
+        "b.": "Na zwiększaniu tolerancji w zależności od grubości materiału.",
+        "c.": "Na obniżaniu wymiaru nominalnego w elementach o dużej twardości.",
+        "d.": "Na stosowaniu większej tolerancji w częściach z tworzyw sztucznych.",
+        "explanation": "Zasada tolerowania w głąb materiału oznacza, że dodatnie odchyłki wałów i ujemne odchyłki otworów liczone są w kierunku materiału.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Na czym polega znormalizowany układ tolerancji?",
+        "a.": "Na ustaleniu jednolitych wartości tolerancji i odchyłek dla różnych wymiarów według norm.",
+        "b.": "Na dowolnym ustalaniu tolerancji przez wykonawcę.",
+        "c.": "Na dopasowaniu wymiarów według potrzeb użytkownika.",
+        "d.": "Na pomiarze wymiarów bez uwzględnienia odchyłek.",
+        "explanation": "Znormalizowany układ tolerancji określa dopuszczalne odchyłki wymiarów dla poszczególnych klas dokładności zgodnie z normami ISO i PN.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Na czym polega znormalizowany układ pasowań?",
+        "a.": "Na zestawieniu znormalizowanych pól tolerancji otworów i wałów w celu uzyskania różnych rodzajów pasowań.",
+        "b.": "Na dowolnym dobieraniu wymiarów elementów współpracujących.",
+        "c.": "Na zmianie materiału w zależności od rodzaju obciążenia.",
+        "d.": "Na dopasowaniu otworu i wału wyłącznie poprzez próbę montażu.",
+        "explanation": "Znormalizowany układ pasowań umożliwia zestawienie pól tolerancji otworów i wałów w taki sposób, by uzyskać pożądane połączenie (luz, wcisk, pasowanie mieszane).",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "W jaki sposób oznaczamy pasowania normalne?",
+        "a.": "Poprzez podanie symboli pola tolerancji otworu i wału, np. H7/g6.",
+        "b.": "Przez zapis wymiaru nominalnego z dopiskiem „N”.",
+        "c.": "Przez zastosowanie koloru niebieskiego na rysunku.",
+        "d.": "Przez dodanie słowa „pasowanie” przy wymiarze.",
+        "explanation": "Pasowania normalne oznacza się symbolami pól tolerancji otworu i wału, np. H7/g6, zgodnie z układem tolerancji.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Co to są pasowania normalne uprzywilejowane?",
+        "a.": "Pasowania najczęściej stosowane w praktyce przemysłowej, zalecane przez normy dla typowych połączeń.",
+        "b.": "Pasowania o dowolnych wartościach tolerancji ustalonych przez konstruktora.",
+        "c.": "Pasowania o najwyższej dokładności stosowane tylko w lotnictwie.",
+        "d.": "Pasowania niestandardowe, dobierane doświadczalnie.",
+        "explanation": "Pasowania normalne uprzywilejowane to pasowania znormalizowane i najczęściej stosowane, które zapewniają typowe połączenia o określonych luzach lub wciskach.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Co to jest otwór podstawowy?",
+        "a.": "Otwór, którego dolna odchyłka wynosi zero, a pole tolerancji przesunięte jest w górę od wymiaru nominalnego.",
+        "b.": "Otwór o dowolnie ustalonej tolerancji przez wykonawcę.",
+        "c.": "Otwór o największym możliwym wymiarze w danym połączeniu.",
+        "d.": "Otwór wykonany zawsze z wciskiem.",
+        "explanation": "Otwór podstawowy ma dolną odchyłkę równą zero, co stanowi punkt odniesienia w systemie pasowań według zasady stałego otworu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat przedstawiający zasadę stałego otworu – pole tolerancji otworu H7 i różne pola wałów>",
+        "question": "Na czym polega pasowanie według zasady stałego otworu?",
+        "a.": "Na stosowaniu tego samego wymiaru i tolerancji otworu przy zmianie tolerancji wałów dla uzyskania różnych rodzajów pasowań.",
+        "b.": "Na stosowaniu tego samego wału i zmiennych otworów.",
+        "c.": "Na doborze pasowań tylko przez zmianę luzu.",
+        "d.": "Na dobieraniu pasowania na podstawie długości wału.",
+        "explanation": "Zasada stałego otworu polega na utrzymaniu jednego wymiaru i tolerancji otworu (np. H7), a zmianie tolerancji wałów w celu uzyskania pożądanych pasowań.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Co to są pasowania luźne?",
+        "a.": "Pasowania, w których między otworem a wałem występuje luz w całym zakresie tolerancji.",
+        "b.": "Pasowania, w których zawsze występuje wcisk.",
+        "c.": "Pasowania, które wymagają obróbki cieplnej przed montażem.",
+        "d.": "Pasowania o minimalnych różnicach wymiarów nominalnych.",
+        "explanation": "Pasowania luźne to takie, w których między wałem a otworem występuje luz zapewniający łatwy montaż i ruch względny elementów.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający pole tolerancji z zaznaczonym luzem najmniejszym i największym>",
+        "question": "Co to jest luz najmniejszy?",
+        "a.": "Najmniejsza możliwa różnica między wymiarem otworu a wymiarem wału w danym pasowaniu.",
+        "b.": "Różnica między wymiarem maksymalnym wału a wymiarem rzeczywistym otworu.",
+        "c.": "Największy dopuszczalny luz między otworem i wałem.",
+        "d.": "Średnia arytmetyczna wszystkich możliwych luzów.",
+        "explanation": "Luz najmniejszy to minimalna wartość różnicy między wymiarem otworu a wału, przy której elementy mogą być jeszcze montowane bez wcisku.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający mikrometr i suwmiarkę>",
+        "question": "Jakich narzędzi pomiarowych można użyć do pomiaru średnicy wałka?",
+        "a.": "Suwmiarki i mikrometru zewnętrznego.",
+        "b.": "Średnicówki i kątomierza uniwersalnego.",
+        "c.": "Czujnika zegarowego i mikroskopu pomiarowego.",
+        "d.": "Wskaźnika zegarowego i głębokościomierza.",
+        "explanation": "Do pomiaru średnicy wałka stosuje się suwmiarki i mikrometry zewnętrzne, które pozwalają uzyskać wysoką dokładność pomiaru.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający średnicówkę i mikrometr wewnętrzny>",
+        "question": "Jakich narzędzi pomiarowych można użyć do pomiaru średnicy otworu?",
+        "a.": "Średnicówki, mikrometru wewnętrznego i suwmiarki.",
+        "b.": "Mikrometru zewnętrznego i czujnika zegarowego.",
+        "c.": "Kątomierza i wysokościomierza.",
+        "d.": "Wskaźnika zegarowego i śruby mikrometrycznej.",
+        "explanation": "Do pomiaru średnicy otworów stosuje się średnicówki, mikrometry wewnętrzne oraz suwmiarki z końcówkami wewnętrznymi.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający kątomierz uniwersalny>",
+        "question": "Jakich narzędzi pomiarowych można użyć do pomiaru kąta płaskiego?",
+        "a.": "Kątomierza uniwersalnego, kątownika i suwmiarek kątowych.",
+        "b.": "Mikrometru i średnicówki.",
+        "c.": "Czujnika zegarowego i wysokościomierza.",
+        "d.": "Gwintomierza i śruby mikrometrycznej.",
+        "explanation": "Do pomiaru kątów płaskich używa się kątomierzy uniwersalnych, kątowników precyzyjnych lub suwmiarek kątowych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający grzebień gwintowy i mikroskop warsztatowy>",
+        "question": "Jakich narzędzi pomiarowych można użyć do pomiaru gwintu?",
+        "a.": "Gwintomierza, mikrometru do gwintów i projektora profilowego.",
+        "b.": "Średnicówki i czujnika zegarowego.",
+        "c.": "Kątomierza i suwmiarki.",
+        "d.": "Wysokościomierza i głębokościomierza.",
+        "explanation": "Do pomiaru gwintów stosuje się gwintomierze (do sprawdzania skoku), mikrometry do gwintów oraz urządzenia optyczne do kontroli profilu zarysu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający powierzchnię o różnych wartościach chropowatości Ra>",
+        "question": "Co to jest chropowatość powierzchni?",
+        "a.": "Zbiór drobnych nierówności powierzchni powstałych w wyniku procesu obróbki.",
+        "b.": "Stopień zaokrąglenia krawędzi elementu.",
+        "c.": "Wielkość luzu między elementami współpracującymi.",
+        "d.": "Parametr określający twardość materiału.",
+        "explanation": "Chropowatość powierzchni opisuje nierówności mikroskopowe, które powstają po obróbce mechanicznej i wpływają na własności użytkowe części.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<tabela z parametrami chropowatości Ra, Rz, Rmax>",
+        "question": "Jakich parametrów używa się do opisu chropowatości powierzchni?",
+        "a.": "Ra, Rz, Rmax.",
+        "b.": "Rp, Rm, Re.",
+        "c.": "Ha, Hz, Hmax.",
+        "d.": "F, M, T.",
+        "explanation": "Do opisu chropowatości powierzchni stosuje się parametry Ra (średnie odchylenie arytmetyczne), Rz (wysokość nierówności) i Rmax (maksymalna wysokość profilu).",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Co to jest i jak się wyraża niepewność wyniku pomiaru?",
+        "a.": "Niepewność to parametr charakteryzujący rozrzut wyników pomiaru, wyrażany jako odchylenie standardowe lub przedział ufności.",
+        "b.": "Niepewność to różnica między wymiarem nominalnym a rzeczywistym.",
+        "c.": "Niepewność to maksymalny błąd wskazania narzędzia pomiarowego podany przez producenta.",
+        "d.": "Niepewność to różnica między wynikiem pomiaru a wartością średnią w serii prób.",
+        "explanation": "Niepewność pomiaru określa wiarygodność wyniku pomiarowego i przedstawia się ją najczęściej jako wartość liczbową z przedziałem, np. ±0,01 mm.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Jakie czynniki decydują o wyborze narzędzia pomiarowego w celu wykonania pomiaru?",
+        "a.": "Dokładność wymaganego pomiaru, kształt elementu, rodzaj powierzchni oraz warunki pomiaru.",
+        "b.": "Tylko cena przyrządu i dostępność w warsztacie.",
+        "c.": "Wyłącznie rodzaj materiału obrabianego.",
+        "d.": "Kolor narzędzia i jego producent.",
+        "explanation": "Wybór przyrządu pomiarowego zależy od wymaganej dokładności, geometrii przedmiotu, rodzaju powierzchni i warunków pomiarowych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Jakie są rodzaje obróbki wiórowej?",
+        "a.": "Toczenie, frezowanie, wiercenie, dłutowanie, struganie, szlifowanie.",
+        "b.": "Tłoczenie, walcowanie, kucie, odlewanie.",
+        "c.": "Gięcie, spawanie, lutowanie, klejenie.",
+        "d.": "Zgrzewanie, hartowanie, azotowanie, polerowanie.",
+        "explanation": "Do obróbki wiórowej zalicza się procesy, w których usuwany jest naddatek materiału w postaci wiórów, np. toczenie, frezowanie czy szlifowanie.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający tokarkę i powstawanie wióra na obrabianym wałku>",
+        "question": "Czym charakteryzuje się proces toczenia?",
+        "a.": "Ruch główny wykonuje przedmiot obrabiany, a narzędzie usuwa materiał w postaci wióra.",
+        "b.": "Ruch główny wykonuje narzędzie, a przedmiot pozostaje nieruchomy.",
+        "c.": "Materiał usuwany jest przez ścieranie ziarnami ściernymi.",
+        "d.": "Materiał jest odkształcany plastycznie bez powstawania wiórów.",
+        "explanation": "Podczas toczenia przedmiot obraca się (ruch główny), a nóż tokarski wykonuje ruch posuwowy, usuwając materiał w postaci wióra.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający wiertło w trakcie wiercenia otworu>",
+        "question": "Czym charakteryzuje się proces wiercenia?",
+        "a.": "Wiercenie polega na wykonywaniu otworów za pomocą wiertła wykonującego ruch obrotowy i posuwowy.",
+        "b.": "Proces wiercenia polega na toczeniu otworów za pomocą noża tokarskiego.",
+        "c.": "Podczas wiercenia materiał usuwany jest przez uderzenia narzędzia.",
+        "d.": "Wiercenie polega na zgrzewaniu powierzchni w miejscu otworu.",
+        "explanation": "Wiercenie to obróbka, w której narzędzie (wiertło) obraca się i jednocześnie przesuwa wzdłuż osi, tworząc otwór.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający frezarkę i frez obracający się podczas obróbki płaszczyzny>",
+        "question": "Czym charakteryzuje się proces frezowania?",
+        "a.": "Ruch główny wykonuje narzędzie – frez, a przedmiot wykonuje ruch posuwowy.",
+        "b.": "Ruch główny wykonuje przedmiot, a narzędzie pozostaje nieruchome.",
+        "c.": "Materiał usuwany jest poprzez ścieranie powierzchni ściernicą.",
+        "d.": "Materiał odkształca się plastycznie pod wpływem temperatury.",
+        "explanation": "W procesie frezowania narzędzie – frez – wykonuje ruch obrotowy, a przedmiot przesuwa się, co powoduje skrawanie materiału wieloma ostrzami.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający proces strugania – nóż przesuwający się liniowo po powierzchni materiału>",
+        "question": "Czym charakteryzuje się proces strugania?",
+        "a.": "Ruch główny wykonuje nóż w kierunku prostoliniowym, a przedmiot wykonuje ruch posuwowy prostopadły do niego.",
+        "b.": "Ruch główny wykonuje przedmiot w kierunku obrotowym.",
+        "c.": "Proces polega na usuwaniu materiału przez obracający się frez.",
+        "d.": "Proces realizowany jest tylko na szlifierkach.",
+        "explanation": "Podczas strugania nóż wykonuje ruch prostoliniowy tam i z powrotem, usuwając cienkie warstwy materiału z powierzchni przedmiotu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający dłutarkę z pionowym ruchem dłuta>",
+        "question": "Czym charakteryzuje się proces dłutowania?",
+        "a.": "Ruch główny wykonuje dłuto w kierunku prostoliniowym, a posuw odbywa się po każdym skrawaniu.",
+        "b.": "Ruch główny wykonuje obracające się narzędzie skrawające.",
+        "c.": "Proces dłutowania polega na obróbce powierzchni ściernicą.",
+        "d.": "Materiał jest formowany przez odkształcenie plastyczne.",
+        "explanation": "Dłutowanie to proces podobny do strugania, w którym narzędzie (dłuto) wykonuje ruch prostoliniowy w górę i w dół, usuwając warstwy materiału.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający proces szlifowania – ściernica obracająca się z dużą prędkością>",
+        "question": "Czym charakteryzuje się proces szlifowania?",
+        "a.": "Usuwaniem cienkiej warstwy materiału za pomocą ziaren ściernych osadzonych na ściernicy.",
+        "b.": "Obróbką materiału ostrzami freza.",
+        "c.": "Formowaniem powierzchni przez odkształcenie plastyczne.",
+        "d.": "Usuwaniem dużych naddatków w postaci wiórów spiralnych.",
+        "explanation": "Szlifowanie to proces bardzo dokładnej obróbki wykończeniowej, w którym materiał usuwany jest ziarnami ściernymi z powierzchni obrabianej.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający nóż tokarski z zaznaczonymi częściami: trzonkiem, częścią roboczą i ostrzem>",
+        "question": "Z jakich części składa się nóż tokarski?",
+        "a.": "Z trzonka, części roboczej i ostrza skrawającego.",
+        "b.": "Z głowicy, tulei i rękojeści.",
+        "c.": "Z uchwytu, prowadnicy i śruby mocującej.",
+        "d.": "Z obudowy, wału i łożyska.",
+        "explanation": "Nóż tokarski składa się z trzonka (mocowania), części roboczej oraz ostrza, które bezpośrednio uczestniczy w procesie skrawania.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający nóż tokarski z zaznaczonymi kątami: kątem natarcia γ, kątem przyłożenia α i kątem ostrza β>",
+        "question": "Jakie charakterystyczne kąty występują w nożu tokarskim?",
+        "a.": "Kąt natarcia (γ), kąt przyłożenia (α) i kąt ostrza (β).",
+        "b.": "Kąt tarcia, kąt oporu i kąt posuwu.",
+        "c.": "Kąt skrawania, kąt zbieżności i kąt powierzchniowy.",
+        "d.": "Kąt obrotu, kąt ugięcia i kąt ścinania.",
+        "explanation": "W nożu tokarskim występują trzy główne kąty: natarcia (γ) – określa kształt powierzchni natarcia, przyłożenia (α) – zapobiega tarciu o powierzchnię obrabianą oraz kąt ostrza (β) – między powierzchniami natarcia i przyłożenia.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Jakie są parametry skrawania?",
+        "a.": "Prędkość skrawania, posuw i głębokość skrawania.",
+        "b.": "Twardość materiału, masa obrabiarki i długość narzędzia.",
+        "c.": "Siła nacisku, temperatura otoczenia i chropowatość powierzchni.",
+        "d.": "Średnica przedmiotu, liczba obrotów i rodzaj chłodziwa.",
+        "explanation": "Podstawowe parametry skrawania to: prędkość skrawania (v), posuw (f) oraz głębokość skrawania (a), które wpływają na wydajność i jakość obróbki.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat tokarki pociągowej kłowej z zaznaczonymi zespołami: wrzeciennikiem, suportem, konikiem, łożem i silnikiem napędowym>",
+        "question": "Jak zbudowana jest tokarka pociągowa kłowa?",
+        "a.": "Z wrzeciennika, łoża, suportu, konika, skrzynki posuwów i silnika napędowego.",
+        "b.": "Z frezarki, ściernicy, uchwytu i prowadnicy.",
+        "c.": "Z podstawy, ramienia i głowicy frezarskiej.",
+        "d.": "Z tulei, śruby i łożyska tocznego.",
+        "explanation": "Tokarka pociągowa kłowa składa się z głównych zespołów: wrzeciennika (napęd), łoża (prowadnice), suportu (ruch narzędzia), konika (podparcie przedmiotu) i skrzynki posuwów.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat frezarki wspornikowej poziomej z zaznaczonymi zespołami: podstawą, kolumną, wspornikiem, stolikiem, wrzeciennikiem i silnikiem>",
+        "question": "Z jakich zespołów zbudowana jest frezarka wspornikowa pozioma?",
+        "a.": "Z podstawy, kolumny, wspornika, stołu, wrzeciennika i silnika napędowego.",
+        "b.": "Z łoża, konika, suportu i głowicy nożowej.",
+        "c.": "Z podstawy, prowadnicy, śruby pociągowej i tokarki.",
+        "d.": "Z tarczy, przekładni i uchwytu.",
+        "explanation": "Frezarka wspornikowa pozioma zbudowana jest z podstawy i kolumny (nośne elementy), wspornika (ruch pionowy), stołu (ruch posuwowy) oraz wrzeciennika z napędem.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający różne typy frezów: walcowy, czołowy, kątowy, tarczowy i kształtowy>",
+        "question": "Jakie są rodzaje frezów?",
+        "a.": "Walcowe, czołowe, kątowe, tarczowe, palcowe i kształtowe.",
+        "b.": "Stożkowe, walcowe, gwintowe i ślimakowe.",
+        "c.": "Obrotowe, posuwowe, ścierne i zgrzewane.",
+        "d.": "Płaskie, okrągłe, spiralne i tnące.",
+        "explanation": "Frezowanie wykonuje się frezami o różnych kształtach: walcowymi, czołowymi, kątowymi, tarczowymi, palcowymi i kształtowymi – w zależności od rodzaju powierzchni.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat szlifierki uniwersalnej z zaznaczonymi częściami: ściernicą, wrzeciennikiem, stołem i silnikiem napędowym>",
+        "question": "Jak zbudowana jest szlifierka?",
+        "a.": "Ze ściernicy, wrzeciennika, stołu roboczego, prowadnic i silnika napędowego.",
+        "b.": "Z freza, wspornika i konika.",
+        "c.": "Z podstawy, tarczy i przekładni ślimakowej.",
+        "d.": "Z łoża, uchwytu i dłuta.",
+        "explanation": "Szlifierka składa się z wrzeciennika z zamocowaną ściernicą, stołu roboczego przesuwającego się względem ściernicy oraz napędu i prowadnic umożliwiających precyzyjny ruch.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający proces spawania gazowego z palnikiem acetylenowo-tlenowym i jeziorkiem spawalniczym>",
+        "question": "Czym charakteryzuje się proces spawania gazowego?",
+        "a.": "Łączeniem metali przez stopienie ich brzegów płomieniem gazowym, najczęściej acetylenowo-tlenowym.",
+        "b.": "Łączeniem metali przy użyciu łuku elektrycznego między elektrodą a materiałem.",
+        "c.": "Łączeniem metali poprzez zgrzewanie punktowe przy użyciu prądu elektrycznego.",
+        "d.": "Łączeniem powierzchni poprzez użycie kleju termoutwardzalnego.",
+        "explanation": "Spawanie gazowe wykorzystuje ciepło płomienia acetylenowo-tlenowego do stopienia brzegów łączonych elementów i spoiwa.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający proces spawania MIG – elektroda topliwa, gaz ochronny obojętny>",
+        "question": "Czym charakteryzuje się proces spawania metodą MIG?",
+        "a.": "Łączeniem metali łukiem elektrycznym w osłonie gazu obojętnego (np. argonu), z użyciem elektrody topliwej.",
+        "b.": "Spawaniem w osłonie gazu aktywnego chemicznie (np. CO₂).",
+        "c.": "Łączeniem metali łukiem elektrycznym przy użyciu elektrody nietopliwej.",
+        "d.": "Zgrzewaniem przez tarcie z użyciem prądu elektrycznego.",
+        "explanation": "Metoda MIG (Metal Inert Gas) polega na spawaniu łukiem elektrycznym w osłonie gazu obojętnego, co chroni jeziorko przed utlenianiem.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający proces spawania MAG – elektroda topliwa, gaz ochronny CO₂>",
+        "question": "Czym charakteryzuje się proces spawania metodą MAG?",
+        "a.": "Łączeniem metali łukiem elektrycznym w osłonie gazu aktywnego (np. CO₂) przy użyciu elektrody topliwej.",
+        "b.": "Spawaniem w osłonie gazu obojętnego.",
+        "c.": "Spawaniem przy użyciu elektrody nietopliwej.",
+        "d.": "Zgrzewaniem punktowym przy użyciu wysokiego ciśnienia.",
+        "explanation": "Metoda MAG (Metal Active Gas) wykorzystuje gaz aktywny, np. CO₂, który wpływa na skład chemiczny i własności spoiny.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający proces spawania TIG – elektroda nietopliwa, gaz ochronny argon>",
+        "question": "Czym charakteryzuje się proces spawania TIG?",
+        "a.": "Łączeniem metali łukiem elektrycznym w osłonie gazu obojętnego z użyciem elektrody nietopliwej (wolframowej).",
+        "b.": "Łączeniem metali łukiem w osłonie gazu aktywnego i elektrody topliwej.",
+        "c.": "Zgrzewaniem elektrycznym metali bez spoiwa.",
+        "d.": "Spawaniem przy użyciu elektrody otulonej w osłonie powietrza.",
+        "explanation": "Metoda TIG (Tungsten Inert Gas) wykorzystuje nietopliwą elektrodę wolframową i gaz obojętny (argon, hel), zapewniając wysoką jakość spoin.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający zgrzewanie punktowe – dwa elektrody dociskające blachy i przepływ prądu>",
+        "question": "Czym charakteryzuje się proces zgrzewania elektrycznego?",
+        "a.": "Łączeniem metali przez nagrzanie ich prądem elektrycznym i dociśnięcie bez użycia materiału dodatkowego.",
+        "b.": "Łączeniem metali za pomocą łuku elektrycznego i elektrody topliwej.",
+        "c.": "Łączeniem metali przy użyciu kleju przewodzącego prąd.",
+        "d.": "Spajaniem powierzchni pod wpływem działania chemicznego strumienia.",
+        "explanation": "Zgrzewanie elektryczne polega na przepływie prądu przez miejsce styku elementów, co powoduje ich lokalne stopienie i zespolenie pod naciskiem.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający dwa złącza lutowane – jedno lutem miękkim, drugie lutem twardym>",
+        "question": "Jakie są różnice między lutowaniem lutem miękkim, a twardym?",
+        "a.": "Lut miękki ma temperaturę topnienia poniżej 450°C, a twardy powyżej 450°C.",
+        "b.": "Lut twardy topi się w niższej temperaturze niż miękki.",
+        "c.": "Lut miękki stosuje się tylko do stali, a twardy do aluminium.",
+        "d.": "Lut miękki wymaga chłodzenia wodą, a twardy – powietrzem.",
+        "explanation": "Lutowanie miękkie odbywa się w temperaturze poniżej 450°C (np. cyną), natomiast lutowanie twarde – powyżej tej wartości (np. lutem mosiężnym).",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat przedstawiający etapy klejenia: przygotowanie powierzchni, nanoszenie kleju, docisk, utwardzanie>",
+        "question": "Jakie są etapy procesu klejenia?",
+        "a.": "Przygotowanie powierzchni, naniesienie kleju, złączenie i docisk elementów, utwardzanie spoiny.",
+        "b.": "Podgrzewanie elementów, chłodzenie, smarowanie, montaż.",
+        "c.": "Docisk, wiercenie, gwintowanie, montaż.",
+        "d.": "Zgrzewanie, hartowanie, szlifowanie, klejenie.",
+        "explanation": "Proces klejenia obejmuje czyszczenie i odtłuszczanie powierzchni, naniesienie kleju, złączenie i docisk oraz proces utwardzania (chemiczny lub cieplny).",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<tabela przedstawiająca dobór klejów do materiałów: metale – epoksydowe, tworzywa – cyjanoakrylowe, drewno – poliuretanowe, szkło – silikonowe>",
+        "question": "Jakie kleje stosuje się do łączenia poszczególnych materiałów ze sobą?",
+        "a.": "Do metali – epoksydowe, do tworzyw – cyjanoakrylowe, do drewna – poliuretanowe, do szkła – silikonowe.",
+        "b.": "Do wszystkich materiałów stosuje się tylko kleje silikonowe.",
+        "c.": "Do każdego materiału stosuje się ten sam klej uniwersalny.",
+        "d.": "Do tworzyw stosuje się tylko kleje epoksydowe.",
+        "explanation": "Dobór kleju zależy od rodzaju materiału: metale – kleje epoksydowe, tworzywa – cyjanoakrylowe, drewno – poliuretanowe, szkło – silikonowe lub epoksydowe.",
+        "correct": "1 0 0 0"
+    }
+]
+

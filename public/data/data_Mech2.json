@@ -1,0 +1,1322 @@
+[
+    {
+        "img": "<rysunek arkusza formatu A4 z wymiarami 210 mm × 297 mm>",
+        "question": "Jakie wymiary posiada arkusz formatu A4?",
+        "a.": "210 mm × 297 mm.",
+        "b.": "148 mm × 210 mm.",
+        "c.": "297 mm × 420 mm.",
+        "d.": "100 mm × 200 mm.",
+        "explanation": "Arkusz formatu A4 ma wymiary 210×297 mm – jest to podstawowy format używany w rysunku technicznym.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<fragment rysunku technicznego z liniami osi symetrii – linia cienka z długimi i krótkimi kreskami>",
+        "question": "Jaką linią rysuje się osie symetrii przedmiotu?",
+        "a.": "Cienką linią z długimi i krótkimi kreskami (linia osiowa).",
+        "b.": "Linią grubą ciągłą.",
+        "c.": "Linią falistą grubą.",
+        "d.": "Linią punktową grubą.",
+        "explanation": "Osie symetrii rysuje się linią osiową – cienką z naprzemiennymi długimi i krótkimi kreskami.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<arkusz rysunkowy z ramką obramowania narysowaną grubą linią ciągłą>",
+        "question": "Jaką linią rysuje się obramowanie rysunku?",
+        "a.": "Linią grubą ciągłą.",
+        "b.": "Linią cienką przerywaną.",
+        "c.": "Linią punktową grubą.",
+        "d.": "Linią z długimi i krótkimi kreskami.",
+        "explanation": "Obramowanie rysunku wykonuje się grubą linią ciągłą, najczęściej w odległości 5–10 mm od krawędzi arkusza.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek porównawczy dwóch przedmiotów – oryginalny i powiększony w skali 10:1>",
+        "question": "Czy zastosowanie podziałki 10:1 spowoduje powiększenie przedmiotu?",
+        "a.": "Tak, podziałka 10:1 oznacza, że rysunek jest 10 razy większy od rzeczywistego przedmiotu.",
+        "b.": "Nie, skala 10:1 oznacza pomniejszenie.",
+        "c.": "Nie, skala nie wpływa na wielkość odwzorowania.",
+        "d.": "Zależy od kierunku rzutowania.",
+        "explanation": "Skala 10:1 to skala powiększająca – rysunek jest dziesięciokrotnie większy niż rzeczywisty przedmiot.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<tabliczka rysunkowa typu A – tabliczka rysunku wykonawczego z danymi: nazwa, skala, autor, materiał>",
+        "question": "Jakiej tabliczki użyjesz do rysunku wykonawczego?",
+        "a.": "Tabliczki rysunku wykonawczego typu A zawierającej dane o nazwie części, materiale, skali, autorze i dacie.",
+        "b.": "Tabliczki uproszczonej typu C bez danych autora.",
+        "c.": "Tabliczki montażowej z numerami pozycji części.",
+        "d.": "Tabliczki szkicowej bez wymiarów.",
+        "explanation": "Rysunek wykonawczy musi zawierać pełną tabliczkę typu A z wszystkimi danymi technicznymi i identyfikacyjnymi.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat trzech rzutni prostokątnych – poziomej, pionowej i bocznej>",
+        "question": "Jaką płaszczyznę nazywamy rzutnią?",
+        "a.": "Płaszczyznę, na którą rzutuje się punkty, proste i bryły w celu ich przedstawienia na rysunku.",
+        "b.": "Płaszczyznę, na której ustawia się obiekt rzeczywisty.",
+        "c.": "Płaszczyznę pomocniczą do wymiarowania.",
+        "d.": "Płaszczyznę, na której wykonuje się przekroje.",
+        "explanation": "Rzutnia to płaszczyzna odniesienia, na którą przenosi się obraz obiektu w procesie rzutowania prostokątnego.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<układ współrzędnych przestrzennych X, Y, Z z punktem P w przestrzeni>",
+        "question": "W jaki sposób możemy określić jednoznaczne położenie punktu w przestrzeni?",
+        "a.": "Za pomocą trzech współrzędnych określających jego odległość od trzech prostopadłych rzutni (X, Y, Z).",
+        "b.": "Za pomocą jednej współrzędnej w płaszczyźnie.",
+        "c.": "Za pomocą dwóch współrzędnych w dowolnym układzie.",
+        "d.": "Za pomocą kąta i promienia bez użycia osi.",
+        "explanation": "Położenie punktu w przestrzeni jednoznacznie określa się za pomocą trzech współrzędnych względem trzech prostopadłych płaszczyzn odniesienia.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat trzech rzutni: pionowej (π1), poziomej (π2) i bocznej (π3) z oznaczonymi odległościami x, y, z>",
+        "question": "Podaj nazwy współrzędnych punktu określającego jego odległość od trzech rzutni.",
+        "a.": "Odległość od rzutni pionowej (x), od poziomej (y) i od bocznej (z).",
+        "b.": "Odległość od osi symetrii, osi pionowej i osi pomocniczej.",
+        "c.": "Odległość od środka rysunku, punktu odniesienia i płaszczyzny symetrii.",
+        "d.": "Odległość od krawędzi, przekroju i punktu bazowego.",
+        "explanation": "Każdy punkt w przestrzeni posiada trzy współrzędne: x, y, z – odpowiadające jego odległościom od trzech wzajemnie prostopadłych rzutni.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<bryła ustawiona równolegle do jednej z rzutni – pokazujące rzut o rzeczywistych wymiarach>",
+        "question": "Jakie ustawienie bryły względem rzutni gwarantuje rzeczywiste odwzorowanie jej wymiarów?",
+        "a.": "Ustawienie, w którym jedna z płaszczyzn bryły jest równoległa do rzutni.",
+        "b.": "Ustawienie pod dowolnym kątem do rzutni.",
+        "c.": "Ustawienie skośne względem rzutni.",
+        "d.": "Ustawienie prostopadłe do wszystkich rzutni jednocześnie.",
+        "explanation": "Rzeczywiste wymiary bryły są odwzorowane tylko wtedy, gdy jej płaszczyzna jest równoległa do płaszczyzny rzutni.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek trzech rzutów prostokątnych przedmiotu z widokami: z przodu, z góry i z boku>",
+        "question": "Jaka jest treść zasady mówiącej o wyborze liczby rzutów potrzebnych do odwzorowania rysunkowego przedmiotu?",
+        "a.": "Należy wykonać tyle rzutów, ile jest niezbędne do jednoznacznego i czytelnego przedstawienia kształtu przedmiotu.",
+        "b.": "Zawsze należy wykonać trzy rzuty niezależnie od złożoności przedmiotu.",
+        "c.": "Wystarczy jeden rzut bez względu na kształt obiektu.",
+        "d.": "Należy wykonać maksymalnie sześć rzutów każdego obiektu.",
+        "explanation": "Zasada mówi, że liczba rzutów powinna być taka, aby rysunek był jednoznaczny i czytelny – zbyt wiele rzutów utrudnia interpretację.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek aksonometryczny sześcianu pokazujący jego trójwymiarowy wygląd – rzut izometryczny>",
+        "question": "Jaki rzut odwzorowuje przedmiot stwarzając odczucie jego bryłowości?",
+        "a.": "Rzut aksonometryczny.",
+        "b.": "Rzut prostokątny z przodu.",
+        "c.": "Rzut pomocniczy.",
+        "d.": "Rzut z góry.",
+        "explanation": "Rzut aksonometryczny przedstawia bryłę w trzech wymiarach, co daje wrażenie przestrzenności i pozwala lepiej zrozumieć kształt przedmiotu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat trzech rodzajów rzutów aksonometrycznych: izometryczny, dimetryczny i ukośny (kavalier)>",
+        "question": "Jakie rozróżniamy rodzaje rzutów aksonometrycznych?",
+        "a.": "Izometryczny, dimetryczny i ukośny (kavalier lub cabinet).",
+        "b.": "Pionowy, poziomy i boczny.",
+        "c.": "Odbity, styczny i sferyczny.",
+        "d.": "Prostopadły, równoległy i krzywoliniowy.",
+        "explanation": "Rzuty aksonometryczne różnią się kątem ustawienia osi i stopniem zniekształcenia wymiarów – najczęściej używa się izometrii i dimetrii.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek dimetrii ukośnej z osiami X, Y, Z i zaznaczonymi kątami między nimi>",
+        "question": "Jaka jest wartość kątów między osiami X, Y i Z w rzucie dimetrii ukośnej?",
+        "a.": "Między osiami X i Y – 135°, między X i Z – 90°, między Y i Z – 45°.",
+        "b.": "Między osiami X, Y i Z po 120°.",
+        "c.": "Między osiami X i Y – 90°, a pozostałe dowolne.",
+        "d.": "Między wszystkimi osiami po 60°.",
+        "explanation": "W dimetrii ukośnej kąty między osiami są nierówne – jedna oś (zazwyczaj X) jest rzutowana ukośnie, co daje wrażenie głębi przy zachowaniu proporcji.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek szkicu technicznego wykonanego ołówkiem – szkic śruby z wymiarami przybliżonymi>",
+        "question": "W jakim celu wykonuje się szkic?",
+        "a.": "Aby szybko i w uproszczony sposób przedstawić ideę, kształt lub konstrukcję przedmiotu bez użycia przyrządów kreślarskich.",
+        "b.": "Aby dokładnie odwzorować wszystkie szczegóły konstrukcyjne z wymiarami.",
+        "c.": "Aby odtworzyć kolory i fakturę powierzchni elementu.",
+        "d.": "Aby przedstawić schemat elektryczny urządzenia.",
+        "explanation": "Szkic techniczny jest formą zapisu koncepcji lub pomysłu konstrukcyjnego, wykonywany odręcznie dla wstępnego zobrazowania przedmiotu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<przykład poprawnego szkicu z zachowanymi proporcjami i czytelnym wymiarowaniem>",
+        "question": "Jakie wymagania musi spełniać szkic?",
+        "a.": "Powinien być wykonany odręcznie, zachować proporcje i czytelność kształtu oraz umożliwiać rozpoznanie przedmiotu.",
+        "b.": "Musi być narysowany przy użyciu programu CAD.",
+        "c.": "Powinien być wykonany kolorowymi liniami i cieniowaniem.",
+        "d.": "Nie wymaga zachowania proporcji ani skali.",
+        "explanation": "Szkic musi być wykonany starannie, proporcjonalnie i w sposób czytelny, aby umożliwić dalsze opracowanie rysunku technicznego.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek wykonawczy z dokładnym wymiarowaniem, oznaczeniami i tabliczką rysunkową>",
+        "question": "Jakie wymagania musi spełniać rysunek?",
+        "a.": "Musi być wykonany zgodnie z zasadami rysunku technicznego, w odpowiedniej skali, z liniami, wymiarami i opisem zgodnym z normami.",
+        "b.": "Musi być kolorowy i zawierać efekt 3D.",
+        "c.": "Powinien zawierać tylko kontury bez wymiarów.",
+        "d.": "Nie wymaga zachowania skali ani dokładności.",
+        "explanation": "Rysunek techniczny jest dokumentem formalnym – musi być zgodny z normami PN/ISO, czytelny i jednoznaczny w interpretacji.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<trzy rzuty prostokątne przedmiotu przedstawiające zewnętrzne powierzchnie – widok z przodu, z góry, z boku>",
+        "question": "Jak nazywamy rzuty prostokątne odwzorowujące zewnętrzne kształty przedmiotów?",
+        "a.": "Widoki.",
+        "b.": "Przekroje.",
+        "c.": "Rzuty aksonometryczne.",
+        "d.": "Zarysy.",
+        "explanation": "Widoki przedstawiają zewnętrzne powierzchnie i kontury przedmiotu w rzutach prostokątnych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przekroju walca – przecięcie płaszczyzną i pokazanie wnętrza bryły>",
+        "question": "W jaki sposób powstaje przekrój?",
+        "a.": "Powstaje przez przecięcie przedmiotu umowną płaszczyzną i przedstawienie kształtu powstałego na tej płaszczyźnie.",
+        "b.": "Przez rzutowanie bryły z boku bez cięcia.",
+        "c.": "Przez obrót bryły wokół osi symetrii.",
+        "d.": "Przez nałożenie dwóch widoków w jednym rzucie.",
+        "explanation": "Przekrój pozwala zobrazować wewnętrzną budowę przedmiotu, która nie jest widoczna na widokach zewnętrznych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<przykład przekroju z zaznaczoną strzałką kierunku rzutowania i linią cięcia AA>",
+        "question": "W jaki sposób określamy kierunek rzutowania przekroju?",
+        "a.": "Za pomocą strzałek na linii cięcia oraz oznaczenia literowego (np. A–A), które wskazują kierunek patrzenia.",
+        "b.": "Za pomocą koloru linii przekroju.",
+        "c.": "Poprzez numerację rzutni w tabeli rysunkowej.",
+        "d.": "Kierunek przekroju jest dowolny i nieoznaczany.",
+        "explanation": "Kierunek rzutowania przekroju oznacza się strzałkami i symbolem literowym, co pozwala zidentyfikować widok powstały po przecięciu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<przykład przekroju technicznego z równoległymi liniami kreskowania nachylonymi pod kątem 45°>",
+        "question": "Jakie znasz uniwersalne zasady kreskowania?",
+        "a.": "Kreskowanie wykonuje się cienkimi liniami nachylonymi pod kątem 45°, równoległymi, w równych odstępach; sąsiednie elementy kreskuje się w przeciwnych kierunkach.",
+        "b.": "Kreskowanie wykonuje się grubymi liniami o przypadkowym nachyleniu.",
+        "c.": "Kreskowanie wykonuje się liniami falistymi pod kątem 30°.",
+        "d.": "Każdy materiał kreskuje się liniami poziomymi o różnej grubości.",
+        "explanation": "Kreskowanie służy do rozróżniania przekrojonych elementów i wykonywane jest cienkimi, równoległymi liniami pod kątem 45°, z naprzemiennym kierunkiem dla sąsiadujących części.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przekroju wzdłużnego wałka – płaszczyzna cięcia równoległa do osi przedmiotu>",
+        "question": "W jaki sposób powstaje przekrój wzdłużny?",
+        "a.": "Przez przecięcie przedmiotu płaszczyzną równoległą do jego osi.",
+        "b.": "Przez przecięcie przedmiotu płaszczyzną prostopadłą do osi.",
+        "c.": "Przez przecięcie ukośne, nieprzechodzące przez oś przedmiotu.",
+        "d.": "Przez rzutowanie bryły bez cięcia.",
+        "explanation": "Przekrój wzdłużny ukazuje wnętrze przedmiotu w kierunku jego osi symetrii – stosowany przy przedmiotach obrotowych, np. wałkach i tulejach.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przekroju łamanego – płaszczyzna cięcia złożona z kilku odcinków zmieniających kierunek>",
+        "question": "Czym charakteryzuje się przekrój łamany?",
+        "a.": "Płaszczyzna przekroju składa się z kilku odcinków załamanych, co pozwala pokazać kilka wnętrz elementu w jednym przekroju.",
+        "b.": "Płaszczyzna przekroju jest zawsze równoległa do osi przedmiotu.",
+        "c.": "Kreskowanie występuje tylko po jednej stronie przedmiotu.",
+        "d.": "Przekrój łamany powstaje z dwóch rzutów prostokątnych.",
+        "explanation": "Przekrój łamany stosuje się, gdy różne części przedmiotu mają wewnętrzne elementy nieleżące w jednej płaszczyźnie cięcia.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek kładu przesuniętego – część przekroju przesunięta poza zarys przedmiotu dla czytelności>",
+        "question": "Czym charakteryzuje się kład przesunięty?",
+        "a.": "Obraz przekroju jest przesunięty poza zarys przedmiotu, ale zachowuje położenie zgodne z płaszczyzną cięcia, co ułatwia czytelność rysunku.",
+        "b.": "Kład przesunięty przedstawia przedmiot w skali powiększonej.",
+        "c.": "To przekrój wykonywany pod kątem 90° do osi przedmiotu.",
+        "d.": "Kład przesunięty jest wykonywany bez kreskowania.",
+        "explanation": "Kład przesunięty pozwala na lepsze rozmieszczenie elementów rysunku, gdy przekrój nachodziłby na inne widoki.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek techniczny z liniami wymiarowymi, pomocniczymi i strzałkami zakończeń>",
+        "question": "Jakie linie stosuje się do wymiarowania?",
+        "a.": "Linie wymiarowe – cienkie z grotami strzałek, oraz linie pomocnicze wymiarowe – cienkie, prostopadłe do linii wymiarowych.",
+        "b.": "Linie grube przerywane.",
+        "c.": "Linie faliste o różnej grubości.",
+        "d.": "Linie osiowe z krótkimi kreskami.",
+        "explanation": "Wymiarowanie wykonuje się cienkimi liniami – wymiarowe z grotami strzałek, a pomocnicze wymiarowe wychodzące z konturu elementu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<przykład wymiarowania średnicy – symbol Ø przed liczbą wymiaru>",
+        "question": "Jak wymiaruje się średnice?",
+        "a.": "Poprzez poprzedzenie wartości liczbowej znakiem średnicy (Ø) i prowadzenie linii wymiarowej przez środek okręgu lub otworu.",
+        "b.": "Poprzez dodanie symbolu promienia (R).",
+        "c.": "Bez żadnego oznaczenia symbolicznego.",
+        "d.": "Z użyciem symbolu kwadratu (□).",
+        "explanation": "Symbol Ø umieszcza się przed wartością liczbową, co jednoznacznie wskazuje, że wymiar dotyczy średnicy okręgu lub otworu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek powierzchni pochylonej – linia wymiarowa z odnośnikiem kąta>",
+        "question": "Jak wymiaruje się powierzchnie pochylone?",
+        "a.": "Podając kąt nachylenia powierzchni względem osi odniesienia lub płaszczyzny bazowej.",
+        "b.": "Poprzez wpisanie długości pochylonej krawędzi bez kąta.",
+        "c.": "Zawsze przez podanie współrzędnych X, Y, Z.",
+        "d.": "Nie wymaga wymiarowania, jeśli występuje w rysunku izometrycznym.",
+        "explanation": "Powierzchnie pochylone wymiaruje się przez określenie kąta nachylenia – zapewnia to jednoznaczne określenie położenia płaszczyzny.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<fragment rysunku z poprawnie rozmieszczonymi wymiarami – brak powtórzeń, zachowana czytelność>",
+        "question": "Jakie znasz zasady wymiarowania?",
+        "a.": "Nie powtarzać wymiarów, stosować jednostki milimetrowe bez zapisu, zachować czytelność i jednoznaczność wymiarów.",
+        "b.": "Zawsze podawać wymiary w centymetrach i powtarzać na każdym widoku.",
+        "c.": "Podawać wymiary tylko orientacyjne.",
+        "d.": "Umieszczać wymiary w dowolnych miejscach rysunku.",
+        "explanation": "Podstawowe zasady wymiarowania to czytelność, jednoznaczność, brak powtórzeń oraz użycie milimetrów jako jednostki podstawowej bez zapisu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek z wymiarami równoległymi do siebie – każdy wymiar odniesiony do wspólnej krawędzi bazowej>",
+        "question": "Czym się charakteryzuje wymiarowanie w układzie równoległym?",
+        "a.": "Wszystkie wymiary odnoszą się do jednej wspólnej bazy – krawędzi lub osi, a linie wymiarowe są równoległe do siebie.",
+        "b.": "Każdy wymiar odnosi się do poprzedniego wymiaru po kolei.",
+        "c.": "Wymiary podawane są w dowolnym układzie bez bazy odniesienia.",
+        "d.": "Wymiarowanie odbywa się na podstawie skali powiększającej.",
+        "explanation": "Wymiarowanie równoległe stosuje się, gdy wymiary są mierzone od wspólnej krawędzi bazowej – zapewnia to większą dokładność i czytelność rysunku.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek wymiaru z górną i dolną odchyłką – przykład wymiaru tolerowanego>",
+        "question": "Czym charakteryzuje się wymiar tolerowany?",
+        "a.": "Jest to wymiar, który może zmieniać się w określonych granicach odchyłek dopuszczonych od wymiaru nominalnego.",
+        "b.": "Jest to wymiar, który nie może ulegać żadnym zmianom.",
+        "c.": "Jest to wymiar, którego wartość jest zawsze większa od nominalnej.",
+        "d.": "Jest to wymiar orientacyjny, nieistotny dla produkcji.",
+        "explanation": "Wymiar tolerowany określa dopuszczalny zakres zmian rzeczywistego wymiaru, który nie wpływa na poprawne działanie części.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek pola tolerancji na osi wymiarowej – górna i dolna granica odchyłki względem wymiaru nominalnego>",
+        "question": "Jaki obszar określa pole tolerancji?",
+        "a.": "Obszar między górną a dolną granicą wymiaru dopuszczalnego.",
+        "b.": "Obszar między wymiarem teoretycznym a rzeczywistym.",
+        "c.": "Obszar między wymiarem minimalnym a średnim.",
+        "d.": "Obszar powyżej górnej granicy odchyłki.",
+        "explanation": "Pole tolerancji to przedział wartości dopuszczalnych wymiaru rzeczywistego, określony przez górną i dolną odchyłkę od wymiaru nominalnego.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<zapis wymiaru tolerowanego np. 50+0.02/-0.01>",
+        "question": "W jaki sposób zapiszesz wymiar tolerowany?",
+        "a.": "Przykładowo: 50+0.02/-0.01, gdzie liczba 50 to wymiar nominalny, a wartości po znaku ± określają odchyłki dopuszczalne.",
+        "b.": "Wymiar zapisuje się tylko jedną wartością bez odchyłek.",
+        "c.": "Zawsze w postaci ułamka dziesiętnego, np. 50,02/50,01.",
+        "d.": "Wymiar tolerowany zapisuje się w nawiasie obok wartości nominalnej.",
+        "explanation": "Zapis 50+0.02/-0.01 oznacza, że wymiar może wynosić od 49,99 do 50,02 mm – dopuszczalne odchyłki określają pole tolerancji.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<diagram doboru odchyłek i tolerancji według PN-ISO – przykład pasowania wałka i otworu>",
+        "question": "Jak nazwiesz czynność doboru odchyłek i ustalania tolerancji wymiarów?",
+        "a.": "Dopasowanie (tolerowanie) wymiarów.",
+        "b.": "Normalizacja wymiarów.",
+        "c.": "Skalowanie wymiarów.",
+        "d.": "Zmienność geometryczna.",
+        "explanation": "Dobór odchyłek i ustalenie tolerancji to proces określania, jakie odchylenia od wymiaru nominalnego są dopuszczalne przy zachowaniu funkcjonalności elementu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<porównanie trzech metod tolerowania: jednostronne, dwustronne, symetryczne>",
+        "question": "Jakie znasz sposoby tolerowania?",
+        "a.": "Jednostronne, dwustronne i symetryczne.",
+        "b.": "Prostopadłe, równoległe i skośne.",
+        "c.": "Nominalne, rzeczywiste i graniczne.",
+        "d.": "Minimalne, średnie i maksymalne.",
+        "explanation": "Tolerowanie jednostronne dopuszcza odchyłkę tylko w jedną stronę, dwustronne – w obie, a symetryczne – po równo względem wymiaru nominalnego.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<trzy rodzaje pasowań – luźne, ciasne i mieszane – przedstawione na wykresie wałek-otwór>",
+        "question": "Jakie rozróżniamy pasowania?",
+        "a.": "Luźne, ciasne i mieszane (przejściowe).",
+        "b.": "Stałe, ruchome i nominalne.",
+        "c.": "Jednostronne, dwustronne i symetryczne.",
+        "d.": "Proste, skośne i odwrotne.",
+        "explanation": "Pasowania określają charakter dopasowania wałka do otworu – od swobodnego ruchu (luźne) po trwałe połączenie (ciasne).",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<wykres pasowania wałka i otworu – pola tolerancji zachodzące na siebie lub rozdzielone>",
+        "question": "Jaka jest cecha charakterystyczna wszystkich pasowań?",
+        "a.": "Zależność między wymiarami rzeczywistymi wałka i otworu oraz ich polami tolerancji.",
+        "b.": "Zawsze występuje luz między wałkiem a otworem.",
+        "c.": "Pole tolerancji wałka jest większe od otworu.",
+        "d.": "Zawsze zachodzi połączenie nieruchome.",
+        "explanation": "Każde pasowanie określa relację pomiędzy wymiarami rzeczywistymi wałka i otworu – decyduje o luzie, wcisku lub ich braku.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat zasady stałego otworu – pole tolerancji otworu stałe, pola wałków przesuwane>",
+        "question": "Na czym polega zasada stałego otworu?",
+        "a.": "Na utrzymaniu stałego wymiaru nominalnego otworu i zmienianiu wymiarów wałków dla uzyskania różnych pasowań.",
+        "b.": "Na utrzymaniu stałego wymiaru wałka i zmienianiu wymiaru otworu.",
+        "c.": "Na zmianie obu wymiarów w zależności od materiału.",
+        "d.": "Na dopasowaniu luzu w zależności od temperatury.",
+        "explanation": "W systemie stałego otworu wymiar otworu jest podstawą, a różne pasowania uzyskuje się przez zmianę wymiarów wałków w granicach tolerancji.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<wykres pasowań normalnych – pola tolerancji zgodne z normą ISO, oznaczone H7/g6 itp.>",
+        "question": "Czym się charakteryzują pasowania normalne?",
+        "a.": "Są znormalizowane według PN/ISO i umożliwiają łatwy dobór elementów pasujących bez indywidualnego ustalania tolerancji.",
+        "b.": "Są ustalane dowolnie przez konstruktora bez odniesienia do norm.",
+        "c.": "Występują tylko w połączeniach gwintowych.",
+        "d.": "Nie mają określonych granic tolerancji.",
+        "explanation": "Pasowania normalne (np. H7/g6) są standaryzowane i powszechnie stosowane w konstrukcjach mechanicznych, co ułatwia wymienność części.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek walca z zaznaczonymi liniami prostoliniowości i płaskości – przykład tolerancji kształtu>",
+        "question": "Czego dotyczy tolerancja kształtu?",
+        "a.": "Dotyczy odchyłek rzeczywistego kształtu powierzchni od kształtu idealnego, np. prostoliniowości, płaskości, okrągłości, walcowości.",
+        "b.": "Dotyczy wyłącznie wymiarów liniowych elementu.",
+        "c.": "Dotyczy koloru i faktury powierzchni.",
+        "d.": "Dotyczy twardości materiału elementu.",
+        "explanation": "Tolerancja kształtu określa dopuszczalne odchylenia powierzchni rzeczywistej od teoretycznego kształtu idealnego, bez względu na jej położenie.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek wałka i otworu z osiami nieco przesuniętymi względem siebie – przykład tolerancji położenia>",
+        "question": "Czego dotyczy tolerancja położenia?",
+        "a.": "Dotyczy dopuszczalnych odchyłek położenia elementu od położenia teoretycznego względem innego elementu odniesienia.",
+        "b.": "Dotyczy odchyłek wymiarowych na długości elementu.",
+        "c.": "Dotyczy kształtu powierzchni niezależnie od położenia.",
+        "d.": "Dotyczy tylko połączeń gwintowych.",
+        "explanation": "Tolerancja położenia określa dopuszczalne przesunięcia, przechylenia lub skrzywienia osi, płaszczyzn i punktów w stosunku do ich położenia teoretycznego.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<symbol tolerancji położenia w ramce – np. ⌀0.05 | ⊥ | A>",
+        "question": "Jak zapisuje się informację dotyczącą tolerancji położenia?",
+        "a.": "W postaci ramki zawierającej symbol tolerancji, wartość liczbową oraz odniesienie do elementu bazowego (np. ⌀0.05 | ⊥ | A).",
+        "b.": "W nawiasie obok wymiaru liniowego.",
+        "c.": "Poprzez zmianę grubości linii wymiarowej.",
+        "d.": "Za pomocą koloru lub cieniowania powierzchni.",
+        "explanation": "Tolerancje położenia zapisuje się w specjalnej ramce z symbolami geometrycznymi, wartościami liczbowymi i literowym oznaczeniem bazy odniesienia.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<tabela symboli kształtu pól tolerancji: prostokątne, cylindryczne, kuliste>",
+        "question": "Jak się oznacza kształt pola tolerancji?",
+        "a.": "Za pomocą odpowiednich symboli geometrycznych (np. prostoliniowość, równoległość, prostopadłość, współosiowość, pozycja).",
+        "b.": "Poprzez wpisanie wartości tolerancji bez symboli.",
+        "c.": "Poprzez zastosowanie różnych kolorów dla każdego kształtu.",
+        "d.": "Za pomocą opisu słownego w tabeli rysunkowej.",
+        "explanation": "Kształt pola tolerancji oznacza się za pomocą ustalonych symboli geometrycznych w ramkach tolerancji – zgodnie z normą PN-ISO 1101.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<mikroskopowe zdjęcie powierzchni metalowej z widocznymi nierównościami – przykład chropowatości>",
+        "question": "Co to jest chropowatość powierzchni?",
+        "a.": "Zespół drobnych nierówności powierzchni powstałych w wyniku obróbki, określanych przez parametry geometryczne.",
+        "b.": "Właściwość chemiczna powierzchni związana z twardością materiału.",
+        "c.": "Różnica między średnicą zewnętrzną a wewnętrzną elementu.",
+        "d.": "Dokładność wymiarowa elementu.",
+        "explanation": "Chropowatość to mikronierówności powierzchni, które wpływają na jej właściwości eksploatacyjne – szczelność, tarcie i zużycie.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<dwa współpracujące elementy – wałek i łożysko, pokazujące wpływ chropowatości na tarcie>",
+        "question": "Jak wpływa chropowatość powierzchni jednej części na jej współpracę z innymi częściami urządzenia?",
+        "a.": "Zbyt duża chropowatość zwiększa tarcie i zużycie, a zbyt mała może pogorszyć smarowanie współpracujących elementów.",
+        "b.": "Nie ma wpływu na współpracę części.",
+        "c.": "Zwiększa przewodność cieplną między częściami.",
+        "d.": "Zmniejsza dokładność wymiarową części.",
+        "explanation": "Optymalna chropowatość zapewnia właściwe smarowanie i trwałość współpracujących powierzchni, minimalizując tarcie i zużycie.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<wykres profilu powierzchni z zaznaczonym parametrem Ra>",
+        "question": "Jaki parametr chropowatości powierzchni jest uprzywilejowany?",
+        "a.": "Średnie arytmetyczne odchylenie profilu Ra.",
+        "b.": "Maksymalna wysokość nierówności Rz.",
+        "c.": "Głębokość doliny Rv.",
+        "d.": "Średni rozstaw nierówności Sm.",
+        "explanation": "Parametr Ra (średnie arytmetyczne odchylenie profilu) jest najczęściej stosowanym i podstawowym parametrem oceny chropowatości powierzchni.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<symbole chropowatości powierzchni stosowane na rysunkach technicznych: podstawowy, z kreską, bez kreski>",
+        "question": "Jak oznacza się na rysunkach chropowatość powierzchni?",
+        "a.": "Za pomocą symboli graficznych zgodnych z PN-ISO 1302, np. podstawowy znak ⌒ z dodatkowymi wartościami Ra, Rz i kierunkiem obróbki.",
+        "b.": "Poprzez cieniowanie powierzchni na rysunku.",
+        "c.": "Za pomocą linii falistych równoległych do krawędzi elementu.",
+        "d.": "Poprzez zapis w tabeli bez symboli graficznych.",
+        "explanation": "Na rysunkach technicznych chropowatość oznacza się symbolem ⌒, a obok niego wpisuje się wartość Ra i ewentualne dane dotyczące obróbki.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat kartezjańskiego układu współrzędnych XYZ w przestrzeni 3D AutoCAD-a – osie X, Y, Z z ikoną UCS w rogu ekranu>",
+        "question": "Jak kartezjański układ współrzędnych jest „umieszczony” w przestrzeni AutoCAD-a?",
+        "a.": "Układ współrzędnych (UCS) jest trójwymiarowy, a jego osie X, Y i Z określają położenie i kierunki w przestrzeni modelu.",
+        "b.": "Układ współrzędnych w AutoCAD jest zawsze dwuwymiarowy i nie ma osi Z.",
+        "c.": "Układ współrzędnych jest definiowany tylko dla jednego rysunku i nie można go zmieniać.",
+        "d.": "Układ współrzędnych jest widoczny tylko w trybie wydruku.",
+        "explanation": "W AutoCAD-zie układ współrzędnych UCS określa przestrzeń roboczą – jego osie definiują kierunki rysowania i pozycjonowania obiektów.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<okno programu AutoCAD z włączoną siatką, liniami odniesienia i ramką rysunkową>",
+        "question": "W jaki sposób „wyposażyć” nowy rysunek AutoCAD-a w niezbędne linie rysunkowe?",
+        "a.": "Poprzez włączenie siatki i linii odniesienia (GRID, SNAP) oraz narysowanie ramki i osi pomocniczych przy użyciu polecenia LINE lub CONSTRUCTION LINE.",
+        "b.": "Tylko przez zmianę jednostek w ustawieniach programu.",
+        "c.": "Poprzez wpisanie tytułu rysunku w tabelce.",
+        "d.": "Poprzez uruchomienie trybu 3D bez tworzenia linii pomocniczych.",
+        "explanation": "Przy przygotowaniu nowego rysunku należy ustawić siatkę, punkty przyciągania i wykonać linie pomocnicze ułatwiające rozmieszczenie elementów.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<interfejs AutoCAD-a z zaznaczonym poleceniem LINE w pasku narzędzi Rysuj>",
+        "question": "Jakie podstawowe polecenie AutoCAD-a pozwala na tworzenie rysunku przedmiotu?",
+        "a.": "Polecenie LINE, umożliwiające rysowanie odcinków prostych łączących punkty w przestrzeni roboczej.",
+        "b.": "Polecenie ERASE, służące do usuwania elementów.",
+        "c.": "Polecenie PLOT, wykorzystywane do wydruku rysunku.",
+        "d.": "Polecenie TEXT, używane do opisu elementów.",
+        "explanation": "Podstawowym narzędziem do rysowania w AutoCAD-zie jest komenda LINE – pozwala tworzyć zarys obiektów i kształty konstrukcyjne.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<grafika przedstawiająca różne materiały: stal, aluminium, drewno, tworzywo, z opisami ich właściwości>",
+        "question": "Jakie czynniki należy uwzględniać przy doborze materiałów?",
+        "a.": "Właściwości mechaniczne, fizyczne, technologiczne, ekonomiczne oraz warunki pracy elementu.",
+        "b.": "Tylko kolor i gęstość materiału.",
+        "c.": "Wyłącznie koszt zakupu materiału.",
+        "d.": "Jedynie twardość i elastyczność materiału.",
+        "explanation": "Przy doborze materiałów bierze się pod uwagę ich właściwości użytkowe i eksploatacyjne, dostępność oraz koszt i warunki pracy.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<pracownia komputerowa – stanowisko z AutoCAD-em, student w okularach ochronnych, prawidłowa postawa>",
+        "question": "Jakie zasady bhp obowiązują w pracowni projektowania?",
+        "a.": "Utrzymywanie porządku, właściwa postawa przy komputerze, używanie sprzętu zgodnie z przeznaczeniem, dbałość o bezpieczeństwo elektryczne.",
+        "b.": "Brak konieczności przestrzegania zasad bhp przy pracy biurowej.",
+        "c.": "Stosowanie odzieży ochronnej przeciw ogniu.",
+        "d.": "Korzystanie z komputera wyłącznie w pozycji stojącej.",
+        "explanation": "W pracowni projektowania obowiązuje ergonomia stanowiska, dbałość o oczy i kręgosłup oraz bezpieczne obchodzenie się ze sprzętem elektrycznym.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat procesu doboru materiału – analiza obciążenia, środowiska pracy, kosztu i dostępności materiału>",
+        "question": "Na czym polega dobór materiałów do produkcji różnych części urządzeń?",
+        "a.": "Na wyborze materiału, którego właściwości zapewniają odpowiednią wytrzymałość, trwałość i ekonomiczność w danym zastosowaniu.",
+        "b.": "Na wyborze materiału wyłącznie o najniższej cenie.",
+        "c.": "Na przypadkowym wyborze spośród dostępnych surowców.",
+        "d.": "Na stosowaniu jednego materiału do wszystkich części urządzenia.",
+        "explanation": "Dobór materiału polega na analizie wymagań konstrukcyjnych i środowiskowych oraz wyborze tworzywa zapewniającego optymalne parametry pracy.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<płyta aluminiowa z opisanymi wymiarami i gęstością ρ=2700 kg/m³>",
+        "question": "Jaką właściwość aluminium wykorzystasz do obliczenia masy płyty aluminiowej o określonej objętości?",
+        "a.": "Gęstość materiału (ρ).",
+        "b.": "Twardość powierzchniową.",
+        "c.": "Przewodność cieplną.",
+        "d.": "Wytrzymałość na rozciąganie.",
+        "explanation": "Masę oblicza się ze wzoru m = ρ·V, dlatego do obliczenia masy potrzebna jest gęstość materiału – w przypadku aluminium około 2700 kg/m³.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<tabela z właściwościami mechanicznymi materiałów: Rm, Re, A, HB>",
+        "question": "Co to są właściwości mechaniczne?",
+        "a.": "Zdolność materiału do przeciwstawiania się działaniu sił zewnętrznych, np. wytrzymałość, twardość, sprężystość, plastyczność.",
+        "b.": "Zdolność materiału do przewodzenia prądu elektrycznego.",
+        "c.": "Właściwości związane z barwą i strukturą powierzchni.",
+        "d.": "Parametry chemiczne materiału.",
+        "explanation": "Właściwości mechaniczne określają zachowanie materiału pod wpływem obciążeń – decydują o jego odporności na odkształcenia i pękanie.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<fragment normy lub katalogu materiałowego z tabelą właściwości stali i stopów>",
+        "question": "Gdzie znajdziesz wartości właściwości wytrzymałościowych dla określonego gatunku materiału?",
+        "a.": "W normach technicznych (PN, ISO) i katalogach materiałowych producentów.",
+        "b.": "Tylko w literaturze historycznej.",
+        "c.": "W instrukcji obsługi urządzenia.",
+        "d.": "W internecie bez potrzeby weryfikacji źródeł.",
+        "explanation": "Dokładne wartości właściwości mechanicznych materiałów są podane w normach PN/EN/ISO oraz katalogach branżowych i kartach materiałowych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<wykres wytrzymałości materiału w zależności od temperatury – malejąca krzywa>",
+        "question": "Czy właściwości wytrzymałościowe materiału zależą od warunków zewnętrznych?",
+        "a.": "Tak, właściwości mechaniczne zmieniają się w zależności od temperatury, wilgotności i obciążenia dynamicznego.",
+        "b.": "Nie, właściwości materiału są stałe bez względu na warunki.",
+        "c.": "Zależą tylko od koloru i faktury materiału.",
+        "d.": "Zależą wyłącznie od sposobu malowania powierzchni.",
+        "explanation": "Czynniki zewnętrzne, takie jak temperatura, naprężenia dynamiczne i środowisko pracy, mogą znacząco zmieniać wytrzymałość materiału.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat stanowiska do badań wytrzymałościowych materiałów – próbka rozciągana w maszynie uniwersalnej>",
+        "question": "Jaki jest cel dokonywania badań parametrów wytrzymałościowych, jeśli ich wartości możemy znaleźć w normach i poradnikach?",
+        "a.": "Aby sprawdzić rzeczywiste właściwości konkretnej partii materiału, które mogą różnić się od wartości nominalnych podanych w normach.",
+        "b.": "Aby potwierdzić kolor i strukturę powierzchni materiału.",
+        "c.": "Aby zweryfikować wagę materiału w stanie nieobrobionym.",
+        "d.": "Aby ustalić dokładną cenę materiału przed zakupem.",
+        "explanation": "Badania wytrzymałościowe pozwalają zweryfikować, czy dany materiał spełnia wymagania jakościowe i technologiczne, ponieważ rzeczywiste właściwości mogą odbiegać od danych katalogowych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek części maszyny poddanej zmiennym obciążeniom z zaznaczonymi naprężeniami dynamicznymi>",
+        "question": "Jakie dodatkowe kryterium, oprócz właściwości wytrzymałościowych, będziesz uwzględniał podczas doboru materiałów na części maszyn i urządzeń pracujących w warunkach zmieniających się gwałtownie obciążeń?",
+        "a.": "Odporność zmęczeniowa materiału.",
+        "b.": "Przewodność cieplna materiału.",
+        "c.": "Kolor i estetyka powierzchni.",
+        "d.": "Łatwość malowania materiału.",
+        "explanation": "W przypadku elementów narażonych na cykliczne obciążenia kluczowa jest odporność zmęczeniowa – zdolność do przenoszenia naprężeń zmiennych bez pękania.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<diagram fazowy żelazo-węgiel – wpływ zawartości węgla na strukturę i właściwości stali i żeliwa>",
+        "question": "Jakie czynniki wpływają na właściwości stopów żelaza z węglem?",
+        "a.": "Zawartość węgla, skład chemiczny dodatków stopowych oraz sposób obróbki cieplnej.",
+        "b.": "Kolor i kształt odlewów.",
+        "c.": "Rodzaj narzędzia użytego do obróbki mechanicznej.",
+        "d.": "Wyłącznie temperatura topnienia metalu.",
+        "explanation": "Właściwości stopów żelaza z węglem zależą od zawartości węgla i pierwiastków stopowych oraz od sposobu chłodzenia i obróbki cieplnej.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<próbki różnych stopów żelaza: stal, żeliwo szare, żeliwo ciągliwe>",
+        "question": "Jakie znasz stopy żelaza z węglem?",
+        "a.": "Stal i żeliwo.",
+        "b.": "Aluminium i miedź.",
+        "c.": "Brąz i mosiądz.",
+        "d.": "Nikiel i chrom.",
+        "explanation": "Podstawowe stopy żelaza z węglem to stal (do ok. 2% C) i żeliwo (powyżej 2% C) – różnią się strukturą i właściwościami mechanicznymi.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<wykres pokazujący wzrost twardości i wytrzymałości stali wraz ze wzrostem zawartości węgla>",
+        "question": "W jaki sposób wzrost zawartości węgla wpływa na właściwości wytrzymałościowe stali?",
+        "a.": "Zwiększa twardość i wytrzymałość na rozciąganie, ale zmniejsza plastyczność i udarność stali.",
+        "b.": "Zwiększa plastyczność i udarność stali.",
+        "c.": "Nie ma wpływu na właściwości mechaniczne.",
+        "d.": "Powoduje spadek gęstości stali.",
+        "explanation": "Większa zawartość węgla zwiększa twardość i wytrzymałość stali, lecz jednocześnie obniża jej zdolność do odkształceń plastycznych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<tabela oznaczeń stali i żeliw wg PN-EN – przykłady: S185, E295, C22R, C45U, X47Cr14, 200-400W, EN-GJL-10>",
+        "question": "Jaka jest nazwa następujących materiałów: S185, E295, C22R, C45U, X47Cr14, 200-400W, EN-GJL-10?",
+        "a.": "S185 – stal konstrukcyjna ogólnego przeznaczenia, E295 – stal konstrukcyjna o podwyższonej wytrzymałości, C22R i C45U – stale węglowe, X47Cr14 – stal nierdzewna, 200-400W – żeliwo sferoidalne, EN-GJL-10 – żeliwo szare.",
+        "b.": "S185 i E295 – stale nierdzewne, pozostałe to aluminium i mosiądz.",
+        "c.": "Wszystkie to stopy aluminium.",
+        "d.": "S185 i C45U to brązy, a EN-GJL-10 to stal chromowa.",
+        "explanation": "Oznaczenia materiałów zgodne z PN-EN wskazują ich rodzaj i właściwości – np. litera S oznacza stal konstrukcyjną, a GJL – żeliwo szare.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<diagram procesu doboru materiałów – analiza obciążenia, środowiska pracy i porównanie z tabelą właściwości>",
+        "question": "Na czym polega najprostszy sposób doboru materiałów na części maszyn i urządzeń?",
+        "a.": "Na porównaniu wymagań wytrzymałościowych i eksploatacyjnych z danymi materiałowymi zawartymi w normach i poradnikach.",
+        "b.": "Na wyborze materiału o najwyższej twardości niezależnie od zastosowania.",
+        "c.": "Na losowym wyborze materiału z magazynu.",
+        "d.": "Na zastosowaniu materiału o najniższej cenie.",
+        "explanation": "Dobór materiału polega na dopasowaniu jego właściwości do warunków pracy części, korzystając z tabel i danych normowych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<porównanie części stalowej i aluminiowej – różna masa, odporność na korozję, przewodność>",
+        "question": "Dlaczego metale nieżelazne i ich stopy mimo wyższej ceny są często stosowane do wykonywania części maszyn i urządzeń technicznych?",
+        "a.": "Ponieważ charakteryzują się małą gęstością, odpornością na korozję, dobrym przewodnictwem cieplnym i elektrycznym oraz łatwością obróbki.",
+        "b.": "Ponieważ są tańsze w produkcji od stali.",
+        "c.": "Ponieważ nie reagują z żadnym środowiskiem chemicznym.",
+        "d.": "Ponieważ są zawsze twardsze od żeliwa.",
+        "explanation": "Metale nieżelazne, takie jak aluminium, miedź, tytan i ich stopy, mimo wyższej ceny, zapewniają lekkość, odporność na korozję i wysoką przewodność – co uzasadnia ich stosowanie w technice.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<fragment normy z oznaczeniami stopów nieżelaznych, np. EN AW-6061, CuSn10, Ti6Al4V>",
+        "question": "W jaki sposób oznacza się stopy metali nieżelaznych?",
+        "a.": "Za pomocą symboli chemicznych pierwiastków głównych i dodatków stopowych zgodnie z normami PN-EN, np. EN AW-6061 (aluminium), CuSn10 (brąz).",
+        "b.": "Wyłącznie za pomocą nazw handlowych producentów.",
+        "c.": "Poprzez kolory i kody barwne powierzchni.",
+        "d.": "Za pomocą skrótów nazw geograficznych kraju pochodzenia.",
+        "explanation": "Stopy metali nieżelaznych oznacza się literami i liczbami wskazującymi skład chemiczny – zgodnie z międzynarodowymi normami, np. EN AW, CuZn, TiAl.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<tabela z właściwościami stopów oporowych: konstantan, manganin, nichrom – wysokie wartości rezystywności>",
+        "question": "Które stopy odznaczają się wysoką rezystywnością?",
+        "a.": "Konstantan, manganin, nichrom.",
+        "b.": "Mosiądz, brąz, duraluminium.",
+        "c.": "Tytan, magnez, aluminium.",
+        "d.": "Miedź, srebro, złoto.",
+        "explanation": "Stopy oporowe, takie jak konstantan (CuNi), manganin (CuMnNi) i nichrom (NiCr), mają dużą rezystywność i są stosowane w opornikach i grzałkach elektrycznych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat zastosowań stopów inwar, kowar, ferniko – np. elementy precyzyjne, termostaty, obudowy lamp>",
+        "question": "Jakie jest zastosowanie inwaru, kowaru, ferniko?",
+        "a.": "W elementach wymagających małej rozszerzalności cieplnej, np. w termostatach, elementach precyzyjnych i obudowach szklanych urządzeń pomiarowych.",
+        "b.": "W konstrukcjach o wysokiej odporności cieplnej, np. turbinach lotniczych.",
+        "c.": "W przewodach elektrycznych i kablach zasilających.",
+        "d.": "W stopach lutowniczych o niskiej temperaturze topnienia.",
+        "explanation": "Inwar, kowar i ferniko mają wyjątkowo mały współczynnik rozszerzalności cieplnej, dlatego stosuje się je w urządzeniach precyzyjnych i kompensacyjnych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<zdjęcie próbek stopów hastelloy, nimonic, inconel – oznaczenia NiCrMo, NiCrTi>",
+        "question": "Jakie właściwości mają stopy hastelloy, nimonic i inkonel?",
+        "a.": "Odporność na wysoką temperaturę, korozję i utlenianie; stosowane w przemyśle chemicznym i lotniczym.",
+        "b.": "Bardzo niska rezystywność i wysoka przewodność elektryczna.",
+        "c.": "Duża plastyczność i łatwość spawania w niskich temperaturach.",
+        "d.": "Wysoka przezroczystość optyczna i mała gęstość.",
+        "explanation": "Stopy niklu takie jak hastelloy, nimonic i inconel zachowują wytrzymałość w wysokich temperaturach i środowiskach korozyjnych, co czyni je idealnymi do turbin i reaktorów.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat budowy kompozytu – osnowa metaliczna, ceramiczna lub polimerowa z umocnieniem włóknistym>",
+        "question": "Co to są kompozyty?",
+        "a.": "Materiały złożone z co najmniej dwóch różniących się właściwościami składników – osnowy i wzmocnienia, tworzących strukturę o ulepszonych parametrach.",
+        "b.": "Stopy metali zawierające tylko jeden pierwiastek dominujący.",
+        "c.": "Materiały naturalne o jednorodnej strukturze.",
+        "d.": "Tworzywa o właściwościach magnetycznych.",
+        "explanation": "Kompozyty łączą właściwości dwóch materiałów – osnowy i wzmocnienia – w celu uzyskania lepszej wytrzymałości, sztywności lub odporności na warunki środowiskowe.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<tabela pokazująca kombinacje osnowy i umocnienia w kompozytach: metal-materiały ceramiczne, polimer-włókno szklane itd.>",
+        "question": "Jakie znasz kombinacje: osnowa - umocnienie w kompozytach?",
+        "a.": "Metal-ceramika, metal-włókno, polimer-włókno, ceramika-włókno.",
+        "b.": "Metal-metal, szkło-szkło, drewno-drewno.",
+        "c.": "Polimer-powietrze, ceramika-woda.",
+        "d.": "Tworzywo-gaz, ciecz-metal.",
+        "explanation": "Najczęściej spotykane kombinacje kompozytów to osnowa metaliczna, polimerowa lub ceramiczna z umocnieniem w postaci włókien, cząstek lub tkanin.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<grafika przedstawiająca przykłady osnów i wzmocnień: żywice epoksydowe, włókno węglowe, szkło, Kevlar>",
+        "question": "Jakie materiały stosowane są na osnowę i wzmocnienie?",
+        "a.": "Na osnowę: metale, tworzywa sztuczne, ceramika; na wzmocnienie: włókna szklane, węglowe, aramidowe, cząstki ceramiczne.",
+        "b.": "Na osnowę: drewno; na wzmocnienie: stal i miedź.",
+        "c.": "Na osnowę: guma; na wzmocnienie: woda.",
+        "d.": "Na osnowę: szkło; na wzmocnienie: piasek.",
+        "explanation": "Dobór osnowy i wzmocnienia zależy od wymagań – metale i polimery zapewniają plastyczność, a włókna lub cząstki nadają wytrzymałość.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<zdjęcie ramienia robota z kompozytu węglowego oraz elementów obudowy czujników>",
+        "question": "Jakie elementy stosowane w mechatronice wykonane są z kompozytów?",
+        "a.": "Ramiona robotów, obudowy czujników, konstrukcje nośne dronów i manipulatorów.",
+        "b.": "Łożyska kulkowe i zębatki stalowe.",
+        "c.": "Układy scalone i kondensatory ceramiczne.",
+        "d.": "Wyłącznie kable i przewody elektryczne.",
+        "explanation": "Kompozyty w mechatronice stosuje się ze względu na małą masę i dużą sztywność – idealne do lekkich konstrukcji robotów i urządzeń automatyki.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat maszyny z zaznaczonymi elementami kompozytowymi: wał, osłony, ramy, panele>",
+        "question": "Jakie elementy wykonane z kompozytów używane są w budowie maszyn?",
+        "a.": "Wały, sprzęgła, elementy osłonowe, obudowy, płyty nośne, ramy i panele konstrukcyjne.",
+        "b.": "Tylko elementy elektryczne i przewody.",
+        "c.": "Wyłącznie części tłoczne z blach stalowych.",
+        "d.": "Jedynie części gumowe i uszczelki.",
+        "explanation": "Kompozyty są stosowane w maszynach do elementów wymagających niskiej masy i dużej wytrzymałości, np. w napędach i konstrukcjach nośnych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat procesu metalurgii proszków – mieszanie proszków, prasowanie, spiekanie w piecu>",
+        "question": "Jakie korzyści wynikają ze stosowania technologii proszków spiekanych?",
+        "a.": "Umożliwia uzyskanie elementów o złożonych kształtach, małych wymiarach i dokładnych tolerancjach bez obróbki skrawaniem, z minimalnymi stratami materiału.",
+        "b.": "Zwiększa masę elementów i utrudnia ich obróbkę.",
+        "c.": "Powoduje konieczność dodatkowego hartowania każdego elementu.",
+        "d.": "Stosowana jest wyłącznie do produkcji wyrobów hutniczych wielkogabarytowych.",
+        "explanation": "Technologia proszków spiekanych pozwala na oszczędność materiału, precyzyjne kształty i wytwarzanie elementów o specjalnych właściwościach, np. porowatości.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<zdjęcia elementów z proszków spiekanych: panewki, koła zębate, tuleje, filtry>",
+        "question": "Jakie znasz przykłady zastosowania wyrobów z proszków spiekanych?",
+        "a.": "Panewki łożysk ślizgowych, tuleje, zębatki, filtry metalowe, elementy narzędzi i szczotki węglowe.",
+        "b.": "Przewody elektryczne i uszczelki gumowe.",
+        "c.": "Elementy drewniane i ceramiczne obudowy.",
+        "d.": "Wyłącznie obudowy komputerów i urządzeń elektronicznych.",
+        "explanation": "Wyroby spiekane stosuje się tam, gdzie potrzebna jest porowatość, samosmarowanie lub precyzja wykonania, np. w panewkach, filtrach i kołach zębatych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<różne rodzaje spiekanych materiałów narzędziowych – węgliki spiekane, cermetale, ceramika narzędziowa, diament syntetyczny>",
+        "question": "Jakie znasz rodzaje spiekanych materiałów narzędziowych?",
+        "a.": "Węgliki spiekane, cermetale, ceramika narzędziowa, diamenty syntetyczne i regularny azotek boru (CBN).",
+        "b.": "Stale szybkotnące, brązy i aluminium.",
+        "c.": "Żeliwa szare i białe.",
+        "d.": "Stopy miedzi i magnezu.",
+        "explanation": "Materiały narzędziowe spiekane obejmują twarde kompozyty, które zachowują wysoką odporność na zużycie i temperaturę podczas obróbki skrawaniem.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek panewki łożyskowej wykonanej z porowatego materiału spiekanego, nasyconej olejem>",
+        "question": "Czy potrafisz uzasadnić zastosowanie materiału z proszków spiekanych na panewki łożysk ślizgowych?",
+        "a.": "Tak, ponieważ porowata struktura umożliwia wchłanianie oleju, co zapewnia samosmarowanie i zmniejsza tarcie w czasie pracy.",
+        "b.": "Ponieważ materiał ten ma bardzo dużą przewodność elektryczną.",
+        "c.": "Ponieważ jest lekki i przezroczysty.",
+        "d.": "Ponieważ nie wymaga żadnego smarowania ani obróbki cieplnej.",
+        "explanation": "Panewki z materiałów spiekanych mają mikropory wchłaniające olej, co umożliwia samoczynne smarowanie i wydłuża ich trwałość.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<porównanie twardości różnych materiałów – stal, węglik spiekany, diament, CBN>",
+        "question": "Co to są materiały super twarde?",
+        "a.": "Materiały o bardzo dużej twardości, odporne na ścieranie i wysokie temperatury, np. diament syntetyczny i regularny azotek boru (CBN).",
+        "b.": "Materiały elastyczne o małej gęstości.",
+        "c.": "Stopy o dużej przewodności elektrycznej.",
+        "d.": "Materiały o wysokiej porowatości i niskiej twardości.",
+        "explanation": "Materiały supertwarde przewyższają tradycyjne materiały narzędziowe pod względem odporności na ścieranie – stosowane są do obróbki bardzo twardych materiałów.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<narzędzia skrawające z płytkami cermet – frezy, noże tokarskie, wiertła>",
+        "question": "Jakie efekty osiąga się przy skrawaniu ostrzami ze spiekanych cermetali narzędziowych?",
+        "a.": "Uzyskuje się bardzo gładką powierzchnię obrabianą, wysoką trwałość narzędzia i odporność na ścieranie.",
+        "b.": "Zwiększa się chropowatość powierzchni i zmniejsza precyzja obróbki.",
+        "c.": "Zwiększa się zużycie narzędzia i ilość odpadów.",
+        "d.": "Nie uzyskuje się żadnych korzyści w porównaniu do stali narzędziowych.",
+        "explanation": "Cermetale łączą cechy ceramiki i metalu, co zapewnia im wysoką odporność cieplną i trwałość, umożliwiając precyzyjną obróbkę z dużymi prędkościami skrawania.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat obróbki cieplnej – nagrzewanie, wygrzewanie i chłodzenie próbki stalowej>",
+        "question": "Co to jest obróbka cieplna?",
+        "a.": "Proces nagrzewania i chłodzenia metalu w celu uzyskania pożądanych właściwości mechanicznych i strukturalnych.",
+        "b.": "Proces mechanicznego formowania metalu przez walcowanie.",
+        "c.": "Proces łączenia metali przez spawanie.",
+        "d.": "Proces pokrywania metali powłokami ochronnymi.",
+        "explanation": "Obróbka cieplna polega na kontrolowanym nagrzewaniu i chłodzeniu metalu, co prowadzi do zmian struktury i właściwości mechanicznych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<diagram pokazujący różne procesy obróbki cieplnej: wyżarzanie, hartowanie, odpuszczanie, nawęglanie>",
+        "question": "Jakie są cele i zakres stosowania obróbki cieplnej?",
+        "a.": "Zmiana twardości, wytrzymałości, plastyczności i odporności na zużycie materiału poprzez odpowiednie nagrzewanie i chłodzenie.",
+        "b.": "Zwiększenie przewodności elektrycznej materiału.",
+        "c.": "Nadanie materiałowi koloru lub połysku.",
+        "d.": "Zmniejszenie masy właściwej metalu.",
+        "explanation": "Celem obróbki cieplnej jest poprawa właściwości mechanicznych i technologicznych stali oraz dostosowanie ich do wymagań eksploatacyjnych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<mikrostruktura stali pokazująca ferryt, perlit, cementyt i austenit>",
+        "question": "Jak nazywają się podstawowe składniki strukturalne stali?",
+        "a.": "Ferryt, perlit, cementyt, austenit.",
+        "b.": "Grafit, kwarc, tlenek żelaza, węglik krzemu.",
+        "c.": "Chrom, nikiel, miedź, mangan.",
+        "d.": "Krzem, tlen i wodór.",
+        "explanation": "Podstawowe składniki strukturalne stali to fazy powstające w wyniku przemian podczas chłodzenia i nagrzewania – ferryt, perlit, cementyt i austenit.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<wykres przemian fazowych żelazo-węgiel pokazujący przemianę ferrytu w austenit podczas nagrzewania>",
+        "question": "Jakie przemiany zachodzą w stali podczas nagrzewania?",
+        "a.": "Przemiana ferrytu i perlitu w austenit oraz rozpuszczanie węglików żelaza.",
+        "b.": "Utlenianie i topienie stali w temperaturze pokojowej.",
+        "c.": "Przemiana austenitu w grafit.",
+        "d.": "Skraplanie metalu i zmiana gęstości bez zmiany fazy.",
+        "explanation": "Podczas nagrzewania stali zachodzi przemiana strukturalna – ferryt i cementyt przechodzą w austenit, który po chłodzeniu może tworzyć różne struktury w zależności od szybkości chłodzenia.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<mikrostruktura stali przed i po obróbce cieplnej – pokazane drobne i grube ziarno>",
+        "question": "W jaki sposób możemy zmniejszyć wielkość ziarna w stali?",
+        "a.": "Przez zastosowanie obróbki cieplnej z kontrolowanym nagrzewaniem i chłodzeniem, np. wyżarzania normalizującego.",
+        "b.": "Przez bardzo szybkie nagrzanie do temperatury topnienia.",
+        "c.": "Przez powolne chłodzenie od temperatury powyżej 1500°C.",
+        "d.": "Przez dodanie większej ilości węgla do stali.",
+        "explanation": "Zmniejszenie wielkości ziarna uzyskuje się przez wyżarzanie normalizujące, które polega na nagrzaniu stali powyżej temperatury krytycznej i chłodzeniu na powietrzu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<mikrostruktura martenzytu – iglasta struktura stali po hartowaniu>",
+        "question": "Co to jest martenzyt?",
+        "a.": "Twarda i krucha struktura stali powstająca w wyniku gwałtownego chłodzenia austenitu podczas hartowania.",
+        "b.": "Miękka i plastyczna struktura stali otrzymywana przez wyżarzanie.",
+        "c.": "Faza powstająca w wyniku nawęglania powierzchni stali.",
+        "d.": "Warstwa tlenków tworząca się podczas nagrzewania.",
+        "explanation": "Martenzyt powstaje przy szybkim chłodzeniu stali z fazy austenitu – jest bardzo twardy, ale kruchy, dlatego wymaga odpuszczania.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<diagram rodzajów wyżarzania – wyżarzanie normalizujące, zmiękczające, rekrystalizujące, odprężające>",
+        "question": "Jakie są rodzaje wyżarzania?",
+        "a.": "Normalizujące, zmiękczające, rekrystalizujące, odprężające, ujednorodniające i przeciwutwardzające.",
+        "b.": "Hartujące, nawęglające i cementujące.",
+        "c.": "Tylko jedno – wyżarzanie całkowite.",
+        "d.": "Zimne i gorące wyżarzanie.",
+        "explanation": "Wyżarzanie dzieli się w zależności od celu i temperatury – stosuje się m.in. wyżarzanie normalizujące, rekrystalizujące czy odprężające.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat przedstawiający różne cele wyżarzania: zmniejszenie twardości, usunięcie naprężeń, poprawa struktury>",
+        "question": "Jaki jest cel poszczególnych rodzajów wyżarzania?",
+        "a.": "Zmiana struktury i właściwości stali: zmiękczanie, usuwanie naprężeń, poprawa jednorodności, ułatwienie obróbki skrawaniem lub plastycznej.",
+        "b.": "Zwiększenie masy właściwej stali.",
+        "c.": "Zwiększenie odporności elektrycznej.",
+        "d.": "Zwiększenie przewodności cieplnej.",
+        "explanation": "Każdy rodzaj wyżarzania ma inny cel – np. odprężające usuwa naprężenia, a normalizujące wyrównuje strukturę stali po obróbce plastycznej.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<krzywa hartowania stali – nagrzanie, austenityzacja, szybkie chłodzenie w wodzie lub oleju>",
+        "question": "Jaki jest cel i zakres hartowania?",
+        "a.": "Uzyskanie dużej twardości i wytrzymałości stali przez przemianę austenitu w martenzyt w wyniku szybkiego chłodzenia.",
+        "b.": "Zmniejszenie twardości i zwiększenie plastyczności.",
+        "c.": "Zwiększenie odporności na korozję chemiczną.",
+        "d.": "Nadanie powierzchni koloru i połysku.",
+        "explanation": "Hartowanie polega na szybkim chłodzeniu stali po nagrzaniu do temperatury austenityzacji – tworzy się twarda struktura martenzytyczna.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<wykres obróbki cieplnej – hartowanie i odpuszczanie z zaznaczeniem zmian twardości>",
+        "question": "Jaki jest cel stosowania odpuszczania?",
+        "a.": "Zmniejszenie kruchości i naprężeń po hartowaniu oraz nadanie stali wymaganej wytrzymałości i plastyczności.",
+        "b.": "Zwiększenie twardości martenzytu przez szybkie chłodzenie.",
+        "c.": "Nasycenie powierzchni stali węglem.",
+        "d.": "Zwiększenie odporności chemicznej powierzchni.",
+        "explanation": "Odpuszczanie przeprowadza się po hartowaniu w celu redukcji kruchości i poprawy udarności przy zachowaniu wymaganej twardości.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<wykres temperatury odpuszczania a twardości stali – zależność odwrotna>",
+        "question": "Od czego zależy dobór rodzaju odpuszczania?",
+        "a.": "Od wymaganej twardości, wytrzymałości i zastosowania elementu (niska, średnia lub wysoka temperatura odpuszczania).",
+        "b.": "Od koloru powierzchni po hartowaniu.",
+        "c.": "Od rodzaju chłodziwa użytego przy hartowaniu.",
+        "d.": "Od sposobu spawania stali po obróbce.",
+        "explanation": "Wybór temperatury odpuszczania zależy od żądanych właściwości – niskie odpuszczanie zachowuje twardość, a wysokie zwiększa plastyczność.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<wykres fazowy Fe-C z zaznaczoną temperaturą przemiany A3 dla stali 0,6% C>",
+        "question": "Jaka jest temperatura austenityzacji stali o zawartości 0,6% C?",
+        "a.": "Około 780–800°C.",
+        "b.": "Około 650°C.",
+        "c.": "Około 900°C.",
+        "d.": "Około 720°C.",
+        "explanation": "Stal o zawartości 0,6% C osiąga pełny austenit w temperaturze około 780–800°C – to temperatura hartowania tej stali.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<wykres fazowy Fe-C z zaznaczoną temperaturą A1 dla stali eutektoidalnej 0,8% C>",
+        "question": "Jaka jest temperatura austenityzacji stali o zawartości 0,8% C?",
+        "a.": "Około 750–770°C.",
+        "b.": "Około 650°C.",
+        "c.": "Około 850–870°C.",
+        "d.": "Około 900°C.",
+        "explanation": "Stal eutektoidalna (0,8% C) austenityzuje w temperaturze ok. 750–770°C – to optymalny zakres dla hartowania tej stali.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<wykres fazowy Fe-C z zaznaczoną temperaturą A1-Acm dla stali nasyconej węglem>",
+        "question": "Jaka jest temperatura austenityzacji stali o zawartości 1,1% C?",
+        "a.": "Około 750°C.",
+        "b.": "Około 850°C.",
+        "c.": "Około 720°C.",
+        "d.": "Około 650°C.",
+        "explanation": "Stal nasycona węglem (1,1% C) wymaga niższej temperatury austenityzacji – około 750°C, aby uniknąć przegrzania i nadmiernego rozrostu ziarna.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat doboru temperatury obróbki cieplnej w zależności od zawartości węgla – wykres Fe-C>",
+        "question": "W jaki sposób dobieramy temperaturę obróbki cieplnej stali niestopowych?",
+        "a.": "Na podstawie zawartości węgla i diagramu Fe–C, w odniesieniu do temperatur krytycznych A1, A3 lub Acm.",
+        "b.": "Na podstawie koloru powierzchni podczas nagrzewania.",
+        "c.": "Zawsze stosując tę samą temperaturę dla wszystkich gatunków stali.",
+        "d.": "Według średniej temperatury topnienia żelaza.",
+        "explanation": "Temperatury obróbki cieplnej ustala się w odniesieniu do punktów przemian fazowych zależnych od zawartości węgla – na podstawie wykresu żelazo–węgiel.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<diagram Fe-C z zaznaczoną zmianą temperatury austenityzacji w zależności od zawartości dodatków stopowych>",
+        "question": "W jaki sposób dobieramy temperaturę obróbki cieplnej stali stopowych?",
+        "a.": "Na podstawie zawartości pierwiastków stopowych i wykresów przemian fazowych – zwykle wyższa niż dla stali niestopowych, z uwzględnieniem wpływu dodatków takich jak Cr, Ni, Mo, W.",
+        "b.": "Stosując zawsze taką samą temperaturę jak dla stali węglowych.",
+        "c.": "Na podstawie koloru powierzchni przy nagrzewaniu.",
+        "d.": "Dobierając temperaturę losowo w zakresie 400–600°C.",
+        "explanation": "Pierwiastki stopowe przesuwają temperatury przemian fazowych, dlatego przy obróbce cieplnej stali stopowych temperatury są dobierane indywidualnie z wykresów Fe–C–X.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<hala obróbki cieplnej – piece, wanny hartownicze, stanowiska operatorów z oznaczeniami BHP>",
+        "question": "Z jakimi zagrożeniami możemy się spotkać w wydziale obróbki cieplnej?",
+        "a.": "Z wysoką temperaturą, poparzeniami, oparami oleju, ryzykiem pożaru i porażenia prądem elektrycznym.",
+        "b.": "Z hałasem generowanym przez sprężarki pneumatyczne.",
+        "c.": "Z działaniem promieniowania rentgenowskiego.",
+        "d.": "Z niskim ciśnieniem i chłodem powietrza.",
+        "explanation": "W dziale obróbki cieplnej występują wysokie temperatury, ciecze chłodzące, gazy i prąd elektryczny, co wymaga stosowania odpowiednich środków ochrony osobistej.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat procesu obróbki cieplno-chemicznej – nagrzewanie, nasycanie powierzchni, chłodzenie>",
+        "question": "Co to jest obróbka cieplno-chemiczna?",
+        "a.": "Proces polegający na jednoczesnym oddziaływaniu temperatury i środowiska chemicznego w celu zmiany składu i właściwości warstwy powierzchniowej metalu.",
+        "b.": "Proces mechanicznego szlifowania powierzchni.",
+        "c.": "Proces malowania i powlekania metali farbą ochronną.",
+        "d.": "Proces polegający na hartowaniu wyłącznie w wodzie.",
+        "explanation": "Obróbka cieplno-chemiczna modyfikuje skład i strukturę warstwy wierzchniej poprzez dyfuzję pierwiastków w wysokiej temperaturze.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<diagram przedstawiający podstawowe rodzaje obróbki cieplno-chemicznej: nawęglanie, azotowanie, cyjanowanie, borowanie>",
+        "question": "Jakie znasz podstawowe rodzaje obróbki cieplno-chemicznej?",
+        "a.": "Nawęglanie, azotowanie, cyjanowanie, borowanie, chromowanie dyfuzyjne.",
+        "b.": "Hartowanie, odpuszczanie i wyżarzanie.",
+        "c.": "Kucie, tłoczenie i walcowanie.",
+        "d.": "Galwanizowanie i malowanie proszkowe.",
+        "explanation": "Podstawowe rodzaje obróbki cieplno-chemicznej obejmują procesy dyfuzyjne zmieniające skład warstwy powierzchniowej, zwiększające jej twardość i odporność.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<porównanie warstwy nawęglonej, azotowanej i cyjanowanej – różne głębokości i twardości powierzchni>",
+        "question": "Jakie są cele przeprowadzania podstawowych rodzajów obróbki cieplno-chemicznej?",
+        "a.": "Zwiększenie twardości powierzchni, odporności na ścieranie, korozję i zmęczenie przy zachowaniu ciągliwego rdzenia.",
+        "b.": "Zmniejszenie przewodnictwa cieplnego materiału.",
+        "c.": "Zwiększenie masy właściwej metalu.",
+        "d.": "Zwiększenie przewodności elektrycznej powierzchni.",
+        "explanation": "Celem obróbki cieplno-chemicznej jest poprawa własności eksploatacyjnych powierzchni bez pogarszania plastyczności rdzenia elementu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat cyjanowania – kąpiel w cyjankach, dyfuzja azotu i węgla w warstwę powierzchniową>",
+        "question": "Na czym polega proces cyjanowania?",
+        "a.": "Na nasycaniu powierzchni stali węglem i azotem w środowisku cyjanków w wysokiej temperaturze, co zwiększa twardość powierzchni.",
+        "b.": "Na hartowaniu powierzchniowym w kąpieli olejowej.",
+        "c.": "Na pokrywaniu powierzchni warstwą miedzi.",
+        "d.": "Na trawieniu chemicznym powierzchni stali.",
+        "explanation": "Cyjanowanie łączy nawęglanie i azotowanie, prowadząc do powstania cienkiej, bardzo twardej warstwy odpornej na ścieranie.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<diagram wpływu siarki na mikrostrukturę stali – siarczki żelaza w osnowie>",
+        "question": "Jaki jest wpływ siarki na właściwości stali?",
+        "a.": "Zwiększa kruchość na gorąco i pogarsza własności plastyczne stali.",
+        "b.": "Poprawia ciągliwość i plastyczność stali.",
+        "c.": "Zwiększa odporność na korozję chemiczną.",
+        "d.": "Zwiększa przewodność elektryczną.",
+        "explanation": "Siarka tworzy w stali kruchy siarczek żelaza, co prowadzi do pękania podczas obróbki plastycznej na gorąco.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<mikrostruktura warstwy powierzchniowej z siarczkami po obróbce siarkowaniem>",
+        "question": "Jak wpływa wprowadzenie siarki w warstwę powierzchniową stopów żelaza?",
+        "a.": "Zmniejsza współczynnik tarcia i poprawia własności ślizgowe warstwy.",
+        "b.": "Zwiększa odporność na korozję chemiczną.",
+        "c.": "Zwiększa twardość i odporność na uderzenia.",
+        "d.": "Zmniejsza przewodność cieplną materiału.",
+        "explanation": "Siarkowanie powierzchniowe poprawia własności tribologiczne elementów ciernych – obniża tarcie i zużycie powierzchniowe.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat metalizowania dyfuzyjnego – dyfuzja metalu powłoki w podłoże podczas nagrzewania>",
+        "question": "Co to jest metalizowanie dyfuzyjne?",
+        "a.": "Proces pokrywania powierzchni innego metalu poprzez dyfuzję atomów w wysokiej temperaturze, np. chromowanie, aluminizowanie, borowanie.",
+        "b.": "Proces mechanicznego nanoszenia warstwy przez natryskiwanie.",
+        "c.": "Proces galwanicznego nakładania powłoki niklu.",
+        "d.": "Proces malowania powierzchni metalicznej farbą ochronną.",
+        "explanation": "Metalizowanie dyfuzyjne polega na dyfuzji atomów metalu powłoki w podłoże, co zapewnia trwałe połączenie warstwy ochronnej z materiałem bazowym.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<zestawienie technik tworzenia cienkich warstw – PVD, CVD, azotowanie jonowe, laserowe hartowanie>",
+        "question": "Jakie techniki wykorzystuje się do uzyskiwania cienkich bardzo trwałych i twardych warstw powierzchniowych?",
+        "a.": "Fizyczne (PVD), chemiczne (CVD) osadzanie z fazy gazowej, azotowanie jonowe, naparowywanie próżniowe i hartowanie laserowe.",
+        "b.": "Malowanie proszkowe i natrysk cieplny farby.",
+        "c.": "Pokrywanie powierzchni olejem lub smarem.",
+        "d.": "Chromowanie galwaniczne w kąpieli kwasowej.",
+        "explanation": "Zaawansowane techniki jak PVD, CVD czy hartowanie laserowe pozwalają uzyskać cienkie, twarde powłoki o wysokiej odporności na zużycie.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat korozji elektrochemicznej metalu – anodowe rozpuszczanie i katodowe wydzielanie wodoru>",
+        "question": "Co to jest korozja i jakie substancje najszybciej ulegają jej wpływom?",
+        "a.": "To proces niszczenia materiałów pod wpływem środowiska; najszybciej korodują metale żelazne (stal, żeliwo) i stopy miedzi w środowisku wilgotnym.",
+        "b.": "To proces hartowania stali w obecności wody; najszybciej korodują stopy aluminium.",
+        "c.": "To zjawisko zmiany barwy powierzchni pod wpływem temperatury; najbardziej podatne są tworzywa sztuczne.",
+        "d.": "To proces utleniania tlenków węgla; podatne są tylko metale szlachetne.",
+        "explanation": "Korozja to proces chemicznego lub elektrochemicznego niszczenia materiałów, szczególnie żelaza i jego stopów w obecności tlenu i wody.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<graf przedstawiający straty gospodarcze z tytułu korozji: naprawy, konserwacje, wymiana elementów, awarie>",
+        "question": "Jakie są rodzaje kosztów, które gospodarka ponosi z powodu korozji?",
+        "a.": "Bezpośrednie – naprawy, wymiany, konserwacje; pośrednie – przestoje, awarie, straty energii i surowców.",
+        "b.": "Wyłącznie koszty badań naukowych nad korozją.",
+        "c.": "Tylko koszty energii elektrycznej.",
+        "d.": "Koszty związane z transportem metali.",
+        "explanation": "Korozja powoduje straty ekonomiczne zarówno bezpośrednie, jak i pośrednie, np. przez przestoje produkcji lub obniżenie trwałości konstrukcji.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<zestawienie rodzajów powłok: malarskie, metaliczne, niemetaliczne, konwersyjne, anodowe>",
+        "question": "Jakie rodzaje powłok stosuje się do ochrony stopów metali?",
+        "a.": "Malarskie, metaliczne (np. cynkowe, niklowe), niemetaliczne (np. ceramiczne, polimerowe) i powłoki konwersyjne (np. fosforanowe, anodowe).",
+        "b.": "Wyłącznie powłoki ceramiczne stosowane na gorąco.",
+        "c.": "Tylko powłoki gumowe i smarowe.",
+        "d.": "Powłoki drewniane i papierowe.",
+        "explanation": "Powłoki ochronne izolują metal od środowiska, ograniczając dostęp wilgoci i tlenu – mogą być metaliczne, malarskie lub chemicznie wytworzone na powierzchni.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek pokazujący konstrukcję metalową z ostrymi krawędziami, szczelinami i różnym odprowadzaniem wody>",
+        "question": "Jaki jest wpływ konstrukcji elementów na ich podatność na korozję?",
+        "a.": "Nieprawidłowa konstrukcja (szczeliny, ostre krawędzie, brak odpływu wody) sprzyja gromadzeniu wilgoci i przyspiesza korozję.",
+        "b.": "Kształt konstrukcji nie ma wpływu na korozję.",
+        "c.": "Im więcej spoin, tym mniejsza podatność na korozję.",
+        "d.": "Zwiększenie masy elementu zawsze zmniejsza korozję.",
+        "explanation": "Konstrukcja powinna umożliwiać odpływ wody i cyrkulację powietrza; unika się szczelin i ostrych krawędzi, które przyspieszają korozję lokalną.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat ochrony katodowej – element metalowy połączony z anodą ochronną z cynku>",
+        "question": "Na czym polega ochrona katodowa?",
+        "a.": "Na połączeniu chronionego metalu z mniej szlachetnym metalem (anodą ochronną), który ulega korozji zamiast chronionego elementu.",
+        "b.": "Na pokryciu powierzchni metalem szlachetnym o wyższym potencjale elektrochemicznym.",
+        "c.": "Na odcięciu dopływu prądu elektrycznego do konstrukcji.",
+        "d.": "Na malowaniu powierzchni farbą bitumiczną.",
+        "explanation": "Ochrona katodowa opiera się na działaniu ogniwa galwanicznego – anoda ulega korozji, chroniąc katodę, czyli właściwy element konstrukcji.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<zestawienie właściwości tworzyw sztucznych: mała masa, odporność chemiczna, łatwość formowania>",
+        "question": "Jakie cechy tworzyw sztucznych decydują o ich szerokim zastosowaniu?",
+        "a.": "Mała gęstość, odporność na korozję i chemikalia, dobra izolacyjność, łatwość formowania i niski koszt produkcji.",
+        "b.": "Wysoka masa właściwa i duża przewodność elektryczna.",
+        "c.": "Łatwość przewodzenia ciepła i elektryczności.",
+        "d.": "Wysoka twardość i kruchość.",
+        "explanation": "Tworzywa sztuczne są lekkie, odporne na czynniki chemiczne i łatwe do kształtowania, dlatego mają szerokie zastosowanie techniczne.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<tabela porównująca wady tworzyw: niska odporność na temperaturę, starzenie, mała sztywność>",
+        "question": "Jakie cechy tworzyw sztucznych ograniczają ich stosowanie?",
+        "a.": "Niska odporność cieplna, mała sztywność, podatność na starzenie i promieniowanie UV.",
+        "b.": "Zbyt duża masa i przewodność elektryczna.",
+        "c.": "Wysoka temperatura topnienia i twardość.",
+        "d.": "Odporność na ścieranie i wilgoć.",
+        "explanation": "Tworzywa sztuczne nie są odporne na wysoką temperaturę i promieniowanie UV, co ogranicza ich zastosowanie w warunkach ekstremalnych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek wyrobów z tworzyw termoplastycznych – butelki, izolacje kabli, części obudów>",
+        "question": "Jakie jest zastosowanie tworzyw termoplastycznych?",
+        "a.": "Do produkcji elementów formowanych na gorąco, np. butelek, rur, izolacji przewodów, elementów obudów i opakowań.",
+        "b.": "Wyłącznie do produkcji wyrobów ceramicznych.",
+        "c.": "Do części o dużej odporności cieplnej pracujących powyżej 400°C.",
+        "d.": "Do elementów z włókien węglowych o dużej sztywności.",
+        "explanation": "Termoplasty (np. PE, PVC, PP) można wielokrotnie przetapiać i formować, dlatego są szeroko stosowane w przemyśle opakowaniowym i elektrycznym.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek wyrobów z tworzyw termoutwardzalnych – gniazda elektryczne, płyty laminatowe, pokrywy maszyn>",
+        "question": "Jakie jest zastosowanie tworzyw termoutwardzalnych?",
+        "a.": "Do produkcji elementów wymagających dużej sztywności, odporności cieplnej i elektrycznej, np. gniazd, pokryw, laminatów.",
+        "b.": "Do wytwarzania opakowań jednorazowych.",
+        "c.": "Do wtryskowego formowania butelek i folii.",
+        "d.": "Do elementów wymagających elastyczności i giętkości.",
+        "explanation": "Tworzywa termoutwardzalne (np. bakelit, żywice epoksydowe) po utwardzeniu nie dają się przetapiać i są odporne na wysokie temperatury i prąd elektryczny.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<tabela porównawcza właściwości elektrycznych tworzyw: PVC, PE, teflon, bakelit>",
+        "question": "Porównaj własności elektryczne różnych tworzyw sztucznych.",
+        "a.": "Tworzywa termoplastyczne jak PE i PVC są dobrymi izolatorami; termoutwardzalne jak bakelit i żywice epoksydowe mają wysoką odporność dielektryczną i cieplną.",
+        "b.": "Tworzywa sztuczne są przewodnikami prądu elektrycznego.",
+        "c.": "Wszystkie tworzywa mają jednakową przewodność elektryczną.",
+        "d.": "Tworzywa sztuczne mają mniejszą rezystywność niż metale.",
+        "explanation": "Tworzywa różnią się właściwościami elektrycznymi – termoplasty są izolatorami, a termoutwardzalne mają wyższą wytrzymałość dielektryczną.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<puszki farb, lakiery, pędzel i próbki pokrytych powierzchni metalowych i drewnianych>",
+        "question": "Co to są wyroby lakierowe?",
+        "a.": "To mieszaniny substancji tworzących po wyschnięciu trwałą powłokę ochronno-dekoracyjną na powierzchni materiału.",
+        "b.": "To środki chemiczne służące do czyszczenia powierzchni metalowych.",
+        "c.": "To proszki metaliczne stosowane w spiekaniu.",
+        "d.": "To rodzaj klejów przemysłowych.",
+        "explanation": "Wyroby lakierowe (farby, lakiery, emalie) po nałożeniu tworzą powłoki chroniące powierzchnie przed korozją i nadające im estetyczny wygląd.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<metalowy element pokrywany warstwą farby w sprayu – pokazane działanie ochronne i dekoracyjne>",
+        "question": "Jaki jest cel pokrywania przedmiotów wyrobami lakierowymi?",
+        "a.": "Ochrona powierzchni przed korozją, czynnikami chemicznymi i mechanicznymi oraz nadanie jej odpowiedniego wyglądu.",
+        "b.": "Zwiększenie przewodności elektrycznej przedmiotu.",
+        "c.": "Zwiększenie masy elementu poprzez grubą powłokę.",
+        "d.": "Zmniejszenie odporności na ścieranie.",
+        "explanation": "Powłoki lakiernicze chronią przed wpływem środowiska i pełnią funkcję estetyczną, np. w wyrobach metalowych, drewnianych i tworzywowych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<zestawienie właściwości farb i lakierów – przyczepność, odporność, połysk, czas schnięcia>",
+        "question": "Jakie wymagania stawiane są wyrobom lakierniczym?",
+        "a.": "Dobra przyczepność do podłoża, odporność na czynniki atmosferyczne, mechaniczne i chemiczne, odpowiedni wygląd i krótki czas schnięcia.",
+        "b.": "Duża przewodność elektryczna i cieplna.",
+        "c.": "Wysoka gęstość i mała elastyczność.",
+        "d.": "Zmienność barwy w zależności od temperatury.",
+        "explanation": "Dobre wyroby lakiernicze muszą tworzyć trwałą, odporną powłokę o dobrych właściwościach ochronnych i estetycznych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat pokazujący czynniki wpływające na trwałość powłoki: przygotowanie podłoża, warunki aplikacji, rodzaj farby, środowisko pracy>",
+        "question": "Od jakich czynników zależy jakość i żywotność powłok lakierniczych?",
+        "a.": "Od jakości przygotowania powierzchni, rodzaju farby, warunków nakładania i eksploatacji.",
+        "b.": "Tylko od temperatury otoczenia podczas malowania.",
+        "c.": "Wyłącznie od koloru zastosowanej farby.",
+        "d.": "Od rodzaju pędzla lub wałka użytego do malowania.",
+        "explanation": "Trwałość powłoki zależy od prawidłowego przygotowania powierzchni, właściwego doboru materiału i odpowiednich warunków aplikacji.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający warstwy systemu lakierniczego: podkład, farba nawierzchniowa, lakier ochronny>",
+        "question": "Co rozumiesz pod pojęciem systemu lakierniczego?",
+        "a.": "To zestaw warstw (grunt, podkład, farba nawierzchniowa, lakier), które razem tworzą kompletną powłokę ochronną i dekoracyjną.",
+        "b.": "To pojedyncza warstwa farby nanoszona w dowolny sposób.",
+        "c.": "To zbiór barwników używanych w farbach.",
+        "d.": "To układ filtrów powietrza w kabinie lakierniczej.",
+        "explanation": "System lakierniczy składa się z kilku warstw o różnych funkcjach – razem zapewniają trwałość i estetykę powłoki ochronnej.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<zdjęcie naturalnej gumy lateksowej i gumy technicznej w postaci paska i opony>",
+        "question": "Co to jest guma?",
+        "a.": "To materiał elastyczny powstający w wyniku wulkanizacji kauczuku naturalnego lub syntetycznego.",
+        "b.": "To rodzaj tworzywa sztucznego powstałego z żywic epoksydowych.",
+        "c.": "To metal o dużej sprężystości.",
+        "d.": "To kompozyt włóknisty o dużej twardości.",
+        "explanation": "Guma jest produktem wulkanizacji kauczuku – materiałem elastycznym, odpornym na odkształcenia i działanie wody.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<zestaw wyrobów gumowych: uszczelki, opony, przewody, amortyzatory>",
+        "question": "Jakie właściwości posiadają wyroby gumowe?",
+        "a.": "Dużą elastyczność, szczelność, odporność na wodę, chemikalia i wibracje.",
+        "b.": "Dużą kruchość i przewodność elektryczną.",
+        "c.": "Wysoką przewodność cieplną i twardość.",
+        "d.": "Niską odporność na odkształcenia i ścieranie.",
+        "explanation": "Guma jest sprężysta, szczelna i odporna na wiele substancji chemicznych, dlatego stosuje się ją w uszczelnieniach i elementach amortyzujących.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<tabela porównawcza gum: naturalna, syntetyczna, silikonowa, olejoodporna>",
+        "question": "Jaki jest podział gum z uwzględnieniem ich zastosowania i właściwości?",
+        "a.": "Na gumy naturalne, syntetyczne (np. butadienowa, silikonowa, fluorowa) oraz specjalne – odporne na oleje, wysoką temperaturę lub czynniki chemiczne.",
+        "b.": "Na gumy twarde i miękkie bez względu na zastosowanie.",
+        "c.": "Na gumy kolorowe i bezbarwne.",
+        "d.": "Na gumy metalizowane i niemetalizowane.",
+        "explanation": "Podział gum zależy od rodzaju kauczuku i przeznaczenia – gumy silikonowe są odporne na temperaturę, a butadienowe na ścieranie.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek uszczelnienia wału obrotowego i pierścienia gumowego – pokazane zapobieganie wyciekom>",
+        "question": "Jakie funkcje spełniają uszczelnienia i jakie posiadają właściwości?",
+        "a.": "Zapobiegają wyciekom cieczy i gazów, chronią przed zanieczyszczeniem i utrzymują ciśnienie; są elastyczne i odporne na zużycie.",
+        "b.": "Zwiększają prędkość obrotową wałów i zmniejszają tarcie.",
+        "c.": "Ułatwiają przepływ cieczy przez układ hydrauliczny.",
+        "d.": "Pełnią funkcję przewodników elektrycznych.",
+        "explanation": "Uszczelnienia zapobiegają przeciekom i chronią wnętrze urządzeń przed pyłem i wilgocią – muszą być elastyczne i trwałe.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<zestaw materiałów uszczelniających: guma, filc, teflon, silikon, włókno, korek>",
+        "question": "Jakie znasz materiały uszczelniające i gdzie są stosowane?",
+        "a.": "Guma, filc, korek, teflon, silikon – stosowane w hydraulice, pneumatyce, motoryzacji i maszynach przemysłowych.",
+        "b.": "Szkło, beton, stal – stosowane w uszczelnieniach hydraulicznych.",
+        "c.": "Drewno, papier i ceramika – stosowane w układach pneumatycznych.",
+        "d.": "Wyłącznie metale kolorowe.",
+        "explanation": "Materiały uszczelniające dobiera się w zależności od warunków pracy – guma i teflon stosowane są w układach ruchomych, a filc i korek w statycznych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<zestaw materiałów uszczelniających: guma, korek, teflon (PTFE), silikon, włókno, filc, pasta uszczelniająca>",
+        "question": "Jakie znasz materiały uszczelniające i gdzie są stosowane?",
+        "a.": "Guma, korek, teflon, silikon, filc i pasty uszczelniające – stosowane w hydraulice, pneumatyce, motoryzacji i urządzeniach przemysłowych.",
+        "b.": "Szkło, stal, beton – stosowane w przewodach cieplnych.",
+        "c.": "Papier, drewno i cement – stosowane w silnikach elektrycznych.",
+        "d.": "Aluminium i miedź – stosowane w przewodach hydraulicznych.",
+        "explanation": "Materiały uszczelniające różnią się elastycznością i odpornością chemiczną – dobiera się je do rodzaju medium, ciśnienia i temperatury pracy.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<tabela klas cieplnych materiałów elektroizolacyjnych: Y, A, E, B, F, H, C z zakresami temperatur>",
+        "question": "Jak klasyfikujemy materiały elektroizolacyjne ze względu na odporność na działanie temperatury?",
+        "a.": "Według klas cieplnych: Y (do 90°C), A (do 105°C), E (do 120°C), B (do 130°C), F (do 155°C), H (do 180°C), C (powyżej 180°C).",
+        "b.": "Według przewodności elektrycznej i barwy powierzchni.",
+        "c.": "Wyłącznie według gęstości i elastyczności.",
+        "d.": "Na izolatory organiczne i nieorganiczne bez względu na temperaturę pracy.",
+        "explanation": "Materiały elektroizolacyjne klasyfikuje się na klasy cieplne określające maksymalną dopuszczalną temperaturę pracy, np. klasa H – 180°C.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<zdjęcie wyrobów ceramicznych technicznych – izolatory, łożyska, płytki, tuleje>",
+        "question": "Co to jest ceramika?",
+        "a.": "Nieorganiczny, niemetaliczny materiał otrzymywany przez spiekanie proszków tlenków, węglików lub azotków w wysokiej temperaturze.",
+        "b.": "Stop metali lekkich i krzemu o dużej przewodności cieplnej.",
+        "c.": "Kompozyt metalowo-polimerowy o wysokiej elastyczności.",
+        "d.": "Rodzaj tworzywa sztucznego o małej gęstości.",
+        "explanation": "Ceramika to materiały otrzymywane w wyniku wypalania lub spiekania surowców mineralnych, charakteryzujące się dużą twardością i odpornością chemiczną.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<tabela rodzajów ceramiki technicznej: tlenkowa (Al₂O₃), węglikowa (SiC), azotkowa (Si₃N₄)>",
+        "question": "Jakie jest zastosowanie podstawowych rodzajów ceramiki technicznej?",
+        "a.": "Tlenkowa (izolatory, elementy grzejne), węglikowa i azotkowa (narzędzia skrawające, łożyska, elementy odpornych konstrukcji).",
+        "b.": "Wyłącznie do produkcji naczyń kuchennych i płytek podłogowych.",
+        "c.": "Do elementów sprężystych i gumowych.",
+        "d.": "Jako materiał przewodzący prąd elektryczny.",
+        "explanation": "Ceramika techniczna znajduje zastosowanie w elektrotechnice, automatyce i mechanice – dzięki twardości, odporności cieplnej i dielektryczności.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<zdjęcie różnych rodzajów szkła – przezroczyste płyty, szkło hartowane, szkło laboratoryjne>",
+        "question": "Co to jest szkło?",
+        "a.": "Nieorganiczne, amorficzne ciało stałe otrzymywane przez stopienie i szybkie zestalenie mieszaniny krzemionki z topnikami.",
+        "b.": "Krystaliczna odmiana ceramiki o dużej twardości.",
+        "c.": "Stop metali lekkich i tlenków boru.",
+        "d.": "Przezroczysty polimer syntetyczny.",
+        "explanation": "Szkło jest materiałem bezpostaciowym powstającym przez szybkie ochłodzenie stopionej mieszaniny surowców mineralnych, głównie SiO₂.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat zalet szkła: odporność chemiczna, przezroczystość, twardość, gładkość powierzchni>",
+        "question": "Jakie są zalety szkła jako materiału konstrukcyjnego?",
+        "a.": "Odporność chemiczna, gładkość powierzchni, przezroczystość, szczelność i twardość.",
+        "b.": "Wysoka elastyczność i przewodność elektryczna.",
+        "c.": "Łatwość kucia i spawania.",
+        "d.": "Zdolność pochłaniania wilgoci.",
+        "explanation": "Szkło jest trwałe, odporne na działanie chemikaliów i gładkie, co czyni je przydatnym w budownictwie, elektronice i laboratoriach.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<zdjęcie szkła rozbitego – pokazane cechy: kruchość, niska odporność na uderzenia i szok termiczny>",
+        "question": "Jakie są wady szkła?",
+        "a.": "Kruchość, mała odporność na uderzenia i nagłe zmiany temperatury.",
+        "b.": "Zbyt duża przewodność cieplna i elektryczna.",
+        "c.": "Duża elastyczność i plastyczność.",
+        "d.": "Brak odporności chemicznej.",
+        "explanation": "Szkło łatwo pęka przy uderzeniach lub nagłych zmianach temperatury – dlatego stosuje się jego hartowanie lub laminowanie.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<tabela klasyfikacji szkła według przeznaczenia: budowlane, laboratoryjne, techniczne, optyczne, specjalne>",
+        "question": "W jaki sposób klasyfikujemy szkło wg przeznaczenia?",
+        "a.": "Na szkło budowlane, laboratoryjne, techniczne, optyczne i specjalne (np. żaroodporne, bezpieczne).",
+        "b.": "Na szkło krystaliczne i niekrystaliczne.",
+        "c.": "Na szkło matowe i błyszczące.",
+        "d.": "Na szkło barwione i bezbarwne bez względu na zastosowanie.",
+        "explanation": "Szkło klasyfikuje się według przeznaczenia i właściwości – różne typy stosuje się w budownictwie, optyce czy laboratoriach.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat procesu dewitryfikacji szkła – przemiana amorficznego szkła w materiał o strukturze krystalicznej>",
+        "question": "Jakie jest zastosowanie dewitryfikatorów?",
+        "a.": "Do inicjowania procesu krystalizacji szkła w celu uzyskania szkło-ceramiki o wysokiej odporności cieplnej i mechanicznej.",
+        "b.": "Do barwienia szkła podczas topienia.",
+        "c.": "Do oczyszczania szkła z pęcherzyków gazu.",
+        "d.": "Do zwiększania przezroczystości szkła optycznego.",
+        "explanation": "Dewitryfikatory to dodatki powodujące kontrolowaną krystalizację szkła, co umożliwia otrzymanie wytrzymałej szkło-ceramiki technicznej.",
+        "correct": "1 0 0 0"
+    }
+]

@@ -1,0 +1,1202 @@
+[
+  {
+    "img": "",
+    "question": "Czym jest Arduino?",
+    "a.": "Otwarta platforma deweloperska (open source).",
+    "b.": "Płytka rozwojowa oparta na układach PIC.",
+    "c.": "Zamknięty system wbudowany.",
+    "d.": "Płytka rozwojowa oparta na systemie Linux.",
+    "explanation": "Arduino to otwartoźródłowa platforma sprzętowo-programowa służąca do budowy prototypów systemów elektronicznych.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Który kraj opracował otwartoźródłowe płytki rozwojowe Arduino?",
+    "a.": "Włochy",
+    "b.": "Turcja",
+    "c.": "Niemcy",
+    "d.": "Anglia",
+    "explanation": "Platforma Arduino została opracowana we Włoszech przez Massimo Banzi i zespół projektowy.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Która firma produkuje mikrokontrolery stosowane w płytkach Arduino?",
+    "a.": "ATMEL",
+    "b.": "AMD",
+    "c.": "Vestel",
+    "d.": "Intel",
+    "explanation": "Mikrokontrolery używane w płytkach Arduino produkowane są przez firmę ATMEL (obecnie Microchip).",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Ile cyfrowych pinów wejścia/wyjścia (I/O) posiada płytka Arduino UNO?",
+    "a.": "14",
+    "b.": "11",
+    "c.": "12",
+    "d.": "13",
+    "explanation": "Arduino UNO ma 14 cyfrowych pinów I/O, z których 6 może pełnić funkcję PWM.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Ile wejść analogowych posiada płytka Arduino UNO?",
+    "a.": "6",
+    "b.": "4",
+    "c.": "5",
+    "d.": "7",
+    "explanation": "Arduino UNO ma 6 wejść analogowych oznaczonych jako A0–A5.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Ile wyjść analogowych posiada płytka Arduino UNO?",
+    "a.": "0",
+    "b.": "1",
+    "c.": "2",
+    "d.": "3",
+    "explanation": "Arduino UNO nie posiada prawdziwych wyjść analogowych, ale generuje sygnały PWM, które mogą je symulować.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Jaki mikrokontroler jest zastosowany w płytce Arduino UNO?",
+    "a.": "ATMega328P",
+    "b.": "ATMega2560",
+    "c.": "ATMel378",
+    "d.": "ATMega328",
+    "explanation": "Arduino UNO korzysta z mikrokontrolera ATMega328P – niskonapięciowej wersji układu ATMega328.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Jaką pojemność pamięci Flash ma mikrokontroler Arduino UNO do przechowywania programu?",
+    "a.": "32KB",
+    "b.": "16KB",
+    "c.": "2KB",
+    "d.": "1KB",
+    "explanation": "Mikrokontroler ATMega328P posiada 32 KB pamięci Flash, z czego 0,5 KB zajmuje bootloader.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Jaka jest częstotliwość taktowania mikrokontrolera w Arduino UNO?",
+    "a.": "16 MHz",
+    "b.": "32 MHz",
+    "c.": "80 MHz",
+    "d.": "2 MHz",
+    "explanation": "Arduino UNO pracuje z częstotliwością 16 MHz dzięki rezonatorowi kwarcowemu.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Jak nazywa się funkcja uruchamiana tylko raz po włączeniu zasilania płytki Arduino?",
+    "a.": "setup()",
+    "b.": "begin()",
+    "c.": "start()",
+    "d.": "loop()",
+    "explanation": "Funkcja setup() wykonywana jest jednorazowo po uruchomieniu programu w Arduino.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Jakie napięcie dostarcza port USB komputera, z którego zasilana jest płytka Arduino?",
+    "a.": "5 V",
+    "b.": "3 V",
+    "c.": "9 V",
+    "d.": "12 V",
+    "explanation": "Port USB komputera dostarcza napięcie 5 V, które może zasilać płytkę Arduino bez potrzeby zewnętrznego źródła zasilania.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Które polecenie w programie Arduino służy do wprowadzenia opóźnienia?",
+    "a.": "delay()",
+    "b.": "pinMode()",
+    "c.": "digitalWrite()",
+    "d.": "for()",
+    "explanation": "Funkcja delay() zatrzymuje wykonanie programu na określoną liczbę milisekund.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Które z poniższych poleceń spowoduje opóźnienie programu Arduino o 1,5 sekundy?",
+    "a.": "delay(1500)",
+    "b.": "delay(1.5)",
+    "c.": "delay(15)",
+    "d.": "delay(150)",
+    "explanation": "delay(1500) wprowadza opóźnienie 1500 ms, czyli 1,5 sekundy.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Które z poniższych zapisów poprawnie definiuje zmienną 'duration' o wartości początkowej 100 w języku C dla Arduino?",
+    "a.": "int duration = 100;",
+    "b.": "int duration == 100;",
+    "c.": "int duration <= 100;",
+    "d.": "int duration 100;",
+    "explanation": "Poprawna składnia deklaracji zmiennej w języku C to: typ nazwa = wartość; dlatego poprawna odpowiedź to int duration = 100;",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Które stwierdzenie dotyczące funkcji setup() w Arduino jest błędne?",
+    "a.": "Nie jest konieczna do działania programu Arduino.",
+    "b.": "Wykonywana jest raz po uruchomieniu zasilania Arduino.",
+    "c.": "Uruchamia się ponownie po resecie płytki.",
+    "d.": "Nie jest wykonywana cyklicznie.",
+    "explanation": "Funkcja setup() jest obowiązkowa w każdym programie Arduino, dlatego stwierdzenie, że nie jest konieczna, jest błędne.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Które stwierdzenie dotyczące funkcji loop() w Arduino jest błędne?",
+    "a.": "Wykonywana jest tylko raz po uruchomieniu programu.",
+    "b.": "Wykonywana jest cyklicznie po zakończeniu funkcji setup().",
+    "c.": "Uruchamia się ponownie po resecie płytki.",
+    "d.": "Jest kluczowa dla działania programu Arduino.",
+    "explanation": "Funkcja loop() działa w pętli, więc stwierdzenie, że wykonuje się tylko raz, jest błędne.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Które stwierdzenie dotyczące pętli for w Arduino jest błędne?",
+    "a.": "Wszystkie pozostałe odpowiedzi są błędne.",
+    "b.": "Pętla for używa wartości początkowej i końcowej do wykonania określonych zadań.",
+    "c.": "Służy do wykonywania zadań powtarzalnych w zależności od warunku.",
+    "d.": "Umożliwia wykonywanie określonej liczby powtórzeń kodu.",
+    "explanation": "Wszystkie pozostałe odpowiedzi opisują poprawne właściwości pętli for, więc jedyną błędną jest 'wszystkie są błędne'.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Które stwierdzenie dotyczące płytek rozwojowych Arduino jest błędne?",
+    "a.": "Jest to pierwszy i najbardziej podstawowy model serii Arduino.",
+    "b.": "Została stworzona, aby uczyć i popularyzować elektronikę oraz programowanie.",
+    "c.": "Wykorzystuje mikrokontroler z serii ATMega firmy ATMel.",
+    "d.": "Arduino nie jest oparte na mikrokontrolerach firmy ATMel.",
+    "explanation": "Arduino wykorzystuje mikrokontrolery ATMega produkowane przez firmę ATMel, więc stwierdzenie, że nie jest na nich oparte, jest błędne.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Jakie wyrażenie w funkcji pinMode() ustawia pin wejścia/wyjścia jako wyjście?",
+    "a.": "OUTPUT",
+    "b.": "INPUT",
+    "c.": "INPUT_PULLUP",
+    "d.": "INPUT_PULLDOWN",
+    "explanation": "Stała OUTPUT używana w funkcji pinMode ustawia dany pin jako wyjście cyfrowe.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Jakie wyrażenie w funkcji pinMode() ustawia pin wejścia/wyjścia jako wejście?",
+    "a.": "INPUT",
+    "b.": "OUTPUT",
+    "c.": "INPUT_PULLUP",
+    "d.": "INPUT_PULLDOWN",
+    "explanation": "Stała INPUT ustawia dany pin jako wejście cyfrowe w funkcji pinMode().",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Które stwierdzenie dotyczące rezystora PULLUP jest błędne?",
+    "a.": "Gdy rezystor jest połączony między VCC a pinem I/O, ustawia on pin w stanie logicznym 0.",
+    "b.": "Rezystor PULLUP służy do eliminacji nieokreślonego stanu logicznego na pinie I/O.",
+    "c.": "Gdy rezystor jest połączony między VCC a pinem I/O, ustawia on pin w stanie logicznym 1.",
+    "d.": "Może powodować dodatkowe zużycie energii w układach z wspólną katodą.",
+    "explanation": "Rezystor PULLUP łączy pin z VCC i ustawia logiczne 1, więc stwierdzenie, że ustawia logiczne 0, jest błędne.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Które stwierdzenie dotyczące rezystora PULLDOWN jest błędne?",
+    "a.": "Gdy rezystor jest połączony między masą (GND) a pinem I/O, ustawia on pin w stanie logicznym 1.",
+    "b.": "Rezystor PULLDOWN służy do eliminacji nieokreślonego stanu logicznego na pinie I/O.",
+    "c.": "Gdy rezystor jest połączony między masą (GND) a pinem I/O, ustawia on pin w stanie logicznym 0.",
+    "d.": "Może powodować dodatkowe zużycie energii w układach ze wspólną anodą.",
+    "explanation": "Rezystor PULLDOWN ustawia pin w stanie logicznym 0, więc stwierdzenie o stanie 1 jest błędne.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Które polecenie w Arduino C służy do ustawiania trybu wejścia/wyjścia dla pinu?",
+    "a.": "pinMode()",
+    "b.": "delay()",
+    "c.": "digitalRead()",
+    "d.": "digitalWrite()",
+    "explanation": "Funkcja pinMode() definiuje, czy dany pin ma pracować jako wejście, wyjście lub wejście z rezystorem podciągającym.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Które stwierdzenie dotyczące grupy pinów analogowych Arduino UNO jest błędne?",
+    "a.": "Logiczne wartości 1/0 są używane do wejścia/wyjścia.",
+    "b.": "Płytka posiada 6 wejść analogowych.",
+    "c.": "Rozdzielczość przetwornika ADC wynosi 10 bitów.",
+    "d.": "Służą do konwersji wartości analogowych na cyfrowe.",
+    "explanation": "Piny analogowe nie używają logicznych stanów 1/0, lecz wartości napięcia, dlatego to stwierdzenie jest błędne.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<czujnik HC-SR04 pokazujący dwa przetworniki ultradźwiękowe i piny opisane jako VCC, TRIG, ECHO, GND>",
+    "question": "Jakie jest główne zastosowanie sensora HC-SR04?",
+    "a.": "Pomiar odległości (czujnik zasięgu).",
+    "b.": "Pomiar poziomu dźwięku.",
+    "c.": "Pomiar poziomu wody.",
+    "d.": "Pomiar temperatury.",
+    "explanation": "HC-SR04 to ultradźwiękowy czujnik odległości, który mierzy czas powrotu fali dźwiękowej.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Z jakim napięciem zasilania pracuje czujnik ultradźwiękowy HC-SR04?",
+    "a.": "5 V",
+    "b.": "1.2 V",
+    "c.": "3.3 V",
+    "d.": "9 V",
+    "explanation": "Czujnik HC-SR04 jest zasilany napięciem 5 V, typowym dla układów Arduino.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<schemat pinów HC-SR04 z opisem kolejności: VCC, TRIG, ECHO, GND>",
+    "question": "Które oznaczenie pinów czujnika HC-SR04 jest poprawne?",
+    "a.": "VCC-TRIG-ECHO-GND",
+    "b.": "VCC-N/C-DATA-GND",
+    "c.": "VCC-IN-OUT-GND",
+    "d.": "VCC-LATCH-DATA-GND",
+    "explanation": "Czujnik HC-SR04 ma cztery piny: VCC, TRIG, ECHO i GND – w tej kolejności.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<czujnik HC-SR04 z zaznaczonym pinem TRIG>",
+    "question": "Jakie jest zadanie pinu TRIG w czujniku HC-SR04?",
+    "a.": "Umożliwia wysłanie fali ultradźwiękowej z czujnika.",
+    "b.": "Informuje o powrocie fali ultradźwiękowej do czujnika.",
+    "c.": "Dostarcza zasilanie do czujnika.",
+    "d.": "Zapewnia połączenie masy czujnika.",
+    "explanation": "Pin TRIG aktywuje wysłanie krótkiego impulsu ultradźwiękowego w celu pomiaru odległości.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<czujnik HC-SR04 z zaznaczonym pinem ECHO>",
+    "question": "Jakie jest zadanie pinu ECHO w czujniku HC-SR04?",
+    "a.": "Informuje o powrocie fali ultradźwiękowej do czujnika.",
+    "b.": "Umożliwia wysłanie fali ultradźwiękowej z czujnika.",
+    "c.": "Dostarcza zasilanie do czujnika.",
+    "d.": "Zapewnia połączenie masy czujnika.",
+    "explanation": "Pin ECHO generuje impuls logiczny, którego długość odpowiada czasowi powrotu fali ultradźwiękowej.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Które polecenie służy do odczytu wartości z pinu ustawionego jako wejście logiczne w Arduino C?",
+    "a.": "data = digitalRead(D0);",
+    "b.": "data = analogRead(D0);",
+    "c.": "data = analogWrite(D0);",
+    "d.": "data = digitalWrite(D0);",
+    "explanation": "Funkcja digitalRead() służy do odczytu stanu logicznego (HIGH/LOW) z pinu cyfrowego.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Co robi polecenie pulseIn(D0, LOW) w Arduino?",
+    "a.": "Mierzy czas trwania przejścia pinu D0 ze stanu logicznego 1 na 0.",
+    "b.": "Mierzy czas trwania przejścia pinu D0 ze stanu logicznego 0 na 1.",
+    "c.": "Mierzy czas przebywania pinu D0 w stanie logicznym 1 niezależnie od stanu początkowego.",
+    "d.": "Mierzy czas przebywania pinu D0 w stanie logicznym 0 niezależnie od stanu początkowego.",
+    "explanation": "Funkcja pulseIn(pin, LOW) zwraca długość impulsu w stanie niskim (LOW) na danym pinie cyfrowym.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Jaką jednostkę czasu zwraca funkcja pulseIn() w Arduino?",
+    "a.": "Mikrosekundy (µs)",
+    "b.": "Sekundy (s)",
+    "c.": "Milisekundy (ms)",
+    "d.": "Nanosekundy (ns)",
+    "explanation": "Funkcja pulseIn() zwraca czas trwania impulsu w mikrosekundach (µs).",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Co oznacza polecenie Serial.begin(9600) w Arduino C?",
+    "a.": "Uruchamia port szeregowy mikrokontrolera z prędkością transmisji 9600 bitów na sekundę.",
+    "b.": "Uruchamia port szeregowy mikrokontrolera z prędkością 12 KBytes/s.",
+    "c.": "Uruchamia port szeregowy mikrokontrolera z prędkością 1.2 KBytes/s.",
+    "d.": "Uruchamia port szeregowy mikrokontrolera z prędkością 96 KBytes/s.",
+    "explanation": "Polecenie Serial.begin(9600) inicjuje komunikację szeregową z prędkością 9600 bodów (bitów na sekundę).",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Co oznacza zapis '//loop function runs forever' w kodzie Arduino C?",
+    "a.": "Komentarz jednoliniowy.",
+    "b.": "Polecenie języka C.",
+    "c.": "Opis funkcji.",
+    "d.": "Znane powiedzenie Linusa Torvaldsa.",
+    "explanation": "Znak // w języku C oznacza komentarz jednoliniowy, więc ten zapis nie jest wykonywany przez program.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Co powoduje polecenie digitalWrite(14, HIGH) w Arduino UNO?",
+    "a.": "Ustawia pin cyfrowy 14 w stan logiczny 1 (HIGH, 5V).",
+    "b.": "Ustawia pin cyfrowy 14 w stan logiczny 0.",
+    "c.": "Wszystkie inne odpowiedzi są błędne.",
+    "d.": "Ustawia pin cyfrowy 14 na 5V, co odpowiada stanowi logicznemu 1.",
+    "explanation": "Polecenie digitalWrite(pin, HIGH) ustawia pin cyfrowy w stan logiczny 1, czyli napięcie około 5V.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Który kod Arduino C ustawia pin cyfrowy 13 jako wyjście?",
+    "a.": "pinMode(13, OUTPUT);",
+    "b.": "digitalWrite(13, 1);",
+    "c.": "pinMode(13, INPUT);",
+    "d.": "digitalRead(13, 1);",
+    "explanation": "Do ustawienia trybu pracy pinu używamy funkcji pinMode(pin, OUTPUT).",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Które polecenie Arduino C odczytuje wartość logiczną z pinu cyfrowego 13?",
+    "a.": "digitalRead(13);",
+    "b.": "digitalWrite(13, 1);",
+    "c.": "pinMode(13, INPUT);",
+    "d.": "pinMode(13, OUTPUT);",
+    "explanation": "Funkcja digitalRead(pin) zwraca stan logiczny pinu — HIGH lub LOW.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Jaka jest rozdzielczość przetwornika ADC na płytce Arduino UNO?",
+    "a.": "10 bitów",
+    "b.": "8 bitów",
+    "c.": "12 bitów",
+    "d.": "16 bitów",
+    "explanation": "Arduino UNO ma 10-bitowy przetwornik ADC, który generuje wartości od 0 do 1023.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<LDR – fotorezystor z symbolem i strzałkami światła>",
+    "question": "Które stwierdzenie dotyczące fotorezystora (LDR) jest błędne?",
+    "a.": "Wraz ze wzrostem ilości światła rezystancja rośnie.",
+    "b.": "Wraz ze wzrostem ilości światła rezystancja maleje.",
+    "c.": "Rezystancja zmienia się w zależności od ilości światła.",
+    "d.": "Jest to pasywny element elektroniczny.",
+    "explanation": "Fotorezystor zmniejsza rezystancję wraz ze wzrostem natężenia światła, więc stwierdzenie o wzroście rezystancji jest błędne.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<schemat Arduino UNO z zaznaczonymi pinami GND>",
+    "question": "Ile pinów GND (masy) jest dostępnych na płytce Arduino UNO?",
+    "a.": "3",
+    "b.": "1",
+    "c.": "2",
+    "d.": "4",
+    "explanation": "Na płytce Arduino UNO znajdują się trzy piny GND (masa), rozmieszczone w różnych częściach płytki.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<płytka Arduino LilyPad – okrągła, cienka, z dużymi padami do przyszywania przewodów>",
+    "question": "Który z poniższych modeli jest noszoną (wearable) wersją płytki Arduino?",
+    "a.": "Arduino Lilypad",
+    "b.": "Arduino Yun",
+    "c.": "Arduino Leonardo",
+    "d.": "Arduino Esplora",
+    "explanation": "Arduino Lilypad to płytka zaprojektowana do elektroniki ubieralnej, z możliwością przyszywania przewodów przewodzących.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Jaką jednostkę czasu zwraca funkcja pulseIn() w Arduino?",
+    "a.": "Mikrosekundy (µs)",
+    "b.": "Sekundy (s)",
+    "c.": "Milisekundy (ms)",
+    "d.": "Nanosekundy (ns)",
+    "explanation": "Funkcja pulseIn() zwraca czas trwania impulsu w mikrosekundach (µs).",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Co oznacza polecenie Serial.begin(9600) w Arduino C?",
+    "a.": "Uruchamia port szeregowy mikrokontrolera z prędkością transmisji 9600 bitów na sekundę.",
+    "b.": "Uruchamia port szeregowy mikrokontrolera z prędkością 12 KBytes/s.",
+    "c.": "Uruchamia port szeregowy mikrokontrolera z prędkością 1.2 KBytes/s.",
+    "d.": "Uruchamia port szeregowy mikrokontrolera z prędkością 96 KBytes/s.",
+    "explanation": "Polecenie Serial.begin(9600) inicjuje komunikację szeregową z prędkością 9600 bodów (bitów na sekundę).",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Co oznacza zapis '//loop function runs forever' w kodzie Arduino C?",
+    "a.": "Komentarz jednoliniowy.",
+    "b.": "Polecenie języka C.",
+    "c.": "Opis funkcji.",
+    "d.": "Znane powiedzenie Linusa Torvaldsa.",
+    "explanation": "Znak // w języku C oznacza komentarz jednoliniowy, więc ten zapis nie jest wykonywany przez program.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Co powoduje polecenie digitalWrite(14, HIGH) w Arduino UNO?",
+    "a.": "Ustawia pin cyfrowy 14 w stan logiczny 1 (HIGH, 5V).",
+    "b.": "Ustawia pin cyfrowy 14 w stan logiczny 0.",
+    "c.": "Wszystkie inne odpowiedzi są błędne.",
+    "d.": "Ustawia pin cyfrowy 14 na 5V, co odpowiada stanowi logicznemu 1.",
+    "explanation": "Polecenie digitalWrite(pin, HIGH) ustawia pin cyfrowy w stan logiczny 1, czyli napięcie około 5V.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Który kod Arduino C ustawia pin cyfrowy 13 jako wyjście?",
+    "a.": "pinMode(13, OUTPUT);",
+    "b.": "digitalWrite(13, 1);",
+    "c.": "pinMode(13, INPUT);",
+    "d.": "digitalRead(13, 1);",
+    "explanation": "Do ustawienia trybu pracy pinu używamy funkcji pinMode(pin, OUTPUT).",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Które polecenie Arduino C odczytuje wartość logiczną z pinu cyfrowego 13?",
+    "a.": "digitalRead(13);",
+    "b.": "digitalWrite(13, 1);",
+    "c.": "pinMode(13, INPUT);",
+    "d.": "pinMode(13, OUTPUT);",
+    "explanation": "Funkcja digitalRead(pin) zwraca stan logiczny pinu — HIGH lub LOW.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Jaka jest rozdzielczość przetwornika ADC na płytce Arduino UNO?",
+    "a.": "10 bitów",
+    "b.": "8 bitów",
+    "c.": "12 bitów",
+    "d.": "16 bitów",
+    "explanation": "Arduino UNO ma 10-bitowy przetwornik ADC, który generuje wartości od 0 do 1023.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<LDR – fotorezystor z symbolem i strzałkami światła>",
+    "question": "Które stwierdzenie dotyczące fotorezystora (LDR) jest błędne?",
+    "a.": "Wraz ze wzrostem ilości światła rezystancja rośnie.",
+    "b.": "Wraz ze wzrostem ilości światła rezystancja maleje.",
+    "c.": "Rezystancja zmienia się w zależności od ilości światła.",
+    "d.": "Jest to pasywny element elektroniczny.",
+    "explanation": "Fotorezystor zmniejsza rezystancję wraz ze wzrostem natężenia światła, więc stwierdzenie o wzroście rezystancji jest błędne.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<schemat Arduino UNO z zaznaczonymi pinami GND>",
+    "question": "Ile pinów GND (masy) jest dostępnych na płytce Arduino UNO?",
+    "a.": "3",
+    "b.": "1",
+    "c.": "2",
+    "d.": "4",
+    "explanation": "Na płytce Arduino UNO znajdują się trzy piny GND (masa), rozmieszczone w różnych częściach płytki.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<płytka Arduino LilyPad – okrągła, cienka, z dużymi padami do przyszywania przewodów>",
+    "question": "Który z poniższych modeli jest noszoną (wearable) wersją płytki Arduino?",
+    "a.": "Arduino Lilypad",
+    "b.": "Arduino Yun",
+    "c.": "Arduino Leonardo",
+    "d.": "Arduino Esplora",
+    "explanation": "Arduino Lilypad to płytka zaprojektowana do elektroniki ubieralnej, z możliwością przyszywania przewodów przewodzących.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Która z poniższych płytek Arduino może być używana jako klawiatura USB?",
+    "a.": "Arduino Leonardo",
+    "b.": "Arduino Lilypad",
+    "c.": "Arduino Uno",
+    "d.": "Arduino Mega",
+    "explanation": "Arduino Leonardo może emulować urządzenia HID, takie jak klawiatura lub mysz, dzięki wbudowanemu interfejsowi USB.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Ile pinów cyfrowych wejścia/wyjścia (I/O) ma płytka Arduino MINI?",
+    "a.": "14",
+    "b.": "7",
+    "c.": "9",
+    "d.": "13",
+    "explanation": "Arduino Mini, podobnie jak UNO, ma 14 cyfrowych pinów I/O, które mogą być używane jako wejścia lub wyjścia.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Jakie napięcia wyjściowe zapewnia stabilizator napięcia na płytce Arduino UNO?",
+    "a.": "5V i 3.3V",
+    "b.": "5V i 2.7V",
+    "c.": "9V i 5V",
+    "d.": "3.3V i 1.5V",
+    "explanation": "Arduino UNO posiada stabilizator napięcia, który udostępnia dwa napięcia: 5V oraz 3.3V.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Które z poniższych definicji funkcji jest błędne?",
+    "a.": "double d",
+    "b.": "Serial c()",
+    "c.": "void a()",
+    "d.": "int b()",
+    "explanation": "Definicja 'double d' nie zawiera nawiasów ani ciała funkcji — to deklaracja zmiennej, a nie funkcji.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<schemat magistrali I2C z masterem i wieloma slave’ami połączonymi liniami SDA i SCL>",
+    "question": "Które stwierdzenie dotyczące protokołu komunikacji I2C jest błędne?",
+    "a.": "Urządzenia typu Slave mogą inicjować komunikację.",
+    "b.": "Urządzenia Master mogą wysyłać żądania.",
+    "c.": "Wiele urządzeń Slave może być podłączonych do jednego Mastera.",
+    "d.": "Linia SDA służy do wymiany danych między Masterem i Slave’ami.",
+    "explanation": "W protokole I2C komunikację zawsze inicjuje urządzenie typu Master — Slave nie może rozpocząć transmisji.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Jak nazywa się zmienna zdefiniowana poza funkcjami setup() i loop() w Arduino?",
+    "a.": "Zmienna globalna",
+    "b.": "Zmienna prywatna",
+    "c.": "Zmienna statyczna",
+    "d.": "Zmienna chroniona (protected)",
+    "explanation": "Zmienna zdefiniowana poza funkcjami setup() i loop() jest dostępna w całym programie — to zmienna globalna.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<schemat płytki Arduino Mega z zaznaczonymi portami UART: Serial0, Serial1, Serial2, Serial3>",
+    "question": "Ile portów UART (sprzętowych interfejsów szeregowych) posiada płytka Arduino MEGA?",
+    "a.": "4",
+    "b.": "2",
+    "c.": "3",
+    "d.": "5",
+    "explanation": "Arduino Mega ma 4 sprzętowe porty UART: Serial0, Serial1, Serial2 i Serial3.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<wyświetlacz LCD 16x2 z przykładem definiowania niestandardowego znaku>",
+    "question": "Co oznaczają wartości „a” i „b” w poleceniu lcd.createChar(a, b)?",
+    "a.": "Adres znaku i jego kształt (tablica bajtów).",
+    "b.": "Pozycja kursora LCD i kształt znaku.",
+    "c.": "Kształt znaku i adres znaku.",
+    "d.": "Kształt znaku i pozycja kursora LCD.",
+    "explanation": "W funkcji lcd.createChar(a, b) parametr 'a' to adres znaku (0–7), a 'b' to tablica opisująca jego kształt.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Co oznacza słowo kluczowe 'void' przed nazwą funkcji w Arduino?",
+    "a.": "Oznacza, że funkcja nie zwraca żadnej wartości.",
+    "b.": "Powoduje, że funkcja nie działa.",
+    "c.": "Powoduje, że funkcja zwraca wartość logiczną.",
+    "d.": "Oznacza, że funkcja uruchamia się wraz z mikrokontrolerem.",
+    "explanation": "Słowo kluczowe 'void' oznacza, że funkcja nie zwraca żadnej wartości po wykonaniu.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<zmienna a = B10101010 z podkreślonym bitem nr 3 (licząc od 0 od prawej)>",
+    "question": "Które polecenie bitRead(x, y) należy użyć, aby odczytać podkreślony bit zmiennej int a = B10101010?",
+    "a.": "bitRead(a, 3);",
+    "b.": "bitRead(a, 5);",
+    "c.": "bitRead(a, 4);",
+    "d.": "bitRead(a, 1);",
+    "explanation": "Funkcja bitRead(a, 3) odczytuje trzeci bit (licząc od prawej, zaczynając od 0). W liczbie B10101010 ten bit ma wartość 1.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Która z poniższych nie jest odmianą płytki Arduino?",
+    "a.": "Arduino Pi",
+    "b.": "Arduino Lilypad",
+    "c.": "Arduino Mega ADK",
+    "d.": "Arduino Ethernet",
+    "explanation": "Nie istnieje płytka o nazwie Arduino Pi – jest to nawiązanie do Raspberry Pi, które jest osobnym systemem.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<schemat porównujący protokoły komunikacji: I2C, SPI, UART>",
+    "question": "Który z poniższych jest protokołem komunikacji danych?",
+    "a.": "I2C",
+    "b.": "PWM",
+    "c.": "Master",
+    "d.": "Slave",
+    "explanation": "I2C (Inter-Integrated Circuit) to protokół komunikacji szeregowej między układami scalonymi.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Jaki rozmiar w pamięci ma typ danych 'char' w Arduino?",
+    "a.": "1 bajt",
+    "b.": "2 bajty",
+    "c.": "3 bajty",
+    "d.": "4 bajty",
+    "explanation": "Typ danych 'char' w języku C/C++ na mikrokontrolerach AVR zajmuje 1 bajt (8 bitów).",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<schemat przycisku podłączonego do pinu 10 z rezystorem PULLUP>",
+    "question": "Jaką wartość odczyta Arduino z pinu 10, gdy przycisk z rezystorem PULLUP zostanie wciśnięty?",
+    "a.": "0",
+    "b.": "1",
+    "c.": "Wartość nie zostanie odczytana",
+    "d.": "255",
+    "explanation": "Przy włączonym rezystorze PULLUP pin ma logiczne 1, a po wciśnięciu przycisku – logiczne 0.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Ile timerów dostępnych jest w mikrokontrolerze ATMega328?",
+    "a.": "3 jednostki",
+    "b.": "1 jednostka",
+    "c.": "2 jednostki",
+    "d.": "4 jednostki",
+    "explanation": "Mikrokontroler ATMega328P ma trzy timery: Timer0, Timer1 (16-bitowy) i Timer2.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Jaką wartość przyjmie zmienna 'incoming', gdy przez port szeregowy zostanie wysłane słowo 'hello'?",
+    "a.": "hello",
+    "b.": "109101114104979897",
+    "c.": "null",
+    "d.": "0",
+    "explanation": "Polecenie Serial.readString() odczytuje dane z portu szeregowego jako ciąg znaków, więc incoming = \"hello\".",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<schemat komunikacji UART z zaznaczonym momentem nadejścia danych>",
+    "question": "Kiedy wywoływane jest przerwanie serialEvent() w Arduino?",
+    "a.": "Gdy do portu szeregowego napływają dane.",
+    "b.": "Gdy port szeregowy zostaje zamknięty.",
+    "c.": "Gdy dane są wysyłane z portu szeregowego.",
+    "d.": "Gdy do płytki Arduino zostanie podłączone napięcie.",
+    "explanation": "Funkcja serialEvent() jest wywoływana automatycznie, gdy odbierane są dane z portu szeregowego.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<schemat pinu AREF na płytce Arduino UNO z podpisem 'Analog Reference Voltage'>",
+    "question": "Jakie jest zadanie pinu AREF w Arduino UNO?",
+    "a.": "Służy jako napięcie odniesienia dla wejść analogowych.",
+    "b.": "Służy do resetowania mikrokontrolera.",
+    "c.": "Generuje sygnał PWM.",
+    "d.": "Wywołuje przerwanie zewnętrzne.",
+    "explanation": "Pin AREF służy do ustawienia zewnętrznego napięcia odniesienia dla przetwornika ADC.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "W jakiej jednostce podaje się czas trwania w funkcji tone(pin, frequency, duration)?",
+    "a.": "Milisekundy (ms)",
+    "b.": "Sekundy (s)",
+    "c.": "Mikrosekundy (µs)",
+    "d.": "Minuty (min)",
+    "explanation": "Trzeci parametr funkcji tone() określa czas trwania dźwięku w milisekundach.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<moduł NRF24L01 podłączony do Arduino przez piny SPI>",
+    "question": "Który z poniższych elementów umożliwia bezprzewodową komunikację z Arduino?",
+    "a.": "NRF24L01",
+    "b.": "DS18B20",
+    "c.": "74HC595",
+    "d.": "MPU6050",
+    "explanation": "Moduł NRF24L01 to bezprzewodowy transceiver 2,4 GHz używany do komunikacji między mikrokontrolerami.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<schemat połączenia LCD 16x2 z Arduino wg komendy LiquidCrystal lcd(12, 11, 5, 4, 3, 2)>",
+    "question": "Z którym pinem Arduino połączony jest pin D5 wyświetlacza LCD w komendzie LiquidCrystal lcd(12, 11, 5, 4, 3, 2)?",
+    "a.": "Pin nr 4",
+    "b.": "Pin nr 5",
+    "c.": "Pin nr 11",
+    "d.": "Pin nr 12",
+    "explanation": "W konstruktorze LiquidCrystal kolejność pinów to: RS, E, D4, D5, D6, D7 – więc D5 jest podłączony do pinu 4 Arduino.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<czujnik LM35 podłączony do pinu analogowego Arduino, wskazujący 25°C>",
+    "question": "Jaka wartość cyfrowa zostanie odczytana z pinu ADC Arduino przy pomiarze temperatury 25°C za pomocą czujnika LM35?",
+    "a.": "51",
+    "b.": "80",
+    "c.": "25",
+    "d.": "40",
+    "explanation": "LM35 daje 10 mV/°C, więc przy 25°C napięcie wynosi 250 mV. Dla 10-bitowego ADC (5V/1024) wartość wynosi 250/4.88 ≈ 51.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Jaką wartość zwróci funkcja Serial.available(), gdy przez port szeregowy wysłane zostanie słowo 'hello'?",
+    "a.": "5",
+    "b.": "6",
+    "c.": "7",
+    "d.": "9",
+    "explanation": "Słowo 'hello' ma 5 znaków, więc Serial.available() zwróci wartość 5, oznaczającą liczbę dostępnych bajtów w buforze.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<mikrokontroler ATMega328 z oznaczeniem 28 pinów>",
+    "question": "Ile pinów posiada mikrokontroler ATMega328 na płytce Arduino UNO?",
+    "a.": "28",
+    "b.": "24",
+    "c.": "26",
+    "d.": "30",
+    "explanation": "Mikrokontroler ATMega328P, używany w Arduino UNO, ma 28 fizycznych pinów.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Którym poleceniem można ustawić pin 9 jako wyjście w Arduino?",
+    "a.": "pinMode(9, OUTPUT);",
+    "b.": "int sensorValue = 9;",
+    "c.": "int sensorPin = 9;",
+    "d.": "digitalWrite(9, HIGH);",
+    "explanation": "Funkcja pinMode(pin, OUTPUT) definiuje pin 9 jako wyjście cyfrowe.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<moduł zegara czasu rzeczywistego DS1307 z magistralą I2C – linie SDA i SCL>",
+    "question": "Który z poniższych elementów obsługuje protokół I2C?",
+    "a.": "DS1307",
+    "b.": "DS18B20",
+    "c.": "LM35",
+    "d.": "BC237",
+    "explanation": "Układ DS1307 to zegar czasu rzeczywistego (RTC) komunikujący się przez magistralę I2C.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<Arduino UNO z zaznaczonymi pinami 0 (RX) i 1 (TX) używanymi do komunikacji UART>",
+    "question": "Za pomocą których pinów płytka Arduino UNO komunikuje się z komputerem?",
+    "a.": "Piny UART (RX i TX)",
+    "b.": "Piny PWM",
+    "c.": "Piny ADC",
+    "d.": "Piny I2C",
+    "explanation": "Arduino UNO komunikuje się z komputerem przez interfejs UART (piny 0 – RX i 1 – TX).",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<wykres przebiegu prostokątnego generowanego przez funkcję tone()>",
+    "question": "Co robi polecenie tone() w Arduino?",
+    "a.": "Generuje prostokątny sygnał o zadanej częstotliwości na określonym pinie.",
+    "b.": "Odczytuje sygnał dźwiękowy z pinu.",
+    "c.": "Generuje falę sinusoidalną na pinie.",
+    "d.": "Wysyła dźwięk 'do' z wybranego pinu.",
+    "explanation": "Funkcja tone() generuje falę prostokątną o określonej częstotliwości, używaną do generowania dźwięków.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Która z poniższych metod konwertuje wartość cyfrową na sygnał analogowy?",
+    "a.": "PWM",
+    "b.": "analogRead()",
+    "c.": "ADC",
+    "d.": "DAC",
+    "explanation": "Arduino nie ma przetwornika DAC, ale wykorzystuje modulację PWM do symulowania sygnału analogowego.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Która informacja o Arduino jest błędna?",
+    "a.": "Arduino działa tylko na komputerach z systemem Windows.",
+    "b.": "Sprzęt i oprogramowanie Arduino są otwartoźródłowe.",
+    "c.": "Prototypowanie z Arduino jest szybsze niż z innymi mikrokontrolerami.",
+    "d.": "Kod napisany dla UNO może działać również na MEGA bez zmian.",
+    "explanation": "Arduino działa na wielu systemach operacyjnych, w tym Windows, Linux i macOS, więc stwierdzenie o Windows jest błędne.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Która informacja o Arduino jest błędna?",
+    "a.": "Z każdego pinu można odczytywać wartości analogowe.",
+    "b.": "Każdy pin może podawać napięcie 0 lub 5V.",
+    "c.": "Biblioteki powinny być dołączane na początku programu.",
+    "d.": "Z każdego pinu można odczytywać wartości cyfrowe.",
+    "explanation": "Tylko piny oznaczone jako A0–A5 służą do odczytu wartości analogowych – pozostałe obsługują tylko sygnały cyfrowe.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Która funkcja w Arduino służy do ustawienia pinu jako wejścia lub wyjścia?",
+    "a.": "pinMode",
+    "b.": "digitalRead",
+    "c.": "analogRead",
+    "d.": "digitalWrite",
+    "explanation": "Funkcja pinMode() ustawia tryb pracy pinu – INPUT, OUTPUT lub INPUT_PULLUP.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Co oznacza parametr funkcji delay() w Arduino?",
+    "a.": "Czas opóźnienia w milisekundach.",
+    "b.": "Pin do pomiaru cyfrowego.",
+    "c.": "Sekundy.",
+    "d.": "Minuty.",
+    "explanation": "Funkcja delay(x) wstrzymuje wykonywanie programu na czas x milisekund.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<interfejs Arduino IDE z zaznaczonym przyciskiem 'Verify' (znak ✔) służącym do kompilacji kodu>",
+    "question": "Który przycisk w środowisku Arduino IDE służy wyłącznie do kompilacji napisanego kodu (bez wgrywania go do płytki)?",
+    "a.": "Program Compile",
+    "b.": "Program Debug",
+    "c.": "Program Upload",
+    "d.": "Program Compile & Upload",
+    "explanation": "Przycisk 'Verify' (Program Compile) w Arduino IDE służy do skompilowania kodu bez jego wgrywania do mikrokontrolera.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Które z poniższych stwierdzeń dotyczących Arduino jest prawdziwe?",
+    "a.": "Kod jest najpierw kompilowany przy użyciu przycisku 'Program Compile & Upload', a następnie wgrywany do Arduino.",
+    "b.": "Aby wgrać nowy program, należy najpierw usunąć poprzedni z pamięci Arduino.",
+    "c.": "Kod wgrany do Arduino nie zostanie usunięty po wyłączeniu i ponownym włączeniu zasilania.",
+    "d.": "Wszystkie powyższe odpowiedzi są prawidłowe.",
+    "explanation": "Kod wgrany do Arduino zapisany jest w pamięci Flash mikrokontrolera i nie znika po wyłączeniu zasilania. Kompilacja i wgrywanie odbywa się automatycznie przy użyciu przycisku 'Program Compile & Upload'.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<głośnik (buzzer) podłączony do pinu 8 Arduino UNO>",
+    "question": "Która biblioteka musi być użyta, aby generować dźwięki z głośnika podłączonego do pinu 8 w Arduino UNO?",
+    "a.": "Tone.h",
+    "b.": "Wire.h",
+    "c.": "Speaker.h",
+    "d.": "Mic.h",
+    "explanation": "Biblioteka Tone.h umożliwia generowanie dźwięków i tonów za pomocą funkcji tone().",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<fragment kodu Arduino pokazujący poprawną składnię pętli for (pin=0; pin<=13; pin++)>",
+    "question": "Które z poniższych poleceń pętli for zostało zapisane poprawnie?",
+    "a.": "for (pin=0; pin<=13; pin++)",
+    "b.": "for (pin=0, pin<=13, pin++)",
+    "c.": "for (pin=0, pin<=13, pin=pin+1)",
+    "d.": "for {pin=0; pin<=13; pin++}",
+    "explanation": "Poprawna składnia pętli for w języku C/C++ to: for (inicjalizacja; warunek; inkrementacja).",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<schemat programu Arduino pokazujący funkcje setup() i loop()>",
+    "question": "Jakie są dwie główne struktury programu Arduino?",
+    "a.": "setup() i loop()",
+    "b.": "main() i setup()",
+    "c.": "loop() i main()",
+    "d.": "int i setup()",
+    "explanation": "Każdy program (sketch) w Arduino składa się z dwóch głównych funkcji: setup() – wykonywanej raz na początku, oraz loop() – wykonywanej w pętli.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<płytka Arduino UNO z zaznaczonymi pinami analogowymi A0–A5>",
+    "question": "Ile wejść analogowych ma płytka Arduino UNO i jak są one oznaczone?",
+    "a.": "Sześć, oznaczone jako A0–A5",
+    "b.": "Pięć, oznaczone jako A1–A5",
+    "c.": "Sześć, oznaczone jako A1–A6",
+    "d.": "Pięć, oznaczone jako A0–A4",
+    "explanation": "Arduino UNO ma sześć wejść analogowych, które są oznaczone jako A0, A1, A2, A3, A4 i A5.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<schemat przycisku podłączonego do pinu cyfrowego Arduino>",
+    "question": "Które z poniższych urządzeń jest cyfrowym wejściem (digital input)?",
+    "a.": "Przycisk (button)",
+    "b.": "Czujnik ciśnienia",
+    "c.": "Serwomechanizm",
+    "d.": "Potencjometr",
+    "explanation": "Przycisk jest cyfrowym urządzeniem wejściowym – może przekazywać tylko dwa stany: 0 (LOW) lub 1 (HIGH).",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<czujnik ciśnienia (pressure sensor) podłączony do wejścia analogowego Arduino>",
+    "question": "Które z poniższych urządzeń jest analogowym wejściem (analog input)?",
+    "a.": "Czujnik ciśnienia (pressure sensor)",
+    "b.": "Serwomechanizm (servo)",
+    "c.": "Przycisk (button)",
+    "d.": "Potencjometr (potentiometer)",
+    "explanation": "Czujniki ciśnienia generują sygnał proporcjonalny do wartości fizycznej (napięcie analogowe), dlatego są urządzeniami wejściowymi analogowymi.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<serwomechanizm podłączony do pinu PWM Arduino>",
+    "question": "Które z poniższych urządzeń jest urządzeniem wyjściowym (output device)?",
+    "a.": "Serwomechanizm (servo)",
+    "b.": "Czujnik ciśnienia",
+    "c.": "Przycisk",
+    "d.": "Potencjometr",
+    "explanation": "Serwomechanizm jest elementem wykonawczym (wyjściowym), który wykonuje ruch w odpowiedzi na sygnał z mikrokontrolera.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Które polecenie służy do ustawienia pinu 9 jako wyjście (OUTPUT)?",
+    "a.": "pinMode(9, OUTPUT);",
+    "b.": "int sensorPin = 9;",
+    "c.": "int sensorValue = 9;",
+    "d.": "digitalWrite(9, HIGH);",
+    "explanation": "Funkcja pinMode(pin, OUTPUT) definiuje dany pin jako wyjście cyfrowe.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<schemat diody LED podłączonej do pinu 1 Arduino>",
+    "question": "Jakim poleceniem można zapalić diodę LED podłączoną do pinu 1?",
+    "a.": "digitalWrite(1, HIGH);",
+    "b.": "int sensorValue = 1;",
+    "c.": "pinMode(1, OUTPUT);",
+    "d.": "int sensorPin = 1;",
+    "explanation": "Funkcja digitalWrite(pin, HIGH) ustawia wysoki poziom logiczny na danym pinie, co włącza diodę LED.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Jak wstrzymać działanie programu na 2,5 sekundy?",
+    "a.": "delay(2500);",
+    "b.": "delay(25);",
+    "c.": "int sensorValue = 2.5;",
+    "d.": "pinMode(ledPin, OUTPUT);",
+    "explanation": "Funkcja delay(x) zatrzymuje wykonywanie programu na x milisekund, więc delay(2500) = 2,5 sekundy.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<okno Arduino IDE z otwartym monitorem szeregowym (Serial Monitor)>",
+    "question": "Jak można odczytywać wartości z Arduino na ekranie komputera?",
+    "a.": "Za pomocą przycisku 'Serial Monitor' w Arduino IDE.",
+    "b.": "Za pomocą przycisku 'Verify'.",
+    "c.": "Za pomocą przycisku 'Upload'.",
+    "d.": "Nie można odczytywać wartości z Arduino na ekranie.",
+    "explanation": "Monitor szeregowy (Serial Monitor) w Arduino IDE służy do wyświetlania danych wysyłanych przez Arduino funkcją Serial.print().",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<płytka Arduino UNO z brzęczykiem (buzzerem) podłączonym do pinu cyfrowego>",
+    "question": "Jakie polecenie służy do odtworzenia dźwięku (nuty muzycznej) na Arduino?",
+    "a.": "tone();",
+    "b.": "play();",
+    "c.": "note();",
+    "d.": "sound();",
+    "explanation": "Funkcja tone(pin, frequency, duration) generuje sygnał prostokątny o określonej częstotliwości i czasie trwania, co pozwala odtwarzać nuty muzyczne.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "programarduino.png",
+    "question": "Jaki jest cel linii 4 w przedstawionym programie (void setup())?",
+    "a.": "Rozpoczyna strukturę programu setup(), która wykonywana jest raz po uruchomieniu Arduino.",
+    "b.": "Rozpoczyna strukturę programu loop(), wykonywaną w pętli.",
+    "c.": "Ustawia wartość wejściową portu 13 na stan wysoki.",
+    "d.": "Linia 4 nie pełni żadnej funkcji w programie.",
+    "explanation": "Linia z deklaracją void setup() rozpoczyna funkcję setup(), która służy do konfiguracji pinów i ustawień programu. Wykonywana jest tylko raz po włączeniu zasilania.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "programarduino.png",
+    "question": "Jaki jest cel linii 7 w przedstawionym programie (sensorValue = analogRead(sensorPin);)?",
+    "a.": "Odczytuje wartość analogową z pinu A0 i zapisuje ją do zmiennej sensorValue.",
+    "b.": "Ustawia pin A0 jako wyjście.",
+    "c.": "Włącza diodę LED na pinie 13.",
+    "d.": "Resetuje zmienną sensorValue do zera.",
+    "explanation": "Linia sensorValue = analogRead(sensorPin); odczytuje wartość napięcia (0–1023) z wejścia analogowego i przypisuje ją do zmiennej sensorValue, co pozwala sterować opóźnieniem migania diody LED.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "programarduino.png",
+    "question": "Jaki jest cel linii 9 (digitalWrite(ledPin, HIGH);)?",
+    "a.": "Włącza diodę LED podłączoną do pinu 13.",
+    "b.": "Wyłącza diodę LED podłączoną do pinu 13.",
+    "c.": "Włącza diodę LED podłączoną do pinu 0.",
+    "d.": "Wyłącza diodę LED podłączoną do pinu 0.",
+    "explanation": "Linia digitalWrite(ledPin, HIGH); ustawia pin 13 w stan wysoki (5V), co powoduje zapalenie diody LED.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "programarduino.png",
+    "question": "Jaki jest cel linii 5 (pinMode(ledPin, OUTPUT);)?",
+    "a.": "Ustawia pin 13 jako wyjście cyfrowe.",
+    "b.": "Rozpoczyna strukturę programu setup().",
+    "c.": "Włącza diodę LED na porcie 13.",
+    "d.": "Linia 5 nie pełni żadnej funkcji.",
+    "explanation": "Funkcja pinMode(ledPin, OUTPUT); definiuje pin 13 jako wyjście, dzięki czemu można sterować diodą LED.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<schemat przedstawiający LED podłączony do pinu 13 i czujnik analogowy do pinu A0>",
+    "question": "Co robi ten program po wgraniu do Arduino?",
+    "a.": "Miga diodą LED z częstotliwością zależną od wartości odczytanej z wejścia analogowego.",
+    "b.": "Wysyła wartość z wejścia analogowego na ekran monitora szeregowego.",
+    "c.": "Zmienia jasność świecenia diody LED w zależności od wartości z wejścia analogowego.",
+    "d.": "Miga diodą LED z ustaloną częstotliwością, bez użycia wejścia analogowego.",
+    "explanation": "Program odczytuje wartość z pinu A0 i wykorzystuje ją jako czas opóźnienia, więc LED miga w zależności od wartości sygnału analogowego.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Typ danych 'int' przechowuje ...... wartość liczbową bez części ułamkowych w zakresie od -32768 do 32767. Jakiego rozmiaru jest ten typ?",
+    "a.": "16-bitowy",
+    "b.": "8-bitowy",
+    "c.": "4-bitowy",
+    "d.": "32-bitowy",
+    "explanation": "Typ danych int w Arduino (AVR) to liczba całkowita 16-bitowa, o zakresie od -32768 do 32767.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<diagram pokazujący przepełnienie wartości typu int w Arduino (overflow z 32767 do -32768)>",
+    "question": "Zmienna typu 'int' przekroczy maksymalną wartość (32767), a następnie przejdzie do wartości minimalnej (-32768). Jak nazywa się to zjawisko?",
+    "a.": "Overflow (przepełnienie) – po dodaniu 1 do 32767 wartość stanie się -32768.",
+    "b.": "Underflow – po dodaniu 1 wartość stanie się 0.",
+    "c.": "Przesunięcie bitowe.",
+    "d.": "Błąd logiczny mikrokontrolera.",
+    "explanation": "W Arduino typ int jest 16-bitowy. Gdy przekroczy wartość 32767, następuje przepełnienie (overflow) i licznik wraca do -32768.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Dla liczb zmiennoprzecinkowych (z częścią dziesiętną) w Arduino — jakiego typu używamy i jaki jest jego rozmiar?",
+    "a.": "Typ float – 32-bitowy.",
+    "b.": "Typ float – 8-bitowy.",
+    "c.": "Typ float – 16-bitowy.",
+    "d.": "Typ float – 64-bitowy.",
+    "explanation": "Typ 'float' w Arduino ma 32 bity i służy do przechowywania liczb zmiennoprzecinkowych z częścią ułamkową.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<schemat tablicy int myArray[5]; z 5 indeksami: 0,1,2,3,4>",
+    "question": "Deklaracja int myArray[5]; tworzy tablicę o ilu elementach?",
+    "a.": "5 elementów (indeksy od 0 do 4).",
+    "b.": "4 elementy (indeksy 0–3).",
+    "c.": "6 elementów (indeksy 0–5).",
+    "d.": "10 elementów (indeksy 0–9).",
+    "explanation": "Deklaracja int myArray[5]; tworzy tablicę z 5 pozycjami, numerowanymi od 0 do 4.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<schemat przypisania myArray[3] = 150; w tablicy>",
+    "question": "Instrukcja myArray[3] = 150; przypisuje wartość 150 do którego elementu tablicy?",
+    "a.": "Czwartego elementu tablicy (indeks 3).",
+    "b.": "Pierwszego elementu.",
+    "c.": "Piątego elementu.",
+    "d.": "Trzeciego elementu.",
+    "explanation": "Indeksy w tablicy zaczynają się od 0, więc myArray[3] to czwarty element tablicy.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<schemat pinu cyfrowego Arduino z opisem INPUT>",
+    "question": "Domyślnie piny cyfrowe Arduino są ustawione jako ...... , więc nie trzeba ich jawnie deklarować funkcją pinMode().",
+    "a.": "Wejścia (INPUT)",
+    "b.": "Wyjścia (OUTPUT)",
+    "c.": "Wejścia z podciąganiem (INPUT_PULLUP)",
+    "d.": "Analogowe wejścia (ANALOG)",
+    "explanation": "W Arduino wszystkie piny cyfrowe domyślnie działają jako wejścia (INPUT). Aby działały jako wyjścia, należy użyć pinMode(pin, OUTPUT).",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "",
+    "question": "Dla liczb zmiennoprzecinkowych, czyli takich, które zawierają część dziesiętną – liczby te mają większą dokładność niż liczby całkowite i są przechowywane jako wartość ......",
+    "a.": "32-bitowa",
+    "b.": "4-bitowa",
+    "c.": "8-bitowa",
+    "d.": "16-bitowa",
+    "explanation": "Liczby zmiennoprzecinkowe w Arduino są przechowywane jako 32-bitowe wartości typu float, co zapewnia większą precyzję niż typ int.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<schemat tablicy int myArray[5]; z 5 elementami o indeksach 0–4>",
+    "question": "Deklaracja int myArray[5]; tworzy tablicę z ...... elementami.",
+    "a.": "5 elementami (indeksy od 0 do 4)",
+    "b.": "4 elementami (indeksy od 0 do 3)",
+    "c.": "6 elementami (indeksy od 0 do 5)",
+    "d.": "10 elementami (indeksy od 0 do 9)",
+    "explanation": "Tablica int myArray[5]; tworzy pięć pozycji, numerowanych od 0 do 4.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<schemat przypisania myArray[3] = 10;>",
+    "question": "Instrukcja myArray[3] = 10; przypisuje wartość 10 do elementu o indeksie ......",
+    "a.": "3",
+    "b.": "4",
+    "c.": "5",
+    "d.": "10",
+    "explanation": "Indeksy w tablicy zaczynają się od 0, więc myArray[3] oznacza czwarty element tablicy.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<schemat pinu cyfrowego Arduino z opisem INPUT>",
+    "question": "Domyślnie piny cyfrowe Arduino są ustawione jako ...... , więc nie trzeba ich jawnie deklarować funkcją pinMode().",
+    "a.": "Wejścia (INPUT)",
+    "b.": "Wyjścia (OUTPUT)",
+    "c.": "Wejścia z rezystorem podciągającym (INPUT_PULLUP)",
+    "d.": "Wejścia analogowe (ANALOG)",
+    "explanation": "Domyślnie wszystkie piny cyfrowe Arduino działają jako wejścia (INPUT). Aby działały jako wyjścia, należy użyć pinMode(pin, OUTPUT).",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<schemat pinu ustawionego jako OUTPUT z opisem przepływu prądu>",
+    "question": "Piny ustawione jako OUTPUT znajdują się w stanie niskiej impedancji i mogą dostarczać ...... prądu do innych układów.",
+    "a.": "20 mA",
+    "b.": "30 mA",
+    "c.": "40 mA",
+    "d.": "50 mA",
+    "explanation": "Każdy pin wyjściowy Arduino może dostarczyć do 20 mA prądu – to zalecany bezpieczny limit.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<schemat przetwornika ADC 10-bitowego>",
+    "question": "Funkcja analogRead(pin) odczytuje wartość z określonego pinu analogowego z rozdzielczością ......",
+    "a.": "10-bitową",
+    "b.": "8-bitową",
+    "c.": "12-bitową",
+    "d.": "16-bitową",
+    "explanation": "Arduino UNO posiada 10-bitowy przetwornik ADC, który zwraca wartości od 0 do 1023.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<schemat działania funkcji analogWrite(pin, value) generującej sygnał PWM>",
+    "question": "Funkcja analogWrite(pin, value) zapisuje wartość pseudoanalogową (PWM) w zakresie od ......",
+    "a.": "0 do 255",
+    "b.": "0 do 5",
+    "c.": "0 do 13",
+    "d.": "0 do 1023",
+    "explanation": "analogWrite() przyjmuje wartości od 0 do 255, co odpowiada 8-bitowej rozdzielczości sygnału PWM.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<monitor szeregowy z ustawioną prędkością 9600 baud>",
+    "question": "Typowa prędkość transmisji (baud rate) do komunikacji z komputerem to ......, choć inne prędkości są również obsługiwane.",
+    "a.": "9600",
+    "b.": "4800",
+    "c.": "38400",
+    "d.": "115200",
+    "explanation": "Domyślna prędkość komunikacji szeregowej Arduino to 9600 bodów na sekundę.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<Arduino UNO z zaznaczonymi pinami 0 (RX) i 1 (TX)>",
+    "question": "Podczas korzystania z komunikacji szeregowej piny cyfrowe ...... nie mogą być używane jednocześnie do innych celów.",
+    "a.": "0 i 1",
+    "b.": "0 i 13",
+    "c.": "2 i 3",
+    "d.": "1 i 13",
+    "explanation": "Piny 0 (RX) i 1 (TX) są używane do komunikacji UART, więc nie należy ich używać do innych funkcji podczas transmisji.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<schemat zasilania Arduino UNO – port USB i zasilanie zewnętrzne>",
+    "question": "Płytka Arduino UNO może być zasilana przez port USB lub z zewnętrznego źródła napięcia o wartości ...... V.",
+    "a.": "6 do 20 V",
+    "b.": "0 do 9 V",
+    "c.": "5 do 9 V",
+    "d.": "0 do 5 V",
+    "explanation": "Arduino UNO może pracować z zasilaniem zewnętrznym w zakresie od 6 do 20 V, zalecane 7–12 V.",
+    "correct": "1 0 0 0"
+  },
+  {
+    "img": "<piny PWM Arduino UNO: 3, 5, 6, 9, 10, 11>",
+    "question": "Piny 3, 5, 6, 9, 10 i 11 generują sygnał PWM o rozdzielczości ...... przy użyciu funkcji analogWrite().",
+    "a.": "8-bitowej",
+    "b.": "10-bitowej",
+    "c.": "12-bitowej",
+    "d.": "16-bitowej",
+    "explanation": "Sygnał PWM w Arduino UNO ma rozdzielczość 8-bitową (wartości od 0 do 255).",
+    "correct": "1 0 0 0"
+  }
+]

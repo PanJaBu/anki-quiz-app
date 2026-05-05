@@ -1,0 +1,1292 @@
+[
+    {
+        "img": "<schemat blokowy układu sterowania z zaznaczonymi blokami: zasilanie, sterowanie, wykonawczy, pomiarowy>",
+        "question": "Jakie bloki funkcjonalne wyróżniamy w układach sterowania elektrycznego i jaką funkcję spełniają?",
+        "a.": "Blok zasilania – dostarcza energię, blok sterowania – przetwarza sygnały, blok wykonawczy – realizuje działanie, blok pomiarowy – monitoruje parametry pracy.",
+        "b.": "Blok chłodzenia – odprowadza ciepło, blok mechaniczny – utrzymuje obudowę, blok transportowy – przenosi sygnały.",
+        "c.": "Blok informacyjny, blok zasilania awaryjnego i blok alarmowy.",
+        "d.": "Blok komunikacyjny, blok optyczny i blok cieplny.",
+        "explanation": "Układy sterowania dzielą się na bloki: zasilania, sterowania, wykonawczy i pomiarowy – każdy pełni odrębną funkcję w działaniu systemu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Jakie znasz rodzaje łączników?",
+        "a.": "Łączniki ręczne, krańcowe, ciśnieniowe, czasowe i zdalnie sterowane.",
+        "b.": "Łączniki prądowe, cieplne i mechaniczne.",
+        "c.": "Łączniki spawane, lutowane i klejone.",
+        "d.": "Łączniki przewodzące i nieprzewodzące.",
+        "explanation": "Łączniki mogą być uruchamiane ręcznie (np. przyciski), automatycznie (np. krańcówki) lub sterowane zdalnie (np. styczniki).",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający symbole zestyków: NO – normalnie otwarty, NC – normalnie zamknięty, przełączny>",
+        "question": "Jakie znasz rodzaje zestyków i jakie są ich symbole graficzne?",
+        "a.": "NO – normalnie otwarty, NC – normalnie zamknięty, zestyk przełączny.",
+        "b.": "Tylko zestyk NO – normalnie otwarty.",
+        "c.": "Zestyk spawany i zestyk odwrócony.",
+        "d.": "Zestyk magnetyczny i zestyk cieplny.",
+        "explanation": "Zestyki dzielą się na NO (normalnie otwarte), NC (normalnie zamknięte) i przełączne, a ich symbole graficzne określają stan spoczynkowy.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający komorę gaszeniową w wyłączniku – szczelina i siatka rozpraszająca łuk elektryczny>",
+        "question": "W jakich łącznikach i w jakim celu stosuje się komory gaszeniowe?",
+        "a.": "W łącznikach dużej mocy (np. stycznikach, wyłącznikach) – do gaszenia łuku elektrycznego podczas rozłączania obwodu.",
+        "b.": "W łącznikach sygnałowych – do wzmocnienia prądu.",
+        "c.": "W przełącznikach krańcowych – do chłodzenia elementów.",
+        "d.": "W łącznikach oświetleniowych – dla estetyki obudowy.",
+        "explanation": "Komory gaszeniowe stosuje się w łącznikach dużej mocy, aby bezpiecznie zgasić łuk elektryczny i chronić styki przed uszkodzeniem.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Jakie wielkości charakteryzują łącznik?",
+        "a.": "Napięcie znamionowe, prąd znamionowy, liczba zestyków, trwałość elektryczna i mechaniczna.",
+        "b.": "Masa, długość i twardość materiału obudowy.",
+        "c.": "Częstotliwość sygnału, kolor i temperatura pracy.",
+        "d.": "Średnica przewodów i liczba śrub montażowych.",
+        "explanation": "Podstawowe parametry łączników to napięcie i prąd znamionowy, liczba zestyków oraz trwałość określająca ich żywotność.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający budowę łącznika: dźwignia, zestyki, sprężyna, obudowa>",
+        "question": "Z jakich elementów składa się łącznik?",
+        "a.": "Z elementu napędowego, styków ruchomych i nieruchomych, mechanizmu powrotnego (sprężyny) i obudowy izolacyjnej.",
+        "b.": "Z cewki, rdzenia i uzwojenia.",
+        "c.": "Z tłoka, cylindra i zaworu.",
+        "d.": "Z wirnika, stojana i łożyska.",
+        "explanation": "Łącznik zawiera element sterujący (dźwignię lub przycisk), zestyki, mechanizm sprężynowy i izolacyjną obudowę.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat stycznika roboczego z zaznaczoną cewką, zestykami głównymi (1L1–2T1, 3L2–4T2, 5L3–6T3) i pomocniczymi (13–14, 21–22)>",
+        "question": "Jak zbudowany jest stycznik roboczy i jak oznaczamy jego styki?",
+        "a.": "Składa się z cewki elektromagnesu, rdzenia, styków głównych i pomocniczych; styki główne oznacza się np. 1L1–2T1, pomocnicze 13–14 (NO) i 21–22 (NC).",
+        "b.": "Z silnika, wału i przekładni.",
+        "c.": "Z cewki, śruby i tulei bez styków.",
+        "d.": "Z kondensatora i rezystora.",
+        "explanation": "Stycznik roboczy posiada cewkę elektromagnesu, która steruje stykami głównymi i pomocniczymi; oznaczenia numeryczne są zgodne z normą PN-EN 50005.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek porównujący przekaźnik i stycznik – mniejsze rozmiary przekaźnika, większe prądy stycznika>",
+        "question": "Czym różni się przekaźnik od stycznika roboczego?",
+        "a.": "Przekaźnik służy do sterowania małymi prądami sygnałowymi, a stycznik – do załączania obwodów mocy.",
+        "b.": "Przekaźnik nie posiada cewki, a stycznik tak.",
+        "c.": "Przekaźnik jest zawsze większy od stycznika.",
+        "d.": "Przekaźnik działa tylko ręcznie, a stycznik automatycznie.",
+        "explanation": "Przekaźnik stosowany jest w obwodach sygnałowych o małych prądach, natomiast stycznik – w obwodach roboczych dużej mocy.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający różne silniki: prądu stałego, indukcyjny, synchroniczny i krokowy>",
+        "question": "Jakie znasz rodzaje silników elektrycznych?",
+        "a.": "Silniki prądu stałego, indukcyjne, synchroniczne i krokowe.",
+        "b.": "Silniki cieplne, hydrauliczne i pneumatyczne.",
+        "c.": "Silniki dwusuwowe i czterosuwowe.",
+        "d.": "Silniki spalinowe i parowe.",
+        "explanation": "Silniki elektryczne dzielą się na prądu stałego (DC), prądu przemiennego (AC – indukcyjne, synchroniczne) oraz krokowe – sterowane impulsowo.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<tabliczka znamionowa silnika elektrycznego z parametrami: napięcie, moc, prąd, cosφ, prędkość obrotowa>",
+        "question": "O czym mówią dane znamionowe silnika elektrycznego?",
+        "a.": "O podstawowych parametrach pracy silnika, takich jak napięcie, prąd, moc, prędkość obrotowa i współczynnik mocy.",
+        "b.": "O dacie produkcji i numerze seryjnym silnika.",
+        "c.": "O materiałach użytych do wykonania obudowy.",
+        "d.": "O poziomie hałasu podczas pracy silnika.",
+        "explanation": "Dane znamionowe określają warunki, w których silnik może pracować prawidłowo – obejmują m.in. napięcie, moc, prąd i prędkość obrotową.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<zdjęcie tabliczki znamionowej silnika elektrycznego z wartościami: U=400V, I=2.5A, n=1450 obr/min, P=0.75kW, cosφ=0.85, f=50Hz>",
+        "question": "Jakie dane zawiera tabliczka znamionowa silnika elektrycznego?",
+        "a.": "Napięcie znamionowe, prąd znamionowy, moc, prędkość obrotowa, współczynnik mocy, częstotliwość, sposób połączenia uzwojeń i stopień ochrony IP.",
+        "b.": "Datę produkcji, kolor obudowy i wagę silnika.",
+        "c.": "Rodzaj łożysk i typ uzwojenia stojana.",
+        "d.": "Rodzaj farby i producenta śrub montażowych.",
+        "explanation": "Tabliczka znamionowa zawiera podstawowe dane eksploatacyjne silnika: napięcie, prąd, moc, prędkość obrotową, współczynnik mocy, częstotliwość oraz stopień ochrony.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat pokazujący zależność mocy P, momentu M i prędkości kątowej ω: P = M * ω>",
+        "question": "Jaka jest zależność między mocą i momentem w silniku elektrycznym?",
+        "a.": "Moc jest iloczynem momentu obrotowego i prędkości kątowej (P = M × ω).",
+        "b.": "Moc jest odwrotnością momentu obrotowego (P = 1/M).",
+        "c.": "Moment jest proporcjonalny do pierwiastka z mocy.",
+        "d.": "Nie istnieje zależność między mocą a momentem.",
+        "explanation": "Zależność mocy mechanicznej silnika określa wzór P = M × ω, gdzie M to moment obrotowy [Nm], a ω – prędkość kątowa [rad/s].",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający przykłady maszyn prądu stałego: prądnica prądu stałego, silnik obcowzbudny, silnik bocznikowy, silnik szeregowy>",
+        "question": "Jakie maszyny można zaliczyć do grupy maszyn specjalnych prądu stałego?",
+        "a.": "Maszyny prądnico-silnikowe, maszyny prądu stałego z magnesami trwałymi, prądnice tachometryczne i serwosilniki prądu stałego.",
+        "b.": "Maszyny asynchroniczne, synchroniczne i krokowe.",
+        "c.": "Maszyny hydrauliczne i pneumatyczne.",
+        "d.": "Maszyny indukcyjne jednofazowe i dwufazowe.",
+        "explanation": "Do grupy maszyn specjalnych prądu stałego należą m.in. serwosilniki, maszyny z magnesami trwałymi oraz prądnice tachometryczne wykorzystywane w automatyce.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat pokazujący sposoby regulacji prędkości silnika DC: przez zmianę napięcia twornika, prądu wzbudzenia i rezystancji w obwodzie twornika>",
+        "question": "W jaki sposób reguluje się prędkość kątową silników prądu stałego?",
+        "a.": "Przez zmianę napięcia zasilającego twornik, zmianę prądu wzbudzenia lub przez włączenie rezystancji w obwód twornika.",
+        "b.": "Poprzez zmianę częstotliwości napięcia zasilania.",
+        "c.": "Poprzez zmianę liczby par biegunów stojana.",
+        "d.": "Przez zmianę średnicy wału silnika.",
+        "explanation": "Regulacja prędkości silnika DC odbywa się poprzez zmianę napięcia twornika, prądu wzbudzenia lub wprowadzenie dodatkowej rezystancji w obwodzie twornika.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Co nazywamy rozruchem?",
+        "a.": "Proces stopniowego zwiększania prędkości obrotowej silnika od zera do prędkości znamionowej.",
+        "b.": "Proces hamowania silnika po zakończeniu pracy.",
+        "c.": "Proces zmniejszania napięcia zasilania silnika w czasie pracy.",
+        "d.": "Zjawisko zwiększania momentu obrotowego w stanie ustalonym.",
+        "explanation": "Rozruch to proces kontrolowanego rozpędzania silnika, który zapobiega nadmiernemu prądowi rozruchowemu i przeciążeniu sieci.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat rozruchu silnika DC – zewnętrzny rezystor włączony szeregowo z twornikiem>",
+        "question": "Jakie znasz sposoby rozruchu silników prądu stałego?",
+        "a.": "Przez włączenie rezystancji rozruchowej w obwód twornika lub zastosowanie układów elektronicznych do łagodnego rozruchu.",
+        "b.": "Przez zmianę liczby par biegunów.",
+        "c.": "Przez włączenie silnika bezpośrednio do sieci bez ograniczeń.",
+        "d.": "Przez zwiększenie temperatury uzwojeń stojana.",
+        "explanation": "W celu ograniczenia prądu rozruchowego stosuje się oporniki rozruchowe lub elektroniczne układy łagodnego startu silnika DC.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat budowy silnika indukcyjnego – stojan z uzwojeniami i wirnik klatkowy>",
+        "question": "Jaka jest budowa i zasada działania silnika indukcyjnego?",
+        "a.": "Składa się ze stojana z uzwojeniem trójfazowym i wirnika (najczęściej klatkowego); moment obrotowy powstaje wskutek indukcji prądu w wirniku przez pole magnetyczne stojana.",
+        "b.": "Składa się tylko z magnesów trwałych i nie wymaga zasilania.",
+        "c.": "Zbudowany jest z komutatora i szczotek jak silnik prądu stałego.",
+        "d.": "Działa dzięki wzajemnemu tarciu elementów mechanicznych.",
+        "explanation": "Silnik indukcyjny działa na zasadzie indukcji elektromagnetycznej – pole wirujące wytwarzane w stojanie indukuje prąd w wirniku, co powoduje jego obrót.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Jak dobieramy silnik do maszyny napędzanej?",
+        "a.": "Na podstawie wymaganej mocy, momentu obrotowego, prędkości, warunków pracy i rodzaju obciążenia.",
+        "b.": "Na podstawie wyglądu obudowy i producenta.",
+        "c.": "Na podstawie długości kabla zasilającego.",
+        "d.": "Na podstawie koloru silnika i jego masy.",
+        "explanation": "Silnik dobiera się do maszyny biorąc pod uwagę wymagania mocy, momentu, charakter obciążenia oraz warunki eksploatacji (np. cykliczność, środowisko).",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat układu zabezpieczeń silnika: bezpiecznik, wyłącznik nadprądowy, termik, przekaźnik przeciążeniowy>",
+        "question": "Jak dobieramy zabezpieczenia do silnika?",
+        "a.": "Na podstawie prądu znamionowego, mocy silnika i warunków pracy, stosując bezpieczniki, wyłączniki nadprądowe i termiczne przekaźniki przeciążeniowe.",
+        "b.": "Na podstawie napięcia i długości przewodów.",
+        "c.": "Na podstawie temperatury otoczenia i materiału obudowy.",
+        "d.": "Na podstawie liczby obrotów wału.",
+        "explanation": "Dobór zabezpieczeń silnika uwzględnia jego prąd znamionowy i charakter obciążenia, aby chronić go przed przeciążeniem, zwarciem i przegrzaniem.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat blokowy przekształtnika: prostownik, falownik, układ sterowania>",
+        "question": "Jakie układy nazywamy przekształtnikami?",
+        "a.": "Układy elektryczne zmieniające parametry energii elektrycznej, takie jak napięcie, prąd lub częstotliwość.",
+        "b.": "Układy mechaniczne przekształcające ruch obrotowy na postępowy.",
+        "c.": "Układy cieplne służące do zmiany temperatury w obwodzie.",
+        "d.": "Układy hydrauliczne do regulacji przepływu cieczy.",
+        "explanation": "Przekształtniki to urządzenia elektryczne, które zmieniają parametry energii (np. prostowniki, falowniki, przetwornice, tyrystorowe układy regulacyjne).",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający radiator i bezpiecznik w układzie półprzewodnikowym>",
+        "question": "Przed czym i jak zabezpieczamy przyrządy półprzewodnikowe?",
+        "a.": "Przed przeciążeniem, przegrzaniem i przepięciami – poprzez stosowanie radiatorów, bezpieczników i układów ograniczających napięcie.",
+        "b.": "Przed uszkodzeniami mechanicznymi – przez malowanie obudowy.",
+        "c.": "Przed działaniem wilgoci – przez zwiększenie napięcia zasilania.",
+        "d.": "Przed przepływem prądu – przez odłączenie od sieci.",
+        "explanation": "Przyrządy półprzewodnikowe (np. diody, tyrystory, tranzystory) zabezpiecza się przed przegrzaniem radiatorami i przed przepięciami układami RC lub warystorami.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Jak dobieramy przyrządy półprzewodnikowe?",
+        "a.": "Na podstawie napięcia i prądu pracy układu, rodzaju sygnału (stały, zmienny) i warunków chłodzenia.",
+        "b.": "Na podstawie koloru obudowy i masy elementu.",
+        "c.": "Na podstawie długości przewodów i połączeń lutowniczych.",
+        "d.": "Na podstawie częstotliwości akustycznej układu.",
+        "explanation": "Dobór przyrządów półprzewodnikowych zależy od napięcia, prądu, częstotliwości oraz rodzaju sterowania i wymaganego chłodzenia.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<fragment schematu elektrycznego – rozmieszczenie elementów w pionie i oznaczenia połączeń>",
+        "question": "Jakie zasady obowiązują przy rysowaniu schematów układów sterowania elektrycznego?",
+        "a.": "Elementy rysuje się w układzie pionowym lub poziomym, linie prowadzi prostymi odcinkami, a symbole i oznaczenia są zgodne z normami PN-EN.",
+        "b.": "Schematy rysuje się dowolnie, bez zachowania kierunku przepływu prądu.",
+        "c.": "Elementy należy przedstawiać w rzeczywistych kształtach obudów.",
+        "d.": "Nie obowiązują żadne zasady rysowania schematów.",
+        "explanation": "Schematy elektryczne muszą być czytelne i zgodne z normami – elementy rozmieszcza się logicznie, a połączenia prowadzi prostymi liniami.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek pokazujący kolejne etapy tworzenia schematu: analiza zadania, dobór elementów, rozmieszczenie, oznaczenie połączeń>",
+        "question": "Jakie kolejne kroki podejmiesz, aby narysować schemat układu sterowania elektrycznego?",
+        "a.": "Analiza zadania, dobór elementów, ustalenie połączeń, rozmieszczenie symboli, opis i numeracja obwodów.",
+        "b.": "Najpierw rysuję przewody, a później dobieram elementy.",
+        "c.": "Rysuję losowo elementy, a następnie dobieram ich wartości.",
+        "d.": "Kopiuję gotowy schemat bez sprawdzenia połączeń.",
+        "explanation": "Rysowanie schematu rozpoczyna się od analizy funkcji układu, następnie dobiera się elementy, rozmieszcza je logicznie i opisuje połączenia.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<fragment schematu ze stykami stycznika z oznaczeniami 13-14, 21-22, 33-34, numery cewki 1-2>",
+        "question": "Co oznaczają liczby wpisane przed schematem styków styczników i przekaźników, umieszczonych pod symbolami ich cewek?",
+        "a.": "Numery torów prądowych i kolejność zestyków przypisanych do konkretnej cewki.",
+        "b.": "Datę produkcji elementu i jego numer seryjny.",
+        "c.": "Wartość napięcia cewki i moc znamionową.",
+        "d.": "Rodzaj obudowy i klasę izolacji.",
+        "explanation": "Liczby oznaczają numery zestyków, które są przypisane do określonej cewki stycznika lub przekaźnika, zgodnie z zasadami oznaczeń norm PN-EN.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat termowentylatora z transformatorem obniżającym napięcie z 230V do 12V dla obwodu sterowania>",
+        "question": "Jaką funkcję spełnia transformator w obwodzie prądowym układu termowentylatora?",
+        "a.": "Obniża napięcie zasilania do bezpiecznej wartości dla obwodu sterowania lub czujników.",
+        "b.": "Zwiększa napięcie w obwodzie grzewczym.",
+        "c.": "Zastępuje silnik wentylatora.",
+        "d.": "Stabilizuje temperaturę elementów grzejnych.",
+        "explanation": "Transformator w układzie termowentylatora służy do separacji galwanicznej i obniżenia napięcia do poziomu bezpiecznego dla układów sterujących.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek pokazujący czujniki położenia: mechaniczny krańcówka, indukcyjny, pojemnościowy, optyczny, magnetyczny>",
+        "question": "Jakie są rodzaje czujników położenia?",
+        "a.": "Mechaniczne, indukcyjne, pojemnościowe, optyczne i magnetyczne.",
+        "b.": "Termiczne, akustyczne, chemiczne i hydrauliczne.",
+        "c.": "Analogowe, cyfrowe i binarne.",
+        "d.": "Ruchome, stałe i niestacjonarne.",
+        "explanation": "Czujniki położenia mogą działać na różnych zasadach – mechanicznej, indukcyjnej, pojemnościowej, optycznej lub magnetycznej.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat czujnika potencjometrycznego – suwak przesuwający się po oporze, zmieniający napięcie wyjściowe>",
+        "question": "Jaka jest zasada działania czujników potencjometrycznych?",
+        "a.": "Działają na zasadzie zmiany rezystancji elektrycznej w zależności od położenia suwaka.",
+        "b.": "Działają na zasadzie indukcji elektromagnetycznej.",
+        "c.": "Działają poprzez zmianę pojemności między elektrodami.",
+        "d.": "Wykorzystują odbicie wiązki światła.",
+        "explanation": "Czujniki potencjometryczne przetwarzają zmianę położenia suwaka na zmianę napięcia proporcjonalną do przemieszczenia.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat czujnika indukcyjnego – cewka, rdzeń ferromagnetyczny i obiekt metalowy wpływający na pole magnetyczne>",
+        "question": "Jaka jest zasada działania czujników indukcyjnych?",
+        "a.": "Wykrywają obiekty metalowe na podstawie zmiany pola elektromagnetycznego wytwarzanego przez cewkę czujnika.",
+        "b.": "Wykrywają zmianę rezystancji przy dotyku obiektu.",
+        "c.": "Działają poprzez odbicie promieniowania podczerwonego.",
+        "d.": "Działają na zasadzie różnicy temperatur między obiektami.",
+        "explanation": "Czujniki indukcyjne generują zmienne pole elektromagnetyczne – obecność metalu powoduje zmianę indukcyjności cewki, co jest wykrywane przez układ elektroniki.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat czujnika pojemnościowego – dwie elektrody tworzące kondensator, którego pojemność zmienia się przy zbliżeniu obiektu>",
+        "question": "Jaka jest zasada działania czujników pojemnościowych?",
+        "a.": "Wykrywają obiekty poprzez zmianę pojemności elektrycznej między elektrodami czujnika a obiektem.",
+        "b.": "Wykrywają jedynie obiekty metalowe na podstawie indukcji elektromagnetycznej.",
+        "c.": "Wykrywają obiekty poprzez odbicie światła od powierzchni.",
+        "d.": "Działają na zasadzie pomiaru ciśnienia powietrza w otoczeniu obiektu.",
+        "explanation": "Czujniki pojemnościowe reagują na zmiany pojemności kondensatora wywołane zbliżeniem obiektu – metalowego lub niemetalowego – do powierzchni czujnika.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat czujnika optycznego – nadajnik (dioda LED) i odbiornik (fototranzystor) z wiązką światła przerywaną przez obiekt>",
+        "question": "Jaka jest zasada działania czujników optycznych?",
+        "a.": "Wykrywają obecność obiektu poprzez przerwanie lub odbicie wiązki światła pomiędzy nadajnikiem a odbiornikiem.",
+        "b.": "Wykrywają obiekt na podstawie zmiany pojemności elektrycznej.",
+        "c.": "Wykrywają wyłącznie elementy metalowe przez zjawisko indukcji.",
+        "d.": "Działają na zasadzie detekcji drgań mechanicznych.",
+        "explanation": "Czujniki optyczne emitują wiązkę światła, która po odbiciu lub przerwaniu przez obiekt powoduje zmianę sygnału odbiornika, co sygnalizuje obecność obiektu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat czujnika binarnego pojemnościowego – sygnał wyjściowy 0/1 w zależności od zmiany pojemności pola detekcji>",
+        "question": "Jaka jest zasada działania czujników binarnych pojemnościowych?",
+        "a.": "Reagują na zmianę pojemności w polu detekcji i generują sygnał wyjściowy w postaci dwóch stanów: 0 lub 1.",
+        "b.": "Mierzą wartość pojemności i przekazują ją w postaci analogowej.",
+        "c.": "Działają jak czujniki optyczne, ale bez światła.",
+        "d.": "Reagują tylko na dotyk człowieka.",
+        "explanation": "Czujniki binarne pojemnościowe pracują w trybie dwustanowym – przy przekroczeniu określonej wartości pojemności generują sygnał logiczny 1.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat czujnika kontaktronowego – dwie ferromagnetyczne blaszki w szklanej rurce zamykające obwód w obecności pola magnetycznego>",
+        "question": "Jaka jest zasada działania czujników kontaktronowych?",
+        "a.": "W obecności pola magnetycznego magnesu trwałego styki kontaktronu zwierają się, zamykając obwód elektryczny.",
+        "b.": "Wykrywają obecność metalu poprzez indukcję elektromagnetyczną.",
+        "c.": "Reagują na zmianę ciśnienia powietrza w układzie.",
+        "d.": "Wykrywają temperaturę obiektu przez zmianę rezystancji.",
+        "explanation": "Czujniki kontaktronowe wykorzystują pole magnetyczne magnesu, które powoduje zwarcie styków wewnątrz hermetycznej rurki szklanej.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Na czym polega intuicyjna metoda projektowania układów wykonawczych?",
+        "a.": "Na tworzeniu układu na podstawie doświadczenia i analizy działania bez wcześniejszych obliczeń matematycznych.",
+        "b.": "Na losowym doborze elementów i sprawdzaniu ich działania w praktyce.",
+        "c.": "Na projektowaniu wyłącznie z użyciem symulatora komputerowego.",
+        "d.": "Na odwzorowaniu schematu z istniejącego urządzenia bez analizy jego działania.",
+        "explanation": "Intuicyjna metoda projektowania polega na opracowywaniu układu na podstawie doświadczenia i logicznego rozumowania funkcji działania.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przykładowego cyklogramu przedstawiającego przebieg ruchu siłownika w czasie>",
+        "question": "Co to są cyklogramy?",
+        "a.": "Wykresy przedstawiające przebieg ruchu lub zmianę stanów elementów układu w funkcji czasu lub kolejności działań.",
+        "b.": "Schematy elektryczne przedstawiające rozmieszczenie czujników.",
+        "c.": "Tabele opisujące zużycie powietrza w układach pneumatycznych.",
+        "d.": "Wykresy mocy silników elektrycznych.",
+        "explanation": "Cyklogram pokazuje kolejność i czas trwania poszczególnych faz ruchu siłowników lub elementów wykonawczych w procesie automatycznym.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat zaworu dławiącego w obwodzie pneumatycznym siłownika>",
+        "question": "Przy pomocy jakich elementów można zmieniać prędkość ruchu tłoczyska?",
+        "a.": "Przy pomocy zaworów dławiących lub zaworów dławiąco-zwrotnych.",
+        "b.": "Przy pomocy przekaźników i wyłączników krańcowych.",
+        "c.": "Przy pomocy czujników indukcyjnych.",
+        "d.": "Przy pomocy filtrów powietrza.",
+        "explanation": "Zawory dławiące i dławiąco-zwrotne regulują natężenie przepływu powietrza, co pozwala zmieniać prędkość ruchu tłoczyska siłownika pneumatycznego.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat siłownika pneumatycznego z czujnikami krańcowymi uruchamiającymi zawory>",
+        "question": "W jaki sposób realizuje się sterowanie pneumatyczne siłownikiem w funkcji drogi?",
+        "a.": "Za pomocą czujników krańcowych lub zaworów sterowanych położeniem tłoka.",
+        "b.": "Poprzez zmianę ciśnienia w układzie zasilania.",
+        "c.": "Za pomocą zaworów czasowych.",
+        "d.": "Przy użyciu przetworników ciśnienia.",
+        "explanation": "Sterowanie w funkcji drogi polega na wykorzystaniu czujników położenia tłoka (np. krańcówek), które przełączają zawory sterujące ruchem siłownika.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat siłownika z zaworem ciśnieniowym sterowanym sygnałem z przetwornika>",
+        "question": "W jaki sposób realizuje się sterowanie pneumatyczne siłownikiem w funkcji ciśnienia?",
+        "a.": "Za pomocą przetworników lub wyłączników ciśnieniowych, które reagują na osiągnięcie określonego ciśnienia w komorze siłownika.",
+        "b.": "Za pomocą czujników optycznych reagujących na światło.",
+        "c.": "Poprzez zmianę długości skoku tłoczyska.",
+        "d.": "Za pomocą zaworów dławiących.",
+        "explanation": "Sterowanie w funkcji ciśnienia realizuje się poprzez wyłączniki ciśnieniowe, które uruchamiają lub zatrzymują siłownik po osiągnięciu zadanego ciśnienia.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat siłownika pneumatycznego z zaworem czasowym i regulacją opóźnienia>",
+        "question": "W jaki sposób realizuje się sterowanie pneumatyczne siłownikiem w funkcji czasu?",
+        "a.": "Za pomocą zaworów czasowych, które po określonym czasie zmieniają położenie tłoka.",
+        "b.": "Poprzez czujniki ciśnienia wykrywające zmianę wartości.",
+        "c.": "Za pomocą czujników indukcyjnych reagujących na ruch tłoka.",
+        "d.": "Poprzez zmianę długości przewodów pneumatycznych.",
+        "explanation": "Sterowanie czasowe odbywa się przy użyciu zaworów opóźniających, które powodują przesunięcie w czasie działania siłownika po podaniu sygnału.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat automatycznego cyklu pracy siłownika – czujniki krańcowe, zawory sterujące, obwód powrotny>",
+        "question": "W jaki sposób realizuje się sterowanie pneumatyczne siłownikiem w cyklu automatycznym?",
+        "a.": "Za pomocą układu zaworów logicznych, czujników krańcowych i zaworów czasowych, które tworzą zamknięty cykl pracy.",
+        "b.": "Poprzez ręczne sterowanie zaworem głównym.",
+        "c.": "Za pomocą czujników temperatury i wilgotności.",
+        "d.": "Poprzez zmianę długości skoku tłoka.",
+        "explanation": "Automatyczne sterowanie siłownikiem odbywa się przy użyciu czujników i zaworów logicznych, które kolejno uruchamiają i cofają tłoczysko bez udziału operatora.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat elektropneumatycznego układu sterowania siłownikiem z czujnikami krańcowymi i zaworami sterowanymi cewkami>",
+        "question": "W jaki sposób realizuje się elektropneumatyczne sterowanie siłownikiem w funkcji drogi?",
+        "a.": "Za pomocą czujników położenia (krańcowych lub indukcyjnych), które sterują zaworami elektromagnetycznymi uruchamiającymi siłownik.",
+        "b.": "Za pomocą przekaźników czasowych bez czujników.",
+        "c.": "Poprzez zmianę ciśnienia zasilania sprężonego powietrza.",
+        "d.": "Za pomocą ręcznych zaworów sterujących.",
+        "explanation": "W elektropneumatycznym sterowaniu w funkcji drogi sygnały z czujników położenia tłoczyska powodują załączenie lub wyłączenie cewek zaworów elektromagnetycznych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat elektropneumatycznego układu z czujnikiem ciśnienia i przekaźnikiem sterującym zaworem>",
+        "question": "W jaki sposób realizuje się elektropneumatyczne sterowanie siłownikiem w funkcji ciśnienia?",
+        "a.": "Za pomocą czujników lub przekaźników ciśnienia, które przy osiągnięciu określonej wartości ciśnienia wysyłają sygnał elektryczny do sterowania zaworem elektromagnetycznym.",
+        "b.": "Za pomocą czujników optycznych wykrywających położenie tłoczyska.",
+        "c.": "Poprzez zmianę prędkości przepływu powietrza w przewodach.",
+        "d.": "Za pomocą zaworów dławiących regulujących natężenie przepływu.",
+        "explanation": "Sterowanie w funkcji ciśnienia realizuje się poprzez przekaźniki ciśnieniowe, które uruchamiają cewki zaworów po osiągnięciu ustalonego ciśnienia w układzie.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat elektropneumatycznego układu z przekaźnikiem czasowym sterującym zaworem elektromagnetycznym>",
+        "question": "W jaki sposób realizuje się elektropneumatyczne sterowanie siłownikiem w funkcji czasu?",
+        "a.": "Za pomocą przekaźników czasowych, które po określonym czasie włączają lub wyłączają zasilanie cewki zaworu elektromagnetycznego.",
+        "b.": "Za pomocą czujników indukcyjnych wykrywających metalowy tłok.",
+        "c.": "Poprzez ręczne sterowanie przyciskiem.",
+        "d.": "Za pomocą czujników temperatury i wilgotności.",
+        "explanation": "Elektropneumatyczne sterowanie czasowe realizowane jest przy użyciu przekaźników czasowych sterujących zaworami w określonych odstępach czasowych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat automatycznego elektropneumatycznego układu – czujniki krańcowe, przekaźniki i zawory sterowane cewkami>",
+        "question": "W jaki sposób realizuje się elektropneumatyczne sterowanie siłownikiem w cyklu automatycznym?",
+        "a.": "Za pomocą czujników położenia, przekaźników logicznych i zaworów elektromagnetycznych tworzących zamknięty cykl pracy siłownika.",
+        "b.": "Tylko przez ręczne przełączanie zaworów sterujących.",
+        "c.": "Za pomocą czujników temperatury i wilgotności powietrza.",
+        "d.": "Poprzez bezpośrednie zasilanie siłownika sprężonym powietrzem bez sterowania.",
+        "explanation": "Automatyczny cykl elektropneumatyczny wykorzystuje czujniki i przekaźniki do kolejnego uruchamiania zaworów i powrotu siłownika w sposób powtarzalny.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat dwóch cewek sterujących zaworem z układem logicznym realizującym pamięć z priorytetem wyłączania>",
+        "question": "W jaki sposób realizuje się elektropneumatyczny układ pamięciowy z priorytetem wyłączania?",
+        "a.": "Poprzez zastosowanie dwóch cewek zaworu i układu przekaźników, w którym sygnał wyłączenia ma pierwszeństwo przed sygnałem włączenia.",
+        "b.": "Poprzez zwiększenie ciśnienia w jednej z komór siłownika.",
+        "c.": "Za pomocą zaworu czasowego opóźniającego start.",
+        "d.": "Poprzez ręczne sterowanie przyciskami START i STOP.",
+        "explanation": "Układ pamięciowy z priorytetem wyłączania działa tak, że sygnał STOP zawsze powoduje natychmiastowe wyłączenie obwodu, niezależnie od stanu włączenia.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat dwóch cewek zaworu z układem logicznym priorytetu włączania – pierwszeństwo sygnału START>",
+        "question": "W jaki sposób realizuje się elektropneumatyczny układ pamięciowy z priorytetem włączania?",
+        "a.": "Za pomocą dwóch cewek zaworu i przekaźników, w których sygnał włączenia ma pierwszeństwo przed sygnałem wyłączenia.",
+        "b.": "Przez zwiększenie napięcia zasilania w obwodzie sterowania.",
+        "c.": "Za pomocą przekaźnika czasowego z opóźnieniem wyłączania.",
+        "d.": "Poprzez zmianę kierunku przepływu powietrza w przewodzie.",
+        "explanation": "Układ pamięciowy z priorytetem włączania działa tak, że po pojawieniu się sygnału START układ przechodzi w stan aktywny niezależnie od obecności sygnału wyłączenia.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat siłownika dwustronnego działania z obliczeniem objętości cylindra i częstotliwości cykli>",
+        "question": "W jaki sposób oblicza się zużycie powietrza przez siłownik pracujący cyklicznie?",
+        "a.": "Na podstawie objętości cylindra, liczby cykli na minutę i ciśnienia roboczego, według wzoru: Q = V × n × p.",
+        "b.": "Na podstawie mocy silnika napędzającego sprężarkę.",
+        "c.": "Na podstawie temperatury otoczenia i wilgotności powietrza.",
+        "d.": "Na podstawie długości przewodów pneumatycznych.",
+        "explanation": "Zużycie powietrza przez siłownik oblicza się z objętości jego komór, liczby cykli oraz ciśnienia roboczego, co pozwala dobrać odpowiednią sprężarkę.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat blokowy układu proporcjonalnego: regulator, zawór proporcjonalny, czujnik sprzężenia zwrotnego>",
+        "question": "Scharakteryzuj strukturę i przedstaw sposób działania układu proporcjonalnego.",
+        "a.": "Układ proporcjonalny składa się z czujnika, wzmacniacza, elementu wykonawczego i regulatora; sygnał wyjściowy jest proporcjonalny do sygnału sterującego.",
+        "b.": "Układ proporcjonalny działa jak przekaźnik – włącza lub wyłącza sygnał bez wartości pośrednich.",
+        "c.": "Układ proporcjonalny składa się tylko z czujnika i zaworu.",
+        "d.": "Układ proporcjonalny steruje wyłącznie ręcznie bez sprzężenia zwrotnego.",
+        "explanation": "W układzie proporcjonalnym wartość sterowania zmienia się płynnie, a sygnał wyjściowy odpowiada proporcjonalnie zmianie sygnału wejściowego.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek solenoidu proporcjonalnego z cewką, rdzeniem ruchomym i sprężyną powrotną>",
+        "question": "Objaśnij sposób działania solenoidu proporcjonalnego z regulacją siły.",
+        "a.": "Siła przyciągania rdzenia zmienia się proporcjonalnie do prądu sterującego płynącego przez cewkę elektromagnesu.",
+        "b.": "Siła przyciągania rdzenia jest stała niezależnie od prądu.",
+        "c.": "Solenoid działa wyłącznie w trybie binarnym (ON/OFF).",
+        "d.": "Siła przyciągania zależy wyłącznie od temperatury cewki.",
+        "explanation": "Solenoid proporcjonalny umożliwia płynną regulację siły elektromagnetycznej w zależności od natężenia prądu w cewce, co pozwala precyzyjnie sterować zaworem.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Scharakteryzuj zalety stosowania elektrohydraulicznych układów proporcjonalnych.",
+        "a.": "Zapewniają płynną regulację siły, prędkości i położenia, wysoką precyzję sterowania oraz możliwość zdalnego sterowania elektronicznego.",
+        "b.": "Są proste w budowie, ale umożliwiają tylko sterowanie dwustanowe.",
+        "c.": "Działają jedynie przy niskich ciśnieniach i małych obciążeniach.",
+        "d.": "Nie pozwalają na współpracę z układami elektronicznymi.",
+        "explanation": "Elektrohydrauliczne układy proporcjonalne łączą dużą siłę hydrauliki z precyzyjnym sterowaniem elektrycznym, co umożliwia płynne i dokładne regulacje ruchu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat elektrohydraulicznego zaworu proporcjonalnego rozdzielającego – cewki proporcjonalne, suwak, kanały sterujące A, B, P, T>",
+        "question": "Przedstaw sposób działania elektrohydraulicznego proporcjonalnego zaworu rozdzielającego.",
+        "a.": "Zawór sterowany jest prądem elektrycznym proporcjonalnym do sygnału wejściowego; pozycja suwaka reguluje przepływ i kierunek oleju hydraulicznego między portami A, B, P i T.",
+        "b.": "Zawór działa tylko w trybie włącz/wyłącz, bez możliwości regulacji natężenia przepływu.",
+        "c.": "Zawór proporcjonalny sterowany jest mechanicznie przez dźwignię.",
+        "d.": "Zawór proporcjonalny steruje jedynie ciśnieniem bez zmiany kierunku przepływu.",
+        "explanation": "W zaworze proporcjonalnym rozdzielającym pozycja suwaka zależy od natężenia prądu w cewkach elektromagnetycznych, co pozwala płynnie sterować kierunkiem i natężeniem przepływu cieczy.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<UWAGA KONTROLArysunek przedstawiający symbol zaworu proporcjonalnego rozdzielającego – prostokąt z dwiema cewkami i strzałkami regulacyjnymi>",
+        "question": "Na podstawie przedstawionego symbolu określ rodzaj zaworu proporcjonalnego.",
+        "a.": "Rozdzielający.",
+        "b.": "Dławiąco-zwrotny.",
+        "c.": "Redukcyjny.",
+        "d.": "Bezpieczeństwa.",
+        "explanation": "Symbol zaworu proporcjonalnego rozdzielającego przedstawia suwak sterujący kierunkiem przepływu oleju z możliwością proporcjonalnej regulacji otwarcia kanałów.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat blokowy układu regulacji – element zadawczy, regulator, element wykonawczy, czujnik i obiekt regulacji>",
+        "question": "Scharakteryzuj strukturę i sposób działania układu regulacji.",
+        "a.": "Układ regulacji składa się z elementu zadawczego, regulatora, elementu wykonawczego, obiektu regulacji i czujnika sprzężenia zwrotnego; utrzymuje wielkość regulowaną na zadanym poziomie.",
+        "b.": "Układ regulacji nie wykorzystuje sprzężenia zwrotnego i działa jedynie na zasadzie ON/OFF.",
+        "c.": "Układ regulacji działa tylko przy ręcznym sterowaniu przepływem.",
+        "d.": "Układ regulacji wykorzystuje tylko elementy mechaniczne bez sygnałów elektrycznych.",
+        "explanation": "Układ regulacji utrzymuje zadaną wartość wielkości (np. ciśnienia, prędkości) poprzez porównanie wartości zadanej z rzeczywistą i korekcję przez regulator.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat logiczny układu kombinacyjnego – bramki AND, OR, NOT>",
+        "question": "Objaśnij istotę działania układów kombinacyjnych.",
+        "a.": "Sygnał wyjściowy układu zależy tylko od bieżących wartości sygnałów wejściowych, bez pamięci wcześniejszych stanów.",
+        "b.": "Sygnał wyjściowy zależy od historii zmian sygnałów wejściowych.",
+        "c.": "Układy kombinacyjne wykorzystują przekaźniki czasowe i czujniki.",
+        "d.": "Układy kombinacyjne działają wyłącznie w oparciu o obwody hydrauliczne.",
+        "explanation": "Układy kombinacyjne to systemy logiczne, w których wynik działania (stan wyjścia) jest funkcją aktualnych sygnałów wejściowych, bez uwzględnienia przeszłości.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat logiczny układu sekwencyjnego – przerzutniki, liczniki, sygnały wejściowe i wyjściowe>",
+        "question": "Objaśnij istotę działania układów sekwencyjnych.",
+        "a.": "Sygnał wyjściowy układu zależy od bieżących sygnałów wejściowych oraz poprzednich stanów układu (układ posiada pamięć).",
+        "b.": "Sygnał wyjściowy zależy wyłącznie od aktualnych sygnałów wejściowych.",
+        "c.": "Układ sekwencyjny działa tylko na zasadzie zliczania impulsów.",
+        "d.": "Układ sekwencyjny nie posiada żadnych elementów pamięciowych.",
+        "explanation": "Układy sekwencyjne posiadają pamięć stanów i reagują nie tylko na aktualne sygnały wejściowe, ale też na kolejność ich występowania – np. przerzutniki i liczniki.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Na czym polega intuicyjne projektowanie układów elektrohydraulicznych?",
+        "a.": "Na projektowaniu układu na podstawie doświadczenia, analizy działania i schematów funkcjonalnych bez złożonych obliczeń teoretycznych.",
+        "b.": "Na przypadkowym łączeniu elementów i sprawdzaniu ich działania.",
+        "c.": "Na projektowaniu wyłącznie przy pomocy programów komputerowych.",
+        "d.": "Na odwzorowaniu gotowych schematów bez analizy ich funkcji.",
+        "explanation": "Intuicyjne projektowanie układów elektrohydraulicznych opiera się na praktycznym doświadczeniu i logicznym rozumowaniu funkcji poszczególnych elementów w układzie.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<ilustracja przedstawiająca komputerowe środowisko projektowe CAD dla schematów hydraulicznych>",
+        "question": "Jakie korzyści wynikają ze stosowania komputerowych programów do projektowania układów hydraulicznych i elektrohydraulicznych?",
+        "a.": "Ułatwiają tworzenie i modyfikację schematów, umożliwiają symulację działania, sprawdzanie poprawności połączeń i generowanie dokumentacji technicznej.",
+        "b.": "Służą wyłącznie do rysowania elementów w 3D.",
+        "c.": "Są potrzebne jedynie do projektowania układów elektrycznych.",
+        "d.": "Nie mają wpływu na dokładność i efektywność projektowania.",
+        "explanation": "Programy CAD/CAM dla hydrauliki pozwalają na szybkie tworzenie schematów, testowanie działania i eliminację błędów jeszcze przed wykonaniem układu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat blokowy metodyki projektowania: analiza zadania → dobór elementów → wykonanie schematu → symulacja → weryfikacja>",
+        "question": "Scharakteryzuj metodykę projektowania układów elektrohydraulicznych.",
+        "a.": "Obejmuje analizę zadania, określenie funkcji układu, dobór elementów, opracowanie schematu, symulację działania i weryfikację poprawności.",
+        "b.": "Polega tylko na montażu elementów bez wcześniejszego planowania.",
+        "c.": "Ogranicza się do testowania gotowych układów w praktyce.",
+        "d.": "Polega na kopiowaniu istniejących rozwiązań bez ich modyfikacji.",
+        "explanation": "Projektowanie układów elektrohydraulicznych wymaga opracowania koncepcji działania, doboru właściwych komponentów i przeprowadzenia symulacji działania w środowisku projektowym.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat urządzenia mechatronicznego z mikroprocesorem, czujnikami, przetwornikami i aktuatorami>",
+        "question": "Jakie zadania realizuje mikroprocesor w urządzeniu mechatronicznym?",
+        "a.": "Przetwarza sygnały z czujników, wykonuje algorytmy sterowania i wysyła sygnały do elementów wykonawczych.",
+        "b.": "Działa jedynie jako źródło zasilania dla czujników.",
+        "c.": "Steruje wyłącznie oświetleniem urządzenia.",
+        "d.": "Pełni funkcję wyłącznie elementu mechanicznego.",
+        "explanation": "Mikroprocesor w systemie mechatronicznym analizuje dane z czujników, realizuje program sterujący i generuje sygnały dla aktuatorów, decydując o pracy urządzenia.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat blokowy systemu mechatronicznego z czujnikami, sterownikiem i aktuatorami>",
+        "question": "Wyjaśnij pojęcie mechatronicznego obiektu sterowania.",
+        "a.": "Jest to część systemu mechatronicznego, na którą oddziałuje sygnał sterujący w celu uzyskania pożądanego efektu działania.",
+        "b.": "Jest to tylko czujnik pomiarowy w układzie mechatronicznym.",
+        "c.": "Jest to dowolny element elektryczny bez funkcji sterowania.",
+        "d.": "Jest to wyłącznie element mechaniczny pozbawiony elektroniki.",
+        "explanation": "Mechatroniczny obiekt sterowania to część systemu, której zachowanie (np. pozycja, prędkość, siła) jest kontrolowane przez układ sterujący.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat pokazujący czujniki w systemie mechatronicznym: temperatury, ciśnienia, położenia>",
+        "question": "Jakie zadania realizują elementy sensoryczne?",
+        "a.": "Przekształcają wielkości fizyczne (np. temperatura, ciśnienie, ruch) na sygnały elektryczne przekazywane do mikroprocesora.",
+        "b.": "Wykonują pracę mechaniczną w układzie.",
+        "c.": "Służą do magazynowania energii elektrycznej.",
+        "d.": "Odpowiadają za wizualizację pracy układu.",
+        "explanation": "Elementy sensoryczne (czujniki) służą do pomiaru wielkości fizycznych i dostarczają informacji do systemu sterowania w postaci sygnałów elektrycznych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat aktuatorów w systemie – silnik, siłownik, zawór proporcjonalny>",
+        "question": "Jakie zadania w układzie mechatronicznym pełnią aktory?",
+        "a.": "Realizują polecenia układu sterującego, przekształcając energię elektryczną na ruch lub inną formę energii roboczej.",
+        "b.": "Służą do odbioru informacji z otoczenia.",
+        "c.": "Magazynują dane o stanie pracy systemu.",
+        "d.": "Są elementami zabezpieczającymi przed przeciążeniem.",
+        "explanation": "Aktor (element wykonawczy) przetwarza sygnały sterujące z mikroprocesora na działanie fizyczne, np. ruch tłoka, obrót silnika lub zmianę ciśnienia.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat otwartego układu sterowania – brak sprzężenia zwrotnego>",
+        "question": "Jakie cechy ma otwarty układ sterowania?",
+        "a.": "Nie posiada sprzężenia zwrotnego; sygnał sterujący nie zależy od rzeczywistego wyniku działania obiektu.",
+        "b.": "Posiada sprzężenie zwrotne z czujnika położenia.",
+        "c.": "Automatycznie koryguje błędy pomiarowe.",
+        "d.": "Wymaga regulatora PID do poprawnej pracy.",
+        "explanation": "W otwartym układzie sterowania sygnał sterujący jest zadawany bez informacji zwrotnej o rzeczywistym stanie obiektu – brak możliwości samokorekty.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat układu regulacji z pętlą sprzężenia zwrotnego>",
+        "question": "Na czym polega istota układu regulacji?",
+        "a.": "Na utrzymywaniu wielkości regulowanej na zadanym poziomie dzięki sprzężeniu zwrotnemu, które koryguje różnice między wartością zadaną a rzeczywistą.",
+        "b.": "Na sterowaniu ruchem bez informacji zwrotnej.",
+        "c.": "Na ręcznym korygowaniu błędów operatora.",
+        "d.": "Na włączaniu i wyłączaniu elementów w stałych odstępach czasu.",
+        "explanation": "Układ regulacji automatycznie porównuje wartość zadaną z rzeczywistą i na tej podstawie dokonuje korekcji działania, aby utrzymać stały poziom regulowanej wielkości.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat ilustrujący sygnał zadany, rzeczywisty i różnicę między nimi – sygnał uchybu>",
+        "question": "Co to jest sygnał uchybu?",
+        "a.": "Różnica między wartością zadaną a wartością rzeczywistą wielkości regulowanej.",
+        "b.": "Sygnał generowany przez czujnik położenia niezależnie od układu.",
+        "c.": "Stała wartość określająca prędkość działania układu.",
+        "d.": "Sygnał pochodzący z aktuatora w stanie spoczynku.",
+        "explanation": "Sygnał uchybu e(t) = yzad - yrzecz. informuje o błędzie regulacji i służy do sterowania korekcyjnego w pętli regulacji.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat systemu mechatronicznego zintegrowanego – czujniki, sterownik, aktuatory, komunikacja cyfrowa>",
+        "question": "Jaka jest zasadnicza cecha systemu mechatronicznego?",
+        "a.": "Integracja elementów mechanicznych, elektrycznych, elektronicznych i informatycznych w jeden spójny system sterowania.",
+        "b.": "Oddzielenie części mechanicznej od elektrycznej bez współpracy.",
+        "c.": "Brak współdziałania pomiędzy układami.",
+        "d.": "Sterowanie wyłącznie mechaniczne bez elektroniki.",
+        "explanation": "Mechatronika łączy różne dziedziny techniki w jeden zintegrowany system, w którym elementy współpracują w czasie rzeczywistym dla realizacji określonych funkcji.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<wykres sygnału analogowego – przebieg ciągły w funkcji czasu>",
+        "question": "Jakie cechy ma sygnał analogowy?",
+        "a.": "Jest to sygnał ciągły w czasie, przyjmujący nieskończenie wiele wartości w określonym zakresie.",
+        "b.": "Jest to sygnał dwustanowy przyjmujący tylko wartości 0 i 1.",
+        "c.": "Zmienia się skokowo i ma charakter dyskretny.",
+        "d.": "Nie może być przetwarzany przez przetworniki A/C.",
+        "explanation": "Sygnał analogowy opisuje zmienne fizyczne w sposób ciągły, np. napięcie, temperatura, ciśnienie, i jest podstawą w układach pomiarowych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający sygnał wraz z jego parametrami: amplituda, częstotliwość, faza>",
+        "question": "Co oznaczają: treść fizyczna i parametr informacji sygnału?",
+        "a.": "Treść fizyczna określa wielkość, którą sygnał reprezentuje (np. temperatura, prędkość), a parametr informacji opisuje sposób zmiany tej wielkości (np. amplituda, częstotliwość, faza).",
+        "b.": "Treść fizyczna to dowolny kształt sygnału, a parametr informacji to jego kolor.",
+        "c.": "Treść fizyczna określa tylko rodzaj czujnika, a parametr informacji – jego długość przewodu.",
+        "d.": "Treść fizyczna i parametr informacji są pojęciami tożsamymi.",
+        "explanation": "Treść fizyczna opisuje, jaką wielkość fizyczną sygnał reprezentuje, natomiast parametr informacji określa sposób, w jaki ta informacja jest kodowana w sygnale.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<wykres sygnału dyskretnego – wartości określone w równych odstępach czasu>",
+        "question": "Czym charakteryzuje się sygnał dyskretny i jakie ma źródła?",
+        "a.": "Sygnał dyskretny przyjmuje wartości w określonych chwilach czasu, a jego źródłem są przetworniki analogowo-cyfrowe, czujniki impulsowe i systemy próbkujące.",
+        "b.": "Sygnał dyskretny jest ciągły w czasie i zmienia się płynnie.",
+        "c.": "Sygnał dyskretny powstaje wyłącznie w układach mechanicznych.",
+        "d.": "Sygnał dyskretny ma nieskończenie wiele poziomów w każdej chwili czasu.",
+        "explanation": "Sygnał dyskretny opisuje wartości zmiennej tylko w wybranych punktach czasu, np. co okres próbkowania – jego źródłem są przetworniki A/C lub czujniki impulsowe.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<wykres sygnału cyfrowego z poziomami logicznymi 0 i 1>",
+        "question": "Jakie cechy posiada sygnał cyfrowy?",
+        "a.": "Ma postać ciągu wartości dyskretnych, przyjmujących skończoną liczbę poziomów logicznych, najczęściej 0 i 1.",
+        "b.": "Jest sygnałem o nieskończenie wielu poziomach i zmienia się płynnie.",
+        "c.": "Jest to sygnał generowany wyłącznie przez czujniki analogowe.",
+        "d.": "Nie może być przesyłany w postaci elektrycznej.",
+        "explanation": "Sygnał cyfrowy to forma sygnału dyskretnego, która przyjmuje określoną liczbę stanów logicznych (zazwyczaj dwa), umożliwiając transmisję i przetwarzanie w systemach cyfrowych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat pokazujący wpływ częstotliwości próbkowania i rozdzielczości na dokładność odwzorowania sygnału>",
+        "question": "Od czego zależy dokładność informacji w systemach cyfrowych?",
+        "a.": "Od częstotliwości próbkowania i liczby bitów przetwornika A/C.",
+        "b.": "Od napięcia zasilania i długości przewodów.",
+        "c.": "Od koloru diod sygnalizacyjnych w układzie.",
+        "d.": "Od temperatury otoczenia urządzenia.",
+        "explanation": "Dokładność odwzorowania sygnału w systemach cyfrowych zależy od częstotliwości próbkowania (zgodnie z twierdzeniem Nyquista) oraz liczby bitów przetwornika, która określa rozdzielczość kwantyzacji.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Ile poziomów kwantyzacji ma 10-bitowy sygnał cyfrowy?",
+        "a.": "1024 poziomy.",
+        "b.": "256 poziomów.",
+        "c.": "512 poziomów.",
+        "d.": "1000 poziomów.",
+        "explanation": "Liczba poziomów kwantyzacji w sygnale cyfrowym określana jest wzorem 2ⁿ. Dla 10-bitowego sygnału jest to 2¹⁰ = 1024 poziomy.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat konwersji sygnału: sygnał analogowy → próbki → kwantyzacja → kod cyfrowy>",
+        "question": "Na czym polega konwersja sygnału analogowego do postaci cyfrowej?",
+        "a.": "Na próbkowaniu sygnału w określonych chwilach, kwantyzacji jego wartości i zamianie na kod binarny.",
+        "b.": "Na przekształceniu sygnału cyfrowego w ciągły przebieg napięcia.",
+        "c.": "Na zmianie amplitudy sygnału bez kodowania.",
+        "d.": "Na filtracji sygnału w dziedzinie czasu.",
+        "explanation": "Proces konwersji analogowo-cyfrowej (A/C) polega na pobieraniu próbek sygnału w czasie, przypisywaniu im wartości dyskretnych (kwantyzacja) i zamianie na postać binarną.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat modulacji PWM – przebieg prostokątny o zmiennej szerokości impulsów>",
+        "question": "Na czym polega modulacja PWM?",
+        "a.": "Na zmianie szerokości impulsów sygnału przy stałej częstotliwości, co pozwala regulować wartość średnią napięcia lub prądu.",
+        "b.": "Na zmianie częstotliwości sygnału przy stałej szerokości impulsów.",
+        "c.": "Na zmianie amplitudy sygnału sinusoidalnego.",
+        "d.": "Na wzmacnianiu sygnału za pomocą przetwornika A/C.",
+        "explanation": "Modulacja PWM (Pulse Width Modulation) wykorzystuje sygnały o zmiennej szerokości impulsów do płynnego sterowania mocą, prędkością silników lub natężeniem światła.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat blokowy sterownika PLC: wejścia, CPU, pamięć, wyjścia>",
+        "question": "Jakie główne zadania realizuje sterownik?",
+        "a.": "Odczytuje sygnały z czujników, przetwarza je zgodnie z programem i steruje elementami wykonawczymi.",
+        "b.": "Zwiększa napięcie w obwodach sterowanych.",
+        "c.": "Służy do magazynowania energii elektrycznej.",
+        "d.": "Wykonuje jedynie pomiary temperatury.",
+        "explanation": "Sterownik (np. PLC) przetwarza dane z wejść, wykonuje instrukcje programu użytkownika i generuje odpowiednie sygnały na wyjścia do sterowania urządzeniami.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat cyklu pracy sterownika PLC – odczyt wejść, przetwarzanie programu, zapis wyjść>",
+        "question": "Jakie działania cyklicznie wykonuje sterownik?",
+        "a.": "Odczyt sygnałów wejściowych, wykonanie programu, zapis sygnałów wyjściowych.",
+        "b.": "Ciągłe ładowanie programu do pamięci.",
+        "c.": "Jednorazowe uruchomienie połączeń z czujnikami.",
+        "d.": "Ręczne sterowanie za pomocą przycisków.",
+        "explanation": "Sterownik PLC działa cyklicznie – w każdym cyklu odczytuje dane z wejść, przetwarza program użytkownika i ustawia wyjścia zgodnie z wynikami.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający modułową budowę sterownika PLC – CPU, wejścia/wyjścia, zasilacz, komunikacja>",
+        "question": "Jakie podstawowe moduły zawiera sterownik?",
+        "a.": "Moduł zasilania, moduł CPU, moduły wejść/wyjść i komunikacji.",
+        "b.": "Moduł chłodzenia, filtr powietrza i zasilacz awaryjny.",
+        "c.": "Moduł pamięci masowej i napęd optyczny.",
+        "d.": "Moduł silnika i przekładni.",
+        "explanation": "Sterownik PLC składa się z podstawowych modułów: zasilania, procesora (CPU), modułów wejść/wyjść i komunikacji z innymi urządzeniami.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat blokowy CPU sterownika z pamięcią ROM, RAM i EPROM>",
+        "question": "Co zawiera pamięć systemowa CPU sterownika?",
+        "a.": "Program operacyjny sterownika, tablice systemowe i obszary robocze do przetwarzania danych.",
+        "b.": "Dane o kolorach diod LED na panelu.",
+        "c.": "Wyłącznie program użytkownika bez danych systemowych.",
+        "d.": "Parametry mechaniczne urządzeń zewnętrznych.",
+        "explanation": "Pamięć systemowa CPU zawiera oprogramowanie sterujące pracą sterownika (firmware), dane systemowe oraz bufor danych roboczych do przetwarzania programu użytkownika.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat modułu szybkich liczników w sterowniku PLC – wejścia impulsowe, licznik, pamięć>",
+        "question": "Do czego służy moduł szybkich liczników sterownika?",
+        "a.": "Do zliczania impulsów o wysokiej częstotliwości z czujników enkoderowych lub impulsatorów bez opóźnień przetwarzania CPU.",
+        "b.": "Do pomiaru napięcia i prądu w obwodach sterowania.",
+        "c.": "Do rejestrowania temperatury w długich odstępach czasu.",
+        "d.": "Do przechowywania programów użytkownika.",
+        "explanation": "Moduł szybkich liczników (HSC) umożliwia precyzyjne zliczanie impulsów z czujników położenia, prędkości lub przepływu, z pominięciem standardowego cyklu skanowania PLC.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<tabela przedstawiająca tryby pracy sterownika PLC: RUN, STOP, TEST, MONITOR>",
+        "question": "Do jakich trybów pracy skonfigurować można sterownik?",
+        "a.": "RUN – praca automatyczna, STOP – zatrzymanie programu, TEST/MONITOR – tryby diagnostyczne i testowe.",
+        "b.": "AUTO – praca ręczna, ECO – oszczędna, SLEEP – uśpienie.",
+        "c.": "ONLY – praca tylko z wejściami, WRITE – praca tylko z wyjściami.",
+        "d.": "LOAD – ładowanie, PLAY – odtwarzanie, SAVE – zapisywanie.",
+        "explanation": "Sterownik PLC może pracować w trybie RUN (realizacja programu), STOP (zatrzymanie), oraz w trybach testowych lub monitorujących (diagnostyka i kontrola sygnałów).",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat modułu wejściowego PLC – separacja galwaniczna, filtry RC, układy formujące sygnał>",
+        "question": "Jakie układy elektroniczne zawiera moduł wejściowy?",
+        "a.": "Układy separacji galwanicznej, filtry przeciwzakłóceniowe i układy formujące sygnał logiczny.",
+        "b.": "Układy zasilania, przekaźniki i styczniki.",
+        "c.": "Układy komunikacji radiowej i anteny.",
+        "d.": "Układy pamięci masowej i procesor graficzny.",
+        "explanation": "Wejścia PLC są chronione przed zakłóceniami i przepięciami dzięki separacji galwanicznej, filtrom RC i układom dopasowującym sygnały do poziomów logicznych sterownika.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat przekaźnika elektronicznego w sterowniku – tranzystor lub optotriak zamiast styków mechanicznych>",
+        "question": "Jak realizowane są funkcje przekaźnikowe w sterowniku?",
+        "a.": "Za pomocą elektronicznych układów przełączających, takich jak tranzystory, triaki lub optotriaki, sterowanych sygnałami z CPU.",
+        "b.": "Poprzez ręczne przełączanie styków przez operatora.",
+        "c.": "Przez mechaniczne styki zasilane z transformatora.",
+        "d.": "Za pomocą układów zasilania awaryjnego UPS.",
+        "explanation": "Sterowniki PLC wykorzystują elementy półprzewodnikowe (np. tranzystory, triaki) do realizacji funkcji przekaźnikowych, eliminując opóźnienia i zużycie mechaniczne styków.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat blokowy układu regulacji z regulatorem PID>",
+        "question": "Jaką rolę pełni regulator?",
+        "a.": "Porównuje wartość zadaną z wartością rzeczywistą i na tej podstawie generuje sygnał sterujący korygujący pracę obiektu.",
+        "b.": "Służy jedynie do pomiaru wartości wielkości regulowanej.",
+        "c.": "Wytwarza sygnał zakłócający w układzie sterowania.",
+        "d.": "Magazynuje dane o przebiegu regulacji.",
+        "explanation": "Regulator jest elementem układu regulacji, który na podstawie uchybu (różnicy między wartością zadaną i rzeczywistą) wytwarza sygnał sterujący w celu jego minimalizacji.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat blokowy regulatora – tor wejściowy, blok porównujący, część obliczeniowa, tor wyjściowy>",
+        "question": "Jak zorganizowana jest struktura funkcjonalna regulatora?",
+        "a.": "Składa się z toru wejściowego (pomiar i porównanie), części obliczeniowej (algorytm regulacji) i toru wyjściowego (generacja sygnału sterującego).",
+        "b.": "Składa się wyłącznie z czujnika i elementu wykonawczego.",
+        "c.": "Nie posiada wejść i wyjść, działa w sposób losowy.",
+        "d.": "Składa się z elementów mechanicznych i pneumatycznych.",
+        "explanation": "Regulator składa się z toru wejściowego, gdzie obliczany jest uchyb, części obliczeniowej realizującej algorytm regulacji oraz toru wyjściowego przekazującego sygnał sterujący do obiektu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<wykres przedstawiający wpływ składowych P, I, D na odpowiedź układu regulacji>",
+        "question": "Proszę podać interpretację składowych algorytmu PID.",
+        "a.": "P – proporcjonalna, odpowiada za szybkość reakcji; I – całkująca, eliminuje uchyb ustalony; D – różniczkująca, tłumi zmiany i poprawia stabilność.",
+        "b.": "P – zmniejsza uchyb, I – zwiększa uchyb, D – stabilizuje błąd.",
+        "c.": "P – oznacza punkt pomiaru, I – intensywność, D – działanie mechaniczne.",
+        "d.": "P – wpływa na opóźnienie, I – na amplitudę, D – na częstotliwość.",
+        "explanation": "Algorytm PID składa się z trzech składowych: proporcjonalnej (P), całkującej (I) i różniczkującej (D), które wspólnie zapewniają dokładność, stabilność i szybkość regulacji.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat blokowy regulacji przyrostowej – obliczanie zmian sygnału sterującego Δu zamiast pełnej wartości>",
+        "question": "Na czym polega sterowanie przyrostowe?",
+        "a.": "Na obliczaniu zmian sygnału sterującego (Δu) w kolejnych krokach zamiast wartości bezwzględnych.",
+        "b.": "Na bezpośrednim porównywaniu wartości rzeczywistych i zadanych.",
+        "c.": "Na ręcznym zwiększaniu wartości zadanej w czasie pracy.",
+        "d.": "Na zmianie częstotliwości sygnału wejściowego.",
+        "explanation": "Sterowanie przyrostowe polega na obliczaniu przyrostów sygnału sterującego w kolejnych chwilach, co ułatwia realizację algorytmu w systemach cyfrowych i PLC.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<wykres odpowiedzi układu z regulatorem PD-PI – szybkie działanie bez przeregulowania>",
+        "question": "Kiedy stosowana jest realizacja algorytmu w postaci PD-PI?",
+        "a.": "Gdy układ wymaga szybkiej reakcji i minimalnego przeregulowania – stosuje się człon PD w regulatorze nadrzędnym i PI w regulatorze podrzędnym.",
+        "b.": "W układach, które wymagają dużego opóźnienia reakcji.",
+        "c.": "Gdy nie jest wymagana dokładność regulacji.",
+        "d.": "W systemach ręcznego sterowania bez sprzężenia zwrotnego.",
+        "explanation": "Algorytm PD-PI stosuje się w układach kaskadowych, gdzie regulator PD odpowiada za szybkie działanie, a PI zapewnia dokładne utrzymanie wartości zadanej.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<wykres charakterystyki krytycznej metody Zieglera–Nicholsa – granica stabilności, oscylacje systemu>",
+        "question": "Na czym polega dobór nastaw metodą Zieglera – Nicholsa?",
+        "a.": "Na zwiększaniu wzmocnienia regulatora do momentu uzyskania oscylacji granicznych i obliczeniu nastaw na podstawie ich okresu i wzmocnienia krytycznego.",
+        "b.": "Na ręcznym ustawieniu dowolnych wartości parametrów PID bez obserwacji reakcji układu.",
+        "c.": "Na pomiarze temperatury i ciśnienia w układzie regulacji.",
+        "d.": "Na zastosowaniu tylko członu całkującego w regulatorze.",
+        "explanation": "Metoda Zieglera–Nicholsa polega na eksperymentalnym wyznaczeniu parametrów regulatora PID przez doprowadzenie układu do oscylacji krytycznych i wykorzystaniu ich do obliczenia nastaw.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<wykres odpowiedzi skokowej – przeregulowanie i czas regulacji oznaczone na osi czasu>",
+        "question": "Co to jest czas regulacji i przeregulowanie?",
+        "a.": "Czas regulacji to okres od chwili wymuszenia do osiągnięcia stanu ustalonego, a przeregulowanie to przekroczenie wartości zadanej przez wielkość regulowaną.",
+        "b.": "Czas regulacji to czas pracy regulatora, a przeregulowanie to błąd pomiaru czujnika.",
+        "c.": "Czas regulacji oznacza czas próbkowania, a przeregulowanie to zmiana kierunku przepływu.",
+        "d.": "Czas regulacji to okres działania członu różniczkującego, a przeregulowanie to opóźnienie sygnału.",
+        "explanation": "Czas regulacji określa, jak długo trwa dojście układu do stanu ustalonego po zakłóceniu, a przeregulowanie – o ile wielkość regulowana przekroczyła wartość zadaną.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat regulatorów – typ P, PI, PID w układzie regulacji obiektu statycznego>",
+        "question": "Jakiego typu regulatory stosuje się do regulacji obiektów statycznych?",
+        "a.": "Regulatory typu PI, ponieważ eliminują uchyb ustalony i zapewniają stabilność układu.",
+        "b.": "Regulatory typu P, gdy wymagane jest duże przeregulowanie.",
+        "c.": "Regulatory typu D, które działają tylko na zmianę uchybu.",
+        "d.": "Regulatory typu PD, stosowane wyłącznie do obiektów astatycznych.",
+        "explanation": "Dla obiektów statycznych, w których uchyb ustalony musi być równy zero, stosuje się regulatory PI, zapewniające dokładność i stabilność regulacji.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat połączenia urządzeń w standardzie TTY – linia prądowa 20 mA, nadajnik i odbiornik>",
+        "question": "Na czym polega i jakie ma cechy transmisja danych w standardzie TTY?",
+        "a.": "Polega na przesyłaniu informacji za pomocą sygnału prądowego 20 mA; jest odporna na zakłócenia i umożliwia transmisję na duże odległości.",
+        "b.": "Polega na przesyłaniu danych wyłącznie sygnałem napięciowym o wysokiej częstotliwości.",
+        "c.": "Umożliwia komunikację tylko między komputerami osobistymi.",
+        "d.": "Wymaga światłowodu jako medium transmisyjnego.",
+        "explanation": "Standard TTY (Current Loop 20 mA) wykorzystuje transmisję prądową, co zapewnia dużą odporność na zakłócenia i stabilną komunikację na duże odległości.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat sieci w topologii pierścienia – węzły połączone w zamkniętą pętlę>",
+        "question": "Na czym polega organizacja sieci w topologii pierścienia?",
+        "a.": "Każde urządzenie jest połączone z dwoma sąsiadami, tworząc zamkniętą pętlę, w której dane przekazywane są w jednym kierunku.",
+        "b.": "Wszystkie urządzenia połączone są do jednego wspólnego przewodu.",
+        "c.": "Każde urządzenie ma osobne połączenie z serwerem centralnym.",
+        "d.": "Węzły sieci komunikują się tylko bezprzewodowo.",
+        "explanation": "Topologia pierścienia tworzy zamkniętą strukturę połączeń, gdzie dane krążą w ustalonym kierunku między kolejnymi węzłami sieci.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat sieci magistralowej z tokenem – urządzenia przekazujące token kolejno>",
+        "question": "Jaką rolę w sieciach magistralowych pełni tzw. token?",
+        "a.": "Token jest specjalnym sygnałem uprawniającym urządzenie do nadawania danych w sieci.",
+        "b.": "Token jest sygnałem błędu informującym o utracie połączenia.",
+        "c.": "Token służy do synchronizacji zegarów w urządzeniach.",
+        "d.": "Token to kod autoryzacji użytkownika sieci.",
+        "explanation": "W sieciach magistralowych token pełni rolę 'pozwolenia na nadawanie' – tylko urządzenie posiadające token może w danym momencie przesyłać dane, co zapobiega kolizjom.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<diagram siedmiowarstwowego modelu OSI>",
+        "question": "Jakie cechy posiada OSI, tzn. warstwowy model sieci?",
+        "a.": "Model OSI składa się z siedmiu warstw, które określają funkcje poszczególnych etapów komunikacji – od fizycznej transmisji po aplikację użytkownika.",
+        "b.": "Model OSI opisuje tylko połączenia fizyczne między urządzeniami.",
+        "c.": "Model OSI jest zbiorem protokołów dla transmisji bezprzewodowej.",
+        "d.": "Model OSI obejmuje tylko trzy warstwy: aplikacyjną, logiczną i fizyczną.",
+        "explanation": "Model OSI (Open Systems Interconnection) dzieli proces komunikacji na siedem warstw: fizyczną, łącza danych, sieciową, transportową, sesji, prezentacji i aplikacji.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat komunikacji PROFIBUS DP – master i slave, magistrala danych>",
+        "question": "Jak działa protokół komunikacyjny PROFIBUS DP?",
+        "a.": "W trybie master-slave, gdzie urządzenie nadrzędne (master) inicjuje komunikację i przesyła dane do urządzeń podrzędnych (slave) po magistrali.",
+        "b.": "Każde urządzenie nadaje dane jednocześnie bez koordynacji.",
+        "c.": "Transmisja odbywa się w sposób analogowy bez ramki danych.",
+        "d.": "Urządzenia wymieniają dane tylko za pomocą sygnałów optycznych.",
+        "explanation": "Protokół PROFIBUS DP działa w architekturze master-slave, gdzie jeden kontroler zarządza wymianą danych z wieloma urządzeniami podrzędnymi.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<ramka danych PROFIBUS – bajt startu, adres, dane, suma kontrolna>",
+        "question": "Jak tworzona jest wiadomość w standardzie PROFIBUS?",
+        "a.": "Jako ramka danych zawierająca bajt startu, adres odbiorcy, dane użytkowe, sumę kontrolną i bajt końcowy.",
+        "b.": "Jako ciąg impulsów świetlnych o zmiennej szerokości.",
+        "c.": "Jako sygnał sinusoidalny z modulacją częstotliwości.",
+        "d.": "Jako zestaw trzech bitów określających kierunek transmisji.",
+        "explanation": "Wiadomość PROFIBUS ma postać zorganizowanej ramki danych, co zapewnia kontrolę poprawności przesyłu i jednoznaczną identyfikację urządzeń sieciowych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat sieci AS-Interface – magistrala 2-przewodowa z węzłami czujników i siłowników>",
+        "question": "Jak odbywa się przesyłanie informacji w sieci AS-I?",
+        "a.": "Dwoma przewodami, które jednocześnie zasilają urządzenia i przesyłają dane cyfrowe między sterownikiem a czujnikami i siłownikami.",
+        "b.": "Za pomocą światłowodu jednożyłowego.",
+        "c.": "Z wykorzystaniem transmisji radiowej na wysokiej częstotliwości.",
+        "d.": "Przez sygnały dźwiękowe w przewodach akustycznych.",
+        "explanation": "AS-Interface umożliwia komunikację czujników i siłowników poprzez dwie żyły przewodzące zarówno energię zasilającą, jak i dane w postaci sygnałów cyfrowych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat transmisji szeregowej RS232C – linie TX, RX, RTS, CTS z sygnałami startu i stopu>",
+        "question": "Na czym polega koordynacja transmisji szeregowej wg standardu RS 232C?",
+        "a.": "Na synchronizacji nadawania i odbioru danych poprzez sygnały sterujące (RTS, CTS) oraz bity startu i stopu w każdej ramce.",
+        "b.": "Na jednoczesnym nadawaniu danych przez wszystkie urządzenia w sieci.",
+        "c.": "Na wykorzystaniu sygnałów prądowych 20 mA bez ramek.",
+        "d.": "Na transmisji równoległej przy użyciu ośmiu przewodów danych.",
+        "explanation": "RS 232C stosuje transmisję szeregową asynchroniczną, w której sygnały sterujące i bity start/stop zapewniają właściwą synchronizację między nadajnikiem a odbiornikiem.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat cyklu życia produktu mechatronicznego – koncepcja, projekt, prototyp, testy, produkcja, eksploatacja>",
+        "question": "Przez jakie fazy przebiega proces rozwoju produktu mechatronicznego?",
+        "a.": "Przez fazy: koncepcji, projektowania, budowy prototypu, testowania, wdrożenia i eksploatacji.",
+        "b.": "Przez fazy: montażu i sprzedaży bez wcześniejszego projektowania.",
+        "c.": "Przez fazy: testowania wyłącznie komponentów mechanicznych.",
+        "d.": "Przez jedną fazę – programowanie mikrokontrolera.",
+        "explanation": "Rozwój produktu mechatronicznego obejmuje etapy od koncepcji i projektu, przez prototypowanie i testowanie, po wdrożenie i użytkowanie w praktyce.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat urządzenia mechatronicznego z mikroprocesorem, czujnikami i aktuatorami>",
+        "question": "Jaka jest rola mikroprocesora w urządzeniu mechatronicznym?",
+        "a.": "Koordynuje działanie całego systemu, przetwarza dane z czujników i steruje elementami wykonawczymi.",
+        "b.": "Działa jako element mechaniczny napędzający siłowniki.",
+        "c.": "Służy wyłącznie do zasilania czujników.",
+        "d.": "Wykonuje funkcję czujnika temperatury.",
+        "explanation": "Mikroprocesor pełni funkcję centralnej jednostki sterującej – analizuje dane pomiarowe, realizuje algorytmy sterowania i wydaje polecenia do aktuatorów.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Co jest podstawą porozumienia przy opracowywaniu systemu mechatronicznego?",
+        "a.": "Jednolity opis funkcji i struktur systemu w formie modeli oraz dokumentacji technicznej.",
+        "b.": "Indywidualne decyzje programisty bez konsultacji z zespołem.",
+        "c.": "Zastosowanie wyłącznie komponentów elektrycznych.",
+        "d.": "Brak standaryzacji dokumentacji projektowej.",
+        "explanation": "Wspólne modele i dokumentacja techniczna zapewniają spójność komunikacji między specjalistami z różnych dziedzin w projektowaniu mechatronicznym.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<grafika przedstawiająca urządzenie SMART z funkcjami IoT i komunikacją bezprzewodową>",
+        "question": "Co oznacza pojęcie SMART w nazwie urządzenia?",
+        "a.": "Urządzenie inteligentne, zdolne do komunikacji, analizy danych i adaptacji działania do warunków pracy.",
+        "b.": "Urządzenie działające wyłącznie manualnie.",
+        "c.": "Urządzenie o prostej budowie bez mikroprocesora.",
+        "d.": "Urządzenie pozbawione komunikacji sieciowej.",
+        "explanation": "SMART odnosi się do inteligentnych urządzeń z funkcjami automatycznej analizy, komunikacji sieciowej i samoadaptacji do zmieniających się warunków.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat układu sterowania – czujniki, regulator, aktuatory, interfejs operatora>",
+        "question": "Jakie elementy należy uwzględnić przy projektowaniu układu sterowania?",
+        "a.": "Czujniki, elementy wykonawcze, jednostkę sterującą, interfejs operatora oraz układy bezpieczeństwa.",
+        "b.": "Wyłącznie elementy mechaniczne napędowe.",
+        "c.": "Tylko program komputerowy bez sprzętu.",
+        "d.": "Elementy zasilające bez czujników.",
+        "explanation": "Projekt układu sterowania powinien obejmować zarówno elementy pomiarowe, wykonawcze, jak i jednostkę przetwarzającą oraz interfejs użytkownika.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat rozproszonej architektury systemu mechatronicznego – kilka sterowników lokalnych komunikujących się po sieci>",
+        "question": "Co rozumiesz przez rozproszenie architektury systemu mechatronicznego?",
+        "a.": "Podział funkcji sterowania między kilka jednostek lokalnych połączonych siecią komunikacyjną.",
+        "b.": "Zastąpienie wszystkich sterowników jednym centralnym komputerem.",
+        "c.": "Brak współpracy między elementami układu.",
+        "d.": "Ręczne sterowanie wszystkimi elementami niezależnie.",
+        "explanation": "Rozproszona architektura oznacza, że zadania sterowania i nadzoru realizowane są przez wiele współpracujących sterowników połączonych magistralą komunikacyjną.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek modułowej budowy systemu – niezależne moduły funkcjonalne: pomiar, sterowanie, napęd, interfejs>",
+        "question": "Na czym polega modularność systemu mechatronicznego?",
+        "a.": "Na podziale systemu na niezależne, łatwo wymienialne moduły realizujące określone funkcje.",
+        "b.": "Na zintegrowaniu wszystkich funkcji w jednym nierozłącznym bloku.",
+        "c.": "Na pracy systemu bez możliwości rozbudowy.",
+        "d.": "Na braku standaryzacji połączeń i interfejsów.",
+        "explanation": "Modularność umożliwia tworzenie systemów złożonych z powtarzalnych, wymiennych elementów, co ułatwia modernizację i konserwację.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat projektu procesu mechatronicznego – analiza, modelowanie, układ sterowania, integracja, testy>",
+        "question": "Co powinien zawierać projekt „stechnizowanego” mechatronicznie procesu?",
+        "a.": "Opis przebiegu procesu, schematy sterowania, dobór czujników i aktuatorów, algorytm sterowania oraz dokumentację techniczną.",
+        "b.": "Jedynie opis programu komputerowego bez elementów sprzętowych.",
+        "c.": "Zarys konstrukcji mechanicznej bez układów sterowania.",
+        "d.": "Tylko harmonogram realizacji projektu.",
+        "explanation": "Projekt procesu mechatronicznego musi uwzględniać zarówno część mechaniczną, jak i sterującą, wraz z pełną dokumentacją techniczną i schematami funkcjonalnymi.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat komunikacji przemysłowej – sterownik PLC, sieć, czujniki, aktuatory, HMI>",
+        "question": "Na czym polega komunikacja przemysłowa?",
+        "a.": "Na wymianie danych między urządzeniami automatyki przemysłowej w celu koordynacji i sterowania procesami technologicznymi.",
+        "b.": "Na ręcznym przekazywaniu informacji między operatorami.",
+        "c.": "Na transmisji dźwięku i obrazu w systemach multimedialnych.",
+        "d.": "Na synchronizacji zegarów komputerowych w biurach.",
+        "explanation": "Komunikacja przemysłowa umożliwia wymianę informacji między sterownikami, czujnikami, siłownikami i systemami nadrzędnymi w zakładach produkcyjnych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat sieci polowej – urządzenia obiektowe połączone magistralą z nadrzędnym sterownikiem>",
+        "question": "Co to są sieci polowe?",
+        "a.": "Są to przemysłowe sieci komunikacyjne łączące urządzenia obiektowe, takie jak czujniki, siłowniki i sterowniki, umożliwiające ich współpracę w czasie rzeczywistym.",
+        "b.": "Są to sieci komputerowe w biurach administracyjnych.",
+        "c.": "To połączenia radiowe w systemach monitoringu wideo.",
+        "d.": "To połączenia przewodowe między komputerami użytkowników.",
+        "explanation": "Sieci polowe (Fieldbus) stanowią podstawę komunikacji w systemach automatyki, umożliwiając wymianę danych między urządzeniami na poziomie obiektu technologicznego.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat pokazujący przykładowe sieci polowe: PROFIBUS, CAN, AS-i, DeviceNet, Interbus, Modbus>",
+        "question": "Wymień przykładowe sieci polowe.",
+        "a.": "PROFIBUS, CAN, AS-i, DeviceNet, Interbus, Modbus.",
+        "b.": "Wi-Fi, Bluetooth, Ethernet, GSM.",
+        "c.": "HTTP, FTP, SMTP, DNS.",
+        "d.": "USB, HDMI, VGA, PCI.",
+        "explanation": "Do popularnych sieci polowych należą m.in. PROFIBUS, CAN, AS-i, Interbus, DeviceNet i Modbus, stosowane w automatyce przemysłowej do komunikacji urządzeń.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Co rozumiesz pod pojęciem zalet użytkowych sieci i wymień kilka z nich?",
+        "a.": "Zalety użytkowe to korzyści wynikające z zastosowania sieci, takie jak: uproszczenie okablowania, łatwa diagnostyka, elastyczność rozbudowy, redukcja kosztów i zwiększenie niezawodności.",
+        "b.": "Zalety użytkowe to wyłącznie niskie zużycie energii elektrycznej.",
+        "c.": "Zalety użytkowe dotyczą jedynie prostoty konstrukcji urządzeń.",
+        "d.": "Zalety użytkowe to możliwość pracy bez sterownika.",
+        "explanation": "Zalety użytkowe sieci polowych obejmują m.in. łatwość rozbudowy, mniejsze koszty instalacji i wyższą niezawodność transmisji danych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat sieci polowej – struktura magistralowa, komunikacja master-slave, transmisja deterministyczna>",
+        "question": "Wymień charakterystyczne cechy sieci polowych.",
+        "a.": "Charakteryzują się komunikacją czasu rzeczywistego, architekturą magistralową, deterministycznym przesyłem danych i odpornością na zakłócenia.",
+        "b.": "Są przeznaczone tylko do przesyłu danych w sieciach komputerowych.",
+        "c.": "Działają w trybie bezprzewodowym z dużymi opóźnieniami.",
+        "d.": "Nie pozwalają na komunikację urządzeń obiektowych.",
+        "explanation": "Sieci polowe są odporne na zakłócenia, działają w czasie rzeczywistym i zapewniają deterministyczny przepływ danych między urządzeniami automatyki.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<diagram adresacji sieci – urządzenia z unikalnymi adresami identyfikacyjnymi>",
+        "question": "Na czym polega adresacja sieci?",
+        "a.": "Na przypisaniu każdemu urządzeniu w sieci unikalnego numeru (adresu), umożliwiającego jego jednoznaczną identyfikację i komunikację.",
+        "b.": "Na fizycznym połączeniu urządzeń w kolejności alfabetycznej.",
+        "c.": "Na określeniu prędkości transmisji danych między urządzeniami.",
+        "d.": "Na ustaleniu czasu reakcji czujników w układzie.",
+        "explanation": "Adresacja sieci umożliwia komunikację pomiędzy konkretnymi urządzeniami – każde urządzenie ma przypisany unikalny adres logiczny lub fizyczny.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat kontroli dostępu do sieci – token passing, master-slave, arbitraż CAN>",
+        "question": "Na czym polega kontrola dostępu do sieci?",
+        "a.": "Na ustaleniu, które urządzenie w danym momencie może nadawać dane, aby zapobiec kolizjom w transmisji.",
+        "b.": "Na zwiększaniu prędkości transmisji między urządzeniami.",
+        "c.": "Na ograniczeniu liczby urządzeń w sieci.",
+        "d.": "Na kontroli temperatury przewodów transmisyjnych.",
+        "explanation": "Kontrola dostępu do sieci (ang. bus access control) określa sposób przydziału uprawnień do nadawania danych, np. przez token, arbitraż lub priorytety.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat komunikacji Fieldbus – połączenia czujników i siłowników z kontrolerem magistrali>",
+        "question": "Do czego stosowane są systemy typu FELDBUS?",
+        "a.": "Do wymiany danych pomiędzy urządzeniami obiektowymi (czujnikami, siłownikami, sterownikami) w systemach automatyki przemysłowej.",
+        "b.": "Do sterowania domowym sprzętem audio-video.",
+        "c.": "Do komunikacji w sieciach komputerowych LAN.",
+        "d.": "Do łączenia urządzeń biurowych przez USB.",
+        "explanation": "Systemy typu Fieldbus to przemysłowe sieci komunikacyjne wykorzystywane do integracji i wymiany danych między urządzeniami automatyki na poziomie obiektu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat PROFIBUS – magistrala danych, węzły master i slave, ramki danych>",
+        "question": "Jak dokonywana jest transmisja danych magistralą PROFIBUS?",
+        "a.": "W trybie master-slave, gdzie stacja nadrzędna (master) inicjuje i kontroluje wymianę danych z urządzeniami podrzędnymi (slave).",
+        "b.": "W trybie peer-to-peer, gdzie każde urządzenie nadaje dane jednocześnie.",
+        "c.": "Poprzez asynchroniczne pakiety danych bez kontroli błędów.",
+        "d.": "Za pomocą sygnałów analogowych o zmiennej częstotliwości.",
+        "explanation": "W sieci PROFIBUS komunikacja odbywa się w architekturze master-slave z ramkami danych zawierającymi adresy, dane i bity kontrolne.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<diagram sieci PROFIBUS – aktywni i pasywni użytkownicy magistrali>",
+        "question": "Czym różnią się użytkownicy aktywni od pasywnych w sieci PROFIBUS?",
+        "a.": "Aktywni użytkownicy mogą inicjować transmisję danych (np. sterowniki), a pasywni jedynie odpowiadają na zapytania (np. czujniki).",
+        "b.": "Aktywni użytkownicy odbierają dane, a pasywni wysyłają dane.",
+        "c.": "Aktywni użytkownicy mają wyższy priorytet zasilania.",
+        "d.": "Nie ma różnicy – wszystkie urządzenia działają jednakowo.",
+        "explanation": "W sieci PROFIBUS aktywni użytkownicy (master) sterują komunikacją, natomiast pasywni (slave) odpowiadają na zapytania przesyłane przez mastera.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat magistrali CAN – urządzenia połączone równolegle, arbitraż priorytetowy ramek>",
+        "question": "Jak realizowane jest sterowanie w przypadku magistrali CAN?",
+        "a.": "Każde urządzenie może nadawać dane, a dostęp do magistrali przydzielany jest w oparciu o priorytet identyfikatora wiadomości.",
+        "b.": "Dane przesyłane są zawsze przez centralny sterownik główny.",
+        "c.": "Sterowanie odbywa się tylko ręcznie przez operatora.",
+        "d.": "Tylko jedno urządzenie może nadawać dane w danym cyklu bez priorytetów.",
+        "explanation": "W magistrali CAN stosowany jest mechanizm arbitrażu, w którym wiadomość o najwyższym priorytecie (najniższym ID) uzyskuje dostęp do linii transmisyjnej.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<wykres zależności długości przewodu od prędkości transmisji w magistrali CAN>",
+        "question": "Od czego zależy prędkość przesyłania danych w magistrali CAN?",
+        "a.": "Od długości przewodów i jakości okablowania – im dłuższa linia, tym mniejsza maksymalna prędkość transmisji.",
+        "b.": "Od liczby urządzeń połączonych w sieci.",
+        "c.": "Od rodzaju protokołu warstwy aplikacji.",
+        "d.": "Od napięcia zasilania magistrali.",
+        "explanation": "Prędkość transmisji CAN maleje wraz ze wzrostem długości przewodu – dla krótkich odcinków możliwe są prędkości do 1 Mbit/s, dla dłuższych (500 m) ok. 125 kbit/s.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat sieci AS-Interface – czujniki, siłowniki i moduły połączone dwuprzewodową magistralą>",
+        "question": "Gdzie stosowane są sieci AS-I?",
+        "a.": "W prostych układach automatyki do komunikacji z czujnikami i elementami wykonawczymi na najniższym poziomie sterowania.",
+        "b.": "Wyłącznie w sieciach komputerowych biurowych.",
+        "c.": "Do przesyłu sygnałów analogowych na duże odległości.",
+        "d.": "W systemach światłowodowych o dużej przepustowości.",
+        "explanation": "Sieci AS-I (Actuator Sensor Interface) są stosowane w automatyce przemysłowej do prostego połączenia czujników i siłowników z nadrzędnym sterownikiem.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<diagram magistrali AS-I z masterem i wieloma węzłami slave>",
+        "question": "W jaki sposób udostępniana jest magistrala w przypadku sieci AS-I?",
+        "a.": "Master cyklicznie odpytuje wszystkie podłączone urządzenia slave, przydzielając im czas na transmisję danych.",
+        "b.": "Każde urządzenie nadaje dane jednocześnie bez kontroli.",
+        "c.": "Dostęp do magistrali przydzielany jest losowo przez czujniki.",
+        "d.": "Transmisja odbywa się w trybie peer-to-peer bez hierarchii.",
+        "explanation": "W sieci AS-I master steruje cykliczną komunikacją, odpytywając kolejno wszystkie urządzenia slave, co zapewnia deterministyczny przepływ danych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Ilu użytkowników może być dołączonych do sieci AS-I?",
+        "a.": "Do 62 urządzeń typu slave.",
+        "b.": "Maksymalnie 8 urządzeń.",
+        "c.": "Nie więcej niż 16 urządzeń.",
+        "d.": "Bez ograniczeń liczby urządzeń.",
+        "explanation": "Standard AS-I umożliwia podłączenie do jednej magistrali do 62 urządzeń slave komunikujących się z jednym masterem.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat sieci Interbus-S – pierścień komunikacyjny z nadrzędnym kontrolerem i stacjami podrzędnymi>",
+        "question": "Jak działa sieć Interbus-S?",
+        "a.": "Działa w topologii pierścienia, w którym dane przesyłane są szeregowo przez wszystkie węzły i z powrotem do kontrolera głównego.",
+        "b.": "Każde urządzenie komunikuje się tylko z sąsiadującym węzłem.",
+        "c.": "Transmisja odbywa się tylko w jednym kierunku bez powrotu sygnału.",
+        "d.": "Sieć Interbus-S wykorzystuje wyłącznie połączenia bezprzewodowe.",
+        "explanation": "Interbus-S pracuje w topologii pierścienia, gdzie dane przesyłane są kolejno przez wszystkie stacje, co zapewnia kontrolę komunikacji i wysoką niezawodność.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat karty sterującej Interbus-S – kontroler zarządzający ruchem danych w pierścieniu>",
+        "question": "Jakimi zadaniami zajmuje się karta sterująca w sieci Interbus-S?",
+        "a.": "Zarządza transmisją danych w sieci, synchronizuje węzły i kontroluje wymianę informacji między masterem a urządzeniami podrzędnymi.",
+        "b.": "Steruje zasilaniem wszystkich urządzeń w sieci.",
+        "c.": "Odpowiada za pomiar napięcia i prądu w przewodach.",
+        "d.": "Służy wyłącznie do archiwizacji danych sieciowych.",
+        "explanation": "Karta sterująca Interbus-S pełni rolę nadrzędnego kontrolera komunikacji, który inicjuje i monitoruje wymianę danych w całym pierścieniu sieciowym.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat sieci Ethernet/PROFINET z urządzeniami przemysłowymi połączonymi przez switch przemysłowy>",
+        "question": "Czym charakteryzuje się sieć PROFINET?",
+        "a.": "Wykorzystuje standard Ethernet, umożliwia komunikację czasu rzeczywistego między urządzeniami przemysłowymi i integrację z systemami IT.",
+        "b.": "Jest siecią analogową działającą bez synchronizacji.",
+        "c.": "Wymaga połączeń światłowodowych o dużej przepustowości.",
+        "d.": "Służy wyłącznie do transmisji danych biurowych.",
+        "explanation": "PROFINET to sieć przemysłowa bazująca na Ethernet, zapewniająca wymianę danych czasu rzeczywistego i pełną integrację automatyki z systemami informatycznymi zakładu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat komunikacji przemysłowej – sterownik PLC, sieć, czujniki, siłowniki, HMI>",
+        "question": "Na czym polega komunikacja przemysłowa?",
+        "a.": "Na wymianie danych między urządzeniami automatyki przemysłowej w celu koordynacji i sterowania procesami technologicznymi.",
+        "b.": "Na wymianie plików między komputerami biurowymi.",
+        "c.": "Na przekazywaniu informacji głosowych w sieciach telefonicznych.",
+        "d.": "Na zdalnym przesyłaniu energii elektrycznej.",
+        "explanation": "Komunikacja przemysłowa umożliwia sterownikom, czujnikom i siłownikom wymianę danych potrzebnych do sterowania i monitorowania procesów produkcyjnych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat budowy sterownika PLC – CPU, pamięć, moduły wejść/wyjść, zasilacz>",
+        "question": "Co to jest sterownik PLC?",
+        "a.": "Programowalny sterownik logiczny służący do automatycznego sterowania maszynami i procesami technologicznymi.",
+        "b.": "Układ zasilający urządzenia elektryczne.",
+        "c.": "Ręczny przełącznik w obwodzie elektrycznym.",
+        "d.": "System pomiarowy temperatury.",
+        "explanation": "Sterownik PLC (Programmable Logic Controller) realizuje zadania automatyki przemysłowej poprzez odczyt sygnałów z czujników, przetwarzanie programu i sterowanie aktuatorami.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat budowy silnika asynchronicznego – stojan, wirnik klatkowy, szczelina powietrzna>",
+        "question": "Co to jest silnik asynchroniczny?",
+        "a.": "Maszyna elektryczna prądu przemiennego, w której prędkość obrotowa wirnika jest mniejsza od prędkości pola wirującego stojana.",
+        "b.": "Silnik prądu stałego z komutatorem mechanicznym.",
+        "c.": "Urządzenie zmieniające energię cieplną na mechaniczną.",
+        "d.": "Silnik, którego prędkość jest zawsze większa od pola wirującego.",
+        "explanation": "Silnik asynchroniczny (indukcyjny) działa dzięki zjawisku indukcji elektromagnetycznej, przy czym prędkość wirnika jest mniejsza od prędkości pola magnetycznego stojana.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat działania silnika asynchronicznego – pole wirujące, indukcja prądu w wirniku, moment napędowy>",
+        "question": "Omów działanie silnika asynchronicznego.",
+        "a.": "Prąd w uzwojeniach stojana wytwarza wirujące pole magnetyczne, które indukuje prądy w wirniku; te z kolei tworzą moment napędowy powodujący obrót wirnika.",
+        "b.": "Wirnik porusza się dzięki napędowi zewnętrznemu przekładni mechanicznej.",
+        "c.": "Silnik działa na zasadzie komutacji prądu stałego w wirniku.",
+        "d.": "Obroty silnika są niezależne od częstotliwości zasilania.",
+        "explanation": "Działanie silnika asynchronicznego opiera się na indukcji elektromagnetycznej między polem wirującym stojana a prądami w wirniku, co powoduje jego obrót.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<diagram cyklu programowania PLC – wprowadzanie logiki, kompilacja, testowanie, uruchomienie>",
+        "question": "Na czym polega programowanie sterownika PLC?",
+        "a.": "Na tworzeniu i wgrywaniu programu logicznego sterującego procesem, wykorzystującego instrukcje wejść, wyjść, liczników i timerów.",
+        "b.": "Na ustawieniu ręcznych przełączników w obwodzie sterowania.",
+        "c.": "Na ręcznym wpisywaniu kodu binarnego do pamięci RAM.",
+        "d.": "Na zdalnym sterowaniu komputerem biurowym.",
+        "explanation": "Programowanie PLC polega na opracowaniu algorytmu sterowania w językach takich jak LAD, FBD lub STL, który określa reakcję sterownika na sygnały wejściowe.",
+        "correct": "1 0 0 0"
+    }
+]

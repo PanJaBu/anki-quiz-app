@@ -1,0 +1,2721 @@
+[
+{
+"img": "",
+"question": "Czym zajmuje się elektrotechnika?",
+"a.": "Elektrotechnika zajmuje się wytwarzaniem, przesyłaniem, przetwarzaniem i wykorzystaniem energii elektrycznej.",
+"img_a": "",
+"b.": "Elektrotechnika bada zjawiska cieplne i mechaniczne w ciałach stałych.",
+"img_b": "",
+"c.": "Elektrotechnika zajmuje się wyłącznie elektroniką cyfrową.",
+"img_c": "",
+"d.": "Elektrotechnika dotyczy wyłącznie naprawy urządzeń elektrycznych.",
+"img_d": "",
+"explanation": "Elektrotechnika to dziedzina nauki i techniki zajmująca się teorią oraz praktycznym zastosowaniem energii elektrycznej.",
+"correct": "1 0 0 0"
+},
+
+{
+"img": "",
+"question": "Co to jest ładunek elektryczny?",
+"a.": "Ładunek elektryczny to wielkość fizyczna określająca zdolność ciała do oddziaływania elektromagnetycznego.",
+"img_a": "",
+"b.": "Ładunek elektryczny to masa ciała w ruchu.",
+"img_b": "",
+"c.": "Ładunek elektryczny to siła pola elektrycznego.",
+"img_c": "",
+"d.": "Ładunek elektryczny to napięcie w obwodzie.",
+"img_d": "",
+"explanation": "Ładunek elektryczny opisuje ilość elektryczności, np. elektron ma ładunek elementarny –1,602×10⁻¹⁹ C.",
+"correct": "1 0 0 0"
+},
+
+{
+"img": "",
+"question": "Co to jest pole elektryczne?",
+"a.": "Pole elektryczne to obszar, w którym na ładunki działają siły elektrostatyczne.",
+"img_a": "",
+"b.": "Pole elektryczne to przestrzeń wokół magnesu.",
+"img_b": "",
+"c.": "Pole elektryczne to przestrzeń, w której poruszają się elektrony w przewodniku.",
+"img_c": "",
+"d.": "Pole elektryczne to pole wytwarzane przez prąd przemienny w cewce.",
+"img_d": "",
+"explanation": "Pole elektryczne powstaje wokół ładunków elektrycznych i działa na inne ładunki siłą Coulomba.",
+"correct": "1 0 0 0"
+},
+
+{
+"img": "",
+"question": "Jak dzielimy materiały pod względem właściwości elektrycznych?",
+"a.": "Na przewodniki, półprzewodniki i izolatory.",
+"img_a": "",
+"b.": "Na metale, niemetale i ciecze.",
+"img_b": "",
+"c.": "Na magnetyki, dielektryki i paramagnetyki.",
+"img_c": "",
+"d.": "Na nadprzewodniki, polimery i ceramikę.",
+"img_d": "",
+"explanation": "Podział materiałów ze względu na zdolność przewodzenia prądu obejmuje przewodniki, półprzewodniki i izolatory.",
+"correct": "1 0 0 0"
+},
+
+{
+"img": "",
+"question": "Co to jest prąd elektryczny?",
+"a.": "Prąd elektryczny to uporządkowany ruch ładunków elektrycznych.",
+"img_a": "",
+"b.": "Prąd elektryczny to różnica potencjałów między dwoma punktami.",
+"img_b": "",
+"c.": "Prąd elektryczny to energia zgromadzona w kondensatorze.",
+"img_c": "",
+"d.": "Prąd elektryczny to pole magnetyczne wytwarzane przez magnes.",
+"img_d": "",
+"explanation": "Prąd elektryczny oznacza ruch ładunków, natomiast potocznie mówi się też o samym zjawisku przepływu energii elektrycznej.",
+"correct": "1 0 0 0"
+},
+
+{
+"img": "",
+"question": "Co to jest gęstość prądu elektrycznego?",
+"a.": "To stosunek natężenia prądu do pola przekroju poprzecznego przewodnika (J = I/S).",
+"img_a": "",
+"b.": "To ilość ładunku przepływającego w jednostce czasu.",
+"img_b": "",
+"c.": "To różnica napięć pomiędzy dwoma punktami obwodu.",
+"img_c": "",
+"d.": "To stosunek napięcia do natężenia prądu.",
+"img_d": "",
+"explanation": "Gęstość prądu opisuje, jak intensywnie przepływa prąd przez daną powierzchnię przewodnika.",
+"correct": "1 0 0 0"
+},
+
+{
+"img": "",
+"question": "Jaki prąd nazywamy stałym, zmiennym i przemiennym?",
+"a.": "Stały – o niezmiennym kierunku i wartości; zmienny – o zmieniającej się wartości; przemienny – o zmieniającym się kierunku i wartości.",
+"img_a": "",
+"b.": "Stały – sinusoidalny, zmienny – stały w czasie, przemienny – prostowany.",
+"img_b": "",
+"c.": "Stały – pulsujący, zmienny – jednostronny, przemienny – stały.",
+"img_c": "",
+"d.": "Stały – zmienia kierunek, zmienny – nie zmienia wartości, przemienny – nie występuje.",
+"img_d": "",
+"explanation": "Prąd stały (DC) ma niezmienny kierunek, prąd zmienny (AC) ma zmienną wartość, a przemienny zmienia również kierunek przepływu.",
+"correct": "1 0 0 0"
+},
+
+{
+"img": "",
+"question": "Co to jest wartość chwilowa prądu?",
+"a.": "To wartość prądu w danej chwili czasu.",
+"img_a": "",
+"b.": "To średnia wartość prądu w czasie jednego okresu.",
+"img_b": "",
+"c.": "To maksymalna wartość natężenia prądu.",
+"img_c": "",
+"d.": "To skuteczna wartość prądu zmiennego.",
+"img_d": "",
+"explanation": "Wartość chwilowa opisuje aktualne natężenie prądu w konkretnej chwili – oznacza się ją np. i(t).",
+"correct": "1 0 0 0"
+},
+
+{
+"img": "",
+"question": "W jakich środowiskach może występować przepływ prądu?",
+"a.": "W metalach, cieczach, gazach i próżni.",
+"img_a": "",
+"b.": "Tylko w metalach i półprzewodnikach.",
+"img_b": "",
+"c.": "Tylko w izolatorach.",
+"img_c": "",
+"d.": "Jedynie w przewodach nadprzewodzących.",
+"img_d": "",
+"explanation": "Prąd elektryczny może płynąć w różnych środowiskach, zależnie od mechanizmu przewodnictwa (elektronowego, jonowego, elektronowo-jonowego).",
+"correct": "1 0 0 0"
+},
+
+{
+"img": "",
+"question": "Co to jest obwód elektryczny?",
+"a.": "To zamknięty układ elementów, w którym może płynąć prąd elektryczny.",
+"img_a": "",
+"b.": "To pojedynczy element bierny, np. rezystor.",
+"img_b": "",
+"c.": "To przewód, przez który nie płynie prąd.",
+"img_c": "",
+"d.": "To schemat graficzny urządzenia elektrycznego.",
+"img_d": "",
+"explanation": "Obwód elektryczny tworzy połączenie źródła energii z odbiornikami w sposób umożliwiający przepływ prądu.",
+"correct": "1 0 0 0"
+},
+
+{
+"img": "<schemat z symbolami rezystora, cewki, kondensatora, źródła napięcia i źródła prądu>",
+"question": "Jakimi symbolami oznaczamy podstawowe elementy obwodu elektrycznego?",
+"a.": "Rezystor – zygzak, cewka – zwoje, kondensator – dwie równoległe linie, źródło napięcia – okrąg z +/–, źródło prądu – okrąg ze strzałką.",
+"img_a": "",
+"b.": "Rezystor – prostokąt, cewka – kwadrat, kondensator – trójkąt, źródło napięcia – linia przerywana.",
+"img_b": "",
+"c.": "Rezystor – trójkąt, cewka – prostokąt, kondensator – okrąg, źródło napięcia – kwadrat.",
+"img_c": "",
+"d.": "Rezystor – kółko, cewka – krzyż, kondensator – trójkąt, źródło prądu – fala.",
+"img_d": "",
+"explanation": "Każdy element ma ustalony symbol graficzny używany w schematach elektrycznych zgodnie z normą PN-EN.",
+"correct": "1 0 0 0"
+},
+
+{
+"img": "<schemat prostego obwodu z trzema węzłami, trzema gałęziami i jednym oczkiem>",
+"question": "Co to są: węzeł, gałąź i oczko obwodu elektrycznego?",
+"a.": "Węzeł – punkt połączenia kilku gałęzi; gałąź – element między dwoma węzłami; oczko – zamknięta pętla w obwodzie.",
+"img_a": "",
+"b.": "Węzeł – pojedynczy przewód, gałąź – źródło, oczko – kondensator.",
+"img_b": "",
+"c.": "Węzeł – źródło napięcia, gałąź – połączenie dwóch źródeł, oczko – fragment przewodu.",
+"img_c": "",
+"d.": "Węzeł – połączenie dwóch przewodów, gałąź – cała sieć, oczko – pojedynczy element.",
+"img_d": "",
+"explanation": "Definicje te są podstawą analizy obwodów metodą węzłową i oczkową w elektrotechnice.",
+"correct": "1 0 0 0"
+},
+    {
+        "img": "<schemat dwóch obwodów: pierwszy z jednym ciągłym połączeniem elementów (nierozgałęziony), drugi z gałęziami równoległymi (rozgałęziony)>",
+        "question": "Który z poniższych opisów najlepiej charakteryzuje obwód nierozgałęziony?",
+        "a.": "Obwód, w którym wszystkie elementy połączone są szeregowo i przez każdy płynie ten sam prąd.",
+        "b.": "Obwód, w którym prąd rozdziela się na kilka gałęzi.",
+        "c.": "Obwód zawierający elementy połączone równolegle i szeregowo jednocześnie.",
+        "d.": "Obwód, w którym występuje tylko jedno źródło napięcia.",
+        "explanation": "Obwód nierozgałęziony to taki, w którym wszystkie elementy są połączone szeregowo, a prąd ma tylko jedną drogę przepływu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek obwodu z zaznaczonymi strzałkami kierunku prądu i napięcia na rezystorze>",
+        "question": "Jak prawidłowo określa się kierunki prądów i napięć w obwodzie elektrycznym?",
+        "a.": "Kierunek prądu przyjmuje się od bieguna dodatniego źródła do ujemnego, a napięcie zaznacza się zgodnie z kierunkiem przepływu prądu.",
+        "b.": "Kierunek prądu i napięcia określa się zawsze w przeciwnych kierunkach.",
+        "c.": "Kierunek prądu przyjmuje się od bieguna ujemnego do dodatniego źródła napięcia.",
+        "d.": "Kierunki strzałek prądów i napięć są dowolne i nie mają wpływu na obliczenia.",
+        "explanation": "Przyjęcie kierunku prądu od bieguna dodatniego do ujemnego oraz zgodne oznaczanie napięcia ułatwia stosowanie praw Kirchhoffa i Ohma.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rezystor z napięciem U i prądem I>",
+        "question": "Jak brzmi prawo Ohma dla rezystora?",
+        "a.": "Natężenie prądu w obwodzie jest wprost proporcjonalne do napięcia i odwrotnie proporcjonalne do rezystancji.",
+        "b.": "Napięcie w obwodzie jest wprost proporcjonalne do rezystancji i odwrotnie proporcjonalne do natężenia prądu.",
+        "c.": "Rezystancja jest wprost proporcjonalna do napięcia i natężenia prądu.",
+        "d.": "Natężenie prądu jest odwrotnie proporcjonalne do napięcia i rezystancji.",
+        "explanation": "Prawo Ohma: I = U / R — prąd rośnie wraz ze wzrostem napięcia i maleje przy wzroście rezystancji.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<przewodnik o długości l, przekroju S i oporze właściwym ρ>",
+        "question": "Od czego zależy wartość rezystancji przewodnika?",
+        "a.": "Od długości przewodnika, jego pola przekroju poprzecznego i oporu właściwego materiału.",
+        "b.": "Tylko od długości przewodnika.",
+        "c.": "Od rodzaju źródła prądu zasilającego obwód.",
+        "d.": "Wyłącznie od temperatury otoczenia.",
+        "explanation": "Rezystancja R = ρ·l / S — zależy od oporu właściwego materiału, długości i przekroju przewodnika.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat prostego węzła i oczka obwodu>",
+        "question": "Jak brzmi I i II prawo Kirchhoffa?",
+        "a.": "I prawo: suma prądów wpływających do węzła równa się sumie prądów wypływających; II prawo: suma spadków napięć w oczku równa się sumie sił elektromotorycznych w tym oczku.",
+        "b.": "I prawo: suma napięć w węźle jest równa zeru; II prawo: suma prądów w oczku jest równa zeru.",
+        "c.": "I prawo: suma oporów w obwodzie jest stała; II prawo: prąd w każdej gałęzi jest jednakowy.",
+        "d.": "I prawo: napięcie źródła równe jest sumie napięć odbiorników; II prawo: prąd źródła równa się sumie prądów w odbiornikach.",
+        "explanation": "Pierwsze prawo Kirchhoffa dotyczy węzłów, a drugie oczek — opisują one zasadę zachowania ładunku i energii w obwodach.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Jak zapisuje się równania wyrażające I i II prawo Kirchhoffa?",
+        "a.": "I prawo: ∑I = 0; II prawo: ∑U = ∑E.",
+        "b.": "I prawo: ∑R = 0; II prawo: ∑P = 0.",
+        "c.": "I prawo: ∑E = 0; II prawo: ∑I = 0.",
+        "d.": "I prawo: ∑U = 0; II prawo: ∑R = ∑E.",
+        "explanation": "Równania Kirchhoffa zapisuje się jako sumy prądów i napięć: dla węzła ∑I=0, dla oczka ∑U=∑E.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat połączenia trzech rezystorów: szeregowego i równoległego>",
+        "question": "Jak oblicza się rezystancję zastępczą dla połączeń szeregowych i równoległych rezystorów?",
+        "a.": "Szeregowo: Rz = R1 + R2 + R3; równolegle: 1/Rz = 1/R1 + 1/R2 + 1/R3.",
+        "b.": "Szeregowo: 1/Rz = 1/R1 + 1/R2; równolegle: Rz = R1 + R2.",
+        "c.": "Szeregowo i równolegle oblicza się identycznie: Rz = R1 + R2 + R3.",
+        "d.": "Rezystancję zastępczą można obliczyć tylko dla połączeń szeregowych.",
+        "explanation": "Dla połączeń szeregowych opory sumują się, a dla równoległych sumują się odwrotności oporów.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat dzielnika napięcia z dwoma rezystorami R1 i R2 podłączonymi szeregowo do źródła U>",
+        "question": "Co to jest rezystancyjny dzielnik napięcia?",
+        "a.": "Układ rezystorów połączonych szeregowo, w którym na poszczególnych rezystorach odkładają się części napięcia proporcjonalne do ich rezystancji.",
+        "b.": "Układ rezystorów połączonych równolegle, dzielący prąd w gałęziach.",
+        "c.": "Urządzenie do zwiększania wartości napięcia w obwodzie.",
+        "d.": "Specjalny rodzaj kondensatora regulującego napięcie.",
+        "explanation": "Rezystancyjny dzielnik napięcia dzieli napięcie źródła na proporcjonalne części zależnie od wartości rezystorów.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek potencjometru z suwakiem przesuwanym po rezystancyjnej ścieżce>",
+        "question": "Co to jest potencjometr?",
+        "a.": "Rezystor o regulowanej rezystancji, pozwalający na zmianę napięcia w obwodzie lub jego części.",
+        "b.": "Źródło napięcia o stałej wartości.",
+        "c.": "Przyrząd do pomiaru prądu w obwodzie.",
+        "d.": "Układ scalony stabilizujący napięcie wyjściowe.",
+        "explanation": "Potencjometr to element umożliwiający płynną regulację rezystancji i napięcia poprzez zmianę położenia suwaka.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat dwóch obwodów: pierwszy z elementami połączonymi szeregowo (nierozgałęziony), drugi z gałęziami równoległymi (rozgałęziony)>",
+        "question": "Które stwierdzenie prawidłowo opisuje obwód nierozgałęziony?",
+        "a.": "Obwód, w którym wszystkie elementy połączone są szeregowo i przez każdy z nich płynie ten sam prąd.",
+        "b.": "Obwód, w którym prąd rozdziela się na kilka gałęzi równoległych.",
+        "c.": "Obwód zawierający zarówno połączenia szeregowe, jak i równoległe.",
+        "d.": "Obwód, w którym napięcia wszystkich elementów są takie same.",
+        "explanation": "Obwód nierozgałęziony ma tylko jedną ścieżkę przepływu prądu – wszystkie elementy są połączone szeregowo.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek rezystora z zaznaczonym kierunkiem prądu I i napięcia U>",
+        "question": "Jakie zasady obowiązują przy oznaczaniu kierunków prądów i napięć na schematach obwodów?",
+        "a.": "Kierunek prądu przyjmuje się od bieguna dodatniego źródła do bieguna ujemnego, a napięcie oznacza się zgodnie z kierunkiem prądu.",
+        "b.": "Kierunki prądu i napięcia muszą być zawsze przeciwne.",
+        "c.": "Kierunek prądu przyjmuje się od bieguna ujemnego do dodatniego.",
+        "d.": "Kierunki strzałek ustala się losowo, bez wpływu na obliczenia.",
+        "explanation": "Dla spójności obliczeń kierunek prądu oznacza się od plusa do minusa, a napięcie zgodnie z tym kierunkiem.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rezystor z napięciem U i prądem I>",
+        "question": "Jak brzmi prawo Ohma dla rezystora?",
+        "a.": "Natężenie prądu w rezystorze jest wprost proporcjonalne do napięcia i odwrotnie proporcjonalne do rezystancji.",
+        "b.": "Napięcie na rezystorze jest odwrotnie proporcjonalne do natężenia prądu.",
+        "c.": "Rezystancja jest wprost proporcjonalna do prądu i napięcia.",
+        "d.": "Prąd jest odwrotnie proporcjonalny do napięcia i rezystancji.",
+        "explanation": "Prawo Ohma: I = U / R. Prąd zależy liniowo od napięcia i odwrotnie od oporu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat węzła i oczka obwodu>",
+        "question": "Jak brzmi treść I i II prawa Kirchhoffa?",
+        "a.": "I prawo: suma prądów wpływających do węzła jest równa sumie prądów wypływających; II prawo: suma spadków napięć w oczku jest równa sumie sił elektromotorycznych.",
+        "b.": "I prawo: suma napięć w węźle jest równa zeru; II prawo: suma prądów w oczku jest równa zeru.",
+        "c.": "I prawo: prąd w każdej gałęzi jest jednakowy; II prawo: suma oporów w oczku jest stała.",
+        "d.": "I prawo: napięcie źródła równe jest sumie napięć odbiorników; II prawo: suma mocy w oczku równa się zeru.",
+        "explanation": "Pierwsze prawo Kirchhoffa odnosi się do prądów w węzłach, a drugie do napięć w oczkach obwodu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Jak zapisuje się równania wyrażające treść I i II prawa Kirchhoffa?",
+        "a.": "I prawo: ∑I = 0; II prawo: ∑U = ∑E.",
+        "b.": "I prawo: ∑R = 0; II prawo: ∑I = ∑E.",
+        "c.": "I prawo: ∑E = 0; II prawo: ∑R = 0.",
+        "d.": "I prawo: ∑U = 0; II prawo: ∑P = 0.",
+        "explanation": "W równaniach Kirchhoffa dla węzła suma prądów wynosi zero, a dla oczka suma napięć równa jest sumie SEM.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat obwodu z trzema rezystorami przekształcanymi w jeden równoważny>",
+        "question": "Na czym polega rozwiązywanie obwodów elektrycznych metodą przekształcania?",
+        "a.": "Na zastępowaniu fragmentów obwodu ich odpowiednikami prostszymi, np. połączeń równoległych i szeregowych rezystorów jednym oporem zastępczym.",
+        "b.": "Na stosowaniu wyłącznie II prawa Kirchhoffa do każdego oczka obwodu.",
+        "c.": "Na obliczaniu napięć i prądów metodą prób i błędów.",
+        "d.": "Na symulacji komputerowej zachowania obwodu.",
+        "explanation": "Metoda przekształcania polega na stopniowym upraszczaniu obwodu przez zastępowanie jego fragmentów równoważnymi elementami.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat obwodu z oznaczonymi prądami w gałęziach i napięciami w oczkach>",
+        "question": "Na czym polega rozwiązywanie obwodów elektrycznych metodą praw Kirchhoffa?",
+        "a.": "Na zapisywaniu równań dla węzłów i oczek obwodu zgodnie z I i II prawem Kirchhoffa, a następnie obliczaniu nieznanych prądów i napięć.",
+        "b.": "Na stosowaniu prawa Ohma do wszystkich elementów bez użycia równań.",
+        "c.": "Na graficznym odczytywaniu wartości napięć z wykresu.",
+        "d.": "Na zastępowaniu każdego elementu równoważnym źródłem napięcia.",
+        "explanation": "Metoda Kirchhoffa wykorzystuje układ równań wynikających z obu jego praw, pozwalając obliczyć wszystkie prądy i napięcia w obwodzie.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<porównanie: idealne źródło napięcia (bez oporu wewnętrznego) i rzeczywiste (z oporem wewnętrznym r)>",
+        "question": "Czym różnią się idealne i rzeczywiste źródła napięcia i prądu?",
+        "a.": "Idealne źródła mają zerowy opór wewnętrzny (dla napięcia) lub nieskończony (dla prądu), a rzeczywiste mają opór skończony wpływający na napięcie i prąd wyjściowy.",
+        "b.": "Idealne źródła mają większą moc niż rzeczywiste.",
+        "c.": "Idealne źródła istnieją w praktyce, rzeczywiste tylko w teorii.",
+        "d.": "Różnią się jedynie napięciem znamionowym.",
+        "explanation": "W źródłach rzeczywistych uwzględnia się opór wewnętrzny, który powoduje spadek napięcia przy obciążeniu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<cztery schematy: stan jałowy (brak obciążenia), stan obciążenia (rezystor podłączony), zwarcie (zwarcie wyjścia), dopasowanie (Rz = Ro)>",
+        "question": "Jak realizuje się stany jałowy, obciążenia, zwarcia i dopasowania źródła napięcia?",
+        "a.": "Jałowy – obwód otwarty; obciążenie – podłączony odbiornik; zwarcie – wyjście zwarte; dopasowanie – opór odbiornika równy oporowi wewnętrznemu źródła.",
+        "b.": "Jałowy – wyjście zwarte; obciążenie – brak odbiornika; zwarcie – odbiornik o dużym oporze; dopasowanie – dowolny opór.",
+        "c.": "Jałowy – źródło odłączone; zwarcie – obciążenie podłączone.",
+        "d.": "Jałowy i dopasowanie to to samo zjawisko.",
+        "explanation": "Stany te opisują różne warunki pracy źródła: od braku odbiornika po zwarcie i dopasowanie energetyczne.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<porównanie charakterystyk prądowo-napięciowych: liniowej (prosta) i nieliniowej (zakrzywiona)>",
+        "question": "Jakie elementy nazywamy liniowymi, a jakie nieliniowymi?",
+        "a.": "Liniowe – których charakterystyka prądowo-napięciowa jest linią prostą; nieliniowe – dla których zależność prądu od napięcia nie jest liniowa.",
+        "b.": "Liniowe – występują tylko w obwodach stałoprądowych; nieliniowe – tylko w przemiennych.",
+        "c.": "Liniowe – mają stałą rezystancję; nieliniowe – mają zmienną w czasie pojemność.",
+        "d.": "Liniowe – zawsze są źródłami napięcia; nieliniowe – odbiornikami energii.",
+        "explanation": "Liniowe elementy spełniają prawo Ohma i mają prostoliniową charakterystykę I-U, nieliniowe – jak diody – nie.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat przedstawiający pomiar bezpośredni (miernik włączony do obwodu) i pośredni (wartość obliczana z innych pomiarów)>",
+        "question": "Czym różni się pomiar bezpośredni od pośredniego?",
+        "a.": "Pomiar bezpośredni to odczyt wartości mierzonych bezpośrednio z przyrządu, a pośredni – obliczenie wyniku na podstawie innych wielkości mierzonych.",
+        "b.": "Pomiar bezpośredni wykonuje się tylko cyfrowym miernikiem, a pośredni – analogowym.",
+        "c.": "Pomiar bezpośredni jest dokładniejszy, ponieważ nie wymaga obliczeń.",
+        "d.": "Pomiar pośredni to pomiar wykonywany wyłącznie bez użycia przyrządów.",
+        "explanation": "Pomiar bezpośredni polega na odczytaniu wyniku z przyrządu, natomiast pośredni – na obliczeniu wartości z innych mierzonych parametrów.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Co to jest błąd bezwzględny pomiaru?",
+        "a.": "Różnica między wartością zmierzoną a wartością rzeczywistą danej wielkości.",
+        "b.": "Stosunek wartości błędu do wartości rzeczywistej.",
+        "c.": "Największa dopuszczalna wartość odchylenia wyniku pomiaru od wartości wzorcowej.",
+        "d.": "Średnia arytmetyczna wszystkich wyników pomiarów.",
+        "explanation": "Błąd bezwzględny określa o ile jednostek różni się wynik pomiaru od wartości rzeczywistej.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Co to jest błąd względny pomiaru?",
+        "a.": "Stosunek błędu bezwzględnego do wartości rzeczywistej, wyrażony często w procentach.",
+        "b.": "Różnica między wartościami zmierzonymi w dwóch pomiarach.",
+        "c.": "Wartość bezwzględna błędu pomnożona przez wartość rzeczywistą.",
+        "d.": "Wartość błędu pomiaru pomniejszona o klasę dokładności przyrządu.",
+        "explanation": "Błąd względny pokazuje, jak duży jest błąd pomiaru w odniesieniu do mierzonej wartości.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<skala miernika z zaznaczoną wartością błędu granicznego>",
+        "question": "Co oznacza klasa dokładności miernika analogowego?",
+        "a.": "Maksymalny dopuszczalny błąd pomiaru wyrażony w procentach wartości zakresu pomiarowego.",
+        "b.": "Zakres napięć, w jakich miernik może pracować.",
+        "c.": "Rodzaj zasilania miernika.",
+        "d.": "Liczbę działek na skali pomiarowej.",
+        "explanation": "Klasa dokładności określa dopuszczalny błąd przyrządu w procentach pełnego zakresu wskazań.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<dwa mierniki: analogowy ze wskazówką i skalą oraz cyfrowy z wyświetlaczem LCD>",
+        "question": "Jakie mierniki nazywamy analogowymi, a jakie cyfrowymi?",
+        "a.": "Analogowe wskazują wartość za pomocą wychylenia wskazówki, a cyfrowe – za pomocą wyświetlacza numerycznego.",
+        "b.": "Analogowe mierzą tylko napięcie, a cyfrowe tylko prąd.",
+        "c.": "Analogowe wykorzystują przetwornik A/C, a cyfrowe – ustroje magnetoelektryczne.",
+        "d.": "Analogowe są zawsze dokładniejsze niż cyfrowe.",
+        "explanation": "Mierniki analogowe przedstawiają wynik na skali, a cyfrowe – w postaci liczb na wyświetlaczu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<przekrój ustroju magnetoelektrycznego: ruchoma cewka w polu magnesu trwałego, sprężynki powrotne, wskazówka>",
+        "question": "Jak zbudowany jest magnetoelektryczny ustrój pomiarowy?",
+        "a.": "Z ruchomej cewki umieszczonej w stałym polu magnetycznym, sprężynek powrotnych i wskazówki połączonej z osią cewki.",
+        "b.": "Z dwóch cewek nieruchomych połączonych szeregowo.",
+        "c.": "Z żelaznego rdzenia i elektromagnesu zasilanego prądem przemiennym.",
+        "d.": "Z magnesu trwałego i układu elektronicznego bez cewek.",
+        "explanation": "Ustrój magnetoelektryczny działa na zasadzie oddziaływania pola magnetycznego magnesu trwałego i prądu w cewce.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat woltomierza magnetoelektrycznego: ustrój pomiarowy i rezystor szeregowy>",
+        "question": "Jak zbudowany jest woltomierz magnetoelektryczny?",
+        "a.": "Z ustroju magnetoelektrycznego połączonego szeregowo z rezystorem, który ogranicza prąd pomiarowy.",
+        "b.": "Z ustroju magnetoelektrycznego połączonego równolegle z bocznikiem.",
+        "c.": "Z transformatora i przetwornika napięcia.",
+        "d.": "Z dwóch połączonych równolegle cewkami.",
+        "explanation": "Woltomierz magnetoelektryczny wykorzystuje rezystor szeregowy do ograniczenia prądu i umożliwienia pomiaru napięcia.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat amperomierza magnetoelektrycznego z bocznikiem równoległym>",
+        "question": "Jak zmienia się zakres pomiarowy amperomierza magnetoelektrycznego?",
+        "a.": "Poprzez dołączenie bocznika równoległego, który omija część prądu pomiarowego.",
+        "b.": "Poprzez dołączenie opornika szeregowego.",
+        "c.": "Poprzez zmianę kierunku przepływu prądu w cewce.",
+        "d.": "Poprzez zwiększenie napięcia zasilającego miernik.",
+        "explanation": "Bocznik równoległy przejmuje część prądu, co pozwala mierzyć większe natężenia bez przeciążenia ustroju.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat woltomierza magnetoelektrycznego z różnymi rezystorami szeregowymi>",
+        "question": "Jak zmienia się zakres pomiarowy woltomierza magnetoelektrycznego?",
+        "a.": "Poprzez dołączenie rezystora szeregowego o odpowiednio dobranej wartości.",
+        "b.": "Poprzez dołączenie bocznika równoległego.",
+        "c.": "Poprzez zmianę kierunku przepływu prądu w cewce.",
+        "d.": "Poprzez zwiększenie czułości cewki ustroju.",
+        "explanation": "Zwiększenie rezystancji szeregowej pozwala mierzyć większe napięcia bez przeciążenia ustroju magnetoelektrycznego.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat ustroju elektrodynamicznego: dwie cewki – nieruchoma i ruchoma, połączone ze źródłem prądu>",
+        "question": "Jak zbudowany jest ustrój elektrodynamiczny?",
+        "a.": "Z dwóch cewek – nieruchomej i ruchomej – oddziałujących na siebie siłą elektromagnetyczną, powodującą wychylenie wskazówki.",
+        "b.": "Z jednej cewki w polu magnesu trwałego.",
+        "c.": "Z transformatora i czujnika napięcia.",
+        "d.": "Z magnesu trwałego i bocznika rezystancyjnego.",
+        "explanation": "Ustrój elektrodynamiczny działa dzięki wzajemnemu oddziaływaniu pól magnetycznych dwóch cewek zasilanych prądem.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat watomierza elektrodynamicznego z cewką prądową włączoną szeregowo i cewką napięciową równolegle do odbiornika>",
+        "question": "Jak zbudowany jest watomierz elektrodynamiczny?",
+        "a.": "Z dwóch cewek – prądowej i napięciowej – umieszczonych tak, aby ich pola magnetyczne oddziaływały na siebie, powodując wychylenie wskazówki proporcjonalne do mocy.",
+        "b.": "Z jednej cewki magnetoelektrycznej i bocznika pomiarowego.",
+        "c.": "Z rezystora pomiarowego połączonego równolegle z ustrojem magnetoelektrycznym.",
+        "d.": "Z transformatora napięciowego i prostownika diodowego.",
+        "explanation": "Watomierz elektrodynamiczny posiada cewkę prądową włączoną w obwód prądowy i napięciową równolegle do odbiornika; ich wzajemne oddziaływanie umożliwia pomiar mocy.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<blokowy schemat woltomierza elektronicznego analogowego: dzielnik napięcia → wzmacniacz → prostownik → wskaźnik analogowy>",
+        "question": "Jakie podzespoły wchodzą w skład woltomierzy elektronicznych analogowych?",
+        "a.": "Dzielnik napięcia, wzmacniacz pomiarowy, prostownik i ustrój wskazujący.",
+        "b.": "Bocznik, transformator, przetwornik A/C i licznik impulsów.",
+        "c.": "Rezystor wzorcowy, dioda LED i mikroprocesor.",
+        "d.": "Mostek Wheatstone’a i galwanometr magnetoelektryczny.",
+        "explanation": "Woltomierze elektroniczne analogowe wykorzystują układ dzielnika, wzmacniacza, prostownika i wskaźnika wychyłowego.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<blokowy schemat woltomierza cyfrowego: dzielnik napięcia → przetwornik A/C → mikroprocesor → wyświetlacz LCD>",
+        "question": "Jakie podzespoły wchodzą w skład woltomierzy cyfrowych?",
+        "a.": "Dzielnik napięcia, przetwornik analogowo-cyfrowy (A/C), układ mikroprocesorowy i wyświetlacz cyfrowy.",
+        "b.": "Cewka prądowa, prostownik i wskaźnik analogowy.",
+        "c.": "Transformator, wzmacniacz magnetyczny i galwanometr.",
+        "d.": "Ustrój magnetoelektryczny z rezystorem szeregowym.",
+        "explanation": "Cyfrowe woltomierze przetwarzają napięcie analogowe na postać cyfrową przy użyciu przetwornika A/C i mikroprocesora.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat połączenia woltomierza równolegle do odbiornika i amperomierza szeregowo w obwodzie>",
+        "question": "Jak należy włączać woltomierz i amperomierz do obwodu pomiarowego?",
+        "a.": "Woltomierz należy włączać równolegle do odbiornika, a amperomierz szeregowo w obwód.",
+        "b.": "Oba przyrządy włącza się równolegle do źródła napięcia.",
+        "c.": "Amperomierz włącza się równolegle, a woltomierz szeregowo.",
+        "d.": "Kolejność i sposób włączenia nie mają znaczenia.",
+        "explanation": "Amperomierz mierzy prąd płynący w obwodzie, dlatego musi być włączony szeregowo, a woltomierz równolegle, by mierzyć spadek napięcia.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat pomiaru prądu metodą pośrednią: rezystor o znanej rezystancji włączony szeregowo, woltomierz mierzy spadek napięcia na nim>",
+        "question": "Jak można mierzyć prąd metodą pośrednią, używając woltomierza i rezystora o znanej rezystancji?",
+        "a.": "Mierząc spadek napięcia na rezystorze i obliczając prąd z prawa Ohma: I = U / R.",
+        "b.": "Mierząc napięcie źródła i dzieląc je przez całkowitą rezystancję obwodu.",
+        "c.": "Mierząc różnicę napięć między biegunami źródła.",
+        "d.": "Obliczając prąd ze wzoru I = R / U.",
+        "explanation": "Pomiar pośredni prądu polega na obliczeniu go z prawa Ohma na podstawie spadku napięcia na oporniku o znanej rezystancji.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat omomierza szeregowego: źródło napięcia, rezystor wzorcowy, miernik magnetoelektryczny i badany opór włączony szeregowo>",
+        "question": "Co to jest i jak zbudowany jest omomierz szeregowy?",
+        "a.": "Przyrząd do pomiaru rezystancji, zbudowany z źródła napięcia, rezystora wzorcowego i ustroju pomiarowego połączonych szeregowo z badanym oporem.",
+        "b.": "Przyrząd do pomiaru prądu, w którym element badany włączony jest równolegle.",
+        "c.": "Układ pomiarowy wykorzystujący mostek Wheatstone’a.",
+        "d.": "Miernik napięcia oparty na przetworniku cyfrowym.",
+        "explanation": "Omomierz szeregowy mierzy rezystancję poprzez pomiar prądu w obwodzie zasilanym napięciem stałym.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<różne przyrządy: omomierz, mostek Wheatstone’a, multimetr cyfrowy>",
+        "question": "Jakimi metodami i przyrządami można mierzyć rezystancję rezystorów?",
+        "a.": "Omomierzem, mostkiem Wheatstone’a lub miernikiem uniwersalnym w trybie pomiaru rezystancji.",
+        "b.": "Woltomierzem włączonym równolegle do rezystora.",
+        "c.": "Amperomierzem włączonym szeregowo z rezystorem.",
+        "d.": "Przy użyciu kondensatora i oscyloskopu.",
+        "explanation": "Rezystancję mierzy się bezpośrednio omomierzem lub pośrednio przy użyciu mostka pomiarowego albo multimetru.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat mostka Wheatstone’a z czterema rezystorami i galwanometrem między przekątnymi>",
+        "question": "Co to jest mostek pomiarowy Wheatstone’a?",
+        "a.": "Układ czterech rezystorów połączonych w formie mostka, służący do dokładnego pomiaru nieznanej rezystancji poprzez zrównoważenie napięć.",
+        "b.": "Układ dwóch cewek do pomiaru prądu przemiennego.",
+        "c.": "Przetwornik napięcia na prąd.",
+        "d.": "Układ do pomiaru mocy elektrycznej w obwodzie.",
+        "explanation": "Mostek Wheatstone’a umożliwia dokładny pomiar rezystancji poprzez równoważenie napięć w jego ramionach, gdy prąd w galwanometrze wynosi zero.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<wykres napięcia sinusoidalnego w funkcji czasu>",
+        "question": "Co to jest napięcie i prąd sinusoidalny?",
+        "a.": "To napięcie i prąd zmienne, których wartości zmieniają się w czasie w sposób sinusoidalny, czyli zgodnie z funkcją sinus lub cosinus.",
+        "b.": "To napięcie i prąd stałe, o niezmiennych wartościach w czasie.",
+        "c.": "To przebiegi prostokątne, o naprzemiennych wartościach dodatnich i ujemnych.",
+        "d.": "To przebiegi elektryczne o przypadkowym kształcie i częstotliwości.",
+        "explanation": "Prąd i napięcie sinusoidalne zmieniają się okresowo w czasie zgodnie z funkcją sinus lub cosinus.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<opisowy wykres sinusoidy z oznaczonymi parametrami: Umax, T, f, φ>",
+        "question": "Jakie parametry opisują napięcie i prąd sinusoidalny?",
+        "a.": "Amplituda, wartość skuteczna, okres, częstotliwość i kąt fazowy.",
+        "b.": "Napięcie stałe, rezystancja i przewodność.",
+        "c.": "Indukcyjność, pojemność i rezystancja.",
+        "d.": "Tylko częstotliwość i kierunek przepływu prądu.",
+        "explanation": "Podstawowe parametry sinusoidy to: amplituda (maksimum), wartość skuteczna, okres, częstotliwość i przesunięcie fazowe.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<sinusoida z oznaczeniem amplitudy, okresu i przesunięcia fazowego między dwoma przebiegami>",
+        "question": "Co to jest kąt fazowy, amplituda, okres i częstotliwość przebiegu sinusoidalnego?",
+        "a.": "Amplituda to maksymalna wartość, okres to czas jednego pełnego cyklu, częstotliwość to liczba cykli w sekundzie, a kąt fazowy określa przesunięcie między przebiegami.",
+        "b.": "Amplituda to średnia wartość napięcia, a okres to odległość między zerami sinusoidy.",
+        "c.": "Częstotliwość to stosunek napięcia do prądu, a kąt fazowy to czas opóźnienia sygnału.",
+        "d.": "Amplituda i częstotliwość są tym samym pojęciem opisującym wysokość sinusoidy.",
+        "explanation": "Parametry te opisują przebieg sinusoidalny: amplituda – maksimum, okres – czas cyklu, częstotliwość – liczba cykli na sekundę, a kąt fazowy – przesunięcie między przebiegami.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<sinusoida z zaznaczoną wartością skuteczną RMS>",
+        "question": "Co to jest wartość skuteczna prądu sinusoidalnego?",
+        "a.": "To wartość prądu stałego, który wywołuje w przewodniku taki sam efekt cieplny jak dany prąd zmienny.",
+        "b.": "To maksymalna wartość prądu w czasie cyklu.",
+        "c.": "To średnia arytmetyczna wartości chwilowych prądu.",
+        "d.": "To różnica między wartością szczytową a średnią.",
+        "explanation": "Wartość skuteczna (RMS) pozwala porównywać działanie prądu zmiennego i stałego na elementy obwodu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<wykres wektorowy przedstawiający wektory prądu i napięcia pod pewnym kątem fazowym>",
+        "question": "Co nazywamy wykresem wektorowym prądu?",
+        "a.": "Graficzne przedstawienie prądów i napięć jako wektorów, które pokazują ich wartości i przesunięcia fazowe.",
+        "b.": "Wykres zmian prądu w funkcji czasu.",
+        "c.": "Schemat połączeń elementów w obwodzie prądu zmiennego.",
+        "d.": "Zestawienie wartości chwilowych prądu w tabeli.",
+        "explanation": "Wykres wektorowy przedstawia napięcia i prądy jako wektory w płaszczyźnie fazowej, co ułatwia analizę przesunięć fazowych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<dwa przebiegi sinusoidalne napięcia i prądu przesunięte w fazie oraz ich wykres wektorowy>",
+        "question": "Jak wyglądają przebiegi czasowe i wykres wektorowy prądu i napięcia sinusoidalnego?",
+        "a.": "Na wykresie czasowym są to sinusoidy, a na wykresie wektorowym – wektory o określonym kącie fazowym między sobą.",
+        "b.": "Na obu wykresach mają postać prostych linii równoległych.",
+        "c.": "Na wykresie czasowym są prostokątne, a na wektorowym – punktowe.",
+        "d.": "Na wykresach przedstawiane są wyłącznie wartości skuteczne.",
+        "explanation": "Przebiegi czasowe sinusoidalne mają kształt sinusoid, a na wykresie wektorowym są przedstawiane jako wektory o określonym przesunięciu fazowym.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat prądnicy prądu przemiennego: magnes, cewka, wirnik, pierścienie ślizgowe>",
+        "question": "Z jakich elementów składa się i jak działa prądnica prądu przemiennego?",
+        "a.": "Składa się z magnesu (stojana) i cewki (wirnika); podczas obrotu cewki w polu magnetycznym indukuje się w niej napięcie przemienne.",
+        "b.": "Składa się z transformatora i prostownika diodowego.",
+        "c.": "Składa się z jednej cewki zasilanej napięciem stałym.",
+        "d.": "Składa się wyłącznie z elementów elektronicznych bez ruchomych części.",
+        "explanation": "Prądnica prądu przemiennego działa na zasadzie indukcji elektromagnetycznej — ruch cewki w polu magnesu powoduje powstanie napięcia zmiennego.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<diagram mocy: P – moc czynna, Q – bierna, S – pozorna>",
+        "question": "Jak definiuje się moce prądu przemiennego?",
+        "a.": "Moc czynna (P) – wykonuje pracę, moc bierna (Q) – wymienia energię z polem, moc pozorna (S) – stanowi geometryczną sumę obu.",
+        "b.": "Moc czynna zależy od częstotliwości, a moc bierna od napięcia.",
+        "c.": "Moc pozorna to różnica mocy czynnej i biernej.",
+        "d.": "Moc czynna i bierna zawsze mają te same wartości.",
+        "explanation": "W obwodach AC rozróżnia się trzy moce: czynną (P), bierną (Q) i pozorną (S), które wiążą się zależnością trójkąta mocy.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<trójkąt prostokątny mocy: S jako przeciwprostokątna, P i Q jako przyprostokątne>",
+        "question": "Co to jest trójkąt mocy?",
+        "a.": "Graficzne przedstawienie zależności między mocą czynną (P), bierną (Q) i pozorną (S) w obwodach prądu przemiennego.",
+        "b.": "Wykres zmian mocy w funkcji czasu.",
+        "c.": "Wykres zależności mocy od napięcia i prądu stałego.",
+        "d.": "Schemat trójfazowego układu zasilania.",
+        "explanation": "Trójkąt mocy ilustruje zależność S² = P² + Q² i pozwala graficznie przedstawić relacje między mocami w obwodzie AC.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<wykres napięcia i prądu w rezystorze – oba przebiegi sinusoidalne w fazie>",
+        "question": "Jakie są właściwości rezystora w obwodzie prądu sinusoidalnego?",
+        "a.": "W rezystorze napięcie i prąd są zgodne w fazie, a energia elektryczna jest całkowicie zamieniana na ciepło.",
+        "b.": "W rezystorze napięcie wyprzedza prąd o 90°.",
+        "c.": "W rezystorze prąd wyprzedza napięcie o 90°.",
+        "d.": "W rezystorze nie występuje przepływ prądu zmiennego.",
+        "explanation": "W czysto rezystancyjnym obwodzie napięcie i prąd mają ten sam przebieg czasowy i są w fazie.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<dwa wykresy: przebieg czasowy sinusoidalny napięcia i prądu w cewce, gdzie prąd opóźniony o 90° względem napięcia; obok wykres wektorowy z wektorem prądu opóźnionym o kąt φ=90°>",
+        "question": "Jakie są właściwości cewki indukcyjnej w obwodzie prądu sinusoidalnego oraz jakie są jej przebiegi czasowe i wykres wektorowy?",
+        "a.": "W cewce prąd opóźnia się względem napięcia o 90°, napięcie wyprzedza prąd, a energia jest chwilowo gromadzona w polu magnetycznym.",
+        "b.": "W cewce napięcie i prąd są zgodne w fazie.",
+        "c.": "W cewce prąd wyprzedza napięcie o 90°, energia jest tracona w postaci ciepła.",
+        "d.": "W cewce prąd i napięcie zmieniają się w sposób stały bez przesunięcia fazowego.",
+        "explanation": "W obwodzie indukcyjnym napięcie wyprzedza prąd o 90°, ponieważ energia jest okresowo magazynowana i oddawana przez pole magnetyczne cewki.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<dwa wykresy: przebieg czasowy napięcia i prądu w kondensatorze, gdzie prąd wyprzedza napięcie o 90°; obok wykres wektorowy z wektorem prądu wyprzedzającym napięcie o kąt φ=90°>",
+        "question": "Jakie są właściwości, przebiegi czasowe i wykresy wektorowe prądu i napięcia dla kondensatora w obwodzie prądu sinusoidalnego?",
+        "a.": "W kondensatorze prąd wyprzedza napięcie o 90°, a energia jest okresowo magazynowana w polu elektrycznym.",
+        "b.": "W kondensatorze napięcie wyprzedza prąd o 90°.",
+        "c.": "W kondensatorze napięcie i prąd są zgodne w fazie.",
+        "d.": "W kondensatorze energia jest tracona w postaci ciepła.",
+        "explanation": "W kondensatorze prąd wyprzedza napięcie, ponieważ zmiana napięcia powoduje przepływ ładunku, a energia jest magazynowana w polu elektrycznym.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<symbol cewki i kondensatora z oznaczeniem ich reaktancji XL i XC>",
+        "question": "Jakimi wzorami opisuje się reaktancje cewki i kondensatora?",
+        "a.": "Reaktancja cewki: XL = ωL, reaktancja kondensatora: XC = 1 / (ωC).",
+        "b.": "Reaktancja cewki: XL = 1 / (ωL), reaktancja kondensatora: XC = ωC.",
+        "c.": "Reaktancje obu elementów są równe i niezależne od częstotliwości.",
+        "d.": "Reaktancja cewki i kondensatora są obliczane jako R = U/I.",
+        "explanation": "Reaktancja cewki rośnie wraz z częstotliwością, a kondensatora maleje, zgodnie ze wzorami XL = ωL i XC = 1/(ωC).",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<wektorowe przedstawienie napięcia i prądu dla R, L i C – różne kąty fazowe między U a I>",
+        "question": "Jak wyraża się prawo Ohma dla rezystora, cewki i kondensatora w obwodzie prądu sinusoidalnego?",
+        "a.": "Rezystor: U = I·R, cewka: U = I·XL, kondensator: U = I·XC.",
+        "b.": "Rezystor: U = I·R, cewka: U = I/XL, kondensator: U = I·XC².",
+        "c.": "Rezystor: U = I·XC, cewka: U = I·R, kondensator: U = I·XL.",
+        "d.": "Dla wszystkich elementów obowiązuje U = I niezależnie od rodzaju obciążenia.",
+        "explanation": "Prawo Ohma w obwodzie prądu sinusoidalnego ma postać U = I·Z, gdzie dla R, L, C impedancje mają różną postać: R, XL, XC.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat szeregowego obwodu RLC: rezystor R, cewka L i kondensator C połączone w jednym ciągu>",
+        "question": "Co to jest impedancja szeregowego połączenia elementów RLC?",
+        "a.": "To wypadkowy opór zespolony obwodu, będący sumą rezystancji R i reaktancji indukcyjnej oraz pojemnościowej: Z = √(R² + (XL − XC)²).",
+        "b.": "To różnica rezystancji i reaktancji w obwodzie prądu stałego.",
+        "c.": "To tylko rezystancja przewodnika, pomijająca wpływ cewki i kondensatora.",
+        "d.": "To odwrotność konduktancji obwodu.",
+        "explanation": "Impedancja Z wyraża łączny opór jaki stawia obwód RLC prądowi przemiennemu i uwzględnia zarówno część rzeczywistą (R), jak i urojoną (XL − XC).",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<wektorowy wykres napięć w szeregowym obwodzie RLC: U_R w fazie z prądem, U_L wyprzedzające o 90°, U_C opóźnione o 90° względem prądu, U jako wypadkowa wektorowa>",
+        "question": "Jaki jest wykres wektorowy prądu i napięć dla szeregowego obwodu RLC?",
+        "a.": "Prąd jest wspólny dla wszystkich elementów, napięcie na rezystorze jest w fazie z prądem, na cewce wyprzedza prąd o 90°, a na kondensatorze opóźnia się o 90°.",
+        "b.": "Prąd wyprzedza napięcie we wszystkich elementach o ten sam kąt.",
+        "c.": "Napięcia na wszystkich elementach są zgodne w fazie z prądem.",
+        "d.": "Napięcie i prąd są zawsze przesunięte o 180°.",
+        "explanation": "W szeregowym obwodzie RLC prąd jest taki sam, ale napięcia na elementach różnią się fazowo: U_L i U_C są przesunięte względem U_R o ±90°.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Jakie równania wyrażają prawo Ohma dla szeregowego połączenia RLC w obwodzie prądu sinusoidalnego?",
+        "a.": "U = I·Z, gdzie Z = √(R² + (XL − XC)²), XL = ωL, XC = 1 / (ωC).",
+        "b.": "U = I·(R + XL + XC).",
+        "c.": "I = U·(R − XL + XC).",
+        "d.": "U = I / Z, gdzie Z = R + XL + XC.",
+        "explanation": "Prawo Ohma dla obwodu RLC uwzględnia impedancję jako geometryczną sumę rezystancji i reaktancji różnego rodzaju.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<trzy przebiegi fazowe: a) XL=XC – charakter rezystancyjny, b) XL>XC – indukcyjny, c) XL<XC – pojemnościowy>",
+        "question": "Kiedy szeregowy obwód RLC ma charakter rezystancyjny, indukcyjny lub pojemnościowy?",
+        "a.": "Rezystancyjny, gdy XL = XC; indukcyjny, gdy XL > XC; pojemnościowy, gdy XL < XC.",
+        "b.": "Zawsze rezystancyjny niezależnie od wartości XL i XC.",
+        "c.": "Indukcyjny, gdy XC > XL; pojemnościowy, gdy XL > XC.",
+        "d.": "Charakter obwodu nie zależy od reaktancji, tylko od napięcia źródła.",
+        "explanation": "Charakter obwodu zależy od wzajemnego stosunku reaktancji XL i XC – gdy są równe, obwód jest w rezonansie i zachowuje się jak czysto rezystancyjny.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<diagram zespolony: konduktancja G na osi rzeczywistej, susceptancja B na osi urojonej, wektor admitancji Y>",
+        "question": "Co to jest susceptancja, konduktancja i admitancja?",
+        "a.": "Konduktancja G to odwrotność rezystancji, susceptancja B to odwrotność reaktancji, a admitancja Y jest zespoloną wielkością Y = G + jB.",
+        "b.": "Konduktancja i admitancja to to samo pojęcie opisujące reaktancję.",
+        "c.": "Susceptancja to rezystancja obwodu, a konduktancja – reaktancja pojemnościowa.",
+        "d.": "Admitancja to iloczyn rezystancji i reaktancji.",
+        "explanation": "Admitancja jest odwrotnością impedancji i opisuje zdolność obwodu do przewodzenia prądu, składając się z części rzeczywistej (G) i urojonej (B).",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat równoległego połączenia R, L i C oraz wektorowy wykres prądów: IR w fazie z napięciem, IL opóźniony o 90°, IC wyprzedzający o 90°>",
+        "question": "Co to jest admitancja równoległego połączenia elementów RLC?",
+        "a.": "To wypadkowa admitancja obwodu, będąca sumą admitancji poszczególnych gałęzi: Y = √(G² + (BL − BC)²).",
+        "b.": "To odwrotność impedancji kondensatora.",
+        "c.": "To różnica między konduktancją i rezystancją.",
+        "d.": "To opór elektryczny obwodu równoległego.",
+        "explanation": "Admitancja opisuje zdolność obwodu równoległego do przewodzenia prądu i stanowi sumę konduktancji i susceptancji wszystkich gałęzi.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<wektorowy wykres prądów w równoległym obwodzie RLC: IR w fazie z napięciem, IL opóźniony, IC wyprzedzający, I jako wypadkowa wektorowa>",
+        "question": "Jak można wyznaczyć wartość prądu zasilającego obwód równoległy RLC, gdy znamy prądy rezystora, cewki i kondensatora?",
+        "a.": "Wartość prądu zasilającego oblicza się ze wzoru I = √(IR² + (IC − IL)²).",
+        "b.": "Jest to suma arytmetyczna wszystkich prądów: I = IR + IC + IL.",
+        "c.": "Oblicza się go jako I = IR × (IC + IL).",
+        "d.": "Wartość prądu jest równa prądowi cewki, ponieważ ona ma największą reaktancję.",
+        "explanation": "Prądy gałęziowe nie są zgodne w fazie, dlatego prąd całkowity oblicza się geometrycznie jako pierwiastek z sumy kwadratów składników prostopadłych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<dwa wykresy: a) rezonans w szeregowym obwodzie RLC (XL=XC, Z minimalna), b) rezonans w równoległym (BL=BC, Y minimalna)>",
+        "question": "Kiedy występuje rezonans w szeregowym i równoległym obwodzie RLC?",
+        "a.": "W szeregowym, gdy XL = XC (impedancja minimalna, prąd maksymalny); w równoległym, gdy BL = BC (admitancja minimalna, prąd zasilający minimalny).",
+        "b.": "W szeregowym, gdy XL > XC; w równoległym, gdy XC > XL.",
+        "c.": "W szeregowym i równoległym zawsze przy częstotliwości 50 Hz.",
+        "d.": "Rezonans występuje tylko w obwodzie z samą cewką.",
+        "explanation": "Rezonans następuje, gdy reaktancje cewki i kondensatora się znoszą — w szeregowym prąd jest największy, a w równoległym najmniejszy.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat filtrów i obwodów rezonansowych w radiotechnice i energetyce>",
+        "question": "Jakie jest znaczenie praktyczne zjawiska rezonansu?",
+        "a.": "Wykorzystywane jest w filtrach, obwodach strojenia radiowego, układach pomiarowych i kompensacji mocy biernej.",
+        "b.": "Jest zjawiskiem niepożądanym, które zawsze należy eliminować.",
+        "c.": "Stosuje się je wyłącznie w układach grzewczych.",
+        "d.": "Nie ma zastosowania praktycznego.",
+        "explanation": "Rezonans umożliwia selektywne wzmacnianie lub tłumienie określonych częstotliwości, co jest wykorzystywane m.in. w radiotechnice i automatyce.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający magnes z zaznaczonymi liniami pola magnetycznego wychodzącymi z bieguna N i wchodzącymi do bieguna S>",
+        "question": "Co to jest pole magnetyczne?",
+        "a.": "To przestrzeń, w której na poruszające się ładunki elektryczne lub magnesy działają siły magnetyczne.",
+        "b.": "To przestrzeń, w której występują tylko ładunki elektryczne dodatnie.",
+        "c.": "To pole, w którym nie występują żadne oddziaływania fizyczne.",
+        "d.": "To obszar, w którym występuje tylko promieniowanie cieplne.",
+        "explanation": "Pole magnetyczne jest efektem oddziaływania ładunków poruszających się (prądów) i magnesów, opisanym liniami sił pola.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<trzy rysunki: a) magnes trwały z liniami pola od N do S, b) prostoliniowy przewodnik z prądem i liniami kołowymi wokół niego, c) zwojnica z prądem z polami wewnątrz przypominającymi pole magnesu>",
+        "question": "Jak układają się linie pola magnetycznego magnesu trwałego, przewodnika i zwojnicy z prądem?",
+        "a.": "W magnesie trwałym linie wychodzą z bieguna N i wchodzą do S, wokół przewodnika tworzą okręgi, a w zwojnicy przebiegają równolegle wewnątrz i zamykają się na zewnątrz cewki.",
+        "b.": "Wszystkie linie pola mają zawsze kierunek od S do N.",
+        "c.": "W przewodniku linie pola są prostoliniowe, a w magnesie – chaotyczne.",
+        "d.": "W zwojnicy linie pola układają się losowo, niezależnie od kierunku prądu.",
+        "explanation": "Kształt linii pola zależy od źródła – w magnesie biegną od N do S, a wokół przewodnika i zwojnicy tworzą charakterystyczne układy zamknięte.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przewodnika z prądem i prawej dłoni z kciukiem wskazującym kierunek prądu i palcami obejmującymi kierunek linii pola>",
+        "question": "Kiedy stosujemy regułę prawej dłoni?",
+        "a.": "Do określenia kierunku linii pola magnetycznego wokół przewodnika z prądem.",
+        "b.": "Do wyznaczania kierunku siły elektrodynamicznej.",
+        "c.": "Do określania kierunku pola elektrycznego wokół ładunku.",
+        "d.": "Do obliczania wartości napięcia w obwodzie.",
+        "explanation": "Reguła prawej dłoni służy do określenia kierunku pola magnetycznego – kciuk wskazuje kierunek prądu, a palce kierunek linii pola.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek śruby prawoskrętnej obracanej w kierunku zgodnym z prądem w przewodniku>",
+        "question": "Kiedy stosujemy regułę śruby prawoskrętnej?",
+        "a.": "Do określenia kierunku obrotu linii pola magnetycznego wokół przewodnika z prądem.",
+        "b.": "Do wyznaczenia kierunku siły ciężkości.",
+        "c.": "Do obliczania indukcji pola elektrycznego.",
+        "d.": "Do określania kierunku przepływu ciepła.",
+        "explanation": "Reguła śruby prawoskrętnej jest równoważna regule prawej dłoni – kierunek obrotu śruby wskazuje kierunek linii pola przy ruchu zgodnym z prądem.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<diagram z oznaczeniami: H – natężenie pola (A/m), B – indukcja magnetyczna (T), Φ – strumień magnetyczny (Wb)>",
+        "question": "Jakie wielkości charakteryzują pole magnetyczne i jakie są ich jednostki?",
+        "a.": "Natężenie pola magnetycznego H [A/m], indukcja magnetyczna B [T], strumień magnetyczny Φ [Wb].",
+        "b.": "Napięcie U [V], natężenie I [A], moc P [W].",
+        "c.": "Siła F [N], prędkość v [m/s], czas t [s].",
+        "d.": "Indukcyjność L [H], opór R [Ω], pojemność C [F].",
+        "explanation": "Pole magnetyczne opisują wielkości: H – natężenie, B – indukcja i Φ – strumień magnetyczny.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<tabela porównawcza materiałów: diamagnetyki, paramagnetyki, ferromagnetyki z ich przykładowymi substancjami>",
+        "question": "Jak klasyfikuje się materiały pod względem właściwości magnetycznych?",
+        "a.": "Na diamagnetyki, paramagnetyki i ferromagnetyki.",
+        "b.": "Na przewodniki, izolatory i półprzewodniki.",
+        "c.": "Na materiały twarde i miękkie.",
+        "d.": "Na nadprzewodniki i półprzewodniki.",
+        "explanation": "Materiały magnetyczne dzielimy na: diamagnetyki (osłabiają pole), paramagnetyki (słabo je wzmacniają) i ferromagnetyki (silnie wzmacniają).",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<charakterystyka magnesowania ferromagnetyka – pętla histerezy>",
+        "question": "Jak przebiega charakterystyka magnesowania ferromagnetyków?",
+        "a.": "Tworzy pętlę histerezy, pokazującą zależność między indukcją B a natężeniem pola H oraz występowanie remanencji i koercji.",
+        "b.": "Jest prostoliniowa i przechodzi przez początek układu współrzędnych.",
+        "c.": "Nie zależy od zmian natężenia pola magnetycznego.",
+        "d.": "Ma postać sinusoidy.",
+        "explanation": "Pętla histerezy odzwierciedla zjawiska nasycenia, pozostałości magnetycznej i koercji w ferromagnetykach.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<fragment pętli histerezy z zaznaczoną wartością remanencji Br>",
+        "question": "Co to jest pozostałość magnetyczna (remanencja)?",
+        "a.": "To indukcja magnetyczna pozostająca w materiale po usunięciu pola magnesującego.",
+        "b.": "To maksymalna wartość pola magnetycznego w próżni.",
+        "c.": "To zdolność materiału do przewodzenia prądu elektrycznego.",
+        "d.": "To wartość pola potrzebna do całkowitego namagnesowania próbki.",
+        "explanation": "Remanencja oznacza trwałe namagnesowanie materiału po zaniku zewnętrznego pola magnetycznego.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<porównanie pętli histerezy: wąska (miękki ferromagnetyk) i szeroka (twardy ferromagnetyk)>",
+        "question": "Co to są ferromagnetyki miękkie i twarde?",
+        "a.": "Miękkie – łatwo się magnesują i rozmagnesowują (mała histereza); twarde – trudne do rozmagnesowania (duża histereza).",
+        "b.": "Miękkie – nie przewodzą prądu, twarde – przewodzą.",
+        "c.": "Miękkie – stosowane tylko w izolatorach, twarde – w półprzewodnikach.",
+        "d.": "Miękkie – tracą właściwości magnetyczne w niskiej temperaturze.",
+        "explanation": "Ferromagnetyki miękkie stosuje się w rdzeniach transformatorów, a twarde – do wytwarzania magnesów trwałych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający pętle histerezy z opisem pozostałości magnetycznej>",
+        "question": "Kiedy pozostałość magnetyczna jest pożądana, a kiedy nie?",
+        "a.": "Pożądana w magnesach trwałych, niepożądana w rdzeniach transformatorów i silników, gdzie powoduje straty energii.",
+        "b.": "Zawsze jest zjawiskiem niepożądanym.",
+        "c.": "Pożądana tylko w paramagnetykach.",
+        "d.": "Nie ma wpływu na pracę urządzeń elektromagnetycznych.",
+        "explanation": "Remanencja jest korzystna w magnesach trwałych, lecz niepożądana w urządzeniach, gdzie konieczna jest szybka zmiana namagnesowania.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<wykres zmian właściwości magnetycznych w funkcji temperatury z zaznaczonym punktem Curie>",
+        "question": "Co to jest punkt Curie?",
+        "a.": "To temperatura, powyżej której ferromagnetyk traci swoje właściwości magnetyczne i staje się paramagnetykiem.",
+        "b.": "To temperatura, przy której materiał ulega stopieniu.",
+        "c.": "To temperatura, w której pole magnetyczne osiąga maksimum.",
+        "d.": "To punkt, w którym napięcie w przewodniku zanika.",
+        "explanation": "Punkt Curie wyznacza granicę między zachowaniem ferromagnetycznym a paramagnetycznym materiału.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat pokazujący przewodnik przecinający linie pola magnetycznego i powstające napięcie indukowane>",
+        "question": "Na czym polega zjawisko indukcji elektromagnetycznej i gdzie jest wykorzystywane?",
+        "a.": "Polega na wytwarzaniu siły elektromotorycznej (SEM) w przewodniku przecinającym linie pola magnetycznego; wykorzystywane jest w prądnicach, transformatorach i czujnikach.",
+        "b.": "Polega na powstawaniu pola elektrycznego wokół magnesu.",
+        "c.": "Występuje tylko w obwodach prądu stałego.",
+        "d.": "Służy do ograniczania prądu w obwodzie.",
+        "explanation": "Indukcja elektromagnetyczna jest podstawą działania urządzeń przetwarzających energię mechaniczną na elektryczną.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający ładunek poruszający się w polu magnetycznym z wektorem prędkości v, indukcji B i siły F – zasada lewej dłoni>",
+        "question": "W jakich warunkach powstaje siła Lorentza?",
+        "a.": "Na poruszający się ładunek w polu magnetycznym działa siła Lorentza, gdy kierunek ruchu ładunku nie jest równoległy do linii pola magnetycznego.",
+        "b.": "Tylko gdy ładunek spoczywa w polu magnetycznym.",
+        "c.": "Tylko w próżni bez obecności pola elektrycznego.",
+        "d.": "Gdy przewodnik jest nieruchomy w polu magnetycznym.",
+        "explanation": "Siła Lorentza działa na ładunek poruszający się w polu magnetycznym – jej kierunek wyznacza reguła lewej dłoni.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat obwodu magnetycznego z rdzeniem, szczeliną powietrzną i uzwojeniem>",
+        "question": "Co to są obwody magnetyczne i gdzie są stosowane?",
+        "a.": "To układy, w których przepływa strumień magnetyczny, stosowane w transformatorach, silnikach, elektromagnesach i prądnicach.",
+        "b.": "To obwody, w których przepływa prąd elektryczny, stosowane w instalacjach oświetleniowych.",
+        "c.": "To układy złożone z rezystorów, cewek i kondensatorów służące do filtracji sygnałów.",
+        "d.": "To wyłącznie przewody ułożone w kształcie spirali dla celów grzewczych.",
+        "explanation": "Obwody magnetyczne prowadzą strumień magnetyczny przez materiały ferromagnetyczne i są kluczowym elementem urządzeń elektromagnetycznych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat elektromagnesu: rdzeń żelazny, cewka z uzwojeniem i zasilanie prądem stałym>",
+        "question": "Jak jest zbudowany i jak działa elektromagnes?",
+        "a.": "Składa się z rdzenia ferromagnetycznego, na którym nawinięta jest cewka; po przepływie prądu wytwarza on pole magnetyczne przyciągające elementy ferromagnetyczne.",
+        "b.": "Zbudowany jest z magnesu trwałego i kondensatora, które generują pole magnetyczne bez zasilania.",
+        "c.": "Zbudowany jest z samego przewodnika bez rdzenia.",
+        "d.": "Nie wymaga zasilania, gdyż działa dzięki ciepłu wytwarzanemu w cewce.",
+        "explanation": "Elektromagnes wykorzystuje zjawisko powstawania pola magnetycznego wokół cewki z prądem, które wzmacnia rdzeń ferromagnetyczny.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek pokazujący elektromagnes przyciągający metalowy element lub używany w dźwigu magnetycznym>",
+        "question": "Do czego stosuje się elektromagnesy?",
+        "a.": "Do przyciągania lub podnoszenia przedmiotów metalowych, w przekaźnikach, dźwignicach, hamulcach elektromagnetycznych i zaworach.",
+        "b.": "Do generowania energii elektrycznej w sieci.",
+        "c.": "Do przetwarzania ciepła w energię elektryczną.",
+        "d.": "Wyłącznie w urządzeniach grzewczych.",
+        "explanation": "Elektromagnesy wykorzystują pole magnetyczne do sterowania, przyciągania lub zatrzymywania elementów metalowych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat transformatora: dwa uzwojenia na wspólnym rdzeniu, uzwojenie pierwotne i wtórne>",
+        "question": "Jak jest zbudowany i jak działa transformator?",
+        "a.": "Składa się z dwóch uzwojeń na wspólnym rdzeniu ferromagnetycznym; działa na zasadzie indukcji elektromagnetycznej – zmiana prądu w uzwojeniu pierwotnym indukuje napięcie w uzwojeniu wtórnym.",
+        "b.": "Zbudowany jest z jednej cewki zasilanej prądem stałym.",
+        "c.": "Działa dzięki zjawisku elektrostatycznemu pomiędzy zwojami.",
+        "d.": "Służy do zamiany energii elektrycznej na mechaniczną.",
+        "explanation": "Transformator przenosi energię elektryczną między obwodami za pomocą zmiennego pola magnetycznego, bez połączenia galwanicznego.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat autotransformatora: jedno uzwojenie z odczepem połączone z rdzeniem>",
+        "question": "Jak zbudowany jest i do czego służy autotransformator?",
+        "a.": "Ma jedno uzwojenie z odczepem na wspólnym rdzeniu; służy do płynnej regulacji napięcia w obwodach prądu przemiennego.",
+        "b.": "Składa się z dwóch niezależnych uzwojeń połączonych galwanicznie.",
+        "c.": "Służy wyłącznie do prostowania napięcia.",
+        "d.": "Zbudowany jest z magnesu trwałego i diody prostowniczej.",
+        "explanation": "Autotransformator pozwala na uzyskanie różnych wartości napięcia wyjściowego przy użyciu jednego uzwojenia z odczepami.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat obwodu magnetycznego z zaznaczonym punktem, w którym łączą się trzy gałęzie magnetyczne>",
+        "question": "Co nazywamy węzłem obwodu magnetycznego?",
+        "a.": "Punkt, w którym łączy się kilka gałęzi obwodu magnetycznego i rozdziela się strumień magnetyczny.",
+        "b.": "Miejsce, w którym występuje maksymalna indukcja magnetyczna.",
+        "c.": "Część obwodu, przez którą przepływa prąd elektryczny.",
+        "d.": "Fragment rdzenia o największym przekroju poprzecznym.",
+        "explanation": "Węzeł obwodu magnetycznego to punkt połączenia gałęzi, w którym rozdziela się lub łączy strumień magnetyczny.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat obwodu magnetycznego z zaznaczoną pojedynczą drogą przepływu strumienia magnetycznego – gałęzią>",
+        "question": "Co nazywamy gałęzią obwodu magnetycznego?",
+        "a.": "Część obwodu magnetycznego, w której przepływa określony strumień magnetyczny między dwoma węzłami.",
+        "b.": "Przewód elektryczny, przez który płynie prąd.",
+        "c.": "Odcinek rdzenia, w którym nie występuje pole magnetyczne.",
+        "d.": "Zwojnicę zasilającą obwód magnetyczny.",
+        "explanation": "Gałąź obwodu magnetycznego to odcinek, przez który płynie określony strumień magnetyczny – łączy dwa węzły magnetyczne.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat trójfazowego generatora z trzema uzwojeniami przesuniętymi o 120°>",
+        "question": "Jakie źródła napięcia nazywamy trójfazowymi?",
+        "a.": "Takie, które wytwarzają trzy napięcia sinusoidalne o jednakowej amplitudzie i częstotliwości, przesunięte w fazie o 120°.",
+        "b.": "Takie, które wytwarzają tylko jedno napięcie stałe.",
+        "c.": "Takie, które generują trzy przypadkowe napięcia o różnych częstotliwościach.",
+        "d.": "Takie, które zasilają odbiorniki jednofazowe.",
+        "explanation": "Źródła trójfazowe dostarczają trzech napięć przesuniętych w fazie o 120°, co umożliwia zasilanie układów trójfazowych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<wykres trzech sinusoid przesuniętych o 120° (U1, U2, U3) oraz wykres wektorowy tych napięć w postaci trójkąta równobocznego>",
+        "question": "Jaki jest przebieg czasowy i wykres wektorowy napięcia trójfazowego?",
+        "a.": "Przebieg czasowy składa się z trzech sinusoid przesuniętych względem siebie o 120°, a wykres wektorowy tworzy trójkąt równoboczny.",
+        "b.": "Przebieg czasowy to jedna sinusoida, a wektory napięć leżą na jednej prostej.",
+        "c.": "Przebieg czasowy ma charakter prostokątny, a wektorowy – kolisty.",
+        "d.": "Trzy sinusoidy są zgodne w fazie i mają różne amplitudy.",
+        "explanation": "W układzie trójfazowym napięcia są przesunięte o 120°, co przedstawia się graficznie w postaci trójkąta wektorowego.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Jakimi równaniami można opisać napięcia trójfazowe?",
+        "a.": "u₁ = Um·sin(ωt), u₂ = Um·sin(ωt − 120°), u₃ = Um·sin(ωt − 240°).",
+        "b.": "u₁ = Um·cos(ωt), u₂ = Um·cos(ωt), u₃ = Um·cos(ωt).",
+        "c.": "u₁ = U·t, u₂ = U·t/2, u₃ = U·t/3.",
+        "d.": "u₁ = Um·sin(ωt + 180°), u₂ = Um·sin(ωt − 180°), u₃ = Um·sin(ωt).",
+        "explanation": "Napięcia trójfazowe opisuje się równaniami sinusoidalnymi przesuniętymi w fazie o 120° między sobą.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat trójfazowego źródła z trzema uzwojeniami oznaczonymi jako fazy L1, L2, L3>",
+        "question": "Co nazywamy fazą układu trójfazowego?",
+        "a.": "Jedno z trzech napięć wytwarzanych przez źródło trójfazowe, przesunięte w fazie o 120° względem pozostałych.",
+        "b.": "Cały zestaw trzech przewodów zasilających.",
+        "c.": "Dowolny punkt obwodu elektrycznego.",
+        "d.": "Napięcie pomiędzy dwoma przewodami neutralnymi.",
+        "explanation": "Każde z trzech napięć źródła trójfazowego stanowi osobną fazę układu, przesuniętą względem pozostałych o 120°.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat połączeń gwiazdy (Y) i trójkąta (Δ)>",
+        "question": "W jakie układy można łączyć źródła i odbiorniki trójfazowe?",
+        "a.": "W układ gwiazdy (Y) i trójkąta (Δ).",
+        "b.": "Tylko w układ równoległy.",
+        "c.": "W układ prostokątny lub kolisty.",
+        "d.": "W dowolny sposób bez zasad łączenia.",
+        "explanation": "Najczęściej stosowane są dwa typy połączeń: gwiazda i trójkąt, które pozwalają dostosować napięcia i prądy do odbiornika.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat źródła trójfazowego z oznaczeniem napięć fazowych U_F i międzyfazowych U_L>",
+        "question": "Które napięcia źródła trójfazowego nazywamy fazowymi i międzyfazowymi?",
+        "a.": "Fazowe – między przewodem fazowym a punktem neutralnym; międzyfazowe – między dwoma przewodami fazowymi.",
+        "b.": "Fazowe – między dwoma przewodami fazowymi; międzyfazowe – między fazą a ziemią.",
+        "c.": "Fazowe i międzyfazowe są tym samym napięciem.",
+        "d.": "Fazowe – między przewodami neutralnymi.",
+        "explanation": "Napięcia fazowe odnoszą się do punktu neutralnego, a międzyfazowe – do różnicy potencjałów pomiędzy dwiema fazami.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "",
+        "question": "Jaka jest różnica pomiędzy wartościami napięć fazowych i międzyfazowych w układzie trójfazowym?",
+        "a.": "Napięcie międzyfazowe jest √3 razy większe od napięcia fazowego: UL = √3 · UF.",
+        "b.": "Napięcie fazowe jest √3 razy większe od międzyfazowego.",
+        "c.": "Oba napięcia mają zawsze tę samą wartość.",
+        "d.": "Napięcie międzyfazowe jest dwa razy większe od fazowego.",
+        "explanation": "W układzie trójfazowym z połączeniem gwiazdy UL = √3 · UF, co wynika z przesunięcia fazowego 120° między napięciami.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat odbiornika trójfazowego w połączeniu gwiazda (punkt wspólny N) i trójkąt>",
+        "question": "Jak zbudowany jest odbiornik trójfazowy połączony w gwiazdę, a jak połączony w trójkąt?",
+        "a.": "W gwieździe – jeden koniec każdej fazy połączony wspólnie (punkt N), w trójkącie – końce faz połączone w zamknięty obwód.",
+        "b.": "W gwieździe wszystkie końce są rozłączone, a w trójkącie – połączone z przewodem neutralnym.",
+        "c.": "W gwieździe – fazy są połączone równolegle, w trójkącie – szeregowo.",
+        "d.": "W obu przypadkach fazy połączone są równolegle.",
+        "explanation": "Połączenie gwiazdy łączy końce faz w jednym punkcie, a trójkąt tworzy zamknięty obwód między końcami uzwojeń.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<wektorowy wykres symetrycznego układu trójfazowego – napięcia o równych amplitudach i przesunięciach 120°>",
+        "question": "Jaki odbiornik i źródło trójfazowe nazywamy symetrycznymi?",
+        "a.": "Takie, w których wszystkie fazy mają jednakowe wartości napięć, prądów i impedancji oraz przesunięcia fazowe wynoszą 120°.",
+        "b.": "Takie, w których tylko jedna faza jest zasilana.",
+        "c.": "Takie, w których wartości napięć są różne, ale prądy równe.",
+        "d.": "Takie, w których impedancje faz są różne.",
+        "explanation": "Symetryczny układ ma identyczne parametry w każdej fazie i przesunięcia fazowe dokładnie 120°.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat obwodu trójfazowego z oznaczeniem napięcia fazowego UF, prądu IF i kąta przesunięcia fazowego φ>",
+        "question": "Jak określa się wartość mocy pobranej przez odbiornik trójfazowy symetryczny?",
+        "a.": "P = √3 · UL · IL · cosφ.",
+        "b.": "P = UL · IL.",
+        "c.": "P = 3 · UF · IF.",
+        "d.": "P = UF · IF · sinφ.",
+        "explanation": "W symetrycznym układzie trójfazowym całkowita moc czynna wynosi P = √3 · UL · IL · cosφ.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat sieci energetycznej 3-fazowej 400/230 V z oznaczonymi przewodami L1, L2, L3 i N>",
+        "question": "Jakie wartości napięcia występują w energetycznej sieci trójfazowej niskiego napięcia?",
+        "a.": "Napięcie międzyfazowe – 400 V, napięcie fazowe – 230 V.",
+        "b.": "Napięcie międzyfazowe – 230 V, napięcie fazowe – 400 V.",
+        "c.": "Oba napięcia mają wartość 230 V.",
+        "d.": "Napięcie fazowe – 110 V, międzyfazowe – 230 V.",
+        "explanation": "W standardowej sieci trójfazowej niskiego napięcia w Europie występują napięcia 400/230 V.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat pomiarowy: amperomierz włączony szeregowo w obwód, woltomierz równolegle do odbiornika>",
+        "question": "Jak włącza się amperomierz i woltomierz do pomiarów bezpośrednich?",
+        "a.": "Amperomierz włącza się szeregowo w obwód, a woltomierz równolegle do odbiornika.",
+        "b.": "Amperomierz włącza się równolegle, a woltomierz szeregowo.",
+        "c.": "Oba przyrządy włącza się szeregowo.",
+        "d.": "Oba przyrządy włącza się równolegle.",
+        "explanation": "Amperomierz mierzy prąd przepływający przez obwód, dlatego włącza się go szeregowo, natomiast woltomierz – równolegle do badanego elementu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat obwodu z rezystorem wzorcowym i woltomierzem mierzącym spadek napięcia>",
+        "question": "W jaki sposób można pośrednio zmierzyć wartość prądu w obwodzie?",
+        "a.": "Mierząc spadek napięcia na rezystorze o znanej rezystancji i obliczając prąd ze wzoru I = U / R.",
+        "b.": "Mierząc napięcie źródła zasilania bez uwzględnienia rezystora.",
+        "c.": "Korzystając z omomierza w trybie pomiaru rezystancji.",
+        "d.": "Obliczając prąd z wartości częstotliwości i pojemności obwodu.",
+        "explanation": "Pomiar pośredni prądu polega na pomiarze spadku napięcia na znanym rezystorze i obliczeniu wartości prądu z prawa Ohma.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat obwodu do pomiaru indukcyjności i pojemności metodą techniczną z użyciem woltomierza, amperomierza i watomierza>",
+        "question": "Jak można zmierzyć indukcyjność i pojemność elementów metodą techniczną?",
+        "a.": "Poprzez pomiar napięcia, prądu i mocy oraz obliczenie reaktancji z zależności między tymi wielkościami.",
+        "b.": "Przez bezpośredni odczyt wartości z amperomierza.",
+        "c.": "Przez pomiar napięcia stałego na kondensatorze.",
+        "d.": "Przy pomocy omomierza w trybie pomiaru rezystancji.",
+        "explanation": "Metoda techniczna wykorzystuje pomiary napięcia, prądu i mocy do obliczenia reaktancji, a następnie wartości L lub C badanego elementu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat układu jednofazowego z woltomierzem, amperomierzem i watomierzem>",
+        "question": "W jakim układzie i jakimi miernikami można zmierzyć wartość mocy czynnej?",
+        "a.": "W układzie jednofazowym lub trójfazowym, za pomocą watomierza, woltomierza i amperomierza.",
+        "b.": "Tylko w obwodzie prądu stałego za pomocą omomierza.",
+        "c.": "Za pomocą jednego woltomierza w obwodzie trójfazowym.",
+        "d.": "Przez pomiar napięcia i prądu bez określenia przesunięcia fazowego.",
+        "explanation": "Moc czynną mierzy się watomierzem w połączeniu z amperomierzem i woltomierzem, uwzględniając przesunięcie fazowe między prądem a napięciem.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat układu pomiarowego z watomierzem i miernikami wskazującymi pozorną oraz bierną moc>",
+        "question": "W jakim układzie i jakimi miernikami mierzy się wartość mocy pozornej i biernej odbiornika?",
+        "a.": "Moc pozorną mierzy się za pomocą woltomierza i amperomierza (S = U·I), a moc bierną za pomocą watomierza z przesunięciem fazowym lub dwóch watomierzy.",
+        "b.": "Obie moce mierzy się omomierzem.",
+        "c.": "Moc bierną mierzy się amperomierzem, a pozorną – woltomierzem.",
+        "d.": "Wartości tych mocy są zawsze takie same, więc wystarczy jeden miernik.",
+        "explanation": "Moc pozorna S = U·I, a moc bierną można określić pośrednio z watomierzy lub fazomierzy mierzących przesunięcie fazowe.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat obwodu trójfazowego symetrycznego z watomierzem (metoda jednowatomierzowa)>",
+        "question": "Jak można zmierzyć moc pobieraną przez odbiornik trójfazowy symetryczny?",
+        "a.": "Za pomocą jednego watomierza w układzie jednowatomierzowym, mnożąc wynik przez 3, jeśli obwód jest symetryczny.",
+        "b.": "Za pomocą trzech woltomierzy w każdej fazie.",
+        "c.": "Za pomocą jednego amperomierza w przewodzie neutralnym.",
+        "d.": "Metodą mostka Wheatstone’a.",
+        "explanation": "Dla symetrycznego obwodu trójfazowego wystarczy jeden watomierz, ponieważ każda faza pobiera taką samą moc.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat pomiaru mocy w trójfazowym układzie niesymetrycznym z użyciem dwóch watomierzy (metoda dwuwatomierzowa)>",
+        "question": "Jak można zmierzyć moc pobieraną przez odbiornik trójfazowy niesymetryczny?",
+        "a.": "Za pomocą dwóch watomierzy połączonych metodą dwuwatomierzową – suma ich wskazań daje moc całkowitą.",
+        "b.": "Za pomocą jednego watomierza i omomierza.",
+        "c.": "Za pomocą trzech amperomierzy bez pomiaru napięcia.",
+        "d.": "Przez odczyt napięcia międzyfazowego i pomnożenie przez prąd jednej fazy.",
+        "explanation": "Metoda dwuwatomierzowa umożliwia dokładny pomiar mocy w układach trójfazowych niesymetrycznych bez przewodu neutralnego.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<oscyloskop z ekranem pokazującym przebiegi napięcia i prądu sinusoidalnego>",
+        "question": "Jakie wielkości fizyczne i ich parametry można mierzyć oscyloskopem?",
+        "a.": "Napięcie, prąd (pośrednio), częstotliwość, okres, fazę, przesunięcie fazowe oraz kształt przebiegów sygnałów.",
+        "b.": "Tylko temperaturę i ciśnienie.",
+        "c.": "Wyłącznie wartość skuteczną napięcia stałego.",
+        "d.": "Jedynie moc czynną w obwodach prądu przemiennego.",
+        "explanation": "Oscyloskop umożliwia analizę przebiegów czasowych napięć i prądów, pomiar amplitudy, częstotliwości i kąta fazowego.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<model sieci krystalicznej półprzewodnika, np. krzemu, z zaznaczonymi elektronami i dziurami>",
+        "question": "Co to jest półprzewodnik i półprzewodnik samoistny?",
+        "a.": "Półprzewodnik to materiał, którego przewodność elektryczna zależy od temperatury i domieszkowania; półprzewodnik samoistny to czysty materiał bez domieszek, np. krzem lub german.",
+        "b.": "Półprzewodnik to materiał przewodzący prąd jak metal; półprzewodnik samoistny to materiał izolujący.",
+        "c.": "Półprzewodnik to każdy materiał przewodzący prąd stały; półprzewodnik samoistny to każdy materiał magnetyczny.",
+        "d.": "Półprzewodnik samoistny to metal z dużą liczbą wolnych elektronów.",
+        "explanation": "Półprzewodniki mają właściwości pośrednie między przewodnikami i izolatorami; ich przewodnictwo można zmieniać przez domieszkowanie lub temperaturę.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający przykładowe elementy elektroniczne: rezystor, kondensator, cewka (bierne) oraz tranzystor, dioda (czynne)>",
+        "question": "Co to są elementy elektroniczne bierne i czynne?",
+        "a.": "Bierne to elementy, które nie wzmacniają sygnału (rezystory, kondensatory, cewki), a czynne – które mogą sterować lub wzmacniać (diody, tranzystory).",
+        "b.": "Bierne to wszystkie elementy zasilające, a czynne – przewody łączące.",
+        "c.": "Bierne to elementy działające tylko przy prądzie stałym, czynne – tylko przy zmiennym.",
+        "d.": "Bierne i czynne to dwa rodzaje kondensatorów.",
+        "explanation": "Elementy bierne nie generują energii, a czynne mogą sterować przepływem prądu lub wzmacniać sygnał elektryczny.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<porównanie wykresu sygnału analogowego (ciągły) i cyfrowego (dyskretny, poziomy 0 i 1)>",
+        "question": "Co odróżnia układy elektroniczne analogowe od cyfrowych (logicznych)?",
+        "a.": "Analogowe przetwarzają sygnały ciągłe, a cyfrowe – sygnały dyskretne (0 i 1).",
+        "b.": "Analogowe działają tylko w komputerach, a cyfrowe – w telewizorach.",
+        "c.": "Cyfrowe przetwarzają sygnały sinusoidalne, a analogowe – prostokątne.",
+        "d.": "Analogowe wykorzystują tranzystory, a cyfrowe nie.",
+        "explanation": "Układy analogowe pracują na wartościach ciągłych, a cyfrowe – na wartościach logicznych 0 i 1, co pozwala na tworzenie systemów logicznych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<model półprzewodnika z elektronami i dziurami jako nośnikami ładunku>",
+        "question": "Jakie rodzaje ładunków występują w półprzewodnikach?",
+        "a.": "Dodatnie dziury i ujemne elektrony.",
+        "b.": "Tylko dodatnie jony.",
+        "c.": "Tylko ujemne elektrony.",
+        "d.": "Neutrony i protony.",
+        "explanation": "W półprzewodnikach nośnikami ładunku są elektrony (ujemne) i dziury (dodatnie).",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek struktury półprzewodnika typu N (dodatkowe elektrony) i typu P (dziury), oraz złącza p-n>",
+        "question": "Co to jest półprzewodnik typu N i typu P? Co to jest złącze p-n?",
+        "a.": "Typ N ma nadmiar elektronów, typ P – nadmiar dziur; złącze p-n to połączenie tych dwóch obszarów w jednym materiale półprzewodnikowym.",
+        "b.": "Typ N i P to dwa rodzaje metali, a złącze p-n to ich lutowanie.",
+        "c.": "Typ N przewodzi prąd tylko w jedną stronę, a typ P – w drugą.",
+        "d.": "Złącze p-n występuje tylko w przewodnikach.",
+        "explanation": "Złącze p-n powstaje poprzez połączenie półprzewodników domieszkowanych donorowo (N) i akceptorowo (P), tworząc podstawę diody.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat diody półprzewodnikowej z zaznaczonym kierunkiem przewodzenia i zaporowym>",
+        "question": "Jakie właściwości posiada złącze p-n zależnie od kierunku przyłożonego napięcia?",
+        "a.": "Przy polaryzacji w kierunku przewodzenia prąd płynie łatwo, przy zaporowej – prawie nie płynie.",
+        "b.": "Prąd płynie jednakowo w obu kierunkach.",
+        "c.": "Złącze przewodzi tylko prąd przemienny.",
+        "d.": "Złącze zawsze zachowuje się jak izolator.",
+        "explanation": "Złącze p-n działa jak zawór prądu – przewodzi w jednym kierunku (kierunek przewodzenia) i blokuje w przeciwnym (kierunek zaporowy).",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek złącza metal–półprzewodnik (m-s) z warstwą potencjału barierowego>",
+        "question": "Co to jest złącze m-s i jakie są jego właściwości?",
+        "a.": "To złącze metal–półprzewodnik, które może działać jak dioda Schottky’ego – przewodzi prąd w jednym kierunku, a w drugim blokuje.",
+        "b.": "To połączenie dwóch metali o różnych potencjałach.",
+        "c.": "To warstwa izolacyjna między dwoma półprzewodnikami.",
+        "d.": "To element służący wyłącznie do magazynowania ładunku.",
+        "explanation": "Złącze metal–półprzewodnik (m-s) wykazuje nieliniowe właściwości przewodzenia – w jednym kierunku łatwo przewodzi, w drugim stanowi barierę potencjału.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat diody z zaznaczoną polaryzacją zaporową i przekroczeniem napięcia przebicia>",
+        "question": "Na czym polega i kiedy występuje przebicie złącza p-n lub m-s?",
+        "a.": "Przebicie występuje przy dużym napięciu zaporowym, gdy nośniki uzyskują energię wystarczającą do przerwania bariery potencjału, co powoduje gwałtowny wzrost prądu.",
+        "b.": "Przebicie to proces odwracalnego ładowania kondensatora.",
+        "c.": "Przebicie występuje przy braku zasilania.",
+        "d.": "Zjawisko to polega na zwiększeniu rezystancji diody.",
+        "explanation": "Przebicie to gwałtowny wzrost prądu przy napięciu zaporowym, spowodowany przekroczeniem wytrzymałości elektrycznej złącza.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat diody półprzewodnikowej z zaznaczonym złączem p-n oraz wykres charakterystyki I(U): prąd rośnie w kierunku przewodzenia, w zaporowym bliski zeru>",
+        "question": "Jak zbudowana jest dioda półprzewodnikowa i jak przebiega jej charakterystyka I(U)?",
+        "a.": "Zbudowana jest ze złącza p-n; przewodzi prąd w kierunku przewodzenia, a w kierunku zaporowym prąd jest bardzo mały – charakterystyka I(U) jest nieliniowa.",
+        "b.": "Składa się z dwóch złączy p-n i przewodzi prąd w obu kierunkach.",
+        "c.": "Zbudowana jest z metalowego przewodnika o stałej rezystancji.",
+        "d.": "Charakterystyka I(U) jest liniowa w całym zakresie napięć.",
+        "explanation": "Dioda półprzewodnikowa ma jedno złącze p-n; jej charakterystyka prądowo-napięciowa pokazuje silną asymetrię przewodzenia prądu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<symbol diody prostowniczej i przykładowy wykres napięcia prostowanego>",
+        "question": "Jakie jest przeznaczenie i jakie parametry opisują właściwości diod prostowniczych?",
+        "a.": "Służą do prostowania prądu przemiennego na stały; opisują je m.in. napięcie przebicia, maksymalny prąd przewodzenia, spadek napięcia i czas przełączania.",
+        "b.": "Służą do wzmacniania sygnałów i są opisane wzmocnieniem prądowym.",
+        "c.": "Używane są wyłącznie do regulacji napięcia.",
+        "d.": "Służą jako elementy oporowe o stałej rezystancji.",
+        "explanation": "Dioda prostownicza przepuszcza prąd tylko w jednym kierunku, umożliwiając konwersję AC→DC; kluczowe są parametry prądowe i napięciowe.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<symbol diody Zenera i jej charakterystyka I(U) z zaznaczonym napięciem stabilizacji UZ w kierunku zaporowym>",
+        "question": "Jaki jest symbol, przeznaczenie i charakterystyka I(U) diod Zenera?",
+        "a.": "Symbol to dioda z zakrzywioną kreską katody; służy do stabilizacji napięcia – w kierunku zaporowym po osiągnięciu napięcia Zenera przewodzi prąd stabilizując napięcie.",
+        "b.": "Służy do prostowania prądu przemiennego jak dioda zwykła.",
+        "c.": "Działa tylko w kierunku przewodzenia bez napięcia stabilizacji.",
+        "d.": "Jest diodą emitującą światło.",
+        "explanation": "Dioda Zenera pracuje w kierunku zaporowym w stanie przebicia kontrolowanego, stabilizując napięcie w obwodach zasilających.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<symbol warikapu i wykres zależności pojemności C od napięcia polaryzacji w kierunku zaporowym>",
+        "question": "Co to są i do czego służą diody pojemnościowe (warikapy)?",
+        "a.": "To diody, których pojemność złącza p-n zmienia się w zależności od napięcia zaporowego; stosowane w układach strojenia częstotliwości.",
+        "b.": "To diody emitujące światło w zależności od napięcia.",
+        "c.": "To diody stabilizujące napięcie jak Zenera.",
+        "d.": "To elementy magazynujące energię magnetyczną.",
+        "explanation": "Warikapy wykorzystują zjawisko zmiany pojemności złącza p-n i stosuje się je np. w generatorach i układach radiowych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<symbol diody LED i ilustracja emitowanego światła>",
+        "question": "Jakie są właściwości i przeznaczenie diod LED?",
+        "a.": "Przy polaryzacji w kierunku przewodzenia emitują światło; charakteryzują się niskim napięciem przewodzenia i wysoką sprawnością.",
+        "b.": "Przewodzą prąd w obu kierunkach i służą do prostowania napięcia.",
+        "c.": "Nie przewodzą prądu i działają jak izolatory.",
+        "d.": "Służą do regulacji napięcia w układach zasilania.",
+        "explanation": "Diody LED zamieniają energię elektryczną na światło dzięki rekombinacji nośników w złączu p-n.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<struktury tranzystorów NPN i PNP z oznaczonymi warstwami emiter-baza-kolektor>",
+        "question": "Jaka jest budowa tranzystorów bipolarnych NPN i PNP?",
+        "a.": "Tranzystor NPN ma dwie warstwy typu N i jedną typu P (baza), a PNP odwrotnie – dwie warstwy typu P i jedną N.",
+        "b.": "Oba składają się z jednej warstwy półprzewodnika.",
+        "c.": "Tranzystory NPN i PNP mają identyczną strukturę, różnią się tylko kolorem obudowy.",
+        "d.": "Zbudowane są z metalu i izolatora.",
+        "explanation": "Tranzystor bipolarny składa się z trzech warstw półprzewodnikowych, które tworzą dwa złącza p-n; różny układ warstw odróżnia typ NPN od PNP.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat trzech typowych układów pracy tranzystora: WE (wspólny emiter), WB (wspólna baza), WK (wspólny kolektor)>",
+        "question": "Jakie są możliwe układy pracy tranzystora bipolarnego?",
+        "a.": "Ze wspólnym emiterem, wspólną bazą i wspólnym kolektorem.",
+        "b.": "Tylko ze wspólną bazą.",
+        "c.": "Wyłącznie w układzie Darlingtona.",
+        "d.": "Tylko w układzie wzmacniacza prądu stałego.",
+        "explanation": "Trzy podstawowe konfiguracje pracy tranzystora to WE, WB i WK – każda z nich ma inne właściwości wzmocnienia sygnału.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat polaryzacji tranzystora NPN: złącze baza–emiter spolaryzowane w kierunku przewodzenia, baza–kolektor w kierunku zaporowym>",
+        "question": "Jak należy polaryzować tranzystor bipolarny dla sterowania i wzmacniania prądu?",
+        "a.": "Złącze baza–emiter powinno być spolaryzowane w kierunku przewodzenia, a baza–kolektor w kierunku zaporowym.",
+        "b.": "Oba złącza muszą być spolaryzowane w kierunku zaporowym.",
+        "c.": "Złącze baza–emiter w kierunku zaporowym, baza–kolektor w przewodzenia.",
+        "d.": "Nie wymaga żadnej polaryzacji do działania.",
+        "explanation": "Taka polaryzacja zapewnia sterowanie prądem kolektora przez prąd bazy – warunek działania tranzystora jako wzmacniacza.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<model działania tranzystora: zmiana małego prądu bazy powoduje dużą zmianę prądu kolektora>",
+        "question": "Na czym polega zasada działania tranzystora bipolarnego?",
+        "a.": "Na wzmocnieniu prądu – niewielka zmiana prądu bazy powoduje dużą zmianę prądu kolektora.",
+        "b.": "Na prostowaniu prądu jak w diodzie.",
+        "c.": "Na zmianie napięcia w obwodzie zasilania.",
+        "d.": "Na magazynowaniu energii elektrycznej w polu magnetycznym.",
+        "explanation": "Tranzystor działa jako wzmacniacz prądu, gdy złącze baza–emiter przewodzi, a baza–kolektor jest spolaryzowane zaporowo.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<zestaw charakterystyk tranzystora: zależność IC=f(UBE) i IC=f(UCE) dla różnych prądów bazy IB>",
+        "question": "Narysuj i omów charakterystyki statyczne tranzystora bipolarnego.",
+        "a.": "Charakterystyki pokazują zależność prądu kolektora od napięcia baza–emiter oraz napięcia kolektor–emiter przy różnych prądach bazy; określają obszary pracy tranzystora.",
+        "b.": "Charakterystyki są prostoliniowe i nie zależą od napięcia.",
+        "c.": "Pokazują zależność napięcia od częstotliwości sygnału.",
+        "d.": "Dotyczą zmian temperatury w tranzystorze.",
+        "explanation": "Charakterystyki tranzystora przedstawiają zależności IC=f(UBE) oraz IC=f(UCE) i pozwalają określić jego parametry pracy (nasycenie, aktywny, odcięcie).",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<symbol tranzystora NPN z zaznaczonymi prądami IB, IC i IE>",
+        "question": "Jak definiuje się współczynnik wzmocnienia prądowego tranzystora bipolarnego?",
+        "a.": "Jest to stosunek prądu kolektora do prądu bazy: β = IC / IB.",
+        "b.": "Jest to stosunek napięcia kolektor–emiter do napięcia baza–emiter.",
+        "c.": "To odwrotność rezystancji wejściowej tranzystora.",
+        "d.": "To iloczyn prądu bazy i napięcia kolektora.",
+        "explanation": "Współczynnik β (hFE) określa, ile razy tranzystor wzmacnia prąd bazy, sterując prądem kolektora.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<wykres zależności prądu kolektora od temperatury>",
+        "question": "Jaki jest wpływ temperatury na pracę tranzystora?",
+        "a.": "Wzrost temperatury powoduje zwiększenie prądu kolektora i spadek napięcia baza–emiter, co może prowadzić do niestabilności cieplnej.",
+        "b.": "Temperatura nie wpływa na działanie tranzystora.",
+        "c.": "Wysoka temperatura zwiększa napięcie baza–emiter i zmniejsza prąd kolektora.",
+        "d.": "Obniżenie temperatury zawsze zwiększa prąd kolektora.",
+        "explanation": "Zwiększona temperatura zmniejsza napięcie UBE i zwiększa prąd IC, co może prowadzić do termicznego rozbiegania tranzystora.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat tranzystora JFET z kanałem typu N: źródło, dren, bramka, kanał półprzewodnikowy>",
+        "question": "Co to jest tranzystor polowy i tranzystor polowy złączowy JFET?",
+        "a.": "Tranzystor polowy (FET) sterowany jest napięciem bramki, a prąd płynie przez kanał półprzewodnikowy; JFET to tranzystor, w którym kanał sterowany jest złączem p-n.",
+        "b.": "Tranzystor polowy sterowany jest prądem bazy jak tranzystor bipolarny.",
+        "c.": "JFET to tranzystor, w którym prąd płynie przez złącze metalowe.",
+        "d.": "Tranzystor polowy nie wymaga napięcia sterującego.",
+        "explanation": "Tranzystory FET wykorzystują pole elektryczne do sterowania przewodnictwem kanału, a JFET ma kanał typu N lub P i złącze p-n jako elektrodę bramki.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<charakterystyki tranzystora JFET typu N: ID=f(UGS) i ID=f(UDS) przy różnych napięciach bramki>",
+        "question": "Jaka jest zasada działania i charakterystyki statyczne tranzystora JFET z kanałem typu N?",
+        "a.": "Prąd drenu płynie od drenu do źródła przez kanał typu N, a ujemne napięcie na bramce zmniejsza jego szerokość i ogranicza prąd; charakterystyki pokazują zależność ID od UDS i UGS.",
+        "b.": "Prąd płynie od źródła do bramki, a kanał przewodzi tylko przy napięciu dodatnim.",
+        "c.": "Prąd jest niezależny od napięcia bramki.",
+        "d.": "Napięcie bramki zwiększa prąd drenu niezależnie od polaryzacji.",
+        "explanation": "JFET typu N przewodzi przy braku napięcia na bramce; wzrost napięcia ujemnego UGS powoduje zwężenie kanału i spadek prądu ID.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<symbol tranzystora MOSFET oraz struktura z bramką izolowaną tlenkiem>",
+        "question": "Co to jest tranzystor polowy MOSFET?",
+        "a.": "To tranzystor polowy z izolowaną bramką, w którym sterowanie prądem kanału odbywa się przez pole elektryczne wytworzone przez napięcie na bramce.",
+        "b.": "To tranzystor, w którym sterowanie odbywa się przepływem prądu przez bazę.",
+        "c.": "To tranzystor bipolarny z metalową obudową.",
+        "d.": "To dioda Zenera z kanałem półprzewodnikowym.",
+        "explanation": "MOSFET (Metal–Oxide–Semiconductor FET) wykorzystuje bramkę oddzieloną warstwą tlenku, co zapewnia bardzo dużą rezystancję wejściową.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<przekrój struktury tranzystora MOSFET z kanałem indukowanym typu N: źródło, dren, bramka z warstwą SiO2>",
+        "question": "Jaka jest budowa i zasada pracy tranzystora MOSFET z kanałem indukowanym typu N?",
+        "a.": "Ma dwie wyspy typu N w podłożu P, a kanał przewodzący tworzy się dopiero po przyłożeniu dodatniego napięcia na bramkę, które indukuje warstwę elektronów.",
+        "b.": "Kanał istnieje zawsze i jest niezależny od napięcia bramki.",
+        "c.": "Działa jak dioda Zenera w stanie przebicia.",
+        "d.": "Ma złącze p-n sterowane prądem bazy.",
+        "explanation": "MOSFET z kanałem indukowanym działa tylko po wytworzeniu kanału przez pole elektryczne; napięcie na bramce steruje jego przewodnością.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<charakterystyka przejściowa tranzystora MOSFET z kanałem indukowanym typu N: ID=f(UGS)>",
+        "question": "Jak przebiega charakterystyka przejściowa tranzystora MOSFET z kanałem indukowanym typu N i jakie właściwości można z niej odczytać?",
+        "a.": "Charakterystyka pokazuje zależność prądu drenu ID od napięcia bramki UGS; pozwala odczytać napięcie progowe UGS(th) oraz nachylenie (transkonduktancję).",
+        "b.": "Charakterystyka przedstawia zależność napięcia dren–źródło od temperatury.",
+        "c.": "Pokazuje prąd bramki w funkcji napięcia drenu.",
+        "d.": "Nie zależy od napięcia bramki, lecz od napięcia zasilania.",
+        "explanation": "Charakterystyka ID=f(UGS) określa moment rozpoczęcia przewodzenia i czułość tranzystora MOSFET na zmianę napięcia sterującego.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<symbol tranzystorów VMOS i VDMOS o strukturze pionowej>",
+        "question": "Co oznacza określenie „tranzystory VMOS i VDMOS” i gdzie są one stosowane?",
+        "a.": "To odmiany MOSFET-ów o pionowej strukturze kanału; charakteryzują się dużą mocą i szybkim przełączaniem, stosowane w przetwornicach i wzmacniaczach mocy.",
+        "b.": "To tranzystory bipolarnie sterowane prądem bazy.",
+        "c.": "To diody prostownicze dużej mocy.",
+        "d.": "To elementy bierne służące do filtrowania napięcia.",
+        "explanation": "VMOS i VDMOS mają pionową strukturę przewodzenia, co umożliwia przepływ dużych prądów i stosowanie w układach energoelektronicznych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<symbol tranzystora IGBT oraz schemat jego budowy z połączeniem tranzystora MOSFET i bipolarnego>",
+        "question": "Co to są i gdzie wykorzystywane są tranzystory IGBT?",
+        "a.": "To tranzystory łączące cechy MOSFET-a i tranzystora bipolarnego – mają wysoką impedancję wejściową i duży prąd kolektora; stosowane w falownikach, sterownikach silników i przekształtnikach mocy.",
+        "b.": "To tranzystory o bardzo małej mocy używane w układach radiowych.",
+        "c.": "To tranzystory, które przewodzą tylko prąd stały.",
+        "d.": "To elementy bierne stosowane w filtrach RC.",
+        "explanation": "IGBT łączą zalety MOSFET-a (sterowanie napięciem) i tranzystora bipolarnego (duża zdolność prądowa), dlatego są stosowane w energoelektronice.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<symbol tyrystora SCR i jego charakterystyka I(U) z zaznaczeniem napięcia zapłonu i prądu podtrzymania>",
+        "question": "Co to są tyrystory SCR i dlaczego nazywa się je sterowanymi diodami półprzewodnikowymi?",
+        "a.": "To elementy półprzewodnikowe czterowarstwowe (p-n-p-n), które przewodzą prąd po podaniu impulsu sterującego na bramkę; nazywane są sterowanymi diodami, ponieważ po włączeniu zachowują się jak diody przewodzące w jednym kierunku.",
+        "b.": "To diody, które same regulują napięcie bez potrzeby sterowania.",
+        "c.": "To tranzystory o bardzo dużym wzmocnieniu prądowym.",
+        "d.": "To diody, które przewodzą prąd tylko w kierunku zaporowym.",
+        "explanation": "Tyrystor SCR (Silicon Controlled Rectifier) włącza się po zadziałaniu impulsu sterującego i przewodzi prąd jak dioda w stanie przewodzenia.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<symbol triaka i jego charakterystyka przewodzenia w obu kierunkach>",
+        "question": "Co to są tyrystory symetryczne (triaki)?",
+        "a.": "To elementy półprzewodnikowe, które przewodzą prąd w obu kierunkach po zadziałaniu impulsu sterującego; są symetrycznym odpowiednikiem tyrystorów SCR.",
+        "b.": "To diody prostownicze z dwoma katodami.",
+        "c.": "To tranzystory MOSFET sterowane prądem.",
+        "d.": "To układy elektroniczne do pomiaru napięcia.",
+        "explanation": "Triaki to elementy dwukierunkowe stosowane w sterowaniu prądem przemiennym, np. w ściemniaczach i regulatorach mocy.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<zestaw elementów optoelektronicznych: LED, fotorezystor, fotodioda, fototranzystor>",
+        "question": "Jakie elementy nazywamy optoelektronicznymi?",
+        "a.": "Takie, które przetwarzają energię elektryczną na świetlną lub odwrotnie – np. diody LED, fotodiody, fotorezystory, fototranzystory, lasery półprzewodnikowe.",
+        "b.": "Elementy, które wykorzystują tylko zjawisko cieplne.",
+        "c.": "Elementy służące do pomiaru napięcia elektrycznego.",
+        "d.": "Układy wykorzystujące jedynie promieniowanie rentgenowskie.",
+        "explanation": "Optoelektronika obejmuje elementy wykorzystujące interakcję światła i ładunków elektrycznych – zarówno emitujące, jak i reagujące na światło.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<cztery symbole: a) fotorezystor – rezystor z promieniami światła, b) fotodioda – dioda z promieniami w kierunku złącza, c) fotoogniwo – dioda bez zasilania, d) fototranzystor – tranzystor z promieniami padającymi na bazę>",
+        "question": "Jakie są symbole graficzne i właściwości fotorezystora, fotodiody, fotoogniwa i fototranzystora?",
+        "a.": "Fotorezystor – zmienia rezystancję pod wpływem światła; fotodioda – przewodzi prąd proporcjonalny do natężenia światła; fotoogniwo – generuje napięcie bez zasilania; fototranzystor – wzmacnia prąd sterowany światłem.",
+        "b.": "Wszystkie te elementy działają tylko w ciemności.",
+        "c.": "Fotorezystor i fotodioda mają identyczne właściwości elektryczne.",
+        "d.": "Fototranzystor przewodzi prąd niezależnie od oświetlenia.",
+        "explanation": "Każdy z tych elementów reaguje na światło inaczej – fotorezystor zmienia opór, fotodioda przewodzi prąd, fotoogniwo generuje energię, a fototranzystor ją wzmacnia.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat transoptora: dioda LED i fototranzystor umieszczone w jednej obudowie z separacją optyczną>",
+        "question": "Jak jest zbudowany i jak działa transoptor?",
+        "a.": "Składa się z nadajnika (dioda LED) i odbiornika (fototranzystor, fotodioda lub fotorezystor) w jednej obudowie; umożliwia przesył sygnału przy izolacji galwanicznej między obwodami.",
+        "b.": "Zbudowany jest z dwóch przewodników połączonych galwanicznie.",
+        "c.": "Służy do wzmacniania prądu bez udziału światła.",
+        "d.": "Działa tylko w podczerwieni i nie wymaga zasilania.",
+        "explanation": "Transoptor przenosi sygnał za pomocą światła, zapewniając izolację elektryczną między częścią sterującą i wykonawczą.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<różne typy diod LED w formie wyświetlaczy siedmiosegmentowych i diod sygnalizacyjnych>",
+        "question": "Co to są wskaźniki LED?",
+        "a.": "To diody elektroluminescencyjne używane jako elementy sygnalizacyjne i wyświetlacze (np. siedmiosegmentowe, matrycowe).",
+        "b.": "To diody Zenera stabilizujące napięcie.",
+        "c.": "To diody pojemnościowe używane w radiotechnice.",
+        "d.": "To elementy filtrujące sygnał w układach analogowych.",
+        "explanation": "Wskaźniki LED emitują światło w różnych kolorach i służą do wizualnego przedstawiania informacji lub sygnalizacji.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat prostownika z diodą i transformatorem, pokazujący zamianę napięcia przemiennego na jednokierunkowe>",
+        "question": "Co to są prostowniki napięcia i gdzie są stosowane?",
+        "a.": "To układy elektroniczne zamieniające napięcie przemienne na stałe; stosowane w zasilaczach, ładowarkach, urządzeniach elektronicznych i układach zasilania.",
+        "b.": "To układy zamieniające napięcie stałe na przemienne.",
+        "c.": "To urządzenia do regulacji częstotliwości prądu.",
+        "d.": "To elementy ograniczające prąd w obwodzie.",
+        "explanation": "Prostowniki służą do przekształcania prądu zmiennego w stały, co jest niezbędne w większości układów zasilania elektroniki.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat prostownika półfalowego: źródło AC, dioda, rezystor obciążenia; wykres napięcia – tylko dodatnie połówki sinusoidy>",
+        "question": "Jaki jest schemat i działanie prostownika półfalowego z obciążeniem rezystancyjnym?",
+        "a.": "Układ składa się z jednej diody i rezystora obciążenia; dioda przewodzi tylko w czasie dodatnich półokresów napięcia, dostarczając prąd do obciążenia.",
+        "b.": "Składa się z dwóch diod przewodzących jednocześnie w obu kierunkach.",
+        "c.": "Działa tylko przy napięciu stałym.",
+        "d.": "Wytwarza prąd przemienny o podwojonej częstotliwości.",
+        "explanation": "Prostownik półfalowy wykorzystuje jedną diodę, która przewodzi tylko w jednym kierunku, eliminując połowę przebiegu napięcia przemiennego.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat prostownika półfalowego z rezystorem i kondensatorem; wykres napięcia z tętnieniami wygładzonymi przez kondensator>",
+        "question": "Jaki jest schemat i działanie prostownika półfalowego z obciążeniem RC?",
+        "a.": "Układ zawiera diodę, rezystor i kondensator; kondensator ładuje się podczas przewodzenia diody i rozładowuje przez rezystor w czasie przerwy, wygładzając napięcie wyjściowe.",
+        "b.": "Kondensator ładuje się i rozładowuje w obu kierunkach prądu.",
+        "c.": "Kondensator pełni rolę prostującego elementu.",
+        "d.": "Rezystor służy do zasilania kondensatora prądem przemiennym bez prostowania.",
+        "explanation": "Dzięki kondensatorowi prostownik półfalowy RC zapewnia bardziej stałe napięcie z mniejszymi tętnieniami.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat prostownika pełnofalowego w układzie mostkowym z czterema diodami i obciążeniem rezystancyjnym; wykres napięcia – obie połówki sinusoidy dodatnie>",
+        "question": "Jaki jest schemat i działanie prostownika pełnofalowego z obciążeniem rezystancyjnym?",
+        "a.": "Układ mostkowy składa się z czterech diod; każda para przewodzi naprzemiennie w kolejnych półokresach, powodując przepływ prądu w jednym kierunku przez obciążenie.",
+        "b.": "Składa się z jednej diody i działa tylko przez połowę okresu.",
+        "c.": "Wytwarza napięcie przemienne o tej samej fazie co wejściowe.",
+        "d.": "Nie wymaga żadnego obciążenia do działania.",
+        "explanation": "Prostownik pełnofalowy wykorzystuje obie połówki napięcia przemiennego, co daje mniejsze tętnienia i wyższą sprawność niż układ półfalowy.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat stabilizatora napięcia z diodą Zenera i rezystorem szeregowym>",
+        "question": "Co to są i do czego służą stabilizatory napięcia stałego?",
+        "a.": "To układy elektroniczne utrzymujące stałą wartość napięcia wyjściowego niezależnie od zmian napięcia wejściowego lub obciążenia; stosowane w zasilaczach i układach elektronicznych.",
+        "b.": "To układy zwiększające częstotliwość napięcia wyjściowego.",
+        "c.": "To diody prostujące prąd zmienny.",
+        "d.": "To układy służące do przerywania przepływu prądu.",
+        "explanation": "Stabilizatory napięcia zapewniają stałe napięcie zasilania, co jest niezbędne do prawidłowego działania układów elektronicznych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<charakterystyka stabilizatora napięcia: napięcie wyjściowe Uout w funkcji napięcia wejściowego Uin z płaskim odcinkiem stabilizacji>",
+        "question": "Jakie parametry i charakterystyki opisują właściwości stabilizatora napięcia?",
+        "a.": "Napięcie wyjściowe, zakres napięć wejściowych, prąd obciążenia, współczynnik stabilizacji, sprawność oraz charakterystyki Uout=f(Uin) i Uout=f(Iobc).",
+        "b.": "Częstotliwość i faza napięcia wyjściowego.",
+        "c.": "Tylko moc strat cieplnych stabilizatora.",
+        "d.": "Wyłącznie opór wewnętrzny źródła.",
+        "explanation": "Parametry stabilizatora określają jego zdolność do utrzymania stabilnego napięcia wyjściowego przy zmieniających się warunkach pracy.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<symbol wzmacniacza z wejściem, wyjściem i zasilaniem, opisany parametrami Ku, Rwe, Rwy>",
+        "question": "Co to jest wzmacniacz i jakie parametry opisują jego właściwości?",
+        "a.": "To układ elektroniczny zwiększający moc, napięcie lub prąd sygnału wejściowego; opisują go m.in. wzmocnienie, pasmo przenoszenia, impedancja wejściowa i wyjściowa, sprawność oraz zniekształcenia.",
+        "b.": "To układ, który zmniejsza amplitudę sygnału i tłumi zakłócenia.",
+        "c.": "To element służący do prostowania napięcia zmiennego.",
+        "d.": "To urządzenie generujące sygnały o stałej amplitudzie.",
+        "explanation": "Wzmacniacz zwiększa amplitudę sygnału wejściowego; jego parametry określają jakość, pasmo i stabilność wzmocnienia.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<wykres charakterystyki częstotliwościowej wzmacniacza: wzmocnienie w funkcji częstotliwości, punkty fD i fG wyznaczające pasmo przenoszenia>",
+        "question": "Co to są częstotliwości graniczne i pasmo przenoszenia wzmacniacza?",
+        "a.": "Częstotliwości graniczne to punkty, w których wzmocnienie spada o 3 dB względem wartości maksymalnej; pasmo przenoszenia to zakres między nimi.",
+        "b.": "To częstotliwości, przy których wzmacniacz przestaje działać.",
+        "c.": "To punkty o maksymalnym zniekształceniu sygnału.",
+        "d.": "To zakres napięć wejściowych, w którym wzmacniacz jest liniowy.",
+        "explanation": "Pasmo przenoszenia określa zakres częstotliwości, w którym wzmacniacz pracuje liniowo, a jego wzmocnienie nie spada więcej niż 3 dB.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat tranzystora z zaznaczonymi prądami IB, IC, IE oraz napięciami polaryzacji UBE, UCE>",
+        "question": "Co to są prądy polaryzacji wstępnej i punkt pracy tranzystora?",
+        "a.": "Prądy polaryzacji ustalają napięcia i prądy w stanie spoczynku tranzystora; punkt pracy to zestaw wartości UCE i IC, w którym tranzystor pracuje liniowo.",
+        "b.": "To prądy wyjściowe tranzystora w stanie nasycenia.",
+        "c.": "To chwilowe prądy w momencie włączenia układu.",
+        "d.": "To prądy płynące tylko w złączu baza–kolektor.",
+        "explanation": "Polaryzacja wstępna ustala punkt pracy tranzystora, zapewniając jego prawidłową pracę jako wzmacniacza w zakresie liniowym.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<model czwórnika z dwoma zaciskami wejściowymi i dwoma wyjściowymi, przedstawiający wzmacniacz jako element liniowy>",
+        "question": "Co to jest czwórnik i schemat zastępczy wzmacniacza?",
+        "a.": "Czwórnik to element lub układ o dwóch parach zacisków (wejściowej i wyjściowej); schemat zastępczy wzmacniacza przedstawia zależności między napięciem i prądem wejściowym a wyjściowym.",
+        "b.": "To układ o jednym wejściu i wielu wyjściach, stosowany do sterowania silnikami.",
+        "c.": "To element elektroniczny o nieliniowej charakterystyce.",
+        "d.": "To źródło prądu o zmiennej częstotliwości.",
+        "explanation": "Czwórnik opisuje zachowanie układu wzmacniającego przy pomocy parametrów wejścia i wyjścia – umożliwia analizę jego właściwości w układach liniowych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat blokowy układu z pętlą sprzężenia zwrotnego>",
+        "question": "Co rozumiesz przez sprzężenie zwrotne w ogólności i sprzężenie zwrotne w elektronice?",
+        "a.": "Sprzężenie zwrotne to zjawisko przekazywania części sygnału wyjściowego na wejście układu; w elektronice może być dodatnie (wzmacniające) lub ujemne (stabilizujące).",
+        "b.": "To sposób zasilania układu przez jego wyjście.",
+        "c.": "To proces generowania nowego sygnału bez udziału wejścia.",
+        "d.": "To efekt termiczny powodujący zwiększenie rezystancji.",
+        "explanation": "Sprzężenie zwrotne umożliwia kontrolę wzmocnienia, stabilność i liniowość wzmacniacza poprzez przekazywanie części sygnału wyjściowego na wejście.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat układów wzmacniacza ze sprzężeniem dodatnim i ujemnym>",
+        "question": "Jakie spotykamy rodzaje sprzężenia zwrotnego i jak wpływają one na wzmacniacz?",
+        "a.": "Sprzężenie ujemne zmniejsza wzmocnienie, ale poprawia stabilność i pasmo przenoszenia; sprzężenie dodatnie zwiększa wzmocnienie i może prowadzić do generacji drgań.",
+        "b.": "Sprzężenie dodatnie zawsze stabilizuje układ, a ujemne powoduje wzbudzenie.",
+        "c.": "Oba rodzaje sprzężenia zwiększają wzmocnienie.",
+        "d.": "Rodzaj sprzężenia nie wpływa na działanie wzmacniacza.",
+        "explanation": "Ujemne sprzężenie zwrotne stosuje się w układach wzmacniających dla poprawy stabilności, a dodatnie – w generatorach drgań.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat wtórnika emiterowego (wspólny kolektor)>",
+        "question": "Co to są wtórniki napięciowe?",
+        "a.": "To wzmacniacze o wzmocnieniu napięciowym bliskim jedności, dużej impedancji wejściowej i małej wyjściowej; służą do dopasowania obwodów.",
+        "b.": "To wzmacniacze o bardzo dużym wzmocnieniu napięcia.",
+        "c.": "To układy o wzmocnieniu prądu mniejszym od 1.",
+        "d.": "To prostowniki półfalowe z kondensatorem.",
+        "explanation": "Wtórnik napięciowy (np. wtórnik emiterowy) nie wzmacnia napięcia, ale zapewnia separację między obwodami dzięki dopasowaniu impedancji.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<symbol wzmacniacza operacyjnego – trójkąt z wejściami + i − oraz wyjściem>",
+        "question": "Co to jest wzmacniacz operacyjny, jaki jest jego symbol graficzny i wymowa tego symbolu?",
+        "a.": "To układ scalony o bardzo dużym wzmocnieniu, z wejściem odwracającym (−), nieodwracającym (+) i wyjściem; służy do realizacji operacji matematycznych na sygnałach.",
+        "b.": "To pojedynczy tranzystor o dużym wzmocnieniu.",
+        "c.": "To układ prostowniczy o dużej sprawności.",
+        "d.": "To źródło prądowe o zmiennej impedancji.",
+        "explanation": "Symbol wzmacniacza operacyjnego (trójkąt) oznacza układ o dwóch wejściach i jednym wyjściu, realizujący różnicowe wzmocnienie sygnału.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat wzmacniacza operacyjnego w konfiguracji nieodwracającej: wejście sygnału na wejście +, sprzężenie zwrotne z wyjścia do wejścia −>",
+        "question": "Jaki jest schemat i właściwości wzmacniacza nieodwracającego?",
+        "a.": "Sygnał wejściowy podawany jest na wejście nieodwracające (+); wzmocnienie jest dodatnie i określane wzorem Ku = 1 + (R2/R1); impedancja wejściowa jest bardzo duża.",
+        "b.": "Sygnał wejściowy podaje się na wejście odwracające (−), co odwraca fazę sygnału.",
+        "c.": "Wzmocnienie jest zawsze równe jedności.",
+        "d.": "Układ nie wymaga sprzężenia zwrotnego.",
+        "explanation": "Wzmacniacz nieodwracający nie zmienia fazy sygnału i ma duże wzmocnienie oraz wysoką impedancję wejściową, dzięki sprzężeniu zwrotnemu ujemnemu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<tabela przedstawiająca system binarny z kolumnami 2⁰, 2¹, 2², 2³>",
+        "question": "Co to jest system binarny?",
+        "a.": "To system liczbowy o podstawie 2, w którym liczby zapisuje się za pomocą cyfr 0 i 1.",
+        "b.": "To system liczbowy o podstawie 8, wykorzystujący cyfry od 0 do 7.",
+        "c.": "To system liczbowy o podstawie 10, używany w matematyce codziennej.",
+        "d.": "To system liczbowy o podstawie 16, używany w informatyce.",
+        "explanation": "System binarny (dwójkowy) wykorzystuje tylko dwie cyfry: 0 i 1 – jest podstawą działania układów cyfrowych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<przykład konwersji liczby dziesiętnej 13 na binarną – kolejne dzielenie przez 2 i reszty>",
+        "question": "Na czym polega konwersja dziesiętno-dwójkowa?",
+        "a.": "Na dzieleniu liczby dziesiętnej przez 2 i zapisywaniu reszt z tych dzielnień w odwrotnej kolejności jako cyfry binarne.",
+        "b.": "Na dodawaniu kolejnych potęg liczby 10.",
+        "c.": "Na dzieleniu liczby binarnej przez 10.",
+        "d.": "Na mnożeniu liczby przez 8 i zapisaniu wyniku w systemie ósemkowym.",
+        "explanation": "Aby przekształcić liczbę dziesiętną w binarną, dzieli się ją kolejno przez 2 i zapisuje reszty od końca.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<przykład konwersji liczby binarnej 1101₂ na 13₁₀ – sumowanie potęg dwójki>",
+        "question": "Na czym polega konwersja dwójkowo-dziesiętna?",
+        "a.": "Na obliczeniu wartości dziesiętnej liczby binarnej przez zsumowanie potęg liczby 2 odpowiadających jedynkom w zapisie.",
+        "b.": "Na dzieleniu liczby dziesiętnej przez 10.",
+        "c.": "Na mnożeniu wszystkich cyfr binarnych przez 2.",
+        "d.": "Na zamianie każdego zera na jedynkę.",
+        "explanation": "W konwersji dwójkowo-dziesiętnej każda cyfra binarna odpowiada potędze liczby 2, a ich suma daje wartość w systemie dziesiętnym.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<tabela systemu ósemkowego: cyfry 0–7 i odpowiadające im trójki binarne>",
+        "question": "Co to jest system ósemkowy?",
+        "a.": "To system liczbowy o podstawie 8, wykorzystujący cyfry od 0 do 7; często używany do skróconego zapisu binarnego.",
+        "b.": "To system liczbowy o podstawie 2, złożony z cyfr 0 i 1.",
+        "c.": "To system liczbowy o podstawie 16, używany w programowaniu.",
+        "d.": "To system o podstawie 4, wykorzystujący cyfry od 0 do 3.",
+        "explanation": "Każda cyfra w systemie ósemkowym odpowiada trzem cyfrom binarnym, co ułatwia konwersję między systemami.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<symboliczne wyrażenie praw de Morgana: ¬(A ∧ B) = ¬A ∨ ¬B oraz ¬(A ∨ B) = ¬A ∧ ¬B>",
+        "question": "Jak brzmią prawa de’ Morgana?",
+        "a.": "¬(A ∧ B) = ¬A ∨ ¬B oraz ¬(A ∨ B) = ¬A ∧ ¬B.",
+        "b.": "A + B = A · B oraz A · B = A + B.",
+        "c.": "¬A = A oraz ¬B = B.",
+        "d.": "A ∧ B = A ∨ B zawsze.",
+        "explanation": "Prawa de Morgana określają sposób zamiany negacji iloczynu na sumę negacji i odwrotnie, co jest podstawą algebry Boole’a.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<symboliczny zapis funkcji logicznej z operatorem AND, OR, NOT>",
+        "question": "Co to jest funktor?",
+        "a.": "To funkcja logiczna opisująca zależność między wartościami wejść a wyjściem układu logicznego.",
+        "b.": "To fizyczny element elektroniczny realizujący połączenie.",
+        "c.": "To jednostka miary sygnału logicznego.",
+        "d.": "To funkcja matematyczna w systemie dziesiętnym.",
+        "explanation": "Funktor określa logiczną zależność wejść i wyjść układu – np. suma, iloczyn czy negacja logiczna.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<tabela poziomów napięć w układach TTL: 0–0,8 V = logiczne 0, 2–5 V = logiczne 1>",
+        "question": "Jakie wartości napięć odpowiadają „0”, a jakie „1” w układach TTL?",
+        "a.": "Stan niski (0) odpowiada napięciu 0–0,8 V, a stan wysoki (1) napięciu 2–5 V.",
+        "b.": "Stan niski (0) to 2–5 V, a stan wysoki (1) to 0–0,8 V.",
+        "c.": "Oba stany odpowiadają temu samemu napięciu.",
+        "d.": "Stan 0 to napięcie 5 V, a stan 1 – 0 V.",
+        "explanation": "W technologii TTL logiczne 0 to napięcie niskie (do 0,8 V), a logiczne 1 – napięcie wysokie (od 2 V do 5 V).",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat stykowy realizujący funkcję logiczną OR – równoległe połączenie styków A i B>",
+        "question": "W jaki sposób zrealizujesz sumę na elementach stykowych?",
+        "a.": "Przez równoległe połączenie styków – prąd przepływa, gdy którykolwiek styk jest zamknięty.",
+        "b.": "Przez szeregowe połączenie styków – prąd przepływa tylko przy zamknięciu wszystkich.",
+        "c.": "Przez zastosowanie bramki logicznej AND.",
+        "d.": "Przez użycie jednego styku z opóźnieniem czasowym.",
+        "explanation": "Suma logiczna (OR) realizowana jest przez połączenie równoległe – wystarczy zamknięcie jednego styku, aby obwód przewodził.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat stykowy realizujący funkcję logiczną AND – szeregowe połączenie styków A i B>",
+        "question": "W jaki sposób zrealizujesz iloczyn na elementach stykowych?",
+        "a.": "Przez szeregowe połączenie styków – prąd przepływa tylko, gdy wszystkie są zamknięte.",
+        "b.": "Przez równoległe połączenie styków.",
+        "c.": "Przez zastosowanie bramki logicznej OR.",
+        "d.": "Przez użycie jednego styku o dużej rezystancji.",
+        "explanation": "Iloczyn logiczny (AND) jest realizowany przez połączenie szeregowe styków – przewodzenie następuje tylko przy ich jednoczesnym zamknięciu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<tabela wartości funkcji logicznej oraz zapis jej postaci sumacyjnej (SOP) i iloczynowej (POS)>",
+        "question": "W jaki sposób tworzy się kanoniczne postacie funkcji logicznych?",
+        "a.": "Poprzez zapis funkcji w postaci sumy iloczynów (SOP) lub iloczynu sum (POS) na podstawie tablicy prawdy, gdzie uwzględnia się wszystkie kombinacje zmiennych logicznych.",
+        "b.": "Przez uproszczenie funkcji bez użycia tablicy prawdy.",
+        "c.": "Przez zapisanie funkcji w dowolnej formie algebraicznej.",
+        "d.": "Przez odwrócenie wartości logicznych wszystkich zmiennych.",
+        "explanation": "Postacie kanoniczne tworzy się na podstawie tablicy prawdy, zapisując minterm (dla SOP) lub maksterm (dla POS) dla każdej kombinacji zmiennych logicznych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<tablica Karnaugha z zaznaczonymi sąsiednimi polami zawierającymi jedynki>",
+        "question": "Które wyrażenia w tablicy Karnaugha można ze sobą sklejać?",
+        "a.": "Pola zawierające jedynki, które są sąsiadujące w pionie, poziomie lub na krawędziach tablicy, tworzące grupy o wielkości będącej potęgą liczby 2.",
+        "b.": "Tylko pola leżące na przekątnych tablicy.",
+        "c.": "Tylko pojedyncze pola bez sąsiadów.",
+        "d.": "Pola o różnych wartościach logicznych.",
+        "explanation": "W tablicy Karnaugha skleja się sąsiednie jedynki w grupy 1, 2, 4, 8 itd., co pozwala uprościć wyrażenia logiczne.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat ogólny układu komutacyjnego – zestaw bramek logicznych realizujących funkcję F(X1, X2, ...)>",
+        "question": "Co to jest układ komutacyjny?",
+        "a.": "To układ cyfrowy, w którym stan wyjścia zależy wyłącznie od stanów wejść w danej chwili.",
+        "b.": "To układ, który zapamiętuje poprzednie stany wejść.",
+        "c.": "To układ z elementami pamięciowymi, zależny od historii sygnału.",
+        "d.": "To układ mechaniczny do przełączania styków.",
+        "explanation": "Układ komutacyjny nie posiada pamięci – jego wyjście zależy tylko od aktualnych wartości wejść logicznych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat blokowy kodera z wieloma wejściami i jednym wyjściem kodowym>",
+        "question": "Jaką funkcję pełni koder?",
+        "a.": "Zamienia sygnały wejściowe na odpowiedni kod binarny – przypisuje kombinację bitów określającą, które wejście jest aktywne.",
+        "b.": "Zamienia sygnał binarny na wiele sygnałów wyjściowych.",
+        "c.": "Porównuje dwa sygnały binarne.",
+        "d.": "Służy do sumowania sygnałów logicznych.",
+        "explanation": "Koder przekształca wiele wejść logicznych w krótszy kod binarny, określając, które wejście zostało aktywowane.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat blokowy dekodera z kilkoma wyjściami i wejściem binarnym>",
+        "question": "Jaką funkcję pełni dekoder?",
+        "a.": "Zamienia kod binarny na odpowiedni sygnał wyjściowy – aktywuje jedno z wielu wyjść zgodnie z kodem wejściowym.",
+        "b.": "Kompresuje wiele sygnałów na jedno wyjście.",
+        "c.": "Służy do wzmacniania sygnałów logicznych.",
+        "d.": "Porównuje dwa kody wejściowe.",
+        "explanation": "Dekoder wykonuje operację odwrotną do kodera – na podstawie kodu binarnego wybiera jedno aktywne wyjście spośród wielu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat multipleksera: wiele wejść, jeden kanał wyjściowy, linie adresowe sterujące wyborem>",
+        "question": "Jaką funkcję pełni multiplekser?",
+        "a.": "Służy do wybierania jednego z wielu sygnałów wejściowych i przekazywania go na wyjście w zależności od sygnałów sterujących.",
+        "b.": "Rozdziela jeden sygnał na wiele wyjść.",
+        "c.": "Koduje sygnał binarny na sygnał analogowy.",
+        "d.": "Porównuje dwa sygnały wejściowe.",
+        "explanation": "Multiplekser wybiera jedno z wielu wejść i kieruje je na wyjście zgodnie z adresami sterującymi (selektorami).",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat demultipleksera: jedno wejście, wiele wyjść, linie sterujące wybierające aktywne wyjście>",
+        "question": "Jaką funkcję pełni demultiplekser?",
+        "a.": "Rozdziela jeden sygnał wejściowy na jedno z wielu wyjść, wybierane przez sygnały sterujące.",
+        "b.": "Łączy wiele wejść w jeden kanał wyjściowy.",
+        "c.": "Kompresuje dane logiczne.",
+        "d.": "Porównuje wartości sygnałów na wyjściach.",
+        "explanation": "Demultiplekser wykonuje funkcję odwrotną do multipleksera – przekazuje jeden sygnał wejściowy do wybranego wyjścia.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat półsumatora z bramkami XOR i AND oraz tabelą prawdy dla wejść A, B i wyjść S, C>",
+        "question": "Jaka jest zasada działania półsumatora?",
+        "a.": "Półsumator dodaje dwie liczby jednobitowe; na wyjściu daje sumę logiczną (S = A XOR B) i przeniesienie (C = A AND B).",
+        "b.": "Dodaje trzy liczby binarne i daje dwa wyjścia.",
+        "c.": "Działa tylko dla sygnałów analogowych.",
+        "d.": "Wykonuje jedynie operację logiczną AND.",
+        "explanation": "Półsumator realizuje dodawanie dwóch bitów bez uwzględniania przeniesienia z poprzedniego etapu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat sumatora pełnego (full adder) z trzema wejściami A, B, Cin i dwoma wyjściami S, Cout>",
+        "question": "Jaka jest zasada działania sumatora?",
+        "a.": "Sumator dodaje trzy bity (A, B i przeniesienie wejściowe Cin) i generuje sumę (S) oraz przeniesienie wyjściowe (Cout).",
+        "b.": "Dodaje tylko dwa bity bez przeniesienia.",
+        "c.": "Mnoży dwa bity zamiast je sumować.",
+        "d.": "Działa jako dekoder sygnałów wejściowych.",
+        "explanation": "Sumator pełny uwzględnia przeniesienie z poprzedniego bitu, umożliwiając dodawanie wielobitowych liczb binarnych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat blokowy układu sekwencyjnego z wejściami, wyjściami i blokiem pamięci>",
+        "question": "Co to jest układ sekwencyjny?",
+        "a.": "To układ cyfrowy, którego wyjścia zależą nie tylko od aktualnych stanów wejść, ale również od poprzednich stanów – posiada elementy pamięci.",
+        "b.": "To układ, którego wyjście zależy wyłącznie od bieżących stanów wejść.",
+        "c.": "To układ realizujący wyłącznie funkcje kombinacyjne.",
+        "d.": "To układ mechaniczny z przekaźnikami bez pamięci.",
+        "explanation": "Układy sekwencyjne przechowują informację o poprzednich stanach dzięki elementom pamięciowym, np. przerzutnikom.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<symbole przerzutników asynchronicznych RS, JK, D i T z wejściami S, R, J, K, D, T>",
+        "question": "Jakie znasz przerzutniki asynchroniczne?",
+        "a.": "RS (Set-Reset), JK, D (Data) i T (Toggle).",
+        "b.": "Tylko RS i JK.",
+        "c.": "Wyłącznie D i T.",
+        "d.": "Tylko SR z wejściem zegarowym.",
+        "explanation": "Przerzutniki asynchroniczne mogą zmieniać stan niezależnie od sygnału zegarowego; należą do nich RS, JK, D i T.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat przerzutnika RS z bramek NOR, wejścia S i R, wyjścia Q i Q̅>",
+        "question": "Jaka jest zasada działania przerzutnika RS?",
+        "a.": "Ustawia (Set) stan wysoki na wyjściu Q po podaniu 1 na wejście S i zeruje (Reset) po podaniu 1 na wejście R; przy S=R=0 zachowuje poprzedni stan.",
+        "b.": "Zawsze generuje stan wysoki niezależnie od wejść.",
+        "c.": "Działa tylko przy zmianie sygnału zegarowego.",
+        "d.": "Zawsze przełącza się cyklicznie niezależnie od wejść.",
+        "explanation": "Przerzutnik RS to podstawowy układ pamięciowy; jego stan zależy od sygnałów ustawiających i zerujących.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat przekaźnikowego układu pamięci z dwoma przekaźnikami i stykami samopodtrzymującymi>",
+        "question": "Jaka jest zasada działania przekaźnikowych układów pamięci?",
+        "a.": "Stan przekaźnika jest podtrzymywany przez własny styk po zadziałaniu cewki – układ zachowuje swój stan do momentu jego zmiany.",
+        "b.": "Przekaźnik zmienia stan tylko w momencie wyłączenia zasilania.",
+        "c.": "Nie jest możliwe zapamiętanie żadnego stanu.",
+        "d.": "Układ działa tylko przy impulsach prądu przemiennego.",
+        "explanation": "Układy przekaźnikowe wykorzystują zjawisko samopodtrzymania do zapamiętywania stanu logicznego po odłączeniu sygnału sterującego.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<porównanie dwóch układów: przerzutnik asynchroniczny reagujący natychmiast i synchroniczny sterowany sygnałem zegarowym>",
+        "question": "Jaka jest podstawowa różnica między przerzutnikiem asynchronicznym a synchronicznym?",
+        "a.": "Asynchroniczny reaguje natychmiast na zmianę sygnałów wejściowych, a synchroniczny – tylko w momencie impulsu zegarowego.",
+        "b.": "Asynchroniczny działa tylko z zegarem, a synchroniczny – bez niego.",
+        "c.": "Synchroniczny nie może zmieniać stanu w czasie działania zegara.",
+        "d.": "Nie ma żadnej różnicy w działaniu tych przerzutników.",
+        "explanation": "Przerzutniki synchroniczne zmieniają stan tylko w określonych chwilach (np. przy zboczu zegara), a asynchroniczne – natychmiast po zmianie wejść.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat przerzutnika SR z bramek NAND z wejściem zegarowym CLK>",
+        "question": "Jaka jest zasada działania przerzutnika SR?",
+        "a.": "Działa podobnie jak RS, ale posiada sygnał zegarowy; stan wyjścia zmienia się tylko podczas aktywnego zbocza zegara, gdy S=1 ustawia, a R=1 zeruje przerzutnik.",
+        "b.": "Działa bez sygnału zegarowego, niezależnie od wejść.",
+        "c.": "Zawsze wymusza stan 0 na wyjściu Q.",
+        "d.": "Zawsze przełącza stan przy każdym impulsie zegara niezależnie od wejść.",
+        "explanation": "Przerzutnik SR jest synchroniczną wersją RS – zmiana stanu zależy od zegara i sygnałów sterujących S i R.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat przerzutnika JK z wejściami J, K i sygnałem zegarowym CLK>",
+        "question": "Jaka jest zasada działania przerzutnika JK?",
+        "a.": "Dla J=1, K=0 przerzutnik ustawia się; dla J=0, K=1 – zeruje; dla J=K=1 zmienia (przełącza) stan na przeciwny przy zboczu zegara.",
+        "b.": "Zawsze utrzymuje stan niezależnie od wejść.",
+        "c.": "Reaguje tylko na poziom sygnału J.",
+        "d.": "Nie posiada sygnału zegarowego.",
+        "explanation": "Przerzutnik JK jest uniwersalnym przerzutnikiem – może działać jak SR, T lub D w zależności od sposobu sterowania wejść.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat przerzutnika D – jedno wejście D, wejście zegarowe CLK, wyjście Q>",
+        "question": "Jaka jest zasada działania przerzutnika D?",
+        "a.": "Przy zboczu zegara przerzutnik przyjmuje na wyjściu Q stan logiczny z wejścia D – zapamiętuje go do następnego impulsu zegara.",
+        "b.": "Zawsze ustawia Q w stanie wysokim.",
+        "c.": "Wyjście Q jest odwrotne do wejścia D niezależnie od zegara.",
+        "d.": "Zmienność Q zależy tylko od sygnału reset.",
+        "explanation": "Przerzutnik D (data) działa jako pamięć jednego bitu – jego stan wyjściowy zależy od wartości wejścia w momencie impulsu zegara.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat przerzutnika T – wejście T, sygnał zegarowy CLK, wyjście Q zmieniające się przy każdym impulsie>",
+        "question": "Jaka jest zasada działania przerzutnika T?",
+        "a.": "Gdy T=1, przerzutnik zmienia (togluje) stan wyjścia Q przy każdym impulsie zegara; gdy T=0, stan pozostaje bez zmian.",
+        "b.": "Zawsze ustawia wyjście Q w stanie niskim.",
+        "c.": "Przełącza stan tylko przy T=0.",
+        "d.": "Nie zależy od zegara, zmienia się losowo.",
+        "explanation": "Przerzutnik T (Toggle) zmienia swój stan przy każdym impulsie zegara, gdy wejście T jest w stanie wysokim – stosowany w licznikach.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat licznika asynchronicznego złożonego z trzech przerzutników JK połączonych kaskadowo>",
+        "question": "Co to jest licznik asynchroniczny?",
+        "a.": "To licznik, w którym przerzutniki są wyzwalane kolejno – pierwszy przez sygnał zegarowy, a kolejne przez wyjścia poprzednich przerzutników.",
+        "b.": "To licznik, w którym wszystkie przerzutniki wyzwalane są tym samym sygnałem zegarowym.",
+        "c.": "To układ, który nie zmienia swojego stanu przy impulsach zegara.",
+        "d.": "To licznik, w którym przerzutniki pracują niezależnie od siebie.",
+        "explanation": "Licznik asynchroniczny działa kaskadowo – każdy kolejny przerzutnik zmienia stan po przełączeniu poprzedniego, co powoduje opóźnienia propagacji.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat licznika synchronicznego z trzema przerzutnikami JK wyzwalanymi wspólnym sygnałem zegarowym>",
+        "question": "Co to jest licznik synchroniczny?",
+        "a.": "To licznik, w którym wszystkie przerzutniki wyzwalane są jednocześnie tym samym sygnałem zegarowym.",
+        "b.": "To licznik, w którym każdy przerzutnik reaguje z opóźnieniem względem poprzedniego.",
+        "c.": "To licznik działający tylko przy jednym stanie logicznym.",
+        "d.": "To licznik, w którym nie występuje sygnał zegarowy.",
+        "explanation": "Licznik synchroniczny eliminuje opóźnienia, ponieważ wszystkie przerzutniki reagują równocześnie na wspólny impuls zegara.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat licznika modulo 2 zbudowanego z jednego przerzutnika JK z wejściami J=K=1>",
+        "question": "Jaka jest zasada działania licznika modulo 2 zbudowanego z przerzutnika JK?",
+        "a.": "Przerzutnik z wejściami J=K=1 zmienia stan wyjścia przy każdym impulsie zegara, generując przebieg o częstotliwości dwa razy mniejszej od sygnału wejściowego.",
+        "b.": "Przerzutnik generuje zawsze stan wysoki niezależnie od zegara.",
+        "c.": "Przerzutnik działa tylko w trybie asynchronicznym bez zegara.",
+        "d.": "Zmienność stanu zależy od poziomu napięcia, nie od impulsów zegarowych.",
+        "explanation": "Licznik modulo 2 działa jak dzielnik częstotliwości przez 2 – zmienia stan logiczny przy każdym impulsie zegara.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat licznika modulo 4 zbudowanego z dwóch przerzutników JK połączonych kaskadowo>",
+        "question": "Jaka jest zasada działania licznika modulo 4 zbudowanego z przerzutników JK?",
+        "a.": "Dwa przerzutniki JK z wejściami J=K=1 tworzą licznik, w którym kolejne stany Q1 i Q2 tworzą ciąg binarny od 00 do 11, a potem cykl się powtarza.",
+        "b.": "Przerzutniki działają niezależnie i generują losowe stany.",
+        "c.": "Pierwszy przerzutnik pracuje tylko przy niskim stanie zegara.",
+        "d.": "Układ generuje tylko stany 00 i 01.",
+        "explanation": "Każdy przerzutnik JK dzieli częstotliwość wejściową przez 2; dwa połączone przerzutniki tworzą licznik modulo 4 o czterech stanach binarnych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<blokowy schemat dwóch liczników modulo 10 połączonych kaskadowo z dodatkowym układem resetującym przy stanie 74>",
+        "question": "W jaki sposób z dwóch liczników modulo 10 można uzyskać licznik modulo 74?",
+        "a.": "Łączy się je kaskadowo i wprowadza układ zerujący, który resetuje licznik po osiągnięciu stanu odpowiadającego liczbie 74.",
+        "b.": "Dodaje się do nich trzy przerzutniki JK pracujące równolegle.",
+        "c.": "Łączy się je równolegle bez żadnego resetu.",
+        "d.": "Nie można uzyskać licznika modulo 74 z dwóch liczników modulo 10.",
+        "explanation": "Dwa liczniki modulo 10 mogą tworzyć licznik modulo 74, jeśli zastosuje się układ wykrywający stan 74 i generujący impuls resetu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat blokowy rejestru z kilkoma przerzutnikami połączonymi równolegle lub szeregowo>",
+        "question": "Jaką rolę pełni w układzie rejestr?",
+        "a.": "Służy do tymczasowego przechowywania informacji binarnej (bitów) w systemach cyfrowych.",
+        "b.": "Generuje impulsy zegarowe dla przerzutników.",
+        "c.": "Zmienia sygnał binarny na analogowy.",
+        "d.": "Pełni funkcję prostownika napięcia.",
+        "explanation": "Rejestr to układ pamiętający stany logiczne – wykorzystywany do przechowywania, przesuwania lub konwersji danych binarnych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat rejestru złożonego z przerzutników D połączonych szeregowo>",
+        "question": "Z jakich elementów zbudowany jest rejestr?",
+        "a.": "Z przerzutników (najczęściej D lub JK) połączonych szeregowo lub równolegle, tworzących strukturę pamięci bitowej.",
+        "b.": "Z diod i rezystorów połączonych równolegle.",
+        "c.": "Z bramek logicznych typu AND i OR.",
+        "d.": "Z kondensatorów i cewek połączonych w filtr LC.",
+        "explanation": "Rejestry buduje się z przerzutników, które mogą zapamiętywać i przesuwać bity w układach cyfrowych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat rejestru przesuwnego, w którym bity przesuwają się w prawo lub w lewo przy każdym impulsie zegara>",
+        "question": "W jaki sposób można uzyskać w rejestrze przesuwanym dzielenie, a w jaki mnożenie?",
+        "a.": "Przesunięcie bitów w prawo odpowiada dzieleniu przez 2, a przesunięcie w lewo – mnożeniu przez 2 w systemie binarnym.",
+        "b.": "Przesunięcie w prawo powoduje mnożenie, a w lewo dzielenie przez 2.",
+        "c.": "Rejestr nie umożliwia żadnych operacji arytmetycznych.",
+        "d.": "Kierunek przesuwania bitów nie ma znaczenia dla wartości liczby.",
+        "explanation": "W systemie binarnym przesunięcie bitów w prawo zmniejsza wartość liczby dwukrotnie (dzielenie), a w lewo zwiększa ją dwukrotnie (mnożenie).",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<porównanie trzech typów pamięci: RAM, ROM, SRAM z krótkim opisem ich właściwości>",
+        "question": "Co oznaczają pojęcia RAM, ROM, SRAM?",
+        "a.": "RAM – pamięć o swobodnym dostępie, ROM – pamięć tylko do odczytu, SRAM – statyczna pamięć RAM o dużej szybkości działania.",
+        "b.": "RAM – pamięć tylko do zapisu, ROM – pamięć z przypadkowym dostępem, SRAM – pamięć dynamiczna.",
+        "c.": "RAM – pamięć o stałym dostępie, ROM – pamięć losowa, SRAM – pamięć z dyskiem.",
+        "d.": "RAM, ROM i SRAM to rodzaje pamięci magnetycznych używanych w silnikach.",
+        "explanation": "RAM (Random Access Memory) umożliwia zapis i odczyt danych, ROM (Read Only Memory) tylko odczyt, a SRAM (Static RAM) przechowuje dane bez odświeżania.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat blokowy mikroprocesora z jednostką ALU, rejestrami, układem sterowania i magistralami danych, adresów i sterującą>",
+        "question": "Co to jest mikroprocesor?",
+        "a.": "To układ scalony zawierający jednostkę arytmetyczno-logiczną (ALU), rejestry i układ sterowania, służący do przetwarzania informacji według zapisanego programu.",
+        "b.": "To układ pamięci do przechowywania danych binarnych.",
+        "c.": "To urządzenie wejścia-wyjścia w systemie komputerowym.",
+        "d.": "To element elektroniczny służący do wzmocnienia sygnałów.",
+        "explanation": "Mikroprocesor to centralny układ sterujący systemem mikroprocesorowym, wykonujący operacje arytmetyczne i logiczne na danych według instrukcji programu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<blokowy schemat mikroprocesora z zaznaczonymi blokami: ALU, rejestry, układ sterowania, magistrale adresowa, danych i sterująca>",
+        "question": "Jak wygląda wewnętrzna struktura mikroprocesora?",
+        "a.": "Składa się z jednostki arytmetyczno-logicznej (ALU), rejestrów, układu sterowania oraz trzech magistral: danych, adresowej i sterującej.",
+        "b.": "Zawiera tylko pamięć i zegar.",
+        "c.": "Składa się z zestawu tranzystorów połączonych przypadkowo.",
+        "d.": "To jeden rejestr zasilany sygnałem zegarowym.",
+        "explanation": "Wewnętrzna struktura mikroprocesora zawiera podstawowe bloki logiczne i magistrale umożliwiające wymianę danych i sterowanie operacjami.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat blokowy z opisem funkcji ALU, rejestrów, licznika rozkazów, dekodera i układu sterującego>",
+        "question": "Do czego służą poszczególne elementy wewnętrznej struktury mikroprocesora?",
+        "a.": "ALU wykonuje operacje arytmetyczne i logiczne, rejestry przechowują dane tymczasowe, licznik rozkazów wskazuje adres bieżącej instrukcji, a układ sterowania nadzoruje wykonywanie programu.",
+        "b.": "ALU przechowuje dane, a rejestry wykonują obliczenia.",
+        "c.": "Układ sterowania przetwarza dane, a ALU je adresuje.",
+        "d.": "Licznik rozkazów służy do zapamiętywania wyników operacji.",
+        "explanation": "Każdy blok mikroprocesora pełni określoną funkcję – ALU przetwarza dane, rejestry je przechowują, a układ sterowania koordynuje pracę całego procesora.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat blokowy systemu mikroprocesorowego z mikroprocesorem, pamięcią RAM/ROM i układami wejścia-wyjścia>",
+        "question": "Co to jest i do czego służy system mikroprocesorowy?",
+        "a.": "To układ zawierający mikroprocesor, pamięć i układy wejścia-wyjścia, służący do przetwarzania, sterowania i wymiany informacji z otoczeniem.",
+        "b.": "To zestaw pamięci masowych bez mikroprocesora.",
+        "c.": "To system służący wyłącznie do zapisywania danych.",
+        "d.": "To układ złożony tylko z przekaźników i tranzystorów.",
+        "explanation": "System mikroprocesorowy to kompletny układ sterowania złożony z procesora, pamięci i urządzeń peryferyjnych współpracujących ze sobą.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<zestawienie rodzajów pamięci: ROM, RAM, EPROM, EEPROM, Flash>",
+        "question": "Jakie znasz pamięci stosowane w układach mikroprocesorowych?",
+        "a.": "ROM – pamięć tylko do odczytu, RAM – pamięć o dostępie swobodnym, EPROM – kasowalna ultrafioletem, EEPROM i Flash – elektrycznie kasowalne i programowalne.",
+        "b.": "Tylko pamięci magnetyczne i optyczne.",
+        "c.": "Wyłącznie pamięci zewnętrzne typu SSD.",
+        "d.": "Pamięci mechaniczne wykorzystywane w przekaźnikach.",
+        "explanation": "W systemach mikroprocesorowych stosuje się różne typy pamięci – RAM do zapisu danych roboczych i ROM/Flash do przechowywania programów.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<tabela porównująca systemy liczbowe: binarny (2), ósemkowy (8), dziesiętny (10), szesnastkowy (16)>",
+        "question": "Jakie znasz systemy liczbowe stosowane w układach mikroprocesorowych?",
+        "a.": "Binarny, ósemkowy, dziesiętny i szesnastkowy.",
+        "b.": "Tylko system dziesiętny.",
+        "c.": "Systemy o podstawie 3 i 5.",
+        "d.": "System rzymski i dziesiętny.",
+        "explanation": "Mikroprocesory operują głównie w systemie binarnym, ale często używa się też zapisu ósemkowego i szesnastkowego dla uproszczenia notacji.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat przesyłu danych: przesył równoległy, szeregowy synchroniczny i asynchroniczny>",
+        "question": "Jakie znane Ci są sposoby przesyłu informacji, stosowane w systemach mikroprocesorowych?",
+        "a.": "Przesył równoległy, szeregowy synchroniczny i asynchroniczny.",
+        "b.": "Tylko przesył optyczny i akustyczny.",
+        "c.": "Przesył magnetyczny i cieplny.",
+        "d.": "Tylko przesył równoległy bez synchronizacji.",
+        "explanation": "W systemach mikroprocesorowych dane mogą być przesyłane równolegle (wieloma liniami) lub szeregowo – synchronicznie (z zegarem) bądź asynchronicznie (bez zegara).",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat blokowy mikrokontrolera z zaznaczonym mikroprocesorem, pamięcią RAM, ROM/Flash i portami I/O>",
+        "question": "Co to jest mikrokontroler?",
+        "a.": "To układ scalony zawierający mikroprocesor, pamięć programu, pamięć danych oraz układy wejścia-wyjścia w jednej obudowie.",
+        "b.": "To samodzielny mikroprocesor bez pamięci i portów.",
+        "c.": "To jednostka pamięci używana do przechowywania danych.",
+        "d.": "To przetwornik sygnałów analogowych na cyfrowe.",
+        "explanation": "Mikrokontroler to kompletny system mikroprocesorowy zintegrowany w jednym układzie, zdolny do samodzielnego sterowania urządzeniami.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat mikroprocesora RISC z uproszczoną jednostką sterującą i jednocyklem wykonania instrukcji>",
+        "question": "Jakimi parametrami charakteryzuje się mikroprocesor typu RISC?",
+        "a.": "Posiada prosty zestaw instrukcji, krótkie cykle rozkazowe, dużą szybkość działania i mniejsze zużycie energii.",
+        "b.": "Ma rozbudowany zestaw instrukcji i długie cykle wykonywania.",
+        "c.": "Działa tylko w systemach 8-bitowych.",
+        "d.": "Wykonuje wiele rozkazów jednocześnie w jednym cyklu zegara.",
+        "explanation": "Mikroprocesory RISC (Reduced Instruction Set Computer) są projektowane z myślą o prostocie i szybkości – wykonują instrukcje w jednym cyklu zegarowym.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<logo i schemat blokowy mikrokontrolera AVR z rdzeniem RISC i pamięcią Flash>",
+        "question": "Do czego służą mikroprocesory typu AVR?",
+        "a.": "Są stosowane w mikrokontrolerach do sterowania urządzeniami elektronicznymi, automatyce, robotyce i systemach wbudowanych.",
+        "b.": "Służą jako pamięć masowa w komputerach osobistych.",
+        "c.": "Wykorzystywane są tylko do obliczeń naukowych w superkomputerach.",
+        "d.": "Używane wyłącznie do przetwarzania sygnałów audio.",
+        "explanation": "Mikroprocesory AVR (np. w mikrokontrolerach Atmega) są popularne w systemach wbudowanych dzięki architekturze RISC i łatwości programowania.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat blokowy mikroprocesora DSP z jednostką MAC (Multiply-Accumulate) i potokowym przetwarzaniem sygnałów>",
+        "question": "Co to jest mikroprocesor sygnałowy?",
+        "a.": "To mikroprocesor przystosowany do szybkiego przetwarzania sygnałów analogowych po ich zamianie na postać cyfrową, używany w DSP (Digital Signal Processing).",
+        "b.": "To mikroprocesor o dużej pamięci przeznaczony do obliczeń tekstowych.",
+        "c.": "To mikroprocesor używany wyłącznie w układach pamięci ROM.",
+        "d.": "To mikroprocesor przeznaczony do sterowania silnikami elektrycznymi.",
+        "explanation": "Mikroprocesory DSP posiadają specjalne jednostki obliczeniowe umożliwiające szybkie mnożenie, sumowanie i filtrowanie sygnałów cyfrowych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<fragment kodu asemblera z dyrektywami ORG, MOV, ADD, END>",
+        "question": "Co to jest asembler?",
+        "a.": "To język programowania niskiego poziomu oraz program tłumaczący instrukcje mnemoniczne na kod maszynowy procesora.",
+        "b.": "To system operacyjny dla mikroprocesorów.",
+        "c.": "To język wysokiego poziomu używany w programowaniu mikrokontrolerów.",
+        "d.": "To sprzętowy moduł mikroprocesora odpowiedzialny za tłumaczenie kodu.",
+        "explanation": "Asembler jest językiem bliskim kodowi maszynowemu, a także programem kompilującym te instrukcje do postaci binarnej.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat struktury programu w asemblerze: sekcje – nagłówek, deklaracje, kod programu, zakończenie>",
+        "question": "Jaka jest ogólna struktura programu napisanego w asemblerze?",
+        "a.": "Składa się z dyrektyw początkowych, sekcji deklaracji danych, części kodu z instrukcjami i sekcji końcowej programu.",
+        "b.": "Zawiera wyłącznie instrukcje arytmetyczne bez nagłówków.",
+        "c.": "Zawiera tylko dane bez kodu wykonywalnego.",
+        "d.": "Nie wymaga żadnej struktury – instrukcje zapisuje się losowo.",
+        "explanation": "Każdy program w asemblerze musi mieć uporządkowaną strukturę: deklaracje danych, kod programu i zakończenie wykonywania.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<tabela klasyfikacji instrukcji w asemblerze: arytmetyczne, logiczne, skoków, przesłań, sterujące>",
+        "question": "Jak dzielimy instrukcje w asemblerze?",
+        "a.": "Na arytmetyczne, logiczne, przesłań danych, skoków, sterujące i wejścia/wyjścia.",
+        "b.": "Na tekstowe i liczbowo-graficzne.",
+        "c.": "Na operacje binarne i dziesiętne.",
+        "d.": "Na instrukcje główne i podrzędne bez podziału funkcjonalnego.",
+        "explanation": "Instrukcje asemblera klasyfikuje się według funkcji, jaką pełnią w programie – od obliczeń po sterowanie przepływem.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<zestaw programowy do programowania mikroprocesorów: komputer, kompilator, programator, mikrokontroler>",
+        "question": "Jakie są elementy składowe zestawu służącego do programowania mikroprocesorów?",
+        "a.": "Komputer z oprogramowaniem (edytor, kompilator, asembler), programator i mikroprocesor lub mikrokontroler docelowy.",
+        "b.": "Tylko komputer i kabel USB.",
+        "c.": "Wyłącznie programator bez oprogramowania.",
+        "d.": "Zestaw złożony jedynie z mikrokontrolera i zasilania.",
+        "explanation": "Do programowania mikroprocesorów potrzebne są zarówno narzędzia sprzętowe (programator) jak i programowe (środowisko, kompilator, asembler).",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat procesu programowania mikroprocesora: pisanie kodu, kompilacja, weryfikacja, wgranie programu, testowanie>",
+        "question": "Jakie czynności należy wykonać, aby w poprawny sposób zaprogramować mikroprocesor?",
+        "a.": "Napisać kod źródłowy, skompilować lub złożyć program, wgrać go do pamięci mikroprocesora za pomocą programatora i przetestować jego działanie.",
+        "b.": "Podłączyć mikroprocesor bezpośrednio do zasilania bez programowania.",
+        "c.": "Zainstalować tylko środowisko programistyczne bez pisania kodu.",
+        "d.": "Uruchomić mikroprocesor bez ładowania programu.",
+        "explanation": "Proces programowania mikroprocesora obejmuje przygotowanie i wgranie kodu, a następnie sprawdzenie poprawności jego działania w systemie docelowym.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<cząsteczki gazu w ruchu chaotycznym w naczyniu – schemat poglądowy właściwości gazów>",
+        "question": "Jakie są podstawowe właściwości gazów?",
+        "a.": "Gazy nie mają określonego kształtu ani objętości, wypełniają całe dostępne naczynie, są ściśliwe i rozprężne.",
+        "b.": "Gazy mają stały kształt i objętość.",
+        "c.": "Gazy są nieściśliwe i zachowują objętość niezależnie od ciśnienia.",
+        "d.": "Gazy przewodzą prąd elektryczny jak metale.",
+        "explanation": "Gazy charakteryzują się dużą ściśliwością, brakiem własnego kształtu i dążeniem do równomiernego wypełnienia przestrzeni.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<wykres gęstości gazu w funkcji temperatury przy stałym ciśnieniu – malejąca zależność>",
+        "question": "Jak zależy gęstość gazów od temperatury?",
+        "a.": "Gęstość gazów maleje wraz ze wzrostem temperatury przy stałym ciśnieniu.",
+        "b.": "Gęstość gazów rośnie wraz ze wzrostem temperatury.",
+        "c.": "Gęstość gazów nie zależy od temperatury.",
+        "d.": "Gęstość gazów rośnie przy spadku temperatury i ciśnienia.",
+        "explanation": "Podgrzanie gazu powoduje wzrost objętości i zmniejszenie gęstości przy stałym ciśnieniu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<wykres lepkości gazu w funkcji temperatury – rosnąca zależność>",
+        "question": "Jak zależy lepkość gazu od temperatury?",
+        "a.": "Lepkość gazów rośnie wraz ze wzrostem temperatury.",
+        "b.": "Lepkość gazów maleje wraz ze wzrostem temperatury.",
+        "c.": "Lepkość gazów jest niezależna od temperatury.",
+        "d.": "Lepkość gazów rośnie tylko przy niskich temperaturach.",
+        "explanation": "Zwiększenie temperatury zwiększa energię cząsteczek, co prowadzi do większej lepkości gazu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<wykres zależności ciśnienia od objętości dla gazu w temperaturze stałej – hiperbola PV = const>",
+        "question": "Jak brzmi prawo Boyle’a i Mariotte’a?",
+        "a.": "Dla stałej temperatury iloczyn ciśnienia i objętości gazu jest stały: p·V = const.",
+        "b.": "Ciśnienie gazu jest wprost proporcjonalne do temperatury.",
+        "c.": "Objętość gazu rośnie proporcjonalnie do temperatury.",
+        "d.": "Gęstość gazu jest odwrotnie proporcjonalna do ciśnienia.",
+        "explanation": "Prawo Boyle’a-Mariotte’a opisuje zależność między ciśnieniem i objętością gazu przy stałej temperaturze.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<wykres zależności objętości od temperatury przy stałym ciśnieniu – linia prosta>",
+        "question": "Jak brzmi prawo Gay-Lussaca?",
+        "a.": "Przy stałym ciśnieniu objętość gazu jest wprost proporcjonalna do jego temperatury bezwzględnej: V/T = const.",
+        "b.": "Ciśnienie gazu jest odwrotnie proporcjonalne do objętości.",
+        "c.": "Objętość gazu maleje przy wzroście temperatury.",
+        "d.": "Ciśnienie gazu nie zależy od temperatury.",
+        "explanation": "Prawo Gay-Lussaca wiąże objętość gazu z jego temperaturą przy stałym ciśnieniu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat rury o zmiennym przekroju z oznaczeniem prędkości przepływu i powierzchni przekroju S1, S2>",
+        "question": "Jak brzmi prawo ciągłości płynów?",
+        "a.": "Strumień objętościowy jest stały: S₁·v₁ = S₂·v₂, czyli iloczyn pola przekroju i prędkości przepływu pozostaje stały.",
+        "b.": "Prędkość przepływu rośnie proporcjonalnie do ciśnienia.",
+        "c.": "Objętość przepływającego płynu rośnie z odległością od źródła.",
+        "d.": "Natężenie przepływu zależy tylko od lepkości.",
+        "explanation": "Prawo ciągłości płynów opisuje zachowanie nieściśliwego płynu – im mniejszy przekrój, tym większa prędkość przepływu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat układu energetycznego – energia potencjalna, kinetyczna i wewnętrzna, strzałki przepływu energii>",
+        "question": "Jak brzmi prawo zachowania energii?",
+        "a.": "Energia nie może być stworzona ani zniszczona, może jedynie zmieniać formę – całkowita energia układu pozostaje stała.",
+        "b.": "Energia może powstać z niczego przy odpowiednim ciśnieniu.",
+        "c.": "Energia maleje wraz ze wzrostem temperatury.",
+        "d.": "Energia mechaniczna nie zależy od pracy wykonanej przez siły zewnętrzne.",
+        "explanation": "Prawo zachowania energii jest jednym z podstawowych praw fizyki – całkowita energia układu zamkniętego nie ulega zmianie.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<ilustracja przedstawiająca różne rodzaje przepływu: laminarny – uporządkowany, turbulentny – zawirowania, przejściowy>",
+        "question": "Jakie znasz rodzaje przepływów?",
+        "a.": "Laminarny, turbulentny i przejściowy.",
+        "b.": "Statyczny i dynamiczny.",
+        "c.": "Stały i niestały bez rozróżnienia charakteru ruchu.",
+        "d.": "Jednorodny i niejednorodny tylko pod względem ciśnienia.",
+        "explanation": "Przepływ laminarny charakteryzuje się uporządkowanym ruchem warstw płynu, turbulentny – chaotycznymi zawirowaniami.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<wykres zależności liczby Reynoldsa od rodzaju przepływu – laminarnego i turbulentnego>",
+        "question": "Co charakteryzuje liczba Reynoldsa?",
+        "a.": "Określa rodzaj przepływu płynu (laminarny lub turbulentny) i zależy od prędkości, gęstości, lepkości i wymiaru charakterystycznego przepływu.",
+        "b.": "Określa tylko temperaturę przepływającego płynu.",
+        "c.": "Opisuje zmianę gęstości w zależności od ciśnienia.",
+        "d.": "Służy do pomiaru przewodnictwa cieplnego gazów.",
+        "explanation": "Liczba Reynoldsa (Re = ρ·v·d/η) pozwala ocenić, czy przepływ jest laminarny (Re < 2300) czy turbulentny (Re > 4000).",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat siłownika pneumatycznego z tłokiem, tłoczyskiem i komorami roboczymi>",
+        "question": "Co to jest siłownik?",
+        "a.": "To element wykonawczy układu pneumatycznego lub hydraulicznego, przetwarzający energię czynnika roboczego (sprężonego powietrza lub cieczy) na ruch mechaniczny.",
+        "b.": "To element sterujący przepływem czynnika roboczego.",
+        "c.": "To urządzenie do magazynowania energii w układzie hydraulicznym.",
+        "d.": "To czujnik pomiaru ciśnienia w układzie pneumatycznym.",
+        "explanation": "Siłownik zamienia energię ciśnienia płynu lub powietrza na energię mechaniczną – ruch liniowy lub obrotowy.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający siłowniki: tłokowy, membranowy, obrotowy i teleskopowy>",
+        "question": "Jaki jest podział siłowników ze względu na konstrukcję?",
+        "a.": "Tłokowe, membranowe, obrotowe i teleskopowe.",
+        "b.": "Elektryczne, cieplne i optyczne.",
+        "c.": "Zasilane wyłącznie prądem elektrycznym.",
+        "d.": "O stałej objętości i o zmiennej objętości bez rozróżnienia działania.",
+        "explanation": "Siłowniki różnią się konstrukcją i sposobem przekazywania energii – najczęściej spotykane są tłokowe i membranowe.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat siłownika jednostronnego działania z jedną komorą roboczą i sprężyną powrotną>",
+        "question": "Jaka jest zasada działania siłownika jednostronnego działania?",
+        "a.": "Czynnik roboczy działa tylko na jedną stronę tłoka, a powrót tłoczyska następuje dzięki sprężynie lub obciążeniu zewnętrznemu.",
+        "b.": "Czynnik roboczy działa na obie strony tłoka.",
+        "c.": "Ruch tłoka odbywa się tylko pod wpływem grawitacji.",
+        "d.": "Siłownik wymaga zasilania elektrycznego do ruchu powrotnego.",
+        "explanation": "Siłownik jednostronny wykonuje pracę tylko w jednym kierunku – w drugim kierunku powraca dzięki sprężynie lub obciążeniu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat siłownika dwustronnego działania z dwiema komorami roboczymi zasilanymi na przemian>",
+        "question": "Jaka jest zasada działania siłownika dwustronnego działania?",
+        "a.": "Czynnik roboczy działa na przemian na obie strony tłoka, umożliwiając ruch w obu kierunkach.",
+        "b.": "Czynnik działa tylko na jedną stronę tłoka, a powrót następuje sprężynowo.",
+        "c.": "Ruch tłoka jest możliwy tylko w jednym kierunku.",
+        "d.": "Siłownik pracuje bez czynnika roboczego.",
+        "explanation": "W siłowniku dwustronnego działania energia czynnika roboczego wywołuje zarówno wysuw, jak i powrót tłoczyska.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<porównanie siłownika o działaniu prostym i odwrotnym – różne kierunki działania sprężyny powrotnej>",
+        "question": "Jaka jest różnica między siłownikiem o działaniu prostym a odwrotnym?",
+        "a.": "W siłowniku o działaniu prostym wysuw tłoczyska następuje pod wpływem ciśnienia, a powrót dzięki sprężynie; w odwrotnym – odwrotnie.",
+        "b.": "W działaniu odwrotnym siłownik pracuje bez czynnika roboczego.",
+        "c.": "Różnica polega tylko na materiale wykonania tłoczyska.",
+        "d.": "Nie ma różnicy – to te same konstrukcje.",
+        "explanation": "Siłownik o działaniu prostym wysuwa się pod wpływem ciśnienia, a cofa dzięki sprężynie; odwrotny – odwrotnie.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<tabela parametrów siłownika: skok, średnica tłoka, ciśnienie, siła, prędkość>",
+        "question": "Jakie parametry charakteryzują siłownik?",
+        "a.": "Średnica tłoka, skok tłoczyska, ciśnienie robocze, siła, prędkość ruchu i rodzaj działania.",
+        "b.": "Tylko kolor obudowy i długość przewodów.",
+        "c.": "Jedynie napięcie zasilania i prąd roboczy.",
+        "d.": "Wyłącznie rodzaj czynnika roboczego.",
+        "explanation": "Parametry te określają właściwości robocze siłownika i pozwalają dobrać go do konkretnego zastosowania.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat siłownika dwustronnego działania z zaznaczonymi powierzchniami tłoka A1 i A2 oraz ciśnieniami p>",
+        "question": "Od czego zależy siła przenoszona przez tłoczysko siłownika dwustronnego działania?",
+        "a.": "Od ciśnienia czynnika roboczego i efektywnej powierzchni działania tłoka.",
+        "b.": "Wyłącznie od długości tłoczyska.",
+        "c.": "Od koloru obudowy i temperatury otoczenia.",
+        "d.": "Od rodzaju sprężyny powrotnej.",
+        "explanation": "Siła siłownika jest iloczynem ciśnienia roboczego i powierzchni tłoka pomniejszonej o przekrój tłoczyska przy ruchu powrotnym.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<wykres charakterystyki statycznej siłownika – zależność siły od skoku przy różnych ciśnieniach>",
+        "question": "Co to jest charakterystyka statyczna siłownika?",
+        "a.": "To zależność między siłą wytwarzaną przez siłownik a skokiem tłoczyska przy stałym ciśnieniu czynnika roboczego.",
+        "b.": "To wykres prędkości ruchu tłoka w czasie.",
+        "c.": "To zależność między napięciem zasilania a siłą.",
+        "d.": "To wykres zmian temperatury czynnika roboczego.",
+        "explanation": "Charakterystyka statyczna opisuje zachowanie siłownika przy ustalonym ciśnieniu – pokazuje, jak zmienia się siła w funkcji położenia tłoka.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat różnych typów zaworów: odcinający, zwrotny, redukcyjny, sterujący kierunkiem przepływu>",
+        "question": "Na jakie grupy dzielimy zawory ze względu na ich funkcje w układzie?",
+        "a.": "Na zawory sterujące kierunkiem przepływu, natężeniem przepływu oraz ciśnieniem.",
+        "b.": "Na zawory elektryczne, hydrauliczne i cieplne.",
+        "c.": "Na zawory stałe i ruchome.",
+        "d.": "Na zawory dolotowe i wylotowe silnika spalinowego.",
+        "explanation": "Podział zaworów wynika z ich funkcji – kierunkowe zmieniają drogę przepływu, przepływowe regulują natężenie, a ciśnieniowe kontrolują wartość ciśnienia.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat zaworu redukcyjnego z zaznaczonymi strefami ciśnienia przed i za zaworem>",
+        "question": "Jaka jest funkcja zaworu redukcyjnego?",
+        "a.": "Utrzymuje stałe, obniżone ciśnienie za zaworem niezależnie od wahań ciśnienia zasilania.",
+        "b.": "Zwiększa ciśnienie w układzie do maksymalnej wartości.",
+        "c.": "Odprowadza nadmiar czynnika do atmosfery.",
+        "d.": "Zmienia kierunek przepływu czynnika roboczego.",
+        "explanation": "Zawór redukcyjny zmniejsza ciśnienie czynnika roboczego i stabilizuje je na określonym poziomie w dalszej części układu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat zaworu redukcyjnego z manometrami przed i za zaworem>",
+        "question": "Czy za zaworem redukcyjnym może być ciśnienie wyższe niż przed zaworem?",
+        "a.": "Nie, ponieważ zawór redukcyjny ogranicza ciśnienie do wartości niższej niż ciśnienie zasilania.",
+        "b.": "Tak, jeśli przepływ czynnika jest odwrócony.",
+        "c.": "Tak, jeśli temperatura czynnika wzrośnie.",
+        "d.": "Tak, gdy zawór jest całkowicie zamknięty.",
+        "explanation": "Zadaniem zaworu redukcyjnego jest obniżanie ciśnienia – wartość ciśnienia za zaworem nigdy nie przekracza ciśnienia zasilającego.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat zaworów 2/2, 3/2, 4/2 i 5/2 z oznaczonymi pozycjami i kierunkiem przepływu>",
+        "question": "Na jakie grupy dzielą się zawory pneumatyczne sterujące kierunkiem przepływu?",
+        "a.": "Na zawory 2/2, 3/2, 4/2, 5/2 i 5/3 – w zależności od liczby dróg i położeń suwaka.",
+        "b.": "Na zawory jednostronne i dwustronne bez oznaczenia pozycji.",
+        "c.": "Na zawory otwarte i zamknięte bez względu na funkcję.",
+        "d.": "Na zawory tłokowe i membranowe.",
+        "explanation": "Zawory kierunkowe klasyfikuje się według liczby dróg przepływu i położeń suwaka, co określa ich możliwości sterowania kierunkiem czynnika roboczego.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<symbol graficzny zaworu odcinającego w przewodzie pneumatycznym>",
+        "question": "Jakie zadanie spełnia zawór odcinający?",
+        "a.": "Służy do całkowitego wstrzymania przepływu czynnika roboczego w układzie.",
+        "b.": "Reguluje natężenie przepływu czynnika.",
+        "c.": "Zwiększa ciśnienie w przewodzie zasilającym.",
+        "d.": "Zamienia energię ciśnienia na ruch mechaniczny.",
+        "explanation": "Zawór odcinający stosowany jest do całkowitego odłączenia części układu od źródła zasilania lub odbiornika.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat zaworu zwrotnego z kulką i sprężyną – przepływ tylko w jednym kierunku>",
+        "question": "Jakie zadanie spełnia zawór zwrotny?",
+        "a.": "Umożliwia przepływ czynnika tylko w jednym kierunku i zapobiega jego cofnięciu.",
+        "b.": "Odprowadza nadmiar powietrza do atmosfery.",
+        "c.": "Reguluje ciśnienie w układzie.",
+        "d.": "Zmienia prędkość przepływu w zależności od obciążenia.",
+        "explanation": "Zawór zwrotny działa jak jednokierunkowy zawór bezpieczeństwa – przepuszcza czynnik tylko w jednym kierunku, chroniąc układ przed cofnięciem się medium.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<zawór zwrotny z dużym ciśnieniem po stronie wylotu – kulka nie unosi się>",
+        "question": "Czy w każdym przypadku podanie czynnika roboczego do kanału wlotowego zaworu zwrotnego obciążonego spowoduje przepływ czynnika? Uzasadnij.",
+        "a.": "Nie, ponieważ przepływ nastąpi dopiero, gdy ciśnienie czynnika roboczego przekroczy wartość siły sprężyny dociskającej element zamykający.",
+        "b.": "Tak, zawór zwrotny zawsze przepuszcza czynnik niezależnie od ciśnienia.",
+        "c.": "Tak, jeśli temperatura czynnika jest niska.",
+        "d.": "Nie, jeśli zawór jest zamontowany poziomo.",
+        "explanation": "W zaworze zwrotnym obciążonym sprężyną czynnik przepływa tylko wtedy, gdy jego ciśnienie jest wystarczająco wysokie, by pokonać siłę sprężyny.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat przełącznika obiegu 4/2 z dwoma pozycjami pracy>",
+        "question": "Jaka jest funkcja przełącznika obiegu i w jakich układach jest stosowany?",
+        "a.": "Zmienia kierunek przepływu czynnika roboczego w układach pneumatycznych i hydraulicznych, np. do zmiany kierunku ruchu siłownika.",
+        "b.": "Służy do regulacji ciśnienia roboczego.",
+        "c.": "Utrzymuje stały przepływ niezależnie od obciążenia.",
+        "d.": "Odpowiada za usuwanie kondensatu z układu.",
+        "explanation": "Przełącznik obiegu (zawór 4/2 lub 5/2) stosowany jest do sterowania kierunkiem przepływu czynnika, np. w układach z siłownikami dwustronnego działania.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat zaworu podwójnego sygnału (AND) z dwoma wejściami i jednym wyjściem>",
+        "question": "Jaka jest funkcja zaworu podwójnego sygnału i w jakich układach jest stosowany?",
+        "a.": "Przepuszcza czynnik roboczy na wyjście tylko wtedy, gdy oba sygnały sterujące są obecne jednocześnie – stosowany w układach bezpieczeństwa (np. oburęcznego sterowania).",
+        "b.": "Zwiększa ciśnienie czynnika w układzie.",
+        "c.": "Działa jak zawór zwrotny, przepuszczając czynnik w jednym kierunku.",
+        "d.": "Odprowadza nadmiar powietrza z układu do atmosfery.",
+        "explanation": "Zawór podwójnego sygnału realizuje funkcję logiczną AND – wymaga dwóch jednoczesnych sygnałów, co zwiększa bezpieczeństwo pracy operatora.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat zaworu szybkiego spustu z zaznaczonymi kierunkami przepływu powietrza podczas napełniania i opróżniania komory siłownika>",
+        "question": "W jakim przypadku w zaworze szybkiego spustu następuje zmiana kierunku przepływu powietrza?",
+        "a.": "Podczas przejścia z fazy napełniania do fazy opróżniania siłownika – gdy ciśnienie w przewodzie zasilającym spada poniżej ciśnienia w komorze siłownika.",
+        "b.": "Podczas wzrostu ciśnienia zasilania powyżej wartości nominalnej.",
+        "c.": "Podczas zmiany temperatury czynnika roboczego.",
+        "d.": "Podczas włączenia dodatkowego zaworu redukcyjnego.",
+        "explanation": "Zawór szybkiego spustu zmienia kierunek przepływu, gdy ciśnienie w przewodzie zasilającym spada – wówczas powietrze z siłownika uchodzi bezpośrednio do atmosfery.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający zawory 3/2, 4/2 i 5/2 z oznaczeniem liczby dróg i położeń – przykładowo rys.31>",
+        "question": "Ilu drogowe i ilu położeniowe są zawory przedstawione na rys. 31?",
+        "a.": "Zawory 3/2, 4/2 i 5/2 – odpowiednio trzy-, cztero- i pięciodrogowe, każdy dwupołożeniowy.",
+        "b.": "Zawory 2/1, 3/1 i 4/1 – jednopołożeniowe.",
+        "c.": "Zawory 4/3 – trzydrożne, czteropołożeniowe.",
+        "d.": "Wszystkie są pięciopołożeniowe niezależnie od liczby dróg.",
+        "explanation": "Oznaczenie zaworu określa liczbę dróg i położeń suwaka – np. 3/2 oznacza zawór trójdrogowy, dwupołożeniowy.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat zaworu dławiącego w przewodzie pneumatycznym – zmniejszenie przekroju przepływu>",
+        "question": "Jakie jest zadanie zaworu dławiącego?",
+        "a.": "Reguluje natężenie przepływu czynnika roboczego poprzez zmianę przekroju przepływu, co wpływa na prędkość ruchu siłownika.",
+        "b.": "Utrzymuje stałe ciśnienie w układzie niezależnie od obciążenia.",
+        "c.": "Zmienia kierunek przepływu czynnika roboczego.",
+        "d.": "Odprowadza nadmiar powietrza do atmosfery.",
+        "explanation": "Zawór dławiący służy do regulacji ilości przepływającego czynnika, a tym samym do regulacji prędkości ruchu elementów wykonawczych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający dławiki: igłowy, szczelinowy i z regulacją stałą>",
+        "question": "Jak dzielą się dławiki ze względu na ich konstrukcję?",
+        "a.": "Na dławiki igłowe, szczelinowe i o przekroju stałym.",
+        "b.": "Na dławiki jednostronne i dwustronne bez regulacji.",
+        "c.": "Na dławiki sprężynowe i bezsprężynowe.",
+        "d.": "Na dławiki kierunkowe i równoległe.",
+        "explanation": "Konstrukcja dławika określa sposób regulacji przepływu – igłowe mają regulowaną igłę, szczelinowe – przesuwaną szczelinę przepływu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat zaworu dławiąco-zwrotnego z dławikiem i zaworem zwrotnym równolegle>",
+        "question": "Jaka jest funkcja zaworu dławiąco-zwrotnego?",
+        "a.": "Reguluje natężenie przepływu czynnika w jednym kierunku i umożliwia swobodny przepływ w kierunku przeciwnym.",
+        "b.": "Działa jako zawór odcinający, blokując przepływ w obu kierunkach.",
+        "c.": "Służy do redukcji ciśnienia w układzie.",
+        "d.": "Odpowiada za przełączanie kierunku przepływu czynnika roboczego.",
+        "explanation": "Zawór dławiąco-zwrotny łączy w sobie funkcje dławika i zaworu zwrotnego, umożliwiając jednokierunkową regulację przepływu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat przepływu czynnika przez zawór dławiąco-zwrotny w trybie pracy jako zawór zwrotny>",
+        "question": "Czy przepływ czynnika roboczego przez zawór dławiąco-zwrotny, w przypadku jego pracy jako zaworu zwrotnego, odbywa się tylko przez zawór zwrotny?",
+        "a.": "Tak, w kierunku swobodnego przepływu czynnik przechodzi wyłącznie przez zawór zwrotny, omijając dławik.",
+        "b.": "Nie, przepływ zawsze odbywa się częściowo przez dławik.",
+        "c.": "Tak, ale tylko przy niskim ciśnieniu roboczym.",
+        "d.": "Nie, bo zawór dławiąco-zwrotny działa jedynie jako dławik.",
+        "explanation": "W kierunku swobodnego przepływu element zwrotny otwiera się, omijając dławik – przepływ odbywa się wyłącznie przez zawór zwrotny.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat układu z zaworem 3/2 sterującym bezpośrednio siłownikiem jednostronnego działania>",
+        "question": "Na czym polega sterowanie bezpośrednie siłownikiem?",
+        "a.": "Na tym, że zawór sterujący jest połączony bezpośrednio z siłownikiem i bez pośrednictwa innych zaworów kieruje przepływem czynnika roboczego.",
+        "b.": "Na zastosowaniu dodatkowego zaworu pośredniczącego między źródłem zasilania a siłownikiem.",
+        "c.": "Na sterowaniu siłownikiem przez komputer przemysłowy.",
+        "d.": "Na regulacji siły siłownika poprzez zmianę ciśnienia w zbiorniku.",
+        "explanation": "W sterowaniu bezpośrednim zawór główny bezpośrednio doprowadza i odprowadza powietrze z siłownika, co jest rozwiązaniem prostym, lecz mniej elastycznym.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat układu z zaworem pomocniczym sterującym zaworem głównym pośrednio zasilającym siłownik>",
+        "question": "Na czym polega sterowanie pośrednie siłownikiem?",
+        "a.": "Na tym, że siłownik sterowany jest przez zawór główny, który z kolei jest uruchamiany przez zawór pomocniczy lub sygnał sterujący.",
+        "b.": "Na bezpośrednim zasilaniu siłownika powietrzem ze źródła bez zaworu.",
+        "c.": "Na ręcznym poruszaniu tłoczyska bez udziału zaworów.",
+        "d.": "Na użyciu zaworu zwrotnego zamiast sterującego.",
+        "explanation": "Sterowanie pośrednie wykorzystuje zawór pilotowy, który poprzez sygnał pneumatyczny steruje zaworem głównym doprowadzającym czynnik do siłownika.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat siłownika z zaworem dławiąco-zwrotnym na przewodzie wylotowym>",
+        "question": "W jaki sposób wpływa zawór dławiąco-zwrotny na prędkość ruchu tłoczyska?",
+        "a.": "Ogranicza natężenie przepływu czynnika w jednym kierunku, co powoduje zmniejszenie prędkości ruchu tłoczyska w danej fazie pracy.",
+        "b.": "Zwiększa prędkość ruchu tłoczyska niezależnie od kierunku przepływu.",
+        "c.": "Nie ma wpływu na prędkość ruchu, a jedynie na ciśnienie robocze.",
+        "d.": "Zatrzymuje ruch tłoczyska w końcowej fazie skoku.",
+        "explanation": "Zawór dławiąco-zwrotny służy do płynnej regulacji prędkości siłownika poprzez zmianę natężenia przepływu powietrza w jednym z kierunków ruchu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat siłownika z zaworem szybkiego spustu przy porcie wylotowym – skrócenie drogi przepływu powietrza>",
+        "question": "W jaki sposób wpływa zawór szybkiego spustu na prędkość ruchu tłoczyska?",
+        "a.": "Zwiększa prędkość ruchu tłoczyska, ponieważ umożliwia szybkie opróżnienie komory siłownika bezpośrednio do atmosfery.",
+        "b.": "Zmniejsza prędkość tłoczyska przez dodatkowy opór przepływu.",
+        "c.": "Nie wpływa na prędkość, a jedynie na kierunek ruchu.",
+        "d.": "Powoduje całkowite zatrzymanie ruchu tłoczyska.",
+        "explanation": "Zawór szybkiego spustu usuwa powietrze z siłownika bezpośrednio do atmosfery, omijając zawory sterujące, co przyspiesza jego ruch.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat porównawczy układu hydraulicznego i hydrokinetycznego – pierwszy z siłownikiem, drugi z turbiną i pompą połączonymi cieczą roboczą>",
+        "question": "Jakie są różnice pomiędzy napędem hydraulicznym a napędem hydrokinetycznym?",
+        "a.": "W napędzie hydraulicznym energia cieczy jest przekazywana pod ciśnieniem w sposób statyczny, a w hydrokinetycznym – przez ruch kinetyczny cieczy między pompą a turbiną.",
+        "b.": "W obu napędach energia przekazywana jest wyłącznie przez sprężone powietrze.",
+        "c.": "Napęd hydrauliczny wykorzystuje ruch obrotowy, a hydrokinetyczny tylko ruch liniowy.",
+        "d.": "Napęd hydrokinetyczny działa wyłącznie przy pomocy energii elektrycznej.",
+        "explanation": "Napęd hydrauliczny opiera się na ciśnieniu cieczy w zamkniętym układzie, natomiast w hydrokinetycznym energia przekazywana jest dynamicznie przez przepływ płynu między wirnikami.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<wykres lepkości cieczy hydraulicznej w funkcji temperatury – malejąca zależność>",
+        "question": "Jaki jest wpływ temperatury na właściwości cieczy hydraulicznej?",
+        "a.": "Wraz ze wzrostem temperatury lepkość cieczy maleje, co może prowadzić do zwiększenia przecieków i pogorszenia smarowania.",
+        "b.": "Wzrost temperatury powoduje wzrost lepkości cieczy, co poprawia szczelność układu.",
+        "c.": "Temperatura nie ma wpływu na lepkość cieczy hydraulicznej.",
+        "d.": "Wzrost temperatury zawsze zwiększa ciśnienie w układzie hydraulicznym.",
+        "explanation": "Lepkość cieczy maleje wraz z temperaturą, co wpływa na dokładność, szczelność i trwałość elementów układu hydraulicznego.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat przewężenia w przewodzie hydraulicznym – pęcherzyki pary tworzące się i zanikające za przewężeniem>",
+        "question": "Na czym polega zjawisko kawitacji?",
+        "a.": "Na tworzeniu się i zapadaniu pęcherzyków pary w cieczy w miejscach spadku ciśnienia poniżej ciśnienia parowania, co może uszkadzać elementy układu.",
+        "b.": "Na wzroście lepkości cieczy w wyniku wysokiego ciśnienia.",
+        "c.": "Na powstawaniu fal ciśnienia w przewodach o dużej średnicy.",
+        "d.": "Na zmianie kierunku przepływu w zaworach zwrotnych.",
+        "explanation": "Kawitacja powoduje erozję powierzchni metalowych i hałas – powstaje, gdy lokalne ciśnienie w cieczy spada poniżej ciśnienia parowania.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<symbol jednostki paskala: 1 Pa = 1 N/m² – schemat przedstawiający działanie siły na powierzchnię>",
+        "question": "Podaj definicję jednostki ciśnienia [Pa].",
+        "a.": "1 Pa to ciśnienie wywierane przez siłę 1 N równomiernie rozłożoną na powierzchni 1 m².",
+        "b.": "1 Pa to siła 1 N działająca na objętość 1 m³ cieczy.",
+        "c.": "1 Pa to siła 1 N działająca wzdłuż długości 1 m przewodu.",
+        "d.": "1 Pa to jednostka temperatury równoważna 1°C.",
+        "explanation": "Jednostka paskal (Pa) definiuje ciśnienie jako stosunek siły działającej prostopadle do powierzchni do pola tej powierzchni.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat rury o zmiennym przekroju z prędkościami v1, v2 i przekrojami S1, S2 – równanie S1·v1 = S2·v2>",
+        "question": "Zinterpretuj równanie ciągłości strugi.",
+        "a.": "W nieściśliwym płynie strumień objętościowy jest stały – iloczyn pola przekroju i prędkości przepływu w każdym punkcie rurociągu jest taki sam.",
+        "b.": "Ciśnienie cieczy wzrasta w przewężeniu rury.",
+        "c.": "Temperatura cieczy zależy od pola przekroju przepływu.",
+        "d.": "Strumień objętościowy zależy tylko od ciśnienia źródła.",
+        "explanation": "Równanie ciągłości opisuje zachowanie objętości płynu – im mniejszy przekrój, tym większa prędkość przepływu, przy zachowaniu stałego strumienia.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat prasy hydraulicznej – dwa tłoki o różnych powierzchniach połączone cieczą, symbolizujące prawo Pascala>",
+        "question": "Jakie znaczenie dla działania układów hydraulicznych ma prawo Pascala?",
+        "a.": "Prawo Pascala mówi, że ciśnienie wywierane na ciecz w zamkniętym układzie przenosi się jednakowo we wszystkich kierunkach, co umożliwia działanie prasy i siłowników hydraulicznych.",
+        "b.": "Prawo Pascala określa zmiany lepkości cieczy w funkcji temperatury.",
+        "c.": "Prawo Pascala dotyczy tylko przepływu gazów w układach pneumatycznych.",
+        "d.": "Prawo Pascala ogranicza wartość maksymalnego ciśnienia w układzie hydraulicznym.",
+        "explanation": "Zasada Pascala stanowi podstawę działania układów hydraulicznych – pozwala na uzyskanie dużych sił przy niewielkim ciśnieniu na małym tłoku.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat blokowy układu hydraulicznego z zaznaczonymi elementami: zbiornik, pompa, zawory sterujące, przewody, siłownik>",
+        "question": "Które elementy tworzą strukturę funkcjonalną układu hydraulicznego?",
+        "a.": "Źródło energii (pompa), urządzenia sterujące (zawory), elementy wykonawcze (siłowniki, silniki), przewody i zbiornik cieczy roboczej.",
+        "b.": "Jedynie pompa i siłownik bez zaworów sterujących.",
+        "c.": "Tylko przewody i zbiornik oleju.",
+        "d.": "Tylko elementy elektryczne i czujniki ciśnienia.",
+        "explanation": "Każdy układ hydrauliczny składa się z podstawowych grup: źródła energii, elementów sterujących, wykonawczych oraz pomocniczych (np. zbiornika i filtrów).",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat zaworów sterujących w układzie hydraulicznym – rozdzielacz, zawory przelewowe, dławiące>",
+        "question": "Jakie są zadania urządzeń sterujących w układach hydraulicznych?",
+        "a.": "Sterują kierunkiem, natężeniem przepływu i ciśnieniem cieczy roboczej w układzie.",
+        "b.": "Służą tylko do magazynowania energii w układzie.",
+        "c.": "Zmieniają właściwości chemiczne oleju hydraulicznego.",
+        "d.": "Utrzymują stałą temperaturę cieczy roboczej.",
+        "explanation": "Urządzenia sterujące decydują o sposobie działania układu hydraulicznego – kierują ruchem cieczy i regulują jej parametry.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<tabela parametrów pomp hydraulicznych: wydajność, ciśnienie nominalne, sprawność, prędkość obrotowa>",
+        "question": "Które parametry charakteryzują właściwości pomp hydraulicznych?",
+        "a.": "Wydajność, ciśnienie nominalne, sprawność i prędkość obrotowa.",
+        "b.": "Tylko temperatura oleju i długość przewodów.",
+        "c.": "Kolor obudowy i poziom hałasu.",
+        "d.": "Jedynie średnica przewodu tłocznego.",
+        "explanation": "Podstawowe parametry pomp określają ich zdolność do tłoczenia cieczy przy określonym ciśnieniu i wydajności.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat zaworu bezpieczeństwa w układzie hydraulicznym z zaznaczonym odpływem nadmiaru cieczy do zbiornika>",
+        "question": "Jaki jest cel stosowania zaworów bezpieczeństwa w układach hydraulicznych?",
+        "a.": "Chronią układ przed nadmiernym wzrostem ciśnienia poprzez odprowadzenie nadmiaru cieczy do zbiornika.",
+        "b.": "Służą do zwiększenia ciśnienia w układzie w razie potrzeby.",
+        "c.": "Zapobiegają przepływowi cieczy w jednym kierunku.",
+        "d.": "Sterują prędkością obrotową pompy.",
+        "explanation": "Zawory bezpieczeństwa to elementy zabezpieczające, które otwierają się po przekroczeniu dopuszczalnego ciśnienia w układzie.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<symbol zaworu zwrotnego – przepływ tylko w jednym kierunku>",
+        "question": "Jak brzmi nazwa urządzenia, które należy zamontować w układzie hydraulicznym, aby zagwarantować przepływ cieczy roboczej w przewodzie tylko w jednym kierunku bez możliwości cofania?",
+        "a.": "Zawór zwrotny.",
+        "b.": "Zawór bezpieczeństwa.",
+        "c.": "Zawór redukcyjny.",
+        "d.": "Zawór przelewowy.",
+        "explanation": "Zawór zwrotny przepuszcza ciecz tylko w jednym kierunku, zapobiegając jej cofaniu w układzie hydraulicznym.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat siłownika hydraulicznego z tłokiem i dopływem cieczy pod ciśnieniem>",
+        "question": "Jaka jest zasada działania siłowników hydraulicznych?",
+        "a.": "Ciecz robocza pod ciśnieniem działa na powierzchnię tłoka, powodując jego ruch liniowy lub obrotowy, przekształcając energię hydrauliczną w mechaniczną.",
+        "b.": "Ciecz robocza obraca się w układzie bez wywierania siły na tłok.",
+        "c.": "Ruch tłoka odbywa się tylko dzięki sprężynie powrotnej.",
+        "d.": "Siłownik działa wyłącznie w oparciu o ciśnienie atmosferyczne.",
+        "explanation": "Siłowniki przekształcają energię cieczy roboczej w energię mechaniczną, wykonując ruch liniowy lub obrotowy w zależności od konstrukcji.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat stacji olejowej z pompą, zbiornikiem, filtrem i chłodnicą oleju>",
+        "question": "Jakie są zadania stacji olejowej w układzie hydraulicznym?",
+        "a.": "Dostarczanie cieczy roboczej pod ciśnieniem, jej filtrowanie, chłodzenie i magazynowanie w zbiorniku.",
+        "b.": "Służy tylko do sterowania elektrycznego zaworami.",
+        "c.": "Zmienia kierunek przepływu cieczy roboczej.",
+        "d.": "Reguluje ciśnienie wyłącznie w przewodzie powrotnym.",
+        "explanation": "Stacja olejowa jest źródłem energii hydraulicznej – zapewnia obieg, czystość i odpowiednią temperaturę cieczy roboczej.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat siłownika hydraulicznego z zaworami dławiąco-zwrotnymi na wlocie i wylocie – regulacja prędkości tłoczyska>",
+        "question": "Jaka jest zasada nastawiania i regulacji prędkości tłoczysk siłowników hydraulicznych?",
+        "a.": "Prędkość tłoczyska reguluje się poprzez zmianę natężenia przepływu cieczy roboczej, najczęściej przy użyciu zaworów dławiących lub dławiąco-zwrotnych.",
+        "b.": "Regulacja odbywa się przez zmianę lepkości cieczy roboczej.",
+        "c.": "Prędkość tłoczyska zależy wyłącznie od długości przewodów hydraulicznych.",
+        "d.": "Zmiana prędkości następuje przez regulację ciśnienia powietrza w zbiorniku.",
+        "explanation": "Zawory dławiące ograniczają przepływ cieczy, co wpływa bezpośrednio na prędkość ruchu tłoczyska – większe dławnienie oznacza mniejszą prędkość.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat siłownika z zaworem dławiącym na przewodzie zasilającym – dawkowanie na wlocie>",
+        "question": "Na czym polega dawkowanie cieczy roboczej na wlocie siłownika hydraulicznego?",
+        "a.": "Polega na ograniczeniu ilości cieczy dopływającej do komory roboczej siłownika, co powoduje kontrolowany wzrost lub spadek prędkości wysuwu tłoczyska.",
+        "b.": "Na zwiększaniu ilości cieczy powracającej do zbiornika.",
+        "c.": "Na blokowaniu odpływu cieczy z siłownika.",
+        "d.": "Na zwiększaniu ciśnienia roboczego w pompie.",
+        "explanation": "Dawkowanie na wlocie reguluje prędkość poprzez kontrolę ilości cieczy wpływającej do siłownika – jest to sposób prosty, ale mniej stabilny przy zmianach obciążenia.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat siłownika z zaworem dławiącym na przewodzie powrotnym – dawkowanie na wylocie>",
+        "question": "Na czym polega dawkowanie cieczy roboczej na wylocie siłownika hydraulicznego?",
+        "a.": "Polega na dławieniu przepływu cieczy wypływającej z komory siłownika, co zapewnia stabilniejszą regulację prędkości tłoczyska niezależnie od obciążenia.",
+        "b.": "Na zwiększaniu przepływu przez zawór przelewowy.",
+        "c.": "Na ograniczaniu ilości cieczy dopływającej do pompy.",
+        "d.": "Na blokowaniu przepływu cieczy roboczej do siłownika.",
+        "explanation": "Dawkowanie na wylocie zapewnia płynniejszą regulację, ponieważ ciśnienie w komorze roboczej pozostaje bardziej stabilne niż przy dławieniu na wlocie.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<porównanie dwóch układów: dawkowanie na wlocie i na wylocie – różnice w stabilności i szybkości reakcji>",
+        "question": "Jakie są zalety nastawiania i regulacji prędkości tłoczyska siłownika hydraulicznego poprzez dawkowanie cieczy roboczej na wlocie?",
+        "a.": "Układ jest prostszy konstrukcyjnie, szybciej reaguje na zmiany sterowania i wymaga mniejszej ilości zaworów.",
+        "b.": "Daje lepszą stabilność ruchu tłoczyska przy dużych obciążeniach.",
+        "c.": "Chroni siłownik przed przeciążeniem hydraulicznym.",
+        "d.": "Umożliwia niezależną regulację kierunku ruchu.",
+        "explanation": "Dawkowanie na wlocie upraszcza układ hydrauliczny i zmniejsza straty przepływu, ale jest mniej odporne na zmienne obciążenia niż regulacja na wylocie.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat hydraulicznego układu Graetza z czterema zaworami zwrotnymi – umożliwiający prostowanie kierunku przepływu cieczy>",
+        "question": "Jaki jest cel stosowania hydraulicznego układu Graetza?",
+        "a.": "Służy do uzyskania jednokierunkowego przepływu cieczy roboczej niezależnie od kierunku ruchu siłownika.",
+        "b.": "Zapewnia zwiększenie ciśnienia cieczy w przewodzie tłocznym.",
+        "c.": "Stabilizuje temperaturę cieczy roboczej.",
+        "d.": "Zmniejsza prędkość ruchu tłoczyska przy dużym obciążeniu.",
+        "explanation": "Układ Graetza działa jak mostek prostowniczy – dzięki zaworom zwrotnym przepływ cieczy zawsze odbywa się w tym samym kierunku, co ułatwia sterowanie i pomiar przepływu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<diagram krokowy układu hydraulicznego – kolejność i zależności między ruchami siłowników>",
+        "question": "Jaki jest cel stosowania diagramu krokowego?",
+        "a.": "Służy do przedstawienia kolejności i zależności wykonywania ruchów w złożonych układach hydraulicznych lub pneumatycznych.",
+        "b.": "Pokazuje zależność ciśnienia od temperatury w układzie.",
+        "c.": "Służy do określania prędkości przepływu cieczy roboczej.",
+        "d.": "Określa wartości strat energetycznych w pompie hydraulicznej.",
+        "explanation": "Diagram krokowy jest narzędziem projektowym i diagnostycznym – umożliwia analizę sekwencji działania elementów w automatycznych układach sterowania.",
+        "correct": "1 0 0 0"
+    }
+]

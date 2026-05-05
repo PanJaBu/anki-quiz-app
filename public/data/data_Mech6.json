@@ -1,0 +1,1322 @@
+[
+    {
+        "img": "<schemat budowy sterownika PLC – CPU, pamięć, moduły wejść/wyjść, zasilacz, interfejs komunikacyjny>",
+        "question": "Jakie są podstawowe elementy składowe sterownika PLC?",
+        "a.": "Jednostka centralna (CPU), pamięć, moduły wejść/wyjść, zasilacz i interfejs komunikacyjny.",
+        "b.": "Tylko zasilacz i wyświetlacz.",
+        "c.": "Silnik, przekładnia i czujnik prędkości.",
+        "d.": "Tylko oprogramowanie bez części sprzętowej.",
+        "explanation": "Sterownik PLC składa się z CPU realizującego program, pamięci przechowującej dane, modułów I/O, zasilacza oraz interfejsów komunikacyjnych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek różnych typów konstrukcji sterowników – kompaktowy, modułowy, rozproszony>",
+        "question": "Jakie znasz rodzaje rozwiązań konstrukcyjnych sterowników?",
+        "a.": "Kompaktowe, modułowe i rozproszone.",
+        "b.": "Stałe, ruchome i przenośne.",
+        "c.": "Analogowe i cyfrowe bez możliwości rozbudowy.",
+        "d.": "Manualne i automatyczne bez CPU.",
+        "explanation": "Sterowniki mogą być kompaktowe (wszystko w jednej obudowie), modułowe (z możliwością rozbudowy) lub rozproszone (z wieloma jednostkami komunikującymi się sieciowo).",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat blokowy sterownika PLC – CPU, pamięć, magistrala systemowa, moduły I/O>",
+        "question": "Z jakich elementów zbudowany jest sterownik?",
+        "a.": "Z jednostki centralnej, pamięci programu, magistrali systemowej, modułów wejść/wyjść, zasilacza i interfejsów komunikacyjnych.",
+        "b.": "Z silnika, wirnika i stojana.",
+        "c.": "Z elementów hydraulicznych i pneumatycznych.",
+        "d.": "Z przewodów i wyłączników ręcznych.",
+        "explanation": "Budowa sterownika PLC obejmuje elementy elektroniczne służące do przetwarzania sygnałów i sterowania urządzeniami wykonawczymi.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<diagram działania PLC – odczyt wejść, wykonanie programu, aktualizacja wyjść>",
+        "question": "Omów zasadę działania sterownika.",
+        "a.": "Sterownik cyklicznie odczytuje sygnały z wejść, wykonuje program użytkownika i ustawia odpowiednie sygnały na wyjściach.",
+        "b.": "Sterownik działa jednorazowo po włączeniu zasilania.",
+        "c.": "Sterownik ręcznie przełącza obwody bez programu.",
+        "d.": "Sterownik działa wyłącznie w trybie analogowym.",
+        "explanation": "PLC realizuje cykliczny proces: odczyt wejść, przetwarzanie logiki programu i aktualizacja wyjść, zapewniając ciągłe sterowanie procesem.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<płyta czołowa sterownika PLC z diodami LED oznaczającymi RUN, ERROR, wejścia i wyjścia>",
+        "question": "Jaka jest rola wskaźników znajdujących się na płycie czołowej sterownika?",
+        "a.": "Informują o stanie pracy sterownika, błędach systemowych, aktywności wejść/wyjść i komunikacji.",
+        "b.": "Służą do regulacji napięcia zasilania.",
+        "c.": "Umożliwiają ręczne sterowanie siłownikami.",
+        "d.": "Pełnią wyłącznie funkcję dekoracyjną.",
+        "explanation": "Diodowe wskaźniki LED na płycie czołowej informują o trybie pracy (RUN/STOP), błędach (ERROR) oraz stanie sygnałów wejść i wyjść.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<tabela trybów pracy PLC – STOP, RUN, PROGRAM>",
+        "question": "Jakie są tryby pracy sterownika i co w każdym z nich jest realizowane?",
+        "a.": "STOP – zatrzymanie programu, RUN – wykonywanie programu, PROGRAM – wprowadzanie i edycja kodu sterującego.",
+        "b.": "RUN – testowanie sprzętu, STOP – restart systemu, PROGRAM – kontrola zasilania.",
+        "c.": "Tylko tryb automatyczny i manualny.",
+        "d.": "Tylko tryb testowy bez funkcji RUN.",
+        "explanation": "Sterownik PLC działa w trzech podstawowych trybach: STOP (program zatrzymany), RUN (realizacja logiki), PROGRAM (edycja programu).",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek modułów wejściowych i wyjściowych PLC – cyfrowe i analogowe>",
+        "question": "Jakie znasz rodzaje stopni wejściowych i wyjściowych sterownika?",
+        "a.": "Cyfrowe – dla sygnałów 0/1 oraz analogowe – dla sygnałów zmiennych w zakresie napięcia lub prądu.",
+        "b.": "Mechaniczne i pneumatyczne.",
+        "c.": "Zależne wyłącznie od temperatury pracy.",
+        "d.": "Wyłącznie przekaźnikowe i hydrauliczne.",
+        "explanation": "Wejścia i wyjścia sterownika dzieli się na cyfrowe (binarnie sterowane) i analogowe (dla sygnałów ciągłych).",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<tabela z przykładowymi danymi technicznymi PLC – napięcie, liczba wejść, prąd wyjść, temperatura pracy>",
+        "question": "Co to są i jakich informacji dostarczają dane techniczne sterownika?",
+        "a.": "To zestaw parametrów określających możliwości i ograniczenia urządzenia, takich jak napięcie zasilania, liczba wejść/wyjść, prędkość przetwarzania, zakres temperatury pracy.",
+        "b.": "To tylko informacje marketingowe producenta.",
+        "c.": "To opis wyglądu i koloru obudowy sterownika.",
+        "d.": "To dane dotyczące oprogramowania biurowego.",
+        "explanation": "Dane techniczne określają parametry pracy sterownika PLC, które są niezbędne do jego prawidłowego doboru i eksploatacji.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek urządzeń do programowania PLC – komputer PC, panel operatorski HMI, programator ręczny>",
+        "question": "Jakie urządzenia służą do programowania sterowników PLC?",
+        "a.": "Komputer PC z oprogramowaniem inżynierskim, panel operatorski HMI lub specjalny programator ręczny.",
+        "b.": "Wyłącznie telefon komórkowy z aplikacją diagnostyczną.",
+        "c.": "Oscyloskop i multimetr cyfrowy.",
+        "d.": "Zwykły kalkulator z funkcją pamięci.",
+        "explanation": "Sterowniki PLC programuje się najczęściej za pomocą komputera z dedykowanym oprogramowaniem (np. TIA Portal, Step 7, GX Developer) lub paneli serwisowych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat podziału języków programowania PLC wg IEC 61131-3 – tekstowe i graficzne>",
+        "question": "Jakie są podstawowe grupy języków programowania? Jakie języki są powszechnie stosowane?",
+        "a.": "Graficzne (LAD, FBD, SFC) i tekstowe (ST, IL/STL); najczęściej używane to LAD, FBD i STL.",
+        "b.": "Języki niskiego poziomu (Assembler) i wysokiego poziomu (C++, Java).",
+        "c.": "Języki opisowe i literackie.",
+        "d.": "Wyłącznie języki matematyczne.",
+        "explanation": "Według normy IEC 61131-3, języki programowania PLC dzieli się na graficzne (LAD, FBD, SFC) i tekstowe (ST, IL/STL).",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<przykładowy fragment schematu drabinkowego – styki, cewki, połączenia poziome i pionowe>",
+        "question": "Jakie są podstawowe symbole programowania drabinkowego LAD?",
+        "a.": "Styk NO (normalnie otwarty), styk NC (normalnie zamknięty), cewka, linie zasilania, połączenia poziome i pionowe.",
+        "b.": "Symbole matematyczne: plus, minus, pierwiastek.",
+        "c.": "Symbole graficzne rysunku technicznego.",
+        "d.": "Wyłącznie oznaczenia czasowe i licznikowe.",
+        "explanation": "W języku LAD program zapisuje się w formie drabinki z symbolami styków i cewek reprezentujących logikę działania obwodu elektrycznego.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<tabela z oznaczeniami zmiennych PLC – I, Q, M, T, C, V, DB>",
+        "question": "Jakie są oznaczenia i nazwy zmiennych używanych w pisaniu programów sterujących?",
+        "a.": "I – wejścia, Q – wyjścia, M – pamięć pomocnicza, T – timery, C – liczniki, V/DB/MW/MD – rejestry i pamięć danych.",
+        "b.": "X – zmienne matematyczne, Y – funkcje logiczne.",
+        "c.": "R – rezystancja, P – moc, U – napięcie.",
+        "d.": "A – akumulator, B – bateria, C – kondensator.",
+        "explanation": "W programach PLC stosuje się standardowe oznaczenia zmiennych: I – wejścia cyfrowe, Q – wyjścia, M – pamięć, T – czasomierze, C – liczniki, DB – bloki danych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<diagram porównujący zmienne bitowe i wielobitowe>",
+        "question": "Co to są zmienne bitowe i wielobitowe, podaj przykłady?",
+        "a.": "Bitowe zawierają jeden stan logiczny (np. I0.0, Q1.1), a wielobitowe przechowują liczby lub słowa danych (np. MW10, VD100).",
+        "b.": "Bitowe przechowują tekst, a wielobitowe – kolory.",
+        "c.": "Bitowe służą do zapisu czasu, a wielobitowe do rejestracji napięcia.",
+        "d.": "Nie ma różnicy między zmiennymi bitowymi a wielobitowymi.",
+        "explanation": "Zmienne bitowe odpowiadają za pojedyncze sygnały logiczne, a wielobitowe przechowują ciągi danych liczbowych lub analogowych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<tabela z przykładami zmiennych rejestrowych – liczby dziesiętne i heksadecymalne>",
+        "question": "Jakie liczby można zapisać przy pomocy zmiennych rejestrowych? Podaj przykłady w zapisie dziesiętnym i heksadecymalnym.",
+        "a.": "Liczby całkowite i zmiennoprzecinkowe, np. 25 (dziesiętnie), 19H (heksadecymalnie).",
+        "b.": "Tylko liczby ujemne i zespolone.",
+        "c.": "Wyłącznie liczby losowe.",
+        "d.": "Jedynie wartości logiczne 0 lub 1.",
+        "explanation": "Zmienne rejestrowe (np. MW, MD, VD) służą do zapisu danych liczbowych – mogą to być liczby w systemie dziesiętnym lub szesnastkowym.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek z przykładami adresacji PLC: I0.5, T33, C124, VB0, MW100, VD100>",
+        "question": "Co oznaczają zapisy: I0.5, T33, C124, VB0, MW100, VD100?",
+        "a.": "I0.5 – wejście cyfrowe, T33 – timer, C124 – licznik, VB0 – bajt danych, MW100 – słowo pamięci, VD100 – podwójne słowo danych.",
+        "b.": "Adresy portów sieciowych.",
+        "c.": "Numery katalogowe elementów sterownika.",
+        "d.": "Oznaczenia kabli zasilających.",
+        "explanation": "Adresacja w PLC określa typ i położenie danych: I – wejście, T – licznik czasu, C – licznik, V/MW/VD – pamięć danych różnej długości.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<porównanie kodu LAD i STL – graficzny i tekstowy zapis tej samej logiki>",
+        "question": "Czym się różni język programowania STL od języka LAD?",
+        "a.": "STL jest językiem tekstowym (lista instrukcji), a LAD graficznym (schemat drabinkowy).",
+        "b.": "STL służy tylko do testowania urządzeń mechanicznych.",
+        "c.": "LAD jest językiem tekstowym, a STL graficznym.",
+        "d.": "STL działa tylko na komputerach PC, a LAD na sterownikach PLC.",
+        "explanation": "STL (Statement List) to język niskiego poziomu przypominający asembler, podczas gdy LAD (Ladder Diagram) przedstawia logikę w formie graficznej drabinki.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat programu FBD – połączone bloki logiczne AND, OR, TIMER>",
+        "question": "Jak piszemy program w języku FBD?",
+        "a.": "Program tworzy się przez łączenie graficznych bloków funkcyjnych reprezentujących operacje logiczne i matematyczne.",
+        "b.": "Wpisując kod binarny 0 i 1 dla każdego wejścia.",
+        "c.": "Za pomocą rysowania obwodów elektrycznych w CAD.",
+        "d.": "Ręcznie zapisując wartości logiczne w tabeli.",
+        "explanation": "FBD (Function Block Diagram) to graficzny język programowania PLC, w którym funkcje logiczne i arytmetyczne są reprezentowane przez bloki połączone liniami sygnałów.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat etapów tworzenia projektu sterowniczego – analiza, projekt, programowanie, testowanie, wdrożenie>",
+        "question": "Jakie są etapy tworzenia projektu sterowniczego?",
+        "a.": "Analiza procesu, opracowanie schematu działania, napisanie programu, testowanie, uruchomienie i dokumentacja.",
+        "b.": "Wybór koloru obudowy, montaż, malowanie.",
+        "c.": "Projektowanie mechaniczne i transport elementów.",
+        "d.": "Tylko testowanie programu bez uruchamiania sprzętu.",
+        "explanation": "Tworzenie projektu sterowniczego obejmuje analizę procesu technologicznego, opracowanie programu sterującego, testy i wdrożenie systemu do eksploatacji.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat przedstawiający różnicę między adresowaniem absolutnym (np. I0.0, Q1.1) a symbolicznym (np. Start, Silnik_ON)>",
+        "question": "Jaka jest różnica między adresowaniem absolutnym a adresowaniem symbolicznym sterowników?",
+        "a.": "Adresowanie absolutne odnosi się do fizycznych adresów pamięci (np. I0.0), natomiast symboliczne wykorzystuje nazwy logiczne (np. START) przypisane do tych adresów.",
+        "b.": "Adresowanie absolutne dotyczy adresów IP, a symboliczne dotyczy nazw plików.",
+        "c.": "Adresowanie symboliczne dotyczy tylko portów komunikacyjnych.",
+        "d.": "Nie ma różnicy – oba sposoby oznaczają to samo.",
+        "explanation": "Adresowanie absolutne odwołuje się bezpośrednio do fizycznych lokalizacji pamięci sterownika, a symboliczne – do nazw logicznych ułatwiających czytelność programu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat działania timerów PLC – TON, TOF, TP – z wykresami czasowymi>",
+        "question": "Co to są timery, jakie znasz typy timerów i jak one działają?",
+        "a.": "Timery to liczniki czasu. TON – opóźnienie załączenia, TOF – opóźnienie wyłączenia, TP – impuls czasowy. Działają w oparciu o odmierzanie zadanych okresów czasu.",
+        "b.": "Timery to przekaźniki przeciążeniowe sterujące zasilaniem.",
+        "c.": "Timery mierzą napięcie zasilania w obwodzie.",
+        "d.": "Timery to elementy pamięci przechowujące dane użytkownika.",
+        "explanation": "Timery realizują funkcje czasowe w programie PLC – mogą generować opóźnienia, impulsowe lub czasowe sygnały sterujące.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat liczników PLC – CTU, CTD, CTUD – z wykresami zliczania impulsów>",
+        "question": "Co to są liczniki zdarzeń, jakie znasz rodzaje liczników, jak one działają?",
+        "a.": "Liczniki zliczają zdarzenia lub impulsy. CTU – zliczanie w górę, CTD – w dół, CTUD – w obu kierunkach. Po osiągnięciu wartości progowej zmieniają stan wyjścia.",
+        "b.": "Liczniki to układy regulujące napięcie sieciowe.",
+        "c.": "Liczniki służą tylko do pomiaru prędkości obrotowej.",
+        "d.": "Liczniki to pamięci pomocnicze do przechowywania tekstu.",
+        "explanation": "Liczniki PLC służą do zliczania impulsów lub zdarzeń i reagują po osiągnięciu zadanej wartości liczbowej.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<tabela z funkcjami logicznymi AND, OR, NOT, XOR – realizacja w LAD, STL, FBD>",
+        "question": "Jakie znasz podstawowe funkcje logiczne i jak są one realizowane w językach programowania LAD, STL i FBD?",
+        "a.": "Podstawowe funkcje to AND (iloczyn logiczny), OR (suma logiczna), NOT (negacja) i XOR (alternatywa wykluczająca); w LAD za pomocą styków, w STL instrukcjami, a w FBD blokami funkcyjnymi.",
+        "b.": "Podstawowe funkcje to SUM, SUB, MUL i DIV.",
+        "c.": "W językach LAD, STL i FBD nie stosuje się funkcji logicznych.",
+        "d.": "Wszystkie funkcje logiczne realizuje tylko język STL.",
+        "explanation": "Funkcje logiczne stanowią podstawę programowania PLC. W LAD przedstawione są graficznie, w STL – tekstowo, a w FBD – jako bloki logiczne.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat diagramu GRAFCET – kroki (S1, S2, S3), przejścia, warunki logiczne>",
+        "question": "Jakie są zasady programowania sterowania sekwencyjnego w oparciu o metodę Grafcet?",
+        "a.": "Proces opisuje się w postaci kroków i przejść, każdy krok odpowiada określonemu stanowi, a przejścia następują po spełnieniu warunków logicznych.",
+        "b.": "Grafcet opisuje wyłącznie obwody analogowe.",
+        "c.": "Grafcet dotyczy planowania czasu cyklu maszyn CNC.",
+        "d.": "Grafcet stosuje się tylko do wizualizacji bez funkcji sterujących.",
+        "explanation": "Grafcet opisuje procesy sekwencyjne jako ciąg kroków (stanów) i przejść logicznych między nimi, co pozwala łatwo odwzorować cykle pracy maszyn.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<ekran oprogramowania PLC – widok po uruchomieniu projektu>",
+        "question": "Jakie czynności należy wykonać po uruchomieniu oprogramowania specjalistycznego do programowania sterowników PLC?",
+        "a.": "Utworzyć nowy projekt, wybrać typ sterownika, skonfigurować moduły, ustawić komunikację i rozpocząć tworzenie programu.",
+        "b.": "Od razu wgrać gotowy plik bez konfiguracji.",
+        "c.": "Wyłączyć oprogramowanie i ponownie uruchomić komputer.",
+        "d.": "Zainstalować przypadkowe sterowniki urządzeń.",
+        "explanation": "Po uruchomieniu oprogramowania należy zdefiniować nowy projekt, wybrać model CPU i przygotować konfigurację sprzętową oraz komunikacyjną.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat wyboru CPU w konfiguratorze sprzętowym PLC>",
+        "question": "Jak i po co dokonujemy wyboru jednostki centralnej CPU?",
+        "a.": "Wybieramy model CPU odpowiadający wymaganiom projektu, m.in. liczbie wejść/wyjść, pamięci i komunikacji, aby zapewnić zgodność programu ze sprzętem.",
+        "b.": "CPU wybiera się losowo spośród dostępnych modeli.",
+        "c.": "CPU dobiera się wyłącznie według koloru obudowy.",
+        "d.": "Nie ma potrzeby wyboru CPU w oprogramowaniu.",
+        "explanation": "Wybór jednostki centralnej CPU pozwala dopasować możliwości obliczeniowe i interfejsy komunikacyjne do wymagań projektu automatyki.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<tabela parametrów komunikacyjnych PLC – protokoły, prędkość transmisji, adres IP>",
+        "question": "Jakie są podstawowe parametry komunikacyjne sterownika?",
+        "a.": "Rodzaj protokołu (np. PROFIBUS, PROFINET), prędkość transmisji, adres sieciowy, tryb komunikacji i liczba węzłów.",
+        "b.": "Temperatura pracy i waga urządzenia.",
+        "c.": "Rodzaj gniazdka elektrycznego i długość przewodu.",
+        "d.": "Numer seryjny i data produkcji.",
+        "explanation": "Parametry komunikacyjne określają sposób wymiany danych między sterownikiem a innymi urządzeniami sieci przemysłowej.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat sieci przemysłowej z adresacją urządzeń>",
+        "question": "Co to jest adres sieciowy sterownika?",
+        "a.": "To unikalny identyfikator sterownika w sieci przemysłowej umożliwiający jego komunikację z innymi urządzeniami.",
+        "b.": "Numer katalogowy urządzenia nadany przez producenta.",
+        "c.": "Numer seryjny zapisany w pamięci sterownika.",
+        "d.": "Kod programu sterującego.",
+        "explanation": "Adres sieciowy identyfikuje sterownik w sieci komunikacyjnej i umożliwia przesyłanie danych między urządzeniami.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<diagram czynników wpływających na wybór języka – typ aplikacji, doświadczenie programisty, czytelność programu>",
+        "question": "Co decyduje o wyborze języka programowania sterownika?",
+        "a.": "Rodzaj zadania sterującego, złożoność programu, czytelność kodu i doświadczenie programisty.",
+        "b.": "Cena oprogramowania i kolor interfejsu graficznego.",
+        "c.": "Rodzaj komputera użytego do programowania.",
+        "d.": "Data instalacji oprogramowania.",
+        "explanation": "Wybór języka zależy od aplikacji – LAD dla prostych układów logicznych, FBD dla funkcji blokowych, STL/ST dla złożonych operacji matematycznych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<porównanie adresowania absolutnego i symbolicznego w programie PLC – nazwy logiczne vs adresy fizyczne>",
+        "question": "Jakie są zalety pisania programów sterujących z adresowaniem symbolicznym?",
+        "a.": "Zwiększa czytelność programu, ułatwia modyfikacje, pozwala na jednoznaczną identyfikację funkcji i zmiennych.",
+        "b.": "Utrudnia analizę programu i powoduje błędy przy kompilacji.",
+        "c.": "Wymaga większej ilości pamięci i spowalnia działanie programu.",
+        "d.": "Nie ma żadnych zalet w porównaniu z adresowaniem absolutnym.",
+        "explanation": "Adresowanie symboliczne sprawia, że program staje się bardziej zrozumiały, a zmienne łatwiejsze do rozpoznania i modyfikacji.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat procesu kompilacji – kod źródłowy → kompilator → kod maszynowy → sterownik>",
+        "question": "Co to jest kompilacja? Czy można przesłać program z programatora do sterownika bez kompilacji?",
+        "a.": "Kompilacja to tłumaczenie kodu źródłowego programu na język zrozumiały dla sterownika; bez kompilacji nie można przesłać programu.",
+        "b.": "Kompilacja to proces testowania poprawności programu po jego wgraniu.",
+        "c.": "Kompilacja dotyczy tylko tworzenia dokumentacji technicznej.",
+        "d.": "Program zawsze można przesłać bez kompilacji.",
+        "explanation": "Kompilacja jest niezbędnym etapem – kod źródłowy musi zostać przetworzony na postać wykonywalną, zrozumiałą dla CPU sterownika.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<ekran błędu podczas ładowania programu do sterownika – komunikat o braku połączenia lub błędzie konfiguracji>",
+        "question": "Co należy zrobić, jeżeli ładowanie programu zakończyło się niepowodzeniem?",
+        "a.": "Sprawdzić połączenie komunikacyjne, konfigurację sterownika, poprawność kompilacji i ponowić przesyłanie programu.",
+        "b.": "Zrestartować komputer bez analizy błędu.",
+        "c.": "Usunąć projekt z programatora i rozpocząć od nowa.",
+        "d.": "Zignorować komunikat i kontynuować pracę.",
+        "explanation": "Najczęstszą przyczyną błędu jest problem z komunikacją lub konfiguracją sterownika – należy przeprowadzić diagnostykę połączenia i kompilacji.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat wpływu parametrów na czas przesyłu programu – rozmiar pliku, typ interfejsu, prędkość transmisji>",
+        "question": "Od czego zależy czas przesyłu programu z programatora do sterownika?",
+        "a.": "Od wielkości programu, szybkości łącza komunikacyjnego i obciążenia procesora sterownika.",
+        "b.": "Od koloru obudowy sterownika.",
+        "c.": "Od liczby użytkowników w sieci lokalnej biura.",
+        "d.": "Od czasu pracy programu antywirusowego.",
+        "explanation": "Czas przesyłu programu zależy głównie od objętości danych i przepustowości interfejsu (USB, Ethernet, RS-485).",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<porównanie języków LAD, STL i FBD – LAD graficzny, STL tekstowy, FBD blokowy>",
+        "question": "Który język programowania jest bardziej komunikatywny: LAD, STL, czy FBD?",
+        "a.": "LAD – ponieważ jest graficzny, intuicyjny i przypomina schematy elektryczne.",
+        "b.": "STL – ponieważ używa skrótów instrukcji maszynowych.",
+        "c.": "FBD – ponieważ używa tylko bloków matematycznych.",
+        "d.": "Wszystkie języki są równie trudne do zrozumienia.",
+        "explanation": "Język LAD jest najbardziej czytelny i intuicyjny dla osób znających schematy obwodów sterowania przekaźnikowego.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<fragment programu LAD – pozycje instrukcji na początku i końcu szczebla>",
+        "question": "Jakie instrukcje nie mogą rozpoczynać szczebla programu sterującego, a jakie go kończyć?",
+        "a.": "Szczebel nie może zaczynać się od instrukcji cewki lub funkcji kończącej (np. SET, OUT) ani kończyć się stykami logicznymi (np. AND, OR).",
+        "b.": "Szczebel zawsze zaczyna się od komentarza i kończy pustą linią.",
+        "c.": "Nie ma żadnych ograniczeń w kolejności instrukcji.",
+        "d.": "Szczebel musi zaczynać się od timera i kończyć od licznika.",
+        "explanation": "Każdy szczebel programu LAD musi zaczynać się od warunków logicznych (styków) i kończyć cewką lub blokiem funkcyjnym wyjścia.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat komunikacji PLC – przesyłanie programu przez kabel Ethernet/USB w obu kierunkach>",
+        "question": "W jaki sposób przesyłamy program z programatora do sterownika, a w jaki ze sterownika do programatora?",
+        "a.": "Program przesyła się przez interfejs komunikacyjny (USB, Ethernet, RS-485); kierunek określa funkcja „Download” (do sterownika) i „Upload” (ze sterownika).",
+        "b.": "Program przesyła się tylko przez kartę SD bez komunikacji.",
+        "c.": "Program kopiowany jest ręcznie na pendrive.",
+        "d.": "Przesyłanie odbywa się automatycznie bez potwierdzenia użytkownika.",
+        "explanation": "Funkcje Download i Upload umożliwiają przesyłanie programu między programatorem a sterownikiem za pomocą odpowiedniego interfejsu komunikacyjnego.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<porównanie kodu programu w programatorze i kodu po wgraniu do PLC>",
+        "question": "Czy program przesłany ze sterownika do programatora ma taką samą postać jak program w programatorze?",
+        "a.": "Nie zawsze – może być zapisany w formie skompilowanej, czyli nieczytelnej dla użytkownika bez plików źródłowych.",
+        "b.": "Tak, zawsze zachowuje pełną strukturę graficzną i komentarze.",
+        "c.": "Nie, ponieważ sterownik usuwa część kodu po uruchomieniu.",
+        "d.": "Tak, ale tylko w przypadku sterowników analogowych.",
+        "explanation": "Sterownik przechowuje program w postaci skompilowanej – do jego edycji potrzebne są pliki źródłowe z oprogramowania inżynierskiego.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat PLC bez połączenia z komputerem – praca w trybie autonomicznym>",
+        "question": "Czy można programować sterownik, który nie jest podłączony do programatora?",
+        "a.": "Nie, ponieważ wprowadzanie lub modyfikacja programu wymaga komunikacji z programatorem lub komputerem.",
+        "b.": "Tak, wystarczy wprowadzić program za pomocą przycisków na obudowie PLC.",
+        "c.": "Tak, ale tylko w trybie offline bez zapisu do pamięci.",
+        "d.": "Tak, poprzez połączenie bezprzewodowe bez oprogramowania.",
+        "explanation": "Programowanie sterownika wymaga aktywnego połączenia z programatorem, ponieważ to on wysyła i zapisuje kod w pamięci PLC.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat robota przemysłowego manipulującego detalami na linii produkcyjnej>",
+        "question": "Na czym polegają czynności manipulacyjne wykonywane na obiektach podczas realizacji procesów produkcyjnych?",
+        "a.": "Na przemieszczaniu, obracaniu, ustawianiu, chwytaniu i zwalnianiu obiektów w określonym porządku technologicznym.",
+        "b.": "Na obróbce skrawaniem i hartowaniu elementów metalowych.",
+        "c.": "Na wykonywaniu pomiarów kontrolnych detali.",
+        "d.": "Na programowaniu systemu sterowania PLC.",
+        "explanation": "Czynności manipulacyjne obejmują przemieszczanie i pozycjonowanie przedmiotów w przestrzeni roboczej robota w celu realizacji procesu technologicznego.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek porównujący robota przemysłowego z prostym manipulatorem mechanicznym>",
+        "question": "Jakie są cechy odróżniające roboty przemysłowe od innych maszyn manipulacyjnych?",
+        "a.": "Roboty mają programowalną strukturę sterowania, wieloosiową budowę i zdolność wykonywania różnych zadań bez zmiany konstrukcji.",
+        "b.": "Roboty mogą być obsługiwane tylko ręcznie przez operatora.",
+        "c.": "Roboty są pozbawione układów sterowania elektronicznego.",
+        "d.": "Roboty wykonują wyłącznie ruchy liniowe.",
+        "explanation": "Roboty przemysłowe wyróżniają się programowalnością, autonomią działania i możliwością adaptacji do różnych zadań produkcyjnych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat blokowy podstawowych układów funkcjonalnych robota – mechaniczny, napędowy, sensoryczny, sterowania>",
+        "question": "Wyspecyfikuj podstawowe układy funkcjonalne robota.",
+        "a.": "Układ mechaniczny, napędowy, sensoryczny, sterowania i zasilania.",
+        "b.": "Układ cieplny, pneumatyczny i chłodzenia.",
+        "c.": "Układ hydrauliczny i wentylacyjny.",
+        "d.": "Układ informatyczny i komunikacyjny.",
+        "explanation": "Robot składa się z układów zapewniających ruch (mechaniczny, napędowy), percepcję (sensoryczny) oraz kontrolę i koordynację działań (sterowania).",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<diagram funkcjonalny robota – zależności między układami mechanicznym, napędowym, sensorycznym i sterowania>",
+        "question": "Jakie są zadania poszczególnych układów funkcjonalnych robota?",
+        "a.": "Układ mechaniczny realizuje ruch, napędowy go wywołuje, sensoryczny dostarcza informacji o otoczeniu, a układ sterowania koordynuje ich działanie.",
+        "b.": "Układ mechaniczny odpowiada tylko za estetykę, a napędowy za chłodzenie.",
+        "c.": "Układ sterowania odpowiada wyłącznie za zasilanie robota.",
+        "d.": "Układ sensoryczny pełni funkcję napędu pomocniczego.",
+        "explanation": "Każdy układ robota pełni odrębną funkcję – mechaniczny umożliwia ruch, napędowy go realizuje, sensoryczny zbiera dane, a sterowanie zarządza całym procesem.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat zasilania robota – elektryczne, hydrauliczne, pneumatyczne>",
+        "question": "Jakie są rodzaje energii zasilania robota?",
+        "a.": "Elektryczna, hydrauliczna i pneumatyczna.",
+        "b.": "Tylko cieplna i chemiczna.",
+        "c.": "Słoneczna i magnetyczna.",
+        "d.": "Tylko energia potencjalna i kinetyczna.",
+        "explanation": "Roboty przemysłowe mogą być zasilane energią elektryczną (najczęściej), hydrauliczną lub pneumatyczną – w zależności od wymaganej siły i precyzji ruchu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<porównanie budowy człowieka i robota – kończyny, przeguby, sensory, układ sterowania>",
+        "question": "Jakie są podobieństwa w budowie człowieka i współczesnych robotów?",
+        "a.": "Oba systemy mają przeguby (stawy), układ napędowy (mięśnie/silniki), sensory (zmysły/czujniki) i układ sterowania (mózg/CPU).",
+        "b.": "Roboty i ludzie nie mają żadnych cech wspólnych konstrukcyjnie.",
+        "c.": "Robot ma wyłącznie układ hydrauliczny, człowiek – nie.",
+        "d.": "Roboty nie mają systemu sterowania odpowiadającego mózgowi.",
+        "explanation": "Budowa robota wzorowana jest na anatomii człowieka – układy napędowe odpowiadają mięśniom, sensory – zmysłom, a sterowanie – funkcjom mózgu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek chwytaka robota – różne typy: szczękowy, podciśnieniowy, magnetyczny>",
+        "question": "Omów rolę kiści robota.",
+        "a.": "Kiść (chwytak) umożliwia uchwycenie, przeniesienie i zwolnienie przedmiotu w procesie manipulacji.",
+        "b.": "Kiść robota odpowiada tylko za sterowanie ruchem całego ramienia.",
+        "c.": "Kiść robota jest elementem zasilania układu napędowego.",
+        "d.": "Kiść pełni wyłącznie funkcję ozdobną.",
+        "explanation": "Kiść robota, zwana chwytakiem, pełni funkcję końcówki roboczej – realizuje czynności manipulacyjne poprzez różne rodzaje chwytów.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat par kinematycznych – obrotowa, przesuwna, kulista>",
+        "question": "Scharakteryzuj pary kinematyczne wykorzystywane w budowie współczesnych robotów.",
+        "a.": "Stosuje się pary obrotowe, przesuwne i kuliste – umożliwiające ruchy obrotowe i liniowe poszczególnych członów robota.",
+        "b.": "W robotach nie stosuje się par kinematycznych.",
+        "c.": "Pary kinematyczne występują tylko w mechanizmach hydraulicznych.",
+        "d.": "Stosuje się wyłącznie pary nieruchome.",
+        "explanation": "Pary kinematyczne określają sposób połączenia elementów robota i umożliwiają jego ruch – translacyjny lub obrotowy.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<diagram przedstawiający parametry kinematyczne robota – liczba osi, zasięg, udźwig, prędkość, dokładność>",
+        "question": "Jakie parametry umożliwiają scharakteryzowanie układów kinematycznych robotów?",
+        "a.": "Liczba stopni swobody, zasięg roboczy, prędkość, udźwig, powtarzalność i dokładność pozycjonowania.",
+        "b.": "Masa całkowita i kolor obudowy.",
+        "c.": "Tylko moc silnika i pojemność pamięci sterownika.",
+        "d.": "Wielkość chwytaka i rodzaj materiału konstrukcyjnego.",
+        "explanation": "Parametry kinematyczne opisują zdolności ruchowe robota i jego możliwości manipulacyjne w przestrzeni roboczej.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat układów współrzędnych robota – bazowy, narzędzia, roboczy, obiektowy>",
+        "question": "Podaj nazwy i określ położenie układów współrzędnych stosowanych do charakteryzowania możliwości manipulacyjnych członów robota.",
+        "a.": "Układ bazowy (na podstawie robota), układ narzędzia (w chwytaku), układ roboczy (w przestrzeni działania) i układ obiektowy (przy manipulowanym przedmiocie).",
+        "b.": "Układ współrzędnych kartezjański i biegunowy w jednym punkcie.",
+        "c.": "Układ odniesienia umieszczony na czujniku położenia.",
+        "d.": "Tylko jeden układ globalny wspólny dla wszystkich robotów.",
+        "explanation": "Różne układy współrzędnych umożliwiają precyzyjne określanie pozycji i orientacji elementów robota względem jego podstawy i przedmiotu pracy.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<porównanie struktur kinematycznych robotów: kartezjański – osie liniowe X,Y,Z; cylindryczny – ruch obrotowy + dwa przesuwne; sferyczny – dwa obroty + jeden przesuw; antropomorficzny – ramię jak człowiek; SCARA – ruchy poziome + pionowe>",
+        "question": "Objaśnij strukturę kinematyczną robotów: a) kartezjańskich, b) cylindrycznych, c) sferycznych, d) antropomorficznych, e) SCARA.",
+        "a.": "Kartezjański – trzy ruchy liniowe X,Y,Z; cylindryczny – obrót i dwa przesuwy; sferyczny – dwa obroty i jeden przesuw; antropomorficzny – budowa ramienia człowieka; SCARA – dwa ruchy obrotowe w płaszczyźnie i ruch pionowy.",
+        "b.": "Wszystkie roboty mają identyczną strukturę – trzy przeguby obrotowe.",
+        "c.": "Roboty SCARA i antropomorficzne mają tylko ruchy liniowe.",
+        "d.": "Robot kartezjański ma wyłącznie ruch obrotowy w jednej osi.",
+        "explanation": "Każdy typ robota ma charakterystyczną strukturę kinematyczną wynikającą z rodzaju przegubów i stopni swobody, które decydują o kierunku ruchu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat zespołu ruchu robota – napęd, przekładnia, przegub, czujniki>",
+        "question": "Opisz strukturę zespołu ruchu robota.",
+        "a.": "Zespół ruchu składa się z napędu, przekładni mechanicznej, przegubu oraz czujników pomiarowych położenia i prędkości.",
+        "b.": "Zespół ruchu tworzy jedynie chwytak bez żadnych napędów.",
+        "c.": "Zespół ruchu obejmuje tylko elementy elektryczne bez mechaniki.",
+        "d.": "Zespół ruchu to wyłącznie układ czujników bez elementów napędowych.",
+        "explanation": "Zespół ruchu odpowiada za przekształcenie energii napędu w kontrolowany ruch członów robota i zawiera elementy mechaniczne, napędowe i sensoryczne.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat rodzajów napędów – elektryczny, hydrauliczny, pneumatyczny>",
+        "question": "Jakie rodzaje energii wykorzystywane są do napędu zespołów ruchu robotów?",
+        "a.": "Elektryczna, hydrauliczna i pneumatyczna.",
+        "b.": "Cieplna i jądrowa.",
+        "c.": "Akustyczna i magnetyczna.",
+        "d.": "Optyczna i chemiczna.",
+        "explanation": "Roboty przemysłowe wykorzystują różne rodzaje energii w zależności od wymagań siły, prędkości i precyzji ruchu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<porównanie napędów robotów z napędami innych maszyn – precyzja, dynamika, kontrola położenia>",
+        "question": "Opisz cechy napędów maszyn manipulacyjnych i robotów odróżniające je od napędów innych maszyn technologicznych.",
+        "a.": "Charakteryzują się dużą precyzją pozycjonowania, wysoką dynamiką i możliwością sterowania momentem oraz prędkością w czasie rzeczywistym.",
+        "b.": "Są mniej dokładne, ale prostsze w budowie.",
+        "c.": "Nie wymagają sterowania elektronicznego.",
+        "d.": "Działają tylko w jednym kierunku bez regulacji.",
+        "explanation": "Napędy robotów muszą zapewniać płynny, precyzyjny i dynamiczny ruch, co odróżnia je od standardowych napędów maszyn technologicznych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat napędu elektrycznego robota – silnik, przetwornik, sterownik>",
+        "question": "Objaśnij powody coraz szerszego stosowania w robotach napędów elektrycznych.",
+        "a.": "Zapewniają wysoką precyzję, łatwe sterowanie, niskie zużycie energii i czystość eksploatacji w porównaniu z napędami hydraulicznymi i pneumatycznymi.",
+        "b.": "Są tańsze, ale mniej dokładne niż napędy hydrauliczne.",
+        "c.": "Wymagają intensywnego chłodzenia i dużych zbiorników oleju.",
+        "d.": "Są stosowane tylko w robotach o dużych udźwigach.",
+        "explanation": "Napędy elektryczne są uniwersalne, czyste i energooszczędne, dlatego coraz częściej zastępują inne typy napędów w robotyce przemysłowej.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat przekładni ruchu – reduktor planetarny między silnikiem a przegubem robota>",
+        "question": "Jaki jest cel stosowania przekładni ruchu w zespołach ruchu robotów?",
+        "a.": "W celu dostosowania prędkości i momentu obrotowego silnika do wymagań przegubu oraz zwiększenia precyzji pozycjonowania.",
+        "b.": "W celu zwiększenia zużycia energii i masy robota.",
+        "c.": "Tylko dla ochrony silnika przed przeciążeniem.",
+        "d.": "Aby zmniejszyć dokładność ruchu i szybkość obrotu.",
+        "explanation": "Przekładnie umożliwiają dopasowanie parametrów napędu do potrzeb mechanicznych układu oraz zwiększają moment obrotowy przy mniejszej prędkości.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat z układem czujników położenia i prędkości – enkoder, czujnik krańcowy>",
+        "question": "Do czego wykorzystywane są sygnały generowane przez układy pomiarowe stosowane w zespołach ruchu robotów?",
+        "a.": "Do kontroli położenia, prędkości i przyspieszenia członów robota oraz do korekcji błędów pozycjonowania w czasie rzeczywistym.",
+        "b.": "Do pomiaru temperatury otoczenia robota.",
+        "c.": "Do sygnalizacji awarii oświetlenia.",
+        "d.": "Do sterowania systemem chłodzenia robota.",
+        "explanation": "Sygnały z układów pomiarowych służą jako sprzężenie zwrotne, umożliwiając precyzyjne sterowanie ruchem i pozycjonowaniem robota.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek chwytaka robota – prawidłowe dopasowanie do kształtu i ciężaru przedmiotu>",
+        "question": "Wyjaśnij warunki poprawnego chwycenia obiektu przez chwytak robota.",
+        "a.": "Chwytak musi zapewniać odpowiednią siłę nacisku, stabilność przedmiotu, brak uszkodzeń i możliwość jego kontrolowanego zwolnienia.",
+        "b.": "Chwytak powinien zawsze ściskać przedmiot z maksymalną siłą.",
+        "c.": "Wystarczy, by przedmiot znalazł się w pobliżu chwytaka.",
+        "d.": "Chwytak działa poprawnie niezależnie od kształtu obiektu.",
+        "explanation": "Poprawny chwyt zapewnia stabilne utrzymanie przedmiotu bez jego uszkodzenia i z zachowaniem pełnej kontroli podczas manipulacji.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<przegląd typów chwytaków – mechaniczny, pneumatyczny, magnetyczny, podciśnieniowy>",
+        "question": "Scharakteryzuj rodzaje chwytaków stosowanych w robotach.",
+        "a.": "Mechaniczne (szczękowe), pneumatyczne, magnetyczne i podciśnieniowe – różnią się sposobem działania i zastosowaniem w zależności od rodzaju obiektu.",
+        "b.": "Tylko magnetyczne i cieplne.",
+        "c.": "Wyłącznie podciśnieniowe z jedną przyssawką.",
+        "d.": "Wyłącznie chwytaki hydrauliczne do elementów metalowych.",
+        "explanation": "Rodzaj chwytaka zależy od kształtu i materiału przedmiotu – mechaniczne do elementów sztywnych, podciśnieniowe do płaskich, magnetyczne do stalowych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat układów sensorycznych robota – czujniki siły, momentu, położenia, wizyjne>",
+        "question": "Jaki jest cel stosowania układów sensorycznych w robotach?",
+        "a.": "Umożliwiają odbiór informacji z otoczenia i dostosowanie działania robota do zmiennych warunków pracy.",
+        "b.": "Służą tylko do dekoracji lub oświetlenia robota.",
+        "c.": "Odpowiadają za zasilanie napędów robota.",
+        "d.": "Służą jedynie do chłodzenia elementów robota.",
+        "explanation": "Układy sensoryczne zwiększają autonomię robota – pozwalają mu reagować na zmiany otoczenia i wykonywać zadania precyzyjnie oraz bezpiecznie.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek układu taktylnego robota – czujniki dotykowe rozmieszczone na palcach chwytaka>",
+        "question": "Wyjaśnij przeznaczenie układów taktylnych.",
+        "a.": "Służą do wykrywania kontaktu z obiektem, pomiaru siły nacisku oraz kształtu przedmiotu podczas chwytania.",
+        "b.": "Służą do komunikacji robota z operatorem głosowo.",
+        "c.": "Odpowiadają za pomiar temperatury otoczenia robota.",
+        "d.": "Zasilają napędy elektryczne robota.",
+        "explanation": "Układy taktylne (dotykowe) umożliwiają robotowi „wyczuwanie” kontaktu z obiektem i kontrolowanie siły chwytu, co zwiększa precyzję manipulacji.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat działania przetwornika poślizgu – czujnik wykrywający różnicę prędkości między chwytakiem a obiektem>",
+        "question": "Wyjaśnij sposób działania przetwornika poślizgu.",
+        "a.": "Wykrywa różnicę prędkości między powierzchnią chwytaka a obiektem, informując o rozpoczęciu poślizgu i umożliwiając korektę siły chwytu.",
+        "b.": "Mierzy prędkość obrotową silników robota.",
+        "c.": "Monitoruje napięcie zasilania napędów.",
+        "d.": "Wykrywa przeciążenie układu sterowania.",
+        "explanation": "Przetwornik poślizgu pozwala robotowi reagować na utratę przyczepności chwytanego przedmiotu, utrzymując stabilny uchwyt.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat blokowy układu sterowania robota – moduły: sensoryczny, decyzyjny, wykonawczy>",
+        "question": "Omów zadania układów sterowania robotów.",
+        "a.": "Sterują ruchem manipulatora, przetwarzają dane z czujników, realizują program i zapewniają bezpieczeństwo pracy robota.",
+        "b.": "Służą tylko do zasilania układów hydraulicznych.",
+        "c.": "Odpowiadają za komunikację robota z człowiekiem.",
+        "d.": "Kontrolują wyłącznie temperaturę silników.",
+        "explanation": "Układy sterowania robotów realizują funkcje decyzyjne, koordynują pracę układów napędowych i zapewniają prawidłowe wykonanie zadań robota.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<diagram hierarchicznej struktury sterowania – poziomy: nadrzędny, pośredni, wykonawczy>",
+        "question": "Na czym polega hierarchiczność struktury układów sterowania współczesnych robotów?",
+        "a.": "Polega na podziale funkcji sterowania na poziomy: nadrzędny (planowanie), pośredni (koordynacja) i wykonawczy (realizacja ruchu).",
+        "b.": "Sterowanie odbywa się wyłącznie na jednym poziomie bez koordynacji.",
+        "c.": "Hierarchiczność dotyczy tylko układów mechanicznych.",
+        "d.": "Oznacza sterowanie równoległe wszystkimi osiami bez nadzoru.",
+        "explanation": "Hierarchiczna struktura sterowania pozwala na logiczny podział zadań, dzięki czemu robot działa bardziej efektywnie i niezależnie na różnych poziomach funkcji.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat blokowy sterowania robota – cele: pozycjonowanie, trajektoria, bezpieczeństwo>",
+        "question": "Jakie są cele sterowania robotów?",
+        "a.": "Zapewnienie dokładności ruchu, stabilności, bezpieczeństwa pracy i realizacji zadań w zadanym czasie i przestrzeni.",
+        "b.": "Zmniejszenie zużycia energii przez układ napędowy.",
+        "c.": "Zapobieganie przegrzaniu elementów robota.",
+        "d.": "Utrzymywanie stałej temperatury w otoczeniu robota.",
+        "explanation": "Sterowanie robotem ma na celu zapewnienie prawidłowego przebiegu ruchu oraz bezpiecznego i efektywnego wykonania operacji technologicznych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek operatora uczącego robota przy pomocy programatora ręcznego – panel z przyciskami i joystickiem>",
+        "question": "Opisz sposób programowania maszyn manipulacyjnych i robotów metodą uczenia z wykorzystaniem programatora ręcznego.",
+        "a.": "Operator za pomocą programatora ustawia kolejne pozycje i ruchy robota, które są zapisywane w pamięci sterownika jako punkty programu.",
+        "b.": "Program tworzony jest automatycznie przez czujniki robota.",
+        "c.": "Ruchy robota są wprowadzane wyłącznie z poziomu komputera.",
+        "d.": "Metoda nie wymaga interakcji operatora.",
+        "explanation": "Metoda uczenia polega na ręcznym wprowadzaniu kolejnych pozycji robota przy użyciu programatora, co pozwala tworzyć trajektorię jego ruchu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat nauczania robota przez ręczne prowadzenie chwytaka – operator przesuwa element roboczy>",
+        "question": "Objaśnij sposób programowania maszyn manipulacyjnych i robotów metodą nauczania z wykorzystaniem ręcznego prowadzenia elementu roboczego.",
+        "a.": "Operator prowadzi ręcznie chwytak robota po żądanej trajektorii, a sterownik zapisuje położenia i parametry ruchu w pamięci.",
+        "b.": "Robot samodzielnie generuje ruchy w oparciu o analizę wizyjną.",
+        "c.": "Operator wpisuje współrzędne bez fizycznego kontaktu z robotem.",
+        "d.": "Metoda polega na sterowaniu głosowym bez użycia czujników.",
+        "explanation": "Podczas ręcznego prowadzenia robota operator zapisuje rzeczywiste pozycje i ruchy w pamięci sterownika, co stanowi podstawę programu ruchu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<diagram procesu programowania ukierunkowanego celowo – definiowanie celu, analiza trajektorii, automatyczna optymalizacja>",
+        "question": "Na czym polega programowanie ukierunkowane celowo?",
+        "a.": "Na określeniu celu działania robota, a nie jego poszczególnych ruchów – sterownik sam oblicza i optymalizuje trajektorię.",
+        "b.": "Na manualnym sterowaniu każdą osią robota.",
+        "c.": "Na zapisie ruchów w języku LAD.",
+        "d.": "Na tworzeniu programu bez określania celu zadania.",
+        "explanation": "W programowaniu celowym operator definiuje efekt końcowy, a układ sterowania wyznacza optymalny sposób jego osiągnięcia.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat systemu autonomicznego programowania robota – czujniki, sterownik, analiza środowiska>",
+        "question": "Objaśnij zalety programowania autonomicznego.",
+        "a.": "Robot samodzielnie analizuje otoczenie i dostosowuje program ruchu bez udziału operatora, co zwiększa elastyczność i szybkość działania.",
+        "b.": "Programowanie autonomiczne wymaga ciągłej obecności operatora.",
+        "c.": "Stosuje się tylko w prostych robotach jednoopisowych.",
+        "d.": "Nie pozwala na reakcję na zmiany w środowisku pracy.",
+        "explanation": "Programowanie autonomiczne umożliwia robotom samodzielne dostosowanie działań na podstawie danych z czujników, co redukuje czas programowania i zwiększa efektywność.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<interfejs programowania TBPS – graficzne bloki reprezentujące trajektorie i operacje robota>",
+        "question": "Omów sposób programowania robotów za pomocą systemu TBPS.",
+        "a.": "Program tworzy się z gotowych bloków funkcjonalnych opisujących ruchy, czasy i warunki logiczne, które robot realizuje w odpowiedniej kolejności.",
+        "b.": "System TBPS służy wyłącznie do diagnostyki silników.",
+        "c.": "Program tworzy się poprzez wpisywanie kodu binarnego.",
+        "d.": "TBPS pozwala tylko na wizualizację ruchów bez ich zapisu.",
+        "explanation": "TBPS (Task Based Programming System) umożliwia graficzne tworzenie programów z bloków reprezentujących konkretne zadania robota.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat porównujący proces podatny i niepodatny na robotyzację – różnice w powtarzalności i precyzji operacji>",
+        "question": "Na czym polega podatność na robotyzację procesów?",
+        "a.": "Na możliwości zastąpienia pracy człowieka przez robota w operacjach powtarzalnych, precyzyjnych i zautomatyzowanych technologicznie.",
+        "b.": "Na konieczności udziału operatora w każdej czynności produkcyjnej.",
+        "c.": "Na losowym wykonywaniu czynności przez system ręczny.",
+        "d.": "Na braku możliwości zaprogramowania procesów.",
+        "explanation": "Proces podatny na robotyzację charakteryzuje się powtarzalnością i możliwością jednoznacznego opisania czynności w sposób programowalny.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<diagram decyzji o robotyzacji – czynniki techniczne, ergonomiczne, środowiskowe>",
+        "question": "Wymień pozaekonomiczne czynniki mające wpływ na decyzję o robotyzacji stanowiska (procesu) produkcyjnego.",
+        "a.": "Bezpieczeństwo pracy, poprawa ergonomii, ograniczenie wpływu czynników szkodliwych, zwiększenie jakości i powtarzalności produkcji.",
+        "b.": "Wyłącznie cena zakupu robota i koszt energii elektrycznej.",
+        "c.": "Warunki atmosferyczne i kolor obudowy robota.",
+        "d.": "Tylko względy marketingowe firmy.",
+        "explanation": "Pozaekonomiczne czynniki obejmują aspekty bezpieczeństwa, zdrowia pracowników i jakości procesu – są kluczowe przy wdrażaniu robotyzacji.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat analizy zadań manipulacyjnych na stanowisku produkcyjnym – pozycje, trajektorie, czasy cykli>",
+        "question": "Co wchodzi w zakres identyfikacji zadań manipulacyjnych realizowanych na stanowisku produkcyjnym?",
+        "a.": "Analiza położeń i orientacji obiektów, trajektorii ruchu, czasów operacji, sił i warunków środowiskowych.",
+        "b.": "Wyłącznie określenie koloru elementów produkcyjnych.",
+        "c.": "Sporządzenie wykresu zużycia energii elektrycznej.",
+        "d.": "Zapisanie danych marketingowych o produkcie.",
+        "explanation": "Identyfikacja zadań manipulacyjnych obejmuje określenie warunków i parametrów fizycznych, które robot musi odwzorować podczas pracy.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat zabezpieczeń poziomu 1 – osłony, bariery świetlne, kurtyny bezpieczeństwa>",
+        "question": "Na czym polegają zabezpieczenia sprzętowe poziomu 1 stanowisk zrobotyzowanych?",
+        "a.": "Na stosowaniu fizycznych barier, kurtyn świetlnych, wyłączników awaryjnych i blokad uniemożliwiających dostęp do strefy roboczej podczas pracy robota.",
+        "b.": "Na szkoleniu operatora z obsługi stanowiska.",
+        "c.": "Na zdalnym nadzorze systemu przez sieć internetową.",
+        "d.": "Na stosowaniu kamer monitorujących bez funkcji blokujących.",
+        "explanation": "Zabezpieczenia sprzętowe poziomu 1 to fizyczne i automatyczne środki ochronne uniemożliwiające wejście w strefę niebezpieczną podczas pracy robota.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat klasyfikacji rodzajów monitorowania – techniczne, procesowe, energetyczne, jakościowe>",
+        "question": "Jakie rozróżnia się rodzaje monitorowania?",
+        "a.": "Techniczne, procesowe, energetyczne i jakościowe.",
+        "b.": "Manualne, wizualne i teoretyczne.",
+        "c.": "Krótkoterminowe i długoterminowe bez danych pomiarowych.",
+        "d.": "Tylko dźwiękowe i wizyjne.",
+        "explanation": "Monitorowanie może dotyczyć różnych aspektów działania systemu – od stanu technicznego po jakość i efektywność procesu produkcyjnego.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<diagram przedstawiający różne obiekty monitorowania – robot, linia produkcyjna, czujniki, środowisko pracy>",
+        "question": "Jakie obiekty można monitorować?",
+        "a.": "Roboty, linie produkcyjne, czujniki, parametry środowiska i stan urządzeń pomocniczych.",
+        "b.": "Wyłącznie operatora przy stanowisku pracy.",
+        "c.": "Tylko zasilanie elektryczne budynku.",
+        "d.": "Wyłącznie elementy wizualne interfejsu sterownika.",
+        "explanation": "Monitorowaniu podlegają wszystkie elementy mające wpływ na przebieg procesu – od urządzeń po parametry środowiskowe.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat korzyści z monitorowania – bezpieczeństwo, kontrola jakości, optymalizacja, diagnostyka>",
+        "question": "Jakie korzyści wynikają z monitorowania?",
+        "a.": "Zwiększenie bezpieczeństwa, lepsza kontrola jakości, szybka diagnostyka awarii i optymalizacja procesu.",
+        "b.": "Zmniejszenie wydajności systemu i większe zużycie energii.",
+        "c.": "Ograniczenie nadzoru operatora.",
+        "d.": "Brak wpływu na pracę urządzeń.",
+        "explanation": "Monitorowanie umożliwia wykrywanie nieprawidłowości, poprawę jakości i efektywności pracy całego systemu produkcyjnego.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat funkcji systemu monitorowania – wizualizacja danych, alarmowanie, rejestracja, analiza trendów>",
+        "question": "Jakie możliwości posiadają systemy monitorowania?",
+        "a.": "Wizualizacja danych, rejestrowanie parametrów, alarmowanie o odchyleniach i analiza statystyczna procesu.",
+        "b.": "Wyłącznie raportowanie błędów po zakończeniu pracy.",
+        "c.": "Tylko przechowywanie danych bez ich analizy.",
+        "d.": "Brak możliwości ingerencji w proces.",
+        "explanation": "Nowoczesne systemy monitorowania pozwalają nie tylko rejestrować dane, ale także analizować je w czasie rzeczywistym i generować alarmy.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<model manipulatora stanowiska dystrybucji MPS – moduły podające, transportowe i chwytak>",
+        "question": "Czym się charakteryzuje manipulator stanowiska dystrybucji MPS (program COSIVIS)?",
+        "a.": "Jest częścią systemu modułowego MPS, realizującą zadania przenoszenia i sortowania detali w sposób automatyczny sterowany przez PLC.",
+        "b.": "To urządzenie manualne obsługiwane wyłącznie przez operatora.",
+        "c.": "Służy do symulacji komputerowej układów hydraulicznych.",
+        "d.": "Nie posiada żadnych elementów napędowych.",
+        "explanation": "Manipulator MPS w systemie COSIVIS to symulowany moduł przenoszenia detali wykorzystywany do nauki i analizy zrobotyzowanych procesów dystrybucji.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<ekran programu COSIVIS – procedura uruchomienia manipulatora>",
+        "question": "Jakie czynności należy wykonać, aby uruchomić manipulator?",
+        "a.": "Włączyć zasilanie, sprawdzić połączenia, uruchomić oprogramowanie sterujące i wybrać tryb pracy automatycznej lub ręcznej.",
+        "b.": "Tylko włączyć komputer i otworzyć plik z programem.",
+        "c.": "Wcisnąć przycisk START bez sprawdzania połączeń.",
+        "d.": "Nie wymaga żadnej konfiguracji przed uruchomieniem.",
+        "explanation": "Uruchomienie manipulatora wymaga przygotowania systemu, sprawdzenia komunikacji i wyboru odpowiedniego trybu pracy.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat połączenia manipulatora MPS z PLC – sterownik, moduły I/O, czujniki>",
+        "question": "Jakie urządzenie steruje pracą manipulatora?",
+        "a.": "Sterownik PLC współpracujący z czujnikami i siłownikami manipulatora.",
+        "b.": "Komputer biurowy bez systemu sterowania.",
+        "c.": "Zasilacz laboratoryjny z regulacją napięcia.",
+        "d.": "Czujnik temperatury sterujący ruchem ramienia.",
+        "explanation": "Manipulator MPS jest sterowany przez PLC, który realizuje zadany program ruchu i koordynuje działanie czujników oraz siłowników.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat stanowiska MPS – sterownik PLC połączony z modułami transportowymi, czujnikami i manipulatorem>",
+        "question": "Jakie urządzenie steruje pracą stanowiska MPS?",
+        "a.": "Sterownik PLC, który nadzoruje i koordynuje pracę modułów stanowiska.",
+        "b.": "Zasilacz sieciowy 24V DC bez funkcji logicznych.",
+        "c.": "Komputer biurowy bez połączenia z modułami.",
+        "d.": "Panel oświetleniowy sygnalizujący stan pracy.",
+        "explanation": "Sterownik PLC realizuje logikę sterowania całym stanowiskiem MPS, przetwarza sygnały z czujników i steruje siłownikami.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<interfejs HMI z panelem dotykowym połączony z PLC>",
+        "question": "Co stanowi interfejs pomiędzy operatorem a sterownikiem?",
+        "a.": "Panel operatorski HMI, umożliwiający wizualizację procesu i wprowadzanie poleceń.",
+        "b.": "Kabel zasilający podłączony do sterownika.",
+        "c.": "Wentylator chłodzący moduł sterujący.",
+        "d.": "Czujnik krańcowy wykrywający położenie ramienia robota.",
+        "explanation": "Panel HMI (Human Machine Interface) służy do komunikacji operatora z systemem sterowania – pozwala obserwować i kontrolować przebieg procesu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<procedura uruchomienia PLC – zasilanie, połączenie komunikacyjne, wgranie programu>",
+        "question": "Jakie czynności należy wykonać w celu uruchomienia sterownika PLC stanowiska dystrybucji MPS?",
+        "a.": "Podłączyć zasilanie, nawiązać komunikację z komputerem, wgrać program sterujący i przełączyć sterownik w tryb RUN.",
+        "b.": "Włączyć jedynie panel HMI bez podłączenia PLC.",
+        "c.": "Wcisnąć dowolny przycisk awaryjny i uruchomić system.",
+        "d.": "Nie ma potrzeby żadnych czynności – PLC uruchamia się automatycznie.",
+        "explanation": "Aby uruchomić PLC, należy poprawnie zasilić i połączyć go z komputerem programującym, wgrać odpowiedni program i aktywować tryb pracy RUN.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat uruchomienia stanowiska MPS – inicjalizacja, test czujników, uruchomienie cyklu>",
+        "question": "Jakie czynności należy wykonać, aby zainicjować pracę stanowiska MPS?",
+        "a.": "Włączyć zasilanie modułów, sprawdzić czujniki, uruchomić sterownik PLC i wybrać tryb automatyczny lub ręczny pracy systemu.",
+        "b.": "Włączyć tylko komputer symulacyjny bez modułów sprzętowych.",
+        "c.": "Wcisnąć przycisk awaryjny STOP.",
+        "d.": "Nie jest wymagana inicjalizacja – system działa samoczynnie.",
+        "explanation": "Inicjalizacja stanowiska obejmuje przygotowanie wszystkich podzespołów, test sygnałów wejściowych i uruchomienie programu sterującego.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<ekran oprogramowania COSIVIS – wizualizacja procesu transportu i montażu elementów>",
+        "question": "Do wizualizacji jakich procesów stosuje się oprogramowanie COSIVIS?",
+        "a.": "Do wizualizacji procesów mechatronicznych, robotycznych i produkcyjnych w systemach MPS i stanowiskach dydaktycznych.",
+        "b.": "Do modelowania układów cieplnych w elektrowniach.",
+        "c.": "Do edycji dokumentów tekstowych.",
+        "d.": "Do tworzenia animacji graficznych niezwiązanych z przemysłem.",
+        "explanation": "COSIVIS służy do symulacji i wizualizacji pracy zautomatyzowanych systemów produkcyjnych i robotów w środowisku edukacyjnym.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<logo systemu Windows – COSIVIS uruchomiony w środowisku systemowym>",
+        "question": "W środowisku jakiego systemu operacyjnego funkcjonuje COSIVIS?",
+        "a.": "W środowisku systemu Windows.",
+        "b.": "W systemie Linux.",
+        "c.": "W systemie macOS.",
+        "d.": "W systemie Android.",
+        "explanation": "Program COSIVIS jest oprogramowaniem dydaktycznym przeznaczonym do pracy w systemach operacyjnych Windows.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<porównanie programów COSIMIR, COSIVIS i MTS – wspólne cechy: symulacja, wizualizacja, sterowanie PLC>",
+        "question": "Jaka jest cecha wspólna programów rodziny COSIMIR?",
+        "a.": "Symulacja i wizualizacja procesów sterowania oraz integracja z rzeczywistymi sterownikami PLC.",
+        "b.": "Obsługa tylko procesów biurowych.",
+        "c.": "Służą wyłącznie do rysowania schematów elektrycznych.",
+        "d.": "Nie współpracują ze sterownikami PLC.",
+        "explanation": "Programy rodziny COSIMIR są przeznaczone do edukacji i symulacji robotów, automatyki i sterowania przemysłowego.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat CNC – jednostka sterująca, czujniki, napędy osi>",
+        "question": "Na czym polega idea systemu sterowania stosowanego w obrabiarkach sterowanych numerycznie?",
+        "a.": "Na automatycznym sterowaniu ruchem narzędzia względem obrabianego przedmiotu za pomocą programu numerycznego.",
+        "b.": "Na ręcznym ustawianiu położenia wszystkich osi.",
+        "c.": "Na wizualnym nadzorze operatora bez udziału programu.",
+        "d.": "Na losowym doborze trajektorii narzędzia.",
+        "explanation": "Sterowanie numeryczne CNC wykorzystuje zapisany program do precyzyjnego sterowania ruchami maszyny w przestrzeni trójwymiarowej.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<diagram korzyści z oprogramowania COSIVIS, COSIMIR, MTS – edukacja, bezpieczeństwo, wizualizacja, optymalizacja>",
+        "question": "Jakie korzyści wynikają ze stosowania programów COSIVIS, COSIMIR i MTS?",
+        "a.": "Ułatwiają naukę sterowania, zwiększają bezpieczeństwo, umożliwiają wizualizację procesów i testowanie programów bez ryzyka uszkodzenia sprzętu.",
+        "b.": "Zwiększają zużycie energii i koszty eksploatacji.",
+        "c.": "Nie mają wpływu na proces dydaktyczny.",
+        "d.": "Utrudniają analizę działania systemów automatyki.",
+        "explanation": "Symulacyjne środowiska edukacyjne pozwalają testować i analizować procesy mechatroniczne bez użycia rzeczywistych urządzeń.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat układu decyzyjnego robota – czujniki, procesor, sterownik ruchu>",
+        "question": "Jakie urządzenie pozwala robotowi „podejmować decyzje” odnośnie jego ruchu?",
+        "a.": "Sterownik robota (kontroler), przetwarzający dane z czujników i realizujący algorytmy sterowania.",
+        "b.": "Manipulator bez żadnych czujników.",
+        "c.": "Zasilacz sieciowy.",
+        "d.": "Wyłącznik awaryjny.",
+        "explanation": "Sterownik robota interpretuje dane sensoryczne i podejmuje decyzje dotyczące kierunku, prędkości i sposobu ruchu manipulatora.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<operator przy panelu sterowania robota – uruchamianie, test czujników, wybór programu>",
+        "question": "Jakie czynności związane z uruchomieniem robota musi wykonać operator?",
+        "a.": "Sprawdzić zasilanie, stan czujników, wybrać i załadować program, a następnie uruchomić robota w trybie automatycznym.",
+        "b.": "Wcisnąć dowolny przycisk bez kontroli stanu urządzeń.",
+        "c.": "Nie są wymagane żadne czynności – robot działa samoczynnie.",
+        "d.": "Zresetować system po każdym cyklu pracy.",
+        "explanation": "Operator odpowiada za przygotowanie robota do pracy, w tym sprawdzenie układów i wybór odpowiedniego programu sterującego.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<czujniki ruchu i system wizyjny robota – monitorowanie trajektorii>",
+        "question": "Jakie urządzenie monitoruje ruchy robota?",
+        "a.": "Układ sensoryczny robota, obejmujący czujniki położenia, prędkości i system wizyjny.",
+        "b.": "Zasilacz robota z czujnikiem napięcia.",
+        "c.": "Panel operatorski HMI bez funkcji diagnostycznych.",
+        "d.": "Enkoder zewnętrzny niezależny od sterowania.",
+        "explanation": "Monitorowanie ruchu robota realizowane jest przez czujniki położenia i układy sensoryczne, które dostarczają danych do systemu sterowania.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<ekran programu VIP – wizualizacja pracy stanowiska mechatronicznego z czujnikami i siłownikami>",
+        "question": "Jakie zastosowanie w systemach mechatronicznych ma program VIP?",
+        "a.": "Służy do wizualizacji i symulacji pracy stanowisk mechatronicznych oraz monitorowania ich stanu w czasie rzeczywistym.",
+        "b.": "Służy wyłącznie do programowania sterowników PLC.",
+        "c.": "Służy do obróbki grafiki 3D.",
+        "d.": "Służy do projektowania układów elektronicznych w CAD.",
+        "explanation": "Program VIP (Visualization Interface Program) umożliwia wizualne przedstawienie działania systemów mechatronicznych, ułatwiając analizę i naukę ich pracy.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<interfejs programu VIP – ustawienia trybu ręcznego, panel operatora z przyciskami START/STOP>",
+        "question": "Jakie czynności musi wykonać operator, aby wizualizacja pracy stanowiska odbywała się w trybie pracy ręcznej?",
+        "a.": "Uruchomić program VIP, połączyć go ze sterownikiem PLC i wybrać tryb pracy ręcznej w panelu operatora.",
+        "b.": "Wyłączyć połączenie z PLC i uruchomić program w trybie automatycznym.",
+        "c.": "Włączyć wizualizację bez połączenia z urządzeniem.",
+        "d.": "Zresetować komputer i uruchomić system ponownie.",
+        "explanation": "W trybie ręcznym operator steruje elementami systemu mechatronicznego bezpośrednio z poziomu programu VIP, po wcześniejszym połączeniu z PLC.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat połączenia programu VIP z PLC – komunikacja przez interfejs Ethernet/USB>",
+        "question": "Z jakim urządzeniem w trybie wizualizacji współpracuje program VIP?",
+        "a.": "Ze sterownikiem PLC, z którego odbiera sygnały wejściowe i wyjściowe w czasie rzeczywistym.",
+        "b.": "Z komputerem biurowym bez systemu sterowania.",
+        "c.": "Z drukarką sieciową używaną do raportów.",
+        "d.": "Z zasilaczem stanowiska bez komunikacji logicznej.",
+        "explanation": "Program VIP współpracuje bezpośrednio z PLC, co umożliwia wizualizację i nadzór nad procesami zachodzącymi w systemie mechatronicznym.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat systemu mechatronicznego – stan urządzenia określony przez czujniki, napędy i kontroler>",
+        "question": "Co to jest stan urządzenia lub systemu mechatronicznego?",
+        "a.": "Zbiór aktualnych wartości parametrów technicznych i funkcjonalnych określających zdolność systemu do pracy.",
+        "b.": "Tylko informacja o temperaturze elementów systemu.",
+        "c.": "Opis programu sterującego zapisany w PLC.",
+        "d.": "Dane o konfiguracji komputera operatora.",
+        "explanation": "Stan systemu odzwierciedla jego aktualną sprawność techniczną i zdolność do wykonywania zaprogramowanych zadań.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<diagram czasu życia systemu mechatronicznego – fazy: uruchomienie, eksploatacja, starzenie, zużycie, awaria>",
+        "question": "Co to jest czas życia (istnienia) urządzenia (systemu) mechatronicznego?",
+        "a.": "Okres od rozpoczęcia eksploatacji do momentu, gdy urządzenie traci zdolność do pracy lub zostaje wycofane z użytkowania.",
+        "b.": "Czas trwania jednej operacji roboczej urządzenia.",
+        "c.": "Okres przechowywania w magazynie.",
+        "d.": "Czas gwarancji producenta.",
+        "explanation": "Czas życia systemu to całkowity okres funkcjonowania, obejmujący wszystkie fazy od wdrożenia po wycofanie z użycia.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat przyczyn diagnostyki – awarie, prewencja, kontrola jakości>",
+        "question": "Wymień powody przeprowadzania diagnostyki urządzeń i systemów mechatronicznych.",
+        "a.": "Wykrycie uszkodzeń, zapobieganie awariom, ocena stanu technicznego i planowanie konserwacji.",
+        "b.": "Zmiana oprogramowania sterującego.",
+        "c.": "Zwiększenie mocy silników napędowych.",
+        "d.": "Modernizacja wizualizacji HMI.",
+        "explanation": "Diagnostyka ma na celu wczesne wykrycie nieprawidłowości i utrzymanie wysokiej niezawodności systemu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat zadań diagnostyki – pomiar, analiza, wnioskowanie, prognoza>",
+        "question": "Jakie są zadania diagnostyki?",
+        "a.": "Ocena stanu technicznego, lokalizacja uszkodzeń, określenie przyczyn awarii i prognozowanie dalszej pracy urządzenia.",
+        "b.": "Programowanie nowych funkcji robota.",
+        "c.": "Zmiana konfiguracji sieci przemysłowej.",
+        "d.": "Kontrola wizualna stanowiska bez pomiarów.",
+        "explanation": "Diagnostyka dostarcza informacji o kondycji urządzeń i umożliwia planowanie napraw lub wymian elementów przed wystąpieniem awarii.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<tabela nośników informacji diagnostycznej – sygnały elektryczne, akustyczne, wibracyjne, cieplne>",
+        "question": "Dokonaj klasyfikacji nośników informacji diagnostycznej.",
+        "a.": "Elektryczne, mechaniczne (drgania), akustyczne, cieplne i optyczne.",
+        "b.": "Wizualne, manualne i teoretyczne.",
+        "c.": "Chemiczne i biologiczne.",
+        "d.": "Tylko termiczne.",
+        "explanation": "Informacja diagnostyczna może być przenoszona przez różne sygnały – elektryczne, mechaniczne, cieplne lub akustyczne, które opisują stan techniczny systemu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat parametrów diagnostycznych – czułość, powtarzalność, jednoznaczność>",
+        "question": "Jakie warunki musi spełniać diagnostyczny parametr stanu technicznego urządzenia?",
+        "a.": "Musi być mierzalny, czuły na zmiany stanu, powtarzalny i jednoznacznie powiązany z uszkodzeniem.",
+        "b.": "Powinien być zmienny losowo.",
+        "c.": "Nie musi być mierzalny, wystarczy obserwacja wizualna.",
+        "d.": "Nie może zależeć od stanu urządzenia.",
+        "explanation": "Parametr diagnostyczny musi wiarygodnie odzwierciedlać zmiany stanu technicznego, aby można było wykryć odchylenia od normy.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<diagram starzenia się maszyn – zmiana właściwości materiałowych w czasie>",
+        "question": "Na czym polega starzenie się maszyn i urządzeń?",
+        "a.": "Na stopniowym pogarszaniu się właściwości materiałowych i funkcjonalnych elementów w wyniku długotrwałej eksploatacji lub oddziaływania środowiska.",
+        "b.": "Na natychmiastowej awarii elementu po uruchomieniu.",
+        "c.": "Na procesie odnowy i regeneracji urządzenia.",
+        "d.": "Na okresowej wymianie oprogramowania.",
+        "explanation": "Starzenie to naturalny proces zmian właściwości fizycznych i technicznych materiałów, prowadzący do spadku niezawodności urządzenia.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat zużywania się maszyny – tarcie, korozja, zmęczenie materiału>",
+        "question": "Na czym polega zużywanie się maszyn i urządzeń?",
+        "a.": "Na stopniowej utracie właściwości użytkowych spowodowanej tarciem, korozją, zmęczeniem i działaniem obciążeń eksploatacyjnych.",
+        "b.": "Na błędach w oprogramowaniu sterującym.",
+        "c.": "Na wzroście sprawności mechanizmu po remoncie.",
+        "d.": "Na chwilowym przeciążeniu układu elektrycznego.",
+        "explanation": "Zużycie jest wynikiem oddziaływań mechanicznych i środowiskowych powodujących stopniowe pogorszenie funkcjonowania elementów urządzenia.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<diagram porównujący stan zdatności i niezdatności urządzenia – różnice w sprawności, funkcjonalności i bezpieczeństwie>",
+        "question": "Jakie są różnice pomiędzy stanem zdatności, a stanem niezdatności urządzeń?",
+        "a.": "Stan zdatności oznacza pełną sprawność i zdolność do realizacji zadań, natomiast stan niezdatności oznacza utratę tej zdolności w całości lub częściowo.",
+        "b.": "Stan zdatności występuje tylko po awarii, a niezdatności – przed uruchomieniem.",
+        "c.": "Stan zdatności i niezdatności są identyczne i oznaczają sprawne działanie urządzenia.",
+        "d.": "Stan niezdatności występuje tylko w nowych urządzeniach.",
+        "explanation": "Stan zdatności opisuje poprawne funkcjonowanie urządzenia, a niezdatność – sytuację, w której urządzenie nie może wykonać wymaganych funkcji.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat przyczyn uszkodzeń urządzeń – przeciążenia, zanieczyszczenia, błędy montażu, zużycie, wady materiałowe>",
+        "question": "Podaj główne przyczyny powstawania uszkodzeń.",
+        "a.": "Przeciążenia mechaniczne, błędy montażu, zużycie elementów, zanieczyszczenia i wady materiałowe.",
+        "b.": "Zbyt częste smarowanie podzespołów.",
+        "c.": "Regularna konserwacja i przeglądy.",
+        "d.": "Zastosowanie odpowiednich filtrów i osłon ochronnych.",
+        "explanation": "Uszkodzenia powstają na skutek przeciążeń, niewłaściwej eksploatacji, braku konserwacji oraz działania czynników środowiskowych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat monitorowania stanu urządzenia – czujniki, analiza sygnałów, system alarmowy>",
+        "question": "Na czym polega monitorowanie stanu urządzeń?",
+        "a.": "Na bieżącym pomiarze i analizie parametrów pracy urządzenia w celu wykrycia odchyleń od normy.",
+        "b.": "Na okresowej wymianie elementów niezależnie od stanu technicznego.",
+        "c.": "Na rejestrowaniu wyłącznie godzin pracy urządzenia.",
+        "d.": "Na obserwacji wizualnej bez użycia czujników.",
+        "explanation": "Monitorowanie polega na ciągłym nadzorze parametrów technicznych, co pozwala na wczesne wykrycie symptomów uszkodzeń.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat symptomów stanu urządzenia – hałas, drgania, temperatura, ciśnienie>",
+        "question": "Do czego wykorzystywane są symptomy stanu urządzenia?",
+        "a.": "Do identyfikacji rodzaju i miejsca uszkodzenia oraz oceny stopnia zużycia urządzenia.",
+        "b.": "Do planowania zakupów części zamiennych niezależnie od stanu technicznego.",
+        "c.": "Do oceny jakości montażu urządzenia w fabryce.",
+        "d.": "Do pomiaru prędkości obrotowej wałów.",
+        "explanation": "Symptomy, takie jak drgania, hałas czy zmiany temperatury, są wykorzystywane do rozpoznawania i lokalizacji usterek technicznych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<diagram celów diagnozowania – zapobieganie awariom, planowanie przeglądów, optymalizacja eksploatacji>",
+        "question": "Wymień cele diagnozowania urządzenia w okresie jego eksploatacji.",
+        "a.": "Zapobieganie awariom, utrzymanie sprawności, planowanie konserwacji i optymalizacja kosztów eksploatacji.",
+        "b.": "Zmniejszenie liczby operatorów w systemie.",
+        "c.": "Wydłużenie czasu pracy bez kontroli technicznej.",
+        "d.": "Ograniczenie liczby pomiarów i przeglądów.",
+        "explanation": "Diagnozowanie w eksploatacji pozwala na planowanie obsługi prewencyjnej, minimalizację przestojów i zwiększenie niezawodności systemu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat strategii utrzymania zdatności – diagnostyka, konserwacja, prewencja, naprawy planowe>",
+        "question": "Na czym polega strategia utrzymania urządzenia w stanie zdatności?",
+        "a.": "Na systematycznym monitorowaniu, diagnozowaniu, konserwacji i naprawach zapobiegawczych zapewniających ciągłą sprawność techniczną.",
+        "b.": "Na użytkowaniu urządzenia bez przeglądów do momentu awarii.",
+        "c.": "Na wymianie wszystkich części po każdym cyklu pracy.",
+        "d.": "Na okresowym czyszczeniu obudowy bez kontroli stanu technicznego.",
+        "explanation": "Strategia utrzymania zdatności obejmuje działania profilaktyczne i diagnostyczne zapobiegające awariom i utrzymujące system w pełnej sprawności.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek stanowiska obsługowego – technik wykonujący diagnostykę z użyciem przyrządów kontrolnych>",
+        "question": "Na czym polega diagnozowanie obsługowe?",
+        "a.": "Na ocenie stanu technicznego urządzenia podczas wykonywania obsługi technicznej lub przeglądu.",
+        "b.": "Na programowaniu robota przemysłowego.",
+        "c.": "Na wymianie wszystkich podzespołów bez analizy stanu.",
+        "d.": "Na wizualizacji pracy urządzenia w systemie HMI.",
+        "explanation": "Diagnozowanie obsługowe polega na kontroli i pomiarach stanu technicznego podczas czynności obsługowych, aby zapobiec awariom.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat układu hydraulicznego zanieczyszczonego cząstkami – przyczyna uszkodzeń>",
+        "question": "Co jest główną przyczyną uszkodzeń elementów układów hydraulicznych?",
+        "a.": "Zanieczyszczenia cieczy roboczej powodujące zużycie i zatarcie elementów roboczych.",
+        "b.": "Zbyt niska temperatura otoczenia.",
+        "c.": "Brak ciśnienia w układzie.",
+        "d.": "Zbyt częsta wymiana filtrów.",
+        "explanation": "Zanieczyszczenia w cieczy hydraulicznej są główną przyczyną uszkodzeń zaworów, pomp i siłowników, prowadząc do ich przedwczesnego zużycia.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat spadku ciśnienia na filtrze hydraulicznym – wzrost oporu przepływu>",
+        "question": "Symptomem jakiej niesprawności jest wzrost spadku ciśnienia na filtrze w układzie hydraulicznym?",
+        "a.": "Zanieczyszczenia lub zatkania filtra cieczy roboczej.",
+        "b.": "Uszkodzenia pompy hydraulicznej.",
+        "c.": "Zbyt wysokiego ciśnienia zasilania.",
+        "d.": "Nieszczelności zaworu bezpieczeństwa.",
+        "explanation": "Wzrost spadku ciśnienia na filtrze wskazuje na jego zanieczyszczenie, co może ograniczyć przepływ cieczy i pogorszyć działanie układu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek technika obserwującego układ hydrauliczny – ocena wycieków, drgań, hałasu>",
+        "question": "Które parametry diagnostyczne układów hydraulicznych można rozpoznawać metodą obserwacji prostej?",
+        "a.": "Wycieki cieczy, hałas, drgania, przegrzewanie się elementów i zmiany prędkości ruchu siłowników.",
+        "b.": "Skład chemiczny cieczy roboczej.",
+        "c.": "Dokładność filtracji bez pomiarów.",
+        "d.": "Ciśnienie robocze przy użyciu analizatora cyfrowego.",
+        "explanation": "Obserwacja prosta polega na wizualnej ocenie i wykorzystaniu zmysłów operatora do wczesnego wykrywania symptomów niesprawności.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat pneumatycznej sieci przesyłowej – rurociągi, złącza, filtry, czujniki ciśnienia>",
+        "question": "Określ zakres diagnozowania pneumatycznej sieci przesyłowej.",
+        "a.": "Kontrola szczelności połączeń, pomiar ciśnienia i przepływu, analiza zanieczyszczeń i kondensatu w przewodach.",
+        "b.": "Tylko pomiar temperatury powietrza w sieci.",
+        "c.": "Określenie zużycia energii elektrycznej przez sprężarkę.",
+        "d.": "Badanie drgań mechanicznych obudowy sprężarki.",
+        "explanation": "Diagnozowanie sieci pneumatycznej obejmuje ocenę szczelności i czystości powietrza oraz kontrolę parametrów przepływowych i ciśnieniowych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<ekran programu symulacyjnego CNC – wizualizacja obróbki i parametrów pracy maszyny>",
+        "question": "Jaki jest cel stosowania programów symulacyjnych dla potrzeb diagnozowania pracy obrabiarek CNC?",
+        "a.": "Umożliwiają analizę pracy obrabiarki, wykrywanie błędów w programie i ocenę zachowania maszyny bez ryzyka uszkodzenia rzeczywistego sprzętu.",
+        "b.": "Służą wyłącznie do nauki obsługi panelu operatorskiego.",
+        "c.": "Zastępują układy sterowania w maszynach CNC.",
+        "d.": "Umożliwiają programowanie obrabiarek manualnych.",
+        "explanation": "Symulacje CNC pozwalają diagnozować potencjalne problemy w działaniu maszyny i oprogramowania w bezpiecznym środowisku wirtualnym.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat strategii diagnostyki – profilaktyka, monitoring, analiza i naprawa>",
+        "question": "Na czym polega strategia diagnostyki urządzeń i systemów mechatronicznych?",
+        "a.": "Na planowym monitorowaniu, analizie symptomów, lokalizowaniu uszkodzeń i podejmowaniu działań zapobiegawczych oraz naprawczych.",
+        "b.": "Na wymianie wszystkich elementów niezależnie od ich stanu.",
+        "c.": "Na pracy urządzenia bez przerw na konserwację.",
+        "d.": "Na obserwacji wizualnej bez pomiarów i analiz.",
+        "explanation": "Strategia diagnostyki obejmuje działania profilaktyczne i analityczne mające na celu utrzymanie systemu w pełnej sprawności technicznej.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat metodyki lokalizacji uszkodzeń – etapy: pomiar, analiza, porównanie z normą, lokalizacja usterki>",
+        "question": "Objaśnij założenia metodyki lokalizowania uszkodzeń urządzeń i systemów mechatronicznych.",
+        "a.": "Polega na systematycznym pomiarze parametrów, porównaniu ich z wartościami wzorcowymi i określeniu miejsca oraz przyczyny uszkodzenia.",
+        "b.": "Na losowym sprawdzaniu elementów układu bez analizy wyników.",
+        "c.": "Na wymianie wszystkich części profilaktycznie.",
+        "d.": "Na obserwacji bez wykorzystania narzędzi pomiarowych.",
+        "explanation": "Metodyka lokalizacji uszkodzeń opiera się na logicznej analizie danych diagnostycznych i porównaniu ich z parametrami nominalnymi systemu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek przedstawiający aktywną metodę lokalizacji uszkodzeń – wprowadzanie sygnałów testowych i obserwacja reakcji układu>",
+        "question": "Na czym polega metoda aktywna lokalizacji uszkodzeń?",
+        "a.": "Na wprowadzaniu do systemu sygnałów testowych i obserwowaniu jego reakcji w celu wykrycia i zlokalizowania uszkodzeń.",
+        "b.": "Na analizie danych archiwalnych bez ingerencji w pracę układu.",
+        "c.": "Na okresowej wymianie elementów niezależnie od stanu technicznego.",
+        "d.": "Na pomiarze temperatury otoczenia urządzenia.",
+        "explanation": "Metoda aktywna polega na celowym pobudzaniu układu dodatkowymi sygnałami, co pozwala zidentyfikować nieprawidłowości w jego działaniu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat metody pasywnej lokalizacji uszkodzeń – analiza sygnałów pracy układu bez ingerencji>",
+        "question": "Objaśnij istotę metody pasywnej lokalizacji uszkodzeń.",
+        "a.": "Polega na analizie sygnałów generowanych przez system podczas normalnej pracy bez wprowadzania sygnałów testowych.",
+        "b.": "Na celowym przeciążaniu elementów układu.",
+        "c.": "Na losowej obserwacji parametrów bez pomiarów.",
+        "d.": "Na wymianie czujników bez wcześniejszej analizy.",
+        "explanation": "Metoda pasywna bazuje na analizie danych eksploatacyjnych i umożliwia wykrycie usterek bez ingerencji w pracę urządzenia.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<tabela cech przyrządów pomiarowych – dokładność, rozdzielczość, zakres, powtarzalność>",
+        "question": "Które cechy przyrządów pomiarowych decydują o zastosowaniu przyrządu do wykonania pomiaru?",
+        "a.": "Dokładność, rozdzielczość, zakres pomiarowy, czułość i powtarzalność wyników.",
+        "b.": "Kolor obudowy i długość przewodu zasilającego.",
+        "c.": "Marka producenta i cena przyrządu.",
+        "d.": "Kształt wskaźnika i materiał obudowy.",
+        "explanation": "O wyborze przyrządu decydują jego parametry metrologiczne, które zapewniają wiarygodność i powtarzalność wyników pomiarów.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek pomiaru bezpośredniego – przykład użycia suwmiarki do odczytu wartości wymiaru>",
+        "question": "Na czym polega metoda bezpośrednia pomiarów?",
+        "a.": "Na bezpośrednim odczycie wartości mierzonej wielkości z przyrządu pomiarowego.",
+        "b.": "Na obliczaniu wartości z równań matematycznych.",
+        "c.": "Na porównaniu wyniku z wartością wzorcową.",
+        "d.": "Na estymacji wyniku na podstawie obserwacji.",
+        "explanation": "Metoda bezpośrednia polega na odczytaniu wartości z przyrządu bez potrzeby dalszego przeliczania lub porównywania z wzorcem.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat higrometru oporowego – zmiana oporu czujnika w zależności od wilgotności powietrza>",
+        "question": "Jaka jest zasada pomiaru wilgotności higrometrem oporowym?",
+        "a.": "Pomiar opiera się na zmianie rezystancji materiału czujnika w zależności od wilgotności powietrza.",
+        "b.": "Na pomiarze ciśnienia pary wodnej w powietrzu.",
+        "c.": "Na absorpcji promieniowania podczerwonego przez parę wodną.",
+        "d.": "Na analizie gęstości powietrza w pomieszczeniu.",
+        "explanation": "Higrometr oporowy wykorzystuje czujnik, którego opór elektryczny zmienia się w funkcji wilgotności otoczenia.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek manometru sprężystego – rurka Bourdona uginająca się pod wpływem ciśnienia>",
+        "question": "Objaśnij sposób działania manometru sprężystego.",
+        "a.": "Pod wpływem ciśnienia medium rurka sprężysta (Bourdona) odkształca się, a to odkształcenie jest przekształcane na ruch wskazówki pomiarowej.",
+        "b.": "Ciśnienie odczytywane jest za pomocą pomiaru napięcia elektrycznego.",
+        "c.": "Pomiar ciśnienia odbywa się na podstawie temperatury cieczy roboczej.",
+        "d.": "Pomiar jest wykonywany metodą akustyczną.",
+        "explanation": "Manometr sprężysty działa dzięki ugięciu rurki Bourdona pod wpływem ciśnienia, co powoduje wychylenie wskazówki na skali przyrządu.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<rysunek dwóch manometrów – sprężystego i piezoelektrycznego, z zaznaczeniem szybkości reakcji>",
+        "question": "Którego manometru użyjesz do pomiaru szybkozmiennej wartości ciśnienia?",
+        "a.": "Piezoelektrycznego.",
+        "b.": "Sprężystego.",
+        "c.": "Różnicowego cieczowego.",
+        "d.": "Tłokowego.",
+        "explanation": "Manometr piezoelektryczny reaguje bardzo szybko na zmiany ciśnienia dzięki właściwościom materiałów piezoelektrycznych generujących ładunek elektryczny pod wpływem naprężenia.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat tensometrycznego przetwornika siły – belka odkształcająca się z przyklejonym tensometrem i mostkiem Wheatstone’a>",
+        "question": "Przedstaw strukturę oraz zasadę działania tensometrycznego przetwornika siły.",
+        "a.": "Składa się z elementu sprężystego, do którego przyklejony jest tensometr; odkształcenie powoduje zmianę rezystancji, przekształcaną na sygnał elektryczny proporcjonalny do siły.",
+        "b.": "Działa na zasadzie pomiaru ciśnienia hydraulicznego.",
+        "c.": "Mierzy prędkość przepływu powietrza.",
+        "d.": "Działa wyłącznie w układach pneumatycznych.",
+        "explanation": "Tensometryczny przetwornik siły wykorzystuje zmianę oporu elektrycznego tensometru w wyniku odkształcenia materiału pod wpływem przyłożonej siły.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<obraz termowizyjny urządzenia – wizualizacja rozkładu temperatury w kolorach>",
+        "question": "Jaka jest zasada pomiarów termowizyjnych?",
+        "a.": "Na rejestracji promieniowania podczerwonego emitowanego przez obiekty i przekształceniu go w obraz temperaturowy.",
+        "b.": "Na pomiarze prądu elektrycznego przepływającego przez urządzenie.",
+        "c.": "Na obserwacji wizualnej koloru obiektu.",
+        "d.": "Na analizie zmian ciśnienia powietrza.",
+        "explanation": "Pomiary termowizyjne wykorzystują detektory IR do tworzenia map temperatury, umożliwiających ocenę stanu cieplnego urządzeń.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat systemu wizyjnego – kamera przemysłowa, oświetlenie, sterownik i komputer analizujący obraz>",
+        "question": "Jaki jest cel stosowania systemów wizyjnych w diagnozowaniu urządzeń i systemów mechatronicznych?",
+        "a.": "Do bezkontaktowej oceny stanu elementów, wykrywania defektów, kontroli położenia i identyfikacji błędów w procesach automatycznych.",
+        "b.": "Do pomiaru napięcia elektrycznego w układzie.",
+        "c.": "Do sterowania zasilaniem pneumatycznym.",
+        "d.": "Do pomiaru masy elementów mechanicznych.",
+        "explanation": "Systemy wizyjne pozwalają automatycznie analizować obrazy i wykrywać nieprawidłowości w pracy urządzeń, co wspiera diagnostykę techniczną.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat procesu przetwarzania danych diagnostycznych – pomiar, analiza, wnioskowanie, wizualizacja>",
+        "question": "Jaką rolę w diagnostyce technicznej pełni przetwarzanie danych i informacji?",
+        "a.": "Umożliwia analizę, interpretację i ocenę stanu technicznego na podstawie zarejestrowanych danych pomiarowych.",
+        "b.": "Służy wyłącznie do archiwizacji danych bez ich analizy.",
+        "c.": "Wykorzystywane jest jedynie do raportowania kosztów eksploatacji.",
+        "d.": "Nie ma wpływu na proces diagnozowania.",
+        "explanation": "Przetwarzanie danych pozwala na uzyskanie informacji o kondycji systemu i wspomaga podejmowanie decyzji diagnostycznych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<diagram wpływu technologii informacyjnych – czujniki, sieci, analiza danych, raportowanie>",
+        "question": "Scharakteryzuj wpływ technologii informacyjnych na proces diagnozowania urządzeń i systemów mechatronicznych.",
+        "a.": "Umożliwiają automatyzację analizy danych, zdalną diagnostykę, archiwizację i wizualizację wyników w czasie rzeczywistym.",
+        "b.": "Powodują konieczność rezygnacji z czujników i komputerów.",
+        "c.": "Ograniczają liczbę możliwych pomiarów.",
+        "d.": "Nie mają wpływu na jakość diagnozy.",
+        "explanation": "Technologie informacyjne wspomagają proces diagnostyczny, umożliwiając szybką analizę dużych zbiorów danych i zdalny nadzór techniczny.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<porównanie hurtowni i bazy danych – hurtownia integruje dane z wielu źródeł, baza obsługuje transakcje operacyjne>",
+        "question": "Czym różnią się hurtownie danych od baz danych?",
+        "a.": "Hurtownie danych gromadzą i integrują dane z wielu źródeł do analiz, a bazy danych obsługują bieżące operacje systemowe.",
+        "b.": "Bazy danych służą wyłącznie do wizualizacji procesów.",
+        "c.": "Hurtownie danych są mniejsze od baz danych.",
+        "d.": "Nie różnią się zakresem zastosowania.",
+        "explanation": "Baza danych przechowuje informacje operacyjne, natomiast hurtownia danych umożliwia analizę trendów i wspiera procesy diagnostyczne i decyzyjne.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<obraz termowizyjny urządzenia z zaznaczonymi strefami przegrzewania>",
+        "question": "Objaśnij, jakie są możliwości wykorzystania w diagnostyce technicznej obrazów termowizyjnych.",
+        "a.": "Pozwalają wykrywać miejsca przegrzewania, nieszczelności, przeciążenia elektryczne i mechaniczne oraz nierównomierne rozkłady temperatury.",
+        "b.": "Służą wyłącznie do pomiaru wilgotności.",
+        "c.": "Stosowane są tylko w pomiarach hałasu.",
+        "d.": "Nie mają zastosowania w diagnostyce technicznej.",
+        "explanation": "Termowizja umożliwia wczesne wykrycie anomalii cieplnych, co pozwala zapobiec awariom i zwiększyć niezawodność systemów mechatronicznych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat układu wizyjnego – kamera, oświetlenie, przetwarzanie obrazu, analiza i decyzja>",
+        "question": "Scharakteryzuj sposób działania układów wizyjnych.",
+        "a.": "Układy wizyjne rejestrują obraz za pomocą kamery, przetwarzają go cyfrowo i analizują w celu rozpoznania kształtów, barw i położenia obiektów.",
+        "b.": "Układy wizyjne przetwarzają tylko sygnały dźwiękowe.",
+        "c.": "Rejestrują wyłącznie sygnały elektryczne z czujników temperatury.",
+        "d.": "Działają wyłącznie w oparciu o analizę ruchu ręcznego operatora.",
+        "explanation": "Układy wizyjne przetwarzają obrazy na dane cyfrowe, które umożliwiają automatyczne rozpoznawanie i analizę procesów produkcyjnych.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<diagram funkcji układów monitorowania – pomiar, rejestracja, alarmowanie, wizualizacja>",
+        "question": "Jakie jest przeznaczenie układów monitorowania?",
+        "a.": "Do bieżącej kontroli i analizy parametrów pracy urządzeń oraz generowania alarmów w przypadku odchyleń od normy.",
+        "b.": "Do przechowywania instrukcji obsługi maszyn.",
+        "c.": "Do ręcznego sterowania układami mechatronicznymi.",
+        "d.": "Do wizualizacji bez rejestracji danych.",
+        "explanation": "Układy monitorowania umożliwiają nadzór techniczny nad pracą systemu i szybkie reagowanie na potencjalne zagrożenia lub awarie.",
+        "correct": "1 0 0 0"
+    },
+    {
+        "img": "<schemat wpływu symulacji na diagnozowanie – model cyfrowy urządzenia, analiza błędów, testowanie rozwiązań>",
+        "question": "Objaśnij, jaki jest wpływ stosowania systemów symulacyjnych na proces diagnozowania urządzeń i systemów mechatronicznych.",
+        "a.": "Pozwalają testować różne scenariusze pracy i awarii bez ryzyka uszkodzenia rzeczywistego sprzętu, co zwiększa skuteczność diagnozy.",
+        "b.": "Uniemożliwiają weryfikację błędów w działaniu systemu.",
+        "c.": "Zastępują całkowicie proces pomiarów w rzeczywistych układach.",
+        "d.": "Nie mają znaczenia w procesie diagnozowania.",
+        "explanation": "Systemy symulacyjne umożliwiają analizę i prognozowanie zachowania urządzeń w różnych warunkach, wspierając diagnostykę i proces naprawczy.",
+        "correct": "1 0 0 0"
+    }
+]
