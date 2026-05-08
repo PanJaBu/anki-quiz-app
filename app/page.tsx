@@ -1,62 +1,31 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import { load as parseYaml } from 'js-yaml';
 import Quiz from './components/Quiz';
 
-// Wagi określają ile pytań ma być pobieranych z każdego pliku podczas losowania 40 pytań
-// weight: 0 = nie pobieraj pytań z tego pliku
-// weight: 1 = pobierz 1 pytanie z tego pliku
-// weight: 2 = pobierz 2 pytania z tego pliku, itd.
-const DATA_FILES_ELM7 = [
-  { file: 'data_ELM071.json', weight: 1 },
-  { file: 'data_ELM072.json', weight: 9 },
-  { file: 'data_ELM073.json', weight: 9 },
-  { file: 'data_ELM074.json', weight: 9 },
-  { file: 'data_ELM075.json', weight: 8 },
-  { file: 'data_ELM076.json', weight: 1 },
-  { file: 'data_ELM077.json', weight: 1 },
-  { file: 'data_ELM078.json', weight: 1 },
-  { file: 'data_ELMSiemensPLC.json', weight:  2},
-  { file: 'data_ELMArduino.json', weight: 2 },
-  { file: 'data_ELM077E.json', weight: 2 },
-  { file: 'data_MechZestPytTestowych.json', weight: 4 },
-];
+type DataFileConfig = {
+  file: string;
+  weight: number;
+  label?: string;
+};
 
-const DATA_FILES_ELM8 = [
-  { file: 'data_ELM081.json', weight: 1 },
-  { file: 'data_ELM082.json', weight: 9 },
-  { file: 'data_ELM083.json', weight: 9 },
-  { file: 'data_ELM084.json', weight: 9 },
-  { file: 'data_ELM085.json', weight: 9 },
-  { file: 'data_ELM086.json', weight: 1 },
-  { file: 'data_ELM087.json', weight: 1 },
-  { file: 'data_ELM088.json', weight: 1 },
-  { file: 'data_ELM089.json', weight: 10 },
-];
+type ExamConfig = {
+  id: string;
+  tabLabel: string;
+  qualificationCode: string;
+  qualificationName?: string;
+  profession: string;
+  sourceLink?: string;
+  sourceLinkLabel?: string;
+  randomModeInfo?: string;
+  hideRandomCount?: boolean;
+  files: DataFileConfig[];
+};
 
- const DATA_FILES_PROGRAM_NAUCZANIA_ELM7_ELM8 = [
-  { file: '2_Podstawy_robotyki.json', weight: 20 },
-  { file: '3_Technologie_i_konstrukcje_mechaniczne_w_robotyce.json', weight: 20 },
-  { file: '4_Zapis_konstrukcji.json', weight: 20 },
-  { file: '5_Elektrotechnika_i_elektronika_w_robotyce.json', weight: 20 },
-  { file: '6_Podstawy_programowania_robotow.json', weight: 20 },
-  { file: '7_Komputerowe_wspomaganie_w_robotyce.json', weight: 20 },
-  { file: '8_Pracownia_elektryczna_i_elektroniczna.json', weight: 20 },
-  { file: '9_Pracownia_systemow_robotyki.json', weight: 20 },
-  { file: '10_Pracownia_programowania_i_eksploatacji_robotow_przemyslowych.json', weight: 20 },
-  { file: '11_Projektowanie_ukladow_sterowania_robotow.json', weight: 20 },
-  { file: '12_Pracownia_pneumatyki_i_hydrauliki.json', weight: 20 },
-  { file: '13_Diagnozowanie_i_konserwacja_systemow_robotyki.json', weight: 20 },
- ];
-
-const DATA_FILES_MECH = [
-  { file: 'data_Mech1.json', weight: 8 },
-  { file: 'data_Mech2.json', weight: 8 },
-  { file: 'data_Mech3.json', weight: 8 },
-  { file: 'data_Mech4.json', weight: 8 },
-  { file: 'data_Mech5.json', weight: 8 },
-  { file: 'data_Mech6.json', weight: 8 },
-];
+type AppConfig = {
+  exams: ExamConfig[];
+};
 
 const getImagePath = (file: string, img: string | undefined) => {
   if (!img) return undefined;
@@ -92,14 +61,37 @@ export default function Home() {
   const [loading, setLoading] = useState(false);
   const [randomCount, setRandomCount] = useState(40);
   const [learningMode, setLearningMode] = useState(true);
-  const [selectedExam, setSelectedExam] = useState<'ELM07' | 'ELM08' | 'MECH' | 'PROGRAM_NAUCZANIA'>('ELM07');
-  const currentDataFiles =
-    selectedExam === 'ELM07' ? DATA_FILES_ELM7 :
-    selectedExam === 'ELM08' ? DATA_FILES_ELM8 :
-    selectedExam === 'MECH' ? DATA_FILES_MECH :
-    DATA_FILES_PROGRAM_NAUCZANIA_ELM7_ELM8;
+  const [examConfigs, setExamConfigs] = useState<ExamConfig[]>([]);
+  const [selectedExam, setSelectedExam] = useState<string>('');
 
-  const handleExamChange = (exam: 'ELM07' | 'ELM08' | 'MECH' | 'PROGRAM_NAUCZANIA') => {
+  useEffect(() => {
+    const loadConfig = async () => {
+      try {
+        const res = await fetch('/config/exams.yaml');
+        if (!res.ok) {
+          throw new Error(`Nie udało się pobrać konfiguracji (${res.status})`);
+        }
+
+        const yamlText = await res.text();
+        const parsed = parseYaml(yamlText) as AppConfig | undefined;
+        if (!parsed?.exams || !Array.isArray(parsed.exams) || parsed.exams.length === 0) {
+          throw new Error('Konfiguracja YAML nie zawiera poprawnej listy egzaminów.');
+        }
+
+        setExamConfigs(parsed.exams);
+        setSelectedExam(parsed.exams[0].id);
+      } catch (error) {
+        console.error('Błąd ładowania konfiguracji egzaminów:', error);
+      }
+    };
+
+    loadConfig();
+  }, []);
+
+  const selectedExamConfig = examConfigs.find((exam) => exam.id === selectedExam);
+  const currentDataFiles = selectedExamConfig?.files ?? [];
+
+  const handleExamChange = (exam: string) => {
     setSelectedExam(exam);
     setSelectedFile(''); // Reset wybranego pliku przy zmianie egzaminu
   };
@@ -140,8 +132,8 @@ export default function Home() {
           const questionsArr = Array.isArray(data) ? data : Array.isArray(data.questions) ? data.questions : [];
           const questions = questionsArr.map((q: any) => mapQuestion(q, fileObj.file));
           
-          // Program nauczania: losuj tyle pytań z pliku ile wynosi jego waga
-          if (selectedExam === 'PROGRAM_NAUCZANIA') {
+          // Tryb specjalny: losuj tyle pytań z pliku ile wynosi jego waga
+          if (selectedExamConfig?.hideRandomCount) {
             const questionsToTake = Math.min(fileObj.weight, questions.length);
             return questions.sort(() => Math.random() - 0.5).slice(0, questionsToTake);
           }
@@ -157,7 +149,7 @@ export default function Home() {
         })
       );
       const allFlattened = all.flat().sort(() => Math.random() - 0.5);
-      allQuestions = selectedExam === 'PROGRAM_NAUCZANIA'
+      allQuestions = selectedExamConfig?.hideRandomCount
         ? allFlattened
         : allFlattened.slice(0, randomCount);
     }
@@ -170,95 +162,62 @@ export default function Home() {
       <div className="container mx-auto py-8">
         {questions.length === 0 ? (
           <div className="max-w-xl mx-auto bg-white rounded-lg shadow p-8">
+            {examConfigs.length === 0 && (
+              <div className="mb-4 text-sm text-red-600">
+                Nie udało się załadować konfiguracji egzaminów z pliku YAML.
+              </div>
+            )}
             <div className="mb-6">
               <h2 className="text-xl font-bold mb-4 text-center">Wybierz egzamin</h2>
               <div className="flex justify-center space-x-4">
-                <label className="flex items-center">
-                  <input
-                    type="radio"
-                    name="exam"
-                    value="ELM07"
-                    checked={selectedExam === 'ELM07'}
-                    onChange={() => handleExamChange('ELM07')}
-                    className="mr-2"
-                  />
-                  ELM.07
-                </label>
-                <label className="flex items-center">
-                  <input
-                    type="radio"
-                    name="exam"
-                    value="ELM08"
-                    checked={selectedExam === 'ELM08'}
-                    onChange={() => handleExamChange('ELM08')}
-                    className="mr-2"
-                  />
-                  ELM.08
-                </label>
-                <label className="flex items-center">
-                  <input
-                    type="radio"
-                    name="exam"
-                    value="MECH"
-                    checked={selectedExam === 'MECH'}
-                    onChange={() => handleExamChange('MECH')}
-                    className="mr-2"
-                  />
-                  MECH
-                </label>
-                <label className="flex items-center">
-                  <input
-                    type="radio"
-                    name="exam"
-                    value="PROGRAM_NAUCZANIA"
-                    checked={selectedExam === 'PROGRAM_NAUCZANIA'}
-                    onChange={() => handleExamChange('PROGRAM_NAUCZANIA')}
-                    className="mr-2"
-                  />
-                  Program nauczania ELM7 i ELM8
-                </label>
+                {examConfigs.map((exam) => (
+                  <label key={exam.id} className="flex items-center">
+                    <input
+                      type="radio"
+                      name="exam"
+                      value={exam.id}
+                      checked={selectedExam === exam.id}
+                      onChange={() => handleExamChange(exam.id)}
+                      className="mr-2"
+                    />
+                    {exam.tabLabel}
+                  </label>
+                ))}
               </div>
             </div>
             <div className="mb-6 text-center">
               <div className="text-4xl font-extrabold mb-2">Kwalifikacja: <span className="font-bold">
-                {selectedExam === 'ELM07' ? 'ELM.07' : 
-                 selectedExam === 'ELM08' ? 'ELM.08' : 
-                 selectedExam === 'MECH' ? 'MECHATRONIK' :
-                 'ELM7 I ELM8'}
+                {selectedExamConfig?.qualificationCode ?? '-'}
               </span></div>
-              {selectedExam === 'ELM07' || selectedExam === 'ELM08' ? (
+              {selectedExamConfig?.qualificationName ? (
                 <div className="text-3xl font-bold mb-2">
                   Nazwa kwalifikacji:{' '}
                   <span className="font-semibold">
-                    {selectedExam === 'ELM07'
-                      ? 'Montaż, uruchamianie i obsługa robotyki'
-                      : 'Eksploatacja i programowanie systemów robotyki'}
+                    {selectedExamConfig.qualificationName}
                   </span>
                 </div>
-              ) : selectedExam === 'MECH' ? (
-                <div className="text-3xl font-bold mb-2">
-                  <span className="font-semibold">Zebrane pytania do mechatronik z publikacji</span>
-                </div>
-              ) : (
+              ) : selectedExamConfig?.sourceLink && selectedExamConfig?.sourceLinkLabel ? (
                 <div className="text-3xl font-bold mb-2">
                   <span className="font-semibold">
                     <a
-                      href="https://ore.edu.pl/wp-content/plugins/download-attachments/includes/download.php?id=72318"
+                      href={selectedExamConfig.sourceLink}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="underline text-blue-700 hover:text-blue-900"
                     >
-                      Pytania oparte o program nauczania ELM7 i ELM8
+                      {selectedExamConfig.sourceLinkLabel}
                     </a>
                   </span>
                 </div>
+              ) : (
+                selectedExamConfig && (
+                  <div className="text-3xl font-bold mb-2">
+                    <span className="font-semibold">{selectedExamConfig.tabLabel}</span>
+                  </div>
+                )
               )}
               <div className="text-3xl font-bold">Zawód: <span className="font-semibold">
-                {selectedExam === 'MECH'
-                  ? 'Technik mechatronik'
-                  : selectedExam === 'PROGRAM_NAUCZANIA'
-                  ? 'Technik robotyk'
-                  : 'Technik robotyk'}
+                {selectedExamConfig?.profession ?? '-'}
               </span></div>
             </div>
             <h1 className="text-2xl font-bold mb-6 text-center">Wybierz tryb quizu</h1>
@@ -292,13 +251,13 @@ export default function Home() {
                   <option value="">Wybierz plik</option>
                   {currentDataFiles.map(f => (
                     <option key={f.file} value={f.file}>
-                      {f.file.replace('data_', '').replace('.json', '')} (waga: {f.weight})
+                      {(f.label ?? f.file.replace('data_', '').replace('.json', ''))} (waga: {f.weight})
                     </option>
                   ))}
                 </select>
               </div>
             )}
-            {mode === 'random' && selectedExam !== 'PROGRAM_NAUCZANIA' && (
+            {mode === 'random' && !selectedExamConfig?.hideRandomCount && (
               <div className="mb-4">
                 <label className="mr-2">Liczba pytań:</label>
                 <select
@@ -312,9 +271,9 @@ export default function Home() {
                 </select>
               </div>
             )}
-            {mode === 'random' && selectedExam === 'PROGRAM_NAUCZANIA' && (
+            {mode === 'random' && selectedExamConfig?.hideRandomCount && selectedExamConfig?.randomModeInfo && (
               <div className="mb-4 text-sm text-gray-600">
-                W trybie losowym dla Programu nauczania pobierana jest liczba pytań zgodna z wagą każdego pliku.
+                {selectedExamConfig.randomModeInfo}
               </div>
             )}
             <div className="mb-4 flex items-center">
@@ -330,7 +289,7 @@ export default function Home() {
             <button
               className="w-full py-3 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
               onClick={handleStart}
-              disabled={mode === 'all' && !selectedFile || loading}
+              disabled={examConfigs.length === 0 || (mode === 'all' && !selectedFile) || loading}
             >
               {loading ? 'Ładowanie...' : 'Rozpocznij quiz'}
             </button>

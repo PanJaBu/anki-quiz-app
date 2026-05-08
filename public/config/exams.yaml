@@ -1,0 +1,105 @@
+exams:
+  - id: ELM07
+    tabLabel: ELM.07
+    qualificationCode: ELM.07
+    qualificationName: Montaz, uruchamianie i obsluga robotyki
+    profession: Technik robotyk
+    files:
+      - file: data_ELM071.json
+        weight: 1
+      - file: data_ELM072.json
+        weight: 9
+      - file: data_ELM073.json
+        weight: 9
+      - file: data_ELM074.json
+        weight: 9
+      - file: data_ELM075.json
+        weight: 8
+      - file: data_ELM076.json
+        weight: 1
+      - file: data_ELM077.json
+        weight: 1
+      - file: data_ELM078.json
+        weight: 1
+      - file: data_ELMSiemensPLC.json
+        weight: 2
+      - file: data_ELMArduino.json
+        weight: 2
+      - file: data_ELM077E.json
+        weight: 2
+      - file: data_MechZestPytTestowych.json
+        weight: 4
+  - id: ELM08
+    tabLabel: ELM.08
+    qualificationCode: ELM.08
+    qualificationName: Eksploatacja i programowanie systemow robotyki
+    profession: Technik robotyk
+    files:
+      - file: data_ELM081.json
+        weight: 1
+      - file: data_ELM082.json
+        weight: 9
+      - file: data_ELM083.json
+        weight: 9
+      - file: data_ELM084.json
+        weight: 9
+      - file: data_ELM085.json
+        weight: 9
+      - file: data_ELM086.json
+        weight: 1
+      - file: data_ELM087.json
+        weight: 1
+      - file: data_ELM088.json
+        weight: 1
+      - file: data_ELM089.json
+        weight: 10
+  - id: MECH
+    tabLabel: MECH
+    qualificationCode: MECHATRONIK
+    profession: Technik mechatronik
+    files:
+      - file: data_Mech1.json
+        weight: 8
+      - file: data_Mech2.json
+        weight: 8
+      - file: data_Mech3.json
+        weight: 8
+      - file: data_Mech4.json
+        weight: 8
+      - file: data_Mech5.json
+        weight: 8
+      - file: data_Mech6.json
+        weight: 8
+  - id: PROGRAM_NAUCZANIA
+    tabLabel: Program nauczania ELM7 i ELM8
+    qualificationCode: ELM7 I ELM8
+    profession: Technik robotyk
+    sourceLink: https://ore.edu.pl/wp-content/plugins/download-attachments/includes/download.php?id=72318
+    sourceLinkLabel: Pytania oparte o program nauczania ELM7 i ELM8
+    randomModeInfo: W trybie losowym dla Programu nauczania pobierana jest liczba pytan zgodna z waga kazdego pliku.
+    hideRandomCount: true
+    files:
+      - file: 2_Podstawy_robotyki.json
+        weight: 20
+      - file: 3_Technologie_i_konstrukcje_mechaniczne_w_robotyce.json
+        weight: 20
+      - file: 4_Zapis_konstrukcji.json
+        weight: 20
+      - file: 5_Elektrotechnika_i_elektronika_w_robotyce.json
+        weight: 20
+      - file: 6_Podstawy_programowania_robotow.json
+        weight: 20
+      - file: 7_Komputerowe_wspomaganie_w_robotyce.json
+        weight: 20
+      - file: 8_Pracownia_elektryczna_i_elektroniczna.json
+        weight: 20
+      - file: 9_Pracownia_systemow_robotyki.json
+        weight: 20
+      - file: 10_Pracownia_programowania_i_eksploatacji_robotow_przemyslowych.json
+        weight: 20
+      - file: 11_Projektowanie_ukladow_sterowania_robotow.json
+        weight: 20
+      - file: 12_Pracownia_pneumatyki_i_hydrauliki.json
+        weight: 20
+      - file: 13_Diagnozowanie_i_konserwacja_systemow_robotyki.json
+        weight: 20
