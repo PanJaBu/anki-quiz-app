@@ -14,10 +14,10 @@ type ExamConfig = {
   id: string;
   tabLabel: string;
   qualificationLabel?: string;
-  qualificationCode: string;
+  qualificationCode?: string;
   qualificationName?: string;
   professionLabel?: string;
-  profession: string;
+  profession?: string;
   sourceLink?: string;
   sourceLinkLabel?: string;
   randomModeInfo?: string;
@@ -94,6 +94,9 @@ export default function Home() {
   const currentDataFiles = selectedExamConfig?.files ?? [];
   const qualificationLabel = selectedExamConfig?.qualificationLabel ?? 'Kwalifikacja';
   const professionLabel = selectedExamConfig?.professionLabel ?? 'Zawód';
+  const hasQualification = Boolean(selectedExamConfig?.qualificationCode?.trim());
+  const hasProfession = Boolean(selectedExamConfig?.profession?.trim());
+  const showOnlyTabLabel = !hasQualification && !hasProfession;
 
   const handleExamChange = (exam: string) => {
     setSelectedExam(exam);
@@ -190,39 +193,53 @@ export default function Home() {
               </div>
             </div>
             <div className="mb-6 text-center">
-              <div className="text-4xl font-extrabold mb-2">{qualificationLabel}: <span className="font-bold">
-                {selectedExamConfig?.qualificationCode ?? '-'}
-              </span></div>
-              {selectedExamConfig?.qualificationName ? (
-                <div className="text-3xl font-bold mb-2">
-                  Nazwa kwalifikacji:{' '}
-                  <span className="font-semibold">
-                    {selectedExamConfig.qualificationName}
-                  </span>
-                </div>
-              ) : selectedExamConfig?.sourceLink && selectedExamConfig?.sourceLinkLabel ? (
-                <div className="text-3xl font-bold mb-2">
-                  <span className="font-semibold">
-                    <a
-                      href={selectedExamConfig.sourceLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="underline text-blue-700 hover:text-blue-900"
-                    >
-                      {selectedExamConfig.sourceLinkLabel}
-                    </a>
-                  </span>
-                </div>
-              ) : (
+              {showOnlyTabLabel ? (
                 selectedExamConfig && (
-                  <div className="text-3xl font-bold mb-2">
-                    <span className="font-semibold">{selectedExamConfig.tabLabel}</span>
+                  <div className="text-4xl font-extrabold mb-2">
+                    <span className="font-bold">{selectedExamConfig.tabLabel}</span>
                   </div>
                 )
+              ) : (
+                <>
+                  {hasQualification && (
+                    <div className="text-4xl font-extrabold mb-2">{qualificationLabel}: <span className="font-bold">
+                      {selectedExamConfig?.qualificationCode}
+                    </span></div>
+                  )}
+                  {selectedExamConfig?.qualificationName ? (
+                    <div className="text-3xl font-bold mb-2">
+                      Nazwa kwalifikacji:{' '}
+                      <span className="font-semibold">
+                        {selectedExamConfig.qualificationName}
+                      </span>
+                    </div>
+                  ) : selectedExamConfig?.sourceLink && selectedExamConfig?.sourceLinkLabel ? (
+                    <div className="text-3xl font-bold mb-2">
+                      <span className="font-semibold">
+                        <a
+                          href={selectedExamConfig.sourceLink}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="underline text-blue-700 hover:text-blue-900"
+                        >
+                          {selectedExamConfig.sourceLinkLabel}
+                        </a>
+                      </span>
+                    </div>
+                  ) : (
+                    selectedExamConfig && (
+                      <div className="text-3xl font-bold mb-2">
+                        <span className="font-semibold">{selectedExamConfig.tabLabel}</span>
+                      </div>
+                    )
+                  )}
+                  {hasProfession && (
+                    <div className="text-3xl font-bold">{professionLabel}: <span className="font-semibold">
+                      {selectedExamConfig?.profession}
+                    </span></div>
+                  )}
+                </>
               )}
-              <div className="text-3xl font-bold">{professionLabel}: <span className="font-semibold">
-                {selectedExamConfig?.profession ?? '-'}
-              </span></div>
             </div>
             <h1 className="text-2xl font-bold mb-6 text-center">Wybierz tryb quizu</h1>
             <div className="mb-4">
