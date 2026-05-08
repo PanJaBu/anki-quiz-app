@@ -13,8 +13,10 @@ type DataFileConfig = {
 type ExamConfig = {
   id: string;
   tabLabel: string;
+  qualificationLabel?: string;
   qualificationCode: string;
   qualificationName?: string;
+  professionLabel?: string;
   profession: string;
   sourceLink?: string;
   sourceLinkLabel?: string;
@@ -90,6 +92,8 @@ export default function Home() {
 
   const selectedExamConfig = examConfigs.find((exam) => exam.id === selectedExam);
   const currentDataFiles = selectedExamConfig?.files ?? [];
+  const qualificationLabel = selectedExamConfig?.qualificationLabel ?? 'Kwalifikacja';
+  const professionLabel = selectedExamConfig?.professionLabel ?? 'Zawód';
 
   const handleExamChange = (exam: string) => {
     setSelectedExam(exam);
@@ -186,7 +190,7 @@ export default function Home() {
               </div>
             </div>
             <div className="mb-6 text-center">
-              <div className="text-4xl font-extrabold mb-2">Kwalifikacja: <span className="font-bold">
+              <div className="text-4xl font-extrabold mb-2">{qualificationLabel}: <span className="font-bold">
                 {selectedExamConfig?.qualificationCode ?? '-'}
               </span></div>
               {selectedExamConfig?.qualificationName ? (
@@ -216,7 +220,7 @@ export default function Home() {
                   </div>
                 )
               )}
-              <div className="text-3xl font-bold">Zawód: <span className="font-semibold">
+              <div className="text-3xl font-bold">{professionLabel}: <span className="font-semibold">
                 {selectedExamConfig?.profession ?? '-'}
               </span></div>
             </div>

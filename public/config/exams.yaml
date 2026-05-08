@@ -1,8 +1,10 @@
 exams:
   - id: ELM07
     tabLabel: ELM.07
+    qualificationLabel: Kwalifikacja
     qualificationCode: ELM.07
     qualificationName: Montaz, uruchamianie i obsluga robotyki
+    professionLabel: Zawód
     profession: Technik robotyk
     files:
       - file: data_ELM071.json
@@ -31,8 +33,10 @@ exams:
         weight: 4
   - id: ELM08
     tabLabel: ELM.08
+    qualificationLabel: Kwalifikacja
     qualificationCode: ELM.08
     qualificationName: Eksploatacja i programowanie systemow robotyki
+    professionLabel: Zawód
     profession: Technik robotyk
     files:
       - file: data_ELM081.json
@@ -55,7 +59,9 @@ exams:
         weight: 10
   - id: MECH
     tabLabel: MECH
+    qualificationLabel: Kwalifikacja
     qualificationCode: MECHATRONIK
+    professionLabel: Zawód
     profession: Technik mechatronik
     files:
       - file: data_Mech1.json
@@ -72,7 +78,9 @@ exams:
         weight: 8
   - id: PROGRAM_NAUCZANIA
     tabLabel: Program nauczania ELM7 i ELM8
+    qualificationLabel: Kwalifikacja
     qualificationCode: ELM7 I ELM8
+    professionLabel: Zawód
     profession: Technik robotyk
     sourceLink: https://ore.edu.pl/wp-content/plugins/download-attachments/includes/download.php?id=72318
     sourceLinkLabel: Pytania oparte o program nauczania ELM7 i ELM8
