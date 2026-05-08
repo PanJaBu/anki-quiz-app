@@ -94,8 +94,13 @@ export default function Home() {
   const currentDataFiles = selectedExamConfig?.files ?? [];
   const qualificationLabel = selectedExamConfig?.qualificationLabel ?? 'Kwalifikacja';
   const professionLabel = selectedExamConfig?.professionLabel ?? 'Zawód';
-  const hasQualification = Boolean(selectedExamConfig?.qualificationCode?.trim());
-  const hasProfession = Boolean(selectedExamConfig?.profession?.trim());
+  const hasMeaningfulValue = (value?: string) => {
+    if (!value) return false;
+    const normalized = value.trim();
+    return normalized.length > 0 && normalized !== '-';
+  };
+  const hasQualification = hasMeaningfulValue(selectedExamConfig?.qualificationCode);
+  const hasProfession = hasMeaningfulValue(selectedExamConfig?.profession);
   const showOnlyTabLabel = !hasQualification && !hasProfession;
 
   const handleExamChange = (exam: string) => {
