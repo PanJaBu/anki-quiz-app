@@ -181,9 +181,9 @@ export default function Home() {
             )}
             <div className="mb-6">
               <h2 className="text-xl font-bold mb-4 text-center">Wybierz egzamin</h2>
-              <div className="flex justify-center space-x-4">
+              <div className="grid grid-cols-4 gap-3">
                 {examConfigs.map((exam) => (
-                  <label key={exam.id} className="flex items-center">
+                  <label key={exam.id} className="flex items-center justify-center">
                     <input
                       type="radio"
                       name="exam"
